@@ -12,6 +12,6 @@ I can't guarantee these filers/rules won't cause problems. If you found problems
 
 ## AdGuard DNS Unbreaker（AdGuard DNSフィルタ不具合修正パッチ）
 
-### Yuki's uBlock Dynamic Rules
+## Yuki's uBlock Dynamic Rules
 
-### Yuki's uBlock Dynamic Rules for Mobile
+## Yuki's uBlock Dynamic Rules for Mobile

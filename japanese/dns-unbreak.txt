@@ -1,0 +1,24 @@
+! Title: AdGuard DNS filter Unbreaker for Japanese
+! Expires: 5 days
+! Homepage: https://github.com/Yuki2718/adblock
+! Licence: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+! Version: 20220603
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/105095
+@@||res.ads.nicovideo.jp^|
+! https://github.com/AdguardTeam/AdguardFilters/issues/113030
+@@||as.uncn.jp^|
+@@||b90.yahoo.co.jp^|
+@@||b92.yahoo.co.jp^|
+@@||js.adsrvr.org^|
+! VC ad domain (don't allow): ad.jp.ap.valuecommerce.com,aplkp.valuecommerce.com
+! https://egg.5ch.net/test/read.cgi/android/1653192882/227
+@@||vcentry3.valuecommerce.com^|
+! https://github.com/easylist/easylist/pull/7325#issuecomment-790663870
+@@||atrrd.valuecommerce.com^|
+@@||ck.jp.ap.valuecommerce.com^|
+! https://github.com/AdguardTeam/AdguardFilters/issues/92425
+@@||trj.valuecommerce.com|
+! https://github.com/AdguardTeam/AdguardFilters/pull/90357
+@@||google-analytics.com^|
+

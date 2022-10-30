@@ -1,0 +1,123 @@
+! Title: AdGuard Japanese filter Plus (UNDER DEVELOPMENT)
+! Expires: 4 days (update frequency)
+! Homepage: https://github.com/Yuki2718/adblock2
+! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
+! Version: 2022XXXX
+
+! ---------- Ads general ----------
+&subAffId={SUBAFFID}^$subdocument,script,third-party
+-960x60.gif|$third-party,image,domain=~edu|~gov|~jp
+.com/script/compatibility.js|$third-party
+/300x250.html?targetUrl=$subdocument
+/300x250.html|$subdocument,third-party
+/960-60.gif|$third-party,image,domain=~edu|~gov|~jp
+/960x120.gif|$third-party,image,domain=~edu|~gov|~jp
+/960X60.gif|$third-party,image,domain=~edu|~gov|~jp
+/\/assets\/jquery\/jquery-\d\.\d\.(?:\d\.)?min\.js\?(?:v=2)?&?type=(?:adult|mainstream)$/$script,~third-party
+/^https:\/\/www\.[a-z]{8,14}\.com\/[a-z]{1,4}\.js$/$script,third-party,match-case,domain=~edu|~gov|~jp
+/^https?:\/\/[a-z]{8,15}\.(?:com|net)\/tag\.min\.js$/$script,third-party
+/a/na/js/*?container=$script,third-party
+/api/spots/*^fill=$xmlhttprequest
+/asset/angular.min.js?t=$xmlhttprequest,~third-party
+/asset/jquery/slim-3.2.min.js?*&t=$xmlhttprequest,~third-party
+/bens/vinos*.js?$script,third-party
+/bnr/footer?i=$subdocument,~third-party
+/bnr/list?i=$subdocument,~third-party
+/bnr/top?i=$subdocument,~third-party
+/ceef/gdt3g0/tbt/*$xmlhttprequest,third-party
+/code/native.js?h=
+/code/pops.js?h=
+/fp-interstitial.js
+/frms/NTV$subdocument,~third-party
+/jsa.hh?$script,~third-party
+/player/html.php?aid=start_html&*&referer=$subdocument,~third-party
+/player/html.php?aid=pause_html&*&referer=$subdocument,~third-party
+/player/html.php?aid=pre_roll_html&$subdocument,~third-party
+/player/html.php?aid=post_roll_html^$redirect=noop.html,subdocument,~third-party
+/pub?id=$script,third-party
+/out/b.html#$subdocument,~third-party
+/sc4fr/rwff/f9ef/*$script,xmlhttprequest,third-party
+/utx?cb=$xmlhttprequest,third-party
+/utx?tid=$xmlhttprequest,third-party
+/vast/?zid=$xmlhttprequest,third-party
+://a.*/loader?a=$subdocument,third-party
+://ad.*.php?id=$script,~third-party
+://creative.xxx*.com/widgets/$subdocument,third-party
+://go.*/i?$subdocument,third-party
+://notads.*.xyz/$script
+=eyJ.js^$script
+?oo=1^$xmlhttprequest,third-party
+?zoneid=*&ab=1|$script,third-party
+_300_250_
+
+! ---------- Ads 3p ----------
+||cloudflare.com/ajax/libs/postscribe/$script,third-party
+
+! ---------- Ads specific - adult ----------
+
+! ---------- Popup general ----------
+&key=*&adb=y^$popup,third-party
+
+! ---------- Cosmetic general ----------
+##.asg-vast-overlay
+##.vjs-overlayed.size-300x250
+##a[class][real-href^="//"][onmouseup="setRealHref(event)"]
+##div[id][style^="position: fixed; inset: 0px; z-index: 2147483647; background: black"][style*="opacity: 0.01"]
+##div[style="position:fixed;inset:0px;z-index:100000;height:100%;width:100%"]
+##div[style*="z-index: 2147483647;"][style*="top: 0px; left: 0px;"][style*="position:"]
+##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
+##iframe[class][scrolling="no"][sandbox="allow-same-origin allow-scripts allow-popups"][style*="z-index: 2147483647; position: fixed"]
+
+! ---------- Cosmetic specific: too few visitors ----------
+english.mag2.com###text-4 a:not([href="http://www.mag2.com/"])
+fortune.auone.jp##.adsense
+kaigainohannoublog.blog55.fc2.com##.plugin1_outline:first-child
+kaigainohannoublog.blog55.fc2.com##.plugin2_outline:last-child
+lper.info##.wpa
+
+! ---------- Cosmetic specific: others ----------
+arvo.showcase-tv.com,getpaidstock.com,kazokuchannel.doorblog.jp,nandemo-uketori.com,sukupara.jp##ins.adsbygoogle
+!#if env_mobile
+onepiece-akumanomi.com##div.adsbygoogle
+!#endif
+
+! ---------- Cosmetic specific (Adult): too few visitors ----------
+carrozzeria-cdl.jp##.article-body > blockquote:has([href*="?PR="])
+carrozzeria-cdl.jp##p > [href*="?PR="] > img
+
+! ---------- CSS ----------
+*##ins.adsbygoogle:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
+
+! ---------- Exception: blocking ----------
+@@||point-g.rakuten.co.jp/pg_assets/item/contets/*_300_250_$image,~third-party
+
+! ---------- Exception: cosmetic ----------
+anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,hotdebrid.com,html5.gamedistribution.com,kantangame.com,paraphraser.io,play.aidungeon.io,sekai-kabuka.com,tamrieltradecentre.com,teemo.gg,xtremestream.co#@#ins.adsbygoogle:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
+
+! ---------- Exception: anti anti-adb ----------
+@@/ads-prebid.js$script,~third-party
+@@/prebid-ads.js$script,xmlhttprequest,~third-party
+@@||g.adspeed.net/ad.php?do=detectadblocker|$script
+||ads-twitter.com/uwt.js$xmlhttprequest,third-party,redirect=nooptext
+||doubleclick.net/favicon.ico$image,redirect=32x32.png
+||google-analytics.com/analytics.js$redirect=google-analytics_analytics.js
+
+! ---------- Exception: for default lists ----------
+#@#.adsbygoogle
+
+! Incompatible with MV3
+/player/stats.php?$image,1p,redirect-rule=1x1.gif
+/popunder_$script,redirect-rule=noopjs
+
+! ---------- Scam & Redirect ----------
+/?r=dir&zoneid=$all
+/jump/next.php?r=$document
+/index.php?main_page=product_info&cPath=$document,domain=buzz|life|live|site|store|top|xyz
+/index.php?main_page=product_info&products_id=$document,domain=buzz|life|live|site|store|top|xyz
+
+!#if adguard
+!#include jpfp-adguard.txt
+!#endif
+!#if ext_ublock
+!#include jpfp-ublock.txt
+!#endif

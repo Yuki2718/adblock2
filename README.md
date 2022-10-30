@@ -27,7 +27,7 @@ AdGuard DNSフィルタの既知の不具合を独自に修正します。DNSフ
 - あらゆる不具合に対処する予定はありません。公式より緩い基準とはいえ、ブロック除外により漏れる広告が多い場合は対応しません
 - 今後とも、モバイルアプリの問題を積極的にサポートする予定はありません。メンテンナンスコストが高くなった場合、公開停止もあり得ます
 
-[View List/中身を見る](https://raw.githubusercontent.com/Yuki2718/adblock2/main/adguard/dns-unbreak.txt)
+[View List/中身を見る](https://raw.githubusercontent.com/Yuki2718/adblock2/main/japanese/dns-unbreak.txt)
 
 ## Yuki's uBlock Dynamic Rules
 

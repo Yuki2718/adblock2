@@ -53,8 +53,8 @@ _300_250_
 ! ---------- Ads 3p ----------
 ||cloudflare.com/ajax/libs/postscribe/$script,third-party
 
-! ---------- Ads specific - adult ----------
-! too few visitors: maybe exclude in MV3 in future
+! ---------- Ads specific (adult): too few visitors ----------
+! maybe exclude in MV3 in future
 ||ero-mangacafe.com^$subdocument,~third-party
 
 ! ---------- Popup general ----------
@@ -118,8 +118,8 @@ anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,
 /index.php?main_page=product_info&products_id=$document,domain=buzz|life|live|site|store|top|xyz
 
 !#if adguard
-!#include jpfp-adguard.txt
+!#include jpfp-ag.txt
 !#endif
 !#if ext_ublock
-!#include jpfp-ublock.txt
+!#include jpfp-ub.txt
 !#endif

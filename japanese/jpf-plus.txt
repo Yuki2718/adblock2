@@ -1,8 +1,8 @@
-! Title: AdGuard Japanese filter Plus (UNDER DEVELOPMENT)
+! Title: AdGuard Japanese filter Plus
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 2022XXXX
+! Version: 20221101
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -54,6 +54,8 @@ _300_250_
 ||cloudflare.com/ajax/libs/postscribe/$script,third-party
 
 ! ---------- Ads specific - adult ----------
+! too few visitors: maybe exclude in MV3 in future
+||ero-mangacafe.com^$subdocument,~third-party
 
 ! ---------- Popup general ----------
 &key=*&adb=y^$popup,third-party

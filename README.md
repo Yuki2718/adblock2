@@ -10,7 +10,7 @@ I can't guarantee these filers/rules won't cause problems. If you found problems
 
 ## AdGuard Japanese filters Plus
 
-This complements [AdGuard Japanese filter](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_7_Japanese/filter.txt) andmainly consists of 1) additional generic rules to counter circumvention ads and anti-adblock, and 2) specific rules to address sites not addresed in the Japanese filters. Only AdGuard AdBlocker (browser extension), uBlock Origin, AdGuard AdBlocker MV3, and uBlock Origin Lite are officially supported.
+This complements [AdGuard Japanese filter](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_7_Japanese/filter.txt) and mainly consists of 1) additional generic rules to counter circumvention ads and anti-adblock, and 2) specific rules to address sites not addresed in the Japanese filters. Only AdGuard AdBlocker (browser extension), uBlock Origin, AdGuard AdBlocker MV3, and uBlock Origin Lite are officially supported.
 
 [AdGuard Japanese filter](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_7_Japanese/filter.txt)を補完するフィルタです。迂回広告や悪質ポップアップ、一部のアンチ広告ブロックへの汎用的な追加対策と、AdGuard Japanese filterで対応しないサイトへの対応がメインです。サポート対象はAdGuard 広告ブロッカー（ブラウザ拡張機能）とuBlock Originです。AdGuard AdBlocker MV3とuBlock Origin Liteもサポートいたしますが、本稿執筆時点ではこれらはまだベータ版以前の実験的段階であることにご注意ください。AdGuard for Windows/Mac/Android/Safari/iOSやBraveの組込みブロッカーでも自己責任でのご利用はできますが、正式にはサポートしません。とくにSafari/iOSでは多くのルールが機能しません。上記以外のブロッカー、たとえばAdblock PlusやVivaldiの組込みブロッカーでの使用は強く非推奨とします。
 

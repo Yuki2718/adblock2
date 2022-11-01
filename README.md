@@ -4,7 +4,7 @@
 # adblock2
 Personal filters and rules for AdGuard/uBlock Origin
 
-I can't guarantee these filers/rules won't cause problems. If you found problems, report that by filling in all the mandatory items in Issue template; otherwise reports may not be addressed. Anyone who uses my filters/rules shall be deemed to have agreed that I have no responsibility or liability for costs, losses, damages, etc. arising from the use of the filters/rules. Unless Subscribe link is provided, these filters/rules are assumed to be copied and pasted, or imported, into My filters/rules (uBlock Origin) or User Rules (AdGuard).
+I can't guarantee these filers/rules won't cause problems. If you found problems, report that via [Issue ticket](https://github.com/Yuki2718/adblock2/issues). Anyone who uses my filters/rules shall be deemed to have agreed that I have no responsibility or liability for costs, losses, damages, etc. arising from the use of the filters/rules. Unless Subscribe link is provided, these filters/rules are assumed to be copied and pasted, or imported, into My filters/rules (uBlock Origin) or User Rules (AdGuard).
 
 個人作成のAdGuard/uBlock Origin用フィルタないしルールです。これらの使用により不具合が発生することがあります。いかなる形であれこれらのフィルタないしルールを使用する方は、それによる被害や損失に対し、管理人Yuki2718と当レポジトリのすべての貢献者が一切の責任を負わないことに同意するものとします。不具合についてはIssueを通じてご報告ください。
 
@@ -29,7 +29,7 @@ This list fixes known problems in AdGuard DNS filter mostly for Japanese user. D
 
 AdGuard DNSフィルタの既知の不具合を独自に修正します。DNSフィルタはブロックするかしないかの二択しかなく、融通が利きません。しかし、AndroidのAdGuard無料版ユーザーやiOSユーザーはこれを使わずにアプリ内広告をブロックする手段があまりなく、他に代替となるリストも多くはないと思われます。また、不具合を報告してもブロック漏れとの兼ね合いがあるため必ずしも対処されません。
 
-- 直接こちらに不具合を報告する前に、まずAdGuard公式に報告してください。メンテンナンスは主に、AdGuardに報告された問題の中から任意に行う予定です
+- 直接こちらに不具合を報告する前に、まず[AdGuardに報告](https://reports.adguard.com/ja/new_issue.html)してください。メンテンナンスは主に、AdGuardに報告された問題の中から任意に行う予定です
 - あらゆる不具合に対処する予定はありません。公式より緩い基準とはいえ、ブロック除外により漏れる広告が多い場合は対応しません
 - 今後とも、モバイルアプリの問題を積極的にサポートする予定はありません。メンテンナンスコストが高くなった場合、公開停止もあり得ます
 

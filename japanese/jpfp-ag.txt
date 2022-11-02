@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20221101
+! Version: 20221102
 
 ! ---------- Ads general ----------
 /^https:\/\/[-a-z]{8,15}\.(?:com|net)\/40[01]\/\d{7}$/$script,third-party
@@ -52,7 +52,6 @@
 ##.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
 ##.ad-placement:not(.adsbox):not(.afs_ads):not(#ablockercheck)
 ##.ad-refresh:not(.adsbox)
-##.adBanner:not(:empty):not(.testAd):not(#wrapfabtest > .adBanner)
 ##div[style^="z-index: 999999; background-image: url(\"data:image/gif;base64,"][style$="position: absolute;"]
 
 ! Exception: anti anti-adb
@@ -70,9 +69,6 @@
 ||fundingchoicesmessages.google.com^$third-party
 ||media.net/dmedianet.js$redirect=noopjs
 ||nessainy.net/favicon.ico$image,redirect=32x32-transparent.png
-
-! Incompatible with MV3
-||ssbsblg.blogspot.com/?$xmlhttprequest,redirect-rule=nooptext
 
 #@##ad_300
 #@##ad_728
@@ -100,7 +96,6 @@
 #@#.ad-placeholder
 #@#.ad-placement
 #@#.ad-refresh
-#@#.adBanner
 
 ! ---------- Scam & Redirect ----------
 /\/[0-9a-z]{8,10}\?shu=[0-9a-z]{150,}/$document

@@ -98,7 +98,6 @@ anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,
 
 ! ---------- Exception: anti anti-adb ----------
 @@/ads-prebid.js$script,~third-party
-@@/prebid-ads.js$script,xmlhttprequest,~third-party
 @@||g.adspeed.net/ad.php?do=detectadblocker|$script
 ||ads-twitter.com/uwt.js$xmlhttprequest,third-party,redirect=nooptext
 ||doubleclick.net/favicon.ico$image,redirect=32x32.png

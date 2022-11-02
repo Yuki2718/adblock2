@@ -12,11 +12,32 @@ I can't guarantee these filers/rules won't cause problems. If you found problems
 
 This complements [AdGuard Japanese filter](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_7_Japanese/filter.txt) and mainly consists of 1) additional generic rules to counter circumvention ads and anti-adblock, and 2) specific rules to address sites not addresed in the Japanese filters. Only AdGuard AdBlocker (browser extension), uBlock Origin, AdGuard AdBlocker MV3, and uBlock Origin Lite are officially supported.
 
-[AdGuard Japanese filter](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_7_Japanese/filter.txt)を補完するフィルタです。迂回広告や悪質ポップアップ、一部のアンチ広告ブロックへの汎用的な追加対策と、AdGuard Japanese filterで対応しないサイトへの対応がメインです。サポート対象はAdGuard 広告ブロッカー（ブラウザ拡張機能）とuBlock Originです。AdGuard AdBlocker MV3とuBlock Origin Liteもサポートいたしますが、本稿執筆時点ではこれらはまだベータ版以前の実験的段階であることにご注意ください。AdGuard for Windows/Mac/Android/Safari/iOSやBraveの組込みブロッカーでも自己責任でのご利用はできますが、正式にはサポートしません。とくにSafari/iOSでは多くのルールが機能しません。上記以外のブロッカー、たとえばAdblock PlusやVivaldiの組込みブロッカーでの使用は強く非推奨とします。
+Please report any incorrect blocking or error via [Issue ticket](https://github.com/Yuki2718/adblock2/issues). OTOH unblocked ads, placeholder, or anti-adblock should first be reproted to [AdGuard](https://reports.adguard.com/en/new_issue.html). If the issue is not addressed by AdGuard, it can potentially be reported here; however, I accept reports only from those who have contribution history to any of publick adblocking repository in case of unblocking. This policy is to avoid too many reports of those unblocking cases and may change in future.
 
-このフィルタによる不具合や誤植などの報告は[Issue](https://github.com/Yuki2718/adblock2/issues)か[したらば掲示板](https://jbbs.shitaraba.net/internet/25463/)から受けつけます。一方、ブロック漏れやアンチ広告ブロックの対応漏れについては、個別対応は最小限とする方針ですのでまずは[AdGuardに報告](https://reports.adguard.com/ja/new_issue.html)してください。AdGuardで対応されない場合はGithubのIssueを通してのみ、かつ広告ブロックコミュニティに貢献歴<sup>1</sup>のある方からの報告のみ受け付けます。これはAdGuard基準外のサイトの報告が大量に流れ込むのを防ぐためのさしあたりの措置で、今後変更する可能性があります。よい考えをお持ちの方はIssueなどでご提案ください。
+[AdGuard Japanese filter](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_7_Japanese/filter.txt)を補完するフィルタで、迂回広告や悪質ポップアップ、一部のアンチ広告ブロックへの汎用的な追加対策と、AdGuard Japanese filterで対応しないサイトへの対応を主眼とします。サポート対象はAdGuard 広告ブロッカー（ブラウザ拡張機能）とuBlock Originです。AdGuard AdBlocker MV3とuBlock Origin Liteもサポートいたしますが、本稿執筆時点ではこれらはまだベータ版以前の実験的段階であることにご注意ください。AdGuard for Windows/Mac/Android/Safari/iOSやBraveの組込みブロッカーでも自己責任でのご利用はできますが、正式にはサポートしません。とくにSafari/iOSでは多くのルールが機能しません。上記以外のブロッカー、たとえばAdblock PlusやVivaldiの組込みブロッカーでの使用は強く非推奨とします。
+
+このフィルタによる不具合や誤植などの報告は[Issue](https://github.com/Yuki2718/adblock2/issues)か[したらば掲示板](https://jbbs.shitaraba.net/internet/25463/)から受けつけます。一方、ブロック漏れやアンチ広告ブロックの対応漏れについては、個別対応を最小限とする方針ですのでまずは[AdGuardに報告](https://reports.adguard.com/ja/new_issue.html)してください。AdGuardで対応されない場合はGithubのIssueを通してのみ、かつ広告ブロックコミュニティに貢献歴<sup>1</sup>のある方からの報告のみ受け付けます。これはAdGuard基準外のサイトの報告が大量に流れ込むのを防ぐためのさしあたりの措置で、今後変更する可能性があります。よい考えをお持ちの方はIssueなどでご提案ください。
 
 <sub>1: プルリクエストに限らずIssue報告でも構いませんが、長期的（おおむね半年以上）に同一のGithubアカウントを保持していることが条件です。対象は[AdGuard](https://github.com/AdguardTeam)（[AdguardFilters](https://github.com/AdguardTeam/AdguardFilters)に限らない）、[Easylist](https://github.com/easylist/easylist)、[uBlock Origin](https://github.com/uBlockOrigin)、[Yuki2718/adblock](https://github.com/Yuki2718/adblock)など、よく知られた広告ブロックコミュニティであればどこでも構いません。</sub>
+
+#### 対象
+
+以下のうち、汎用的に対策可能かAdGuard Japaneseで対応されないもの
+- 広告、アフィリエイトリンク
+- ネイティブ広告
+- 侵襲性の高いセルフプロモーション
+- 主に上記をブロックしたため生じた枠や不要なスペース
+- アンチ広告ブロック
+- 迷惑・有害なポップアップ、ポップアンダー、リダイレクト
+- 一部の詐欺・悪質サイト（セキュリティーソフトの代わりにはなりません）
+
+#### 対象外
+- サイトの内容と強く関連しており（例：具体的な商品のレビュー）、かつ量が過剰でなくユーザーに不利益・不快感を与えない広告（「ゲームのブログだからゲームの広告」程度では強く関連しているとみなしません。また、積極的にブロックしないだけで、すでにAdGuard Japanese等でブロックされている場合は手を出しません）
+- 運営母体の系列サイトへのリンクバナーで、それほど不快でないもの
+- アフィリエイトリンクの汎用非表示
+- 広告ブロッカー検知用の罠スクリプト
+- Google Safe Browsingでカバーされている悪質サイト
+- 失効ドメイン
 
 <a href="https://subscribe.adblockplus.org?location=https://raw.githubusercontent.com/Yuki2718/adblock2/main/japanese/jpf-plus.txt&title=AdGuard%20Japanese%20filters%20Plus">購読する</a>
 [中身を見る](https://raw.githubusercontent.com/Yuki2718/adblock2/main/japanese/jpf-plus.txt)

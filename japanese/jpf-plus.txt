@@ -73,6 +73,7 @@ _300_250_
 ! ---------- Cosmetic specific: too few visitors ----------
 english.mag2.com###text-4 a:not([href="http://www.mag2.com/"])
 fortune.auone.jp##.adsense
+fugaofftime.com##.entry-content > p > span[style="color: #999999; font-size: 12px;"]
 kaigainohannoublog.blog55.fc2.com##.plugin1_outline:first-child
 kaigainohannoublog.blog55.fc2.com##.plugin2_outline:last-child
 lper.info##.wpa

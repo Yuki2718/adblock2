@@ -8,6 +8,7 @@
 &subAffId={SUBAFFID}^$subdocument,script,third-party
 -960x60.gif|$third-party,image,domain=~edu|~gov|~jp
 .com/script/compatibility.js|$third-party
+.org/script/compatibility.js|$third-party
 /300x250.html?targetUrl=$subdocument
 /300x250.html|$subdocument,third-party
 /960-60.gif|$third-party,image,domain=~edu|~gov|~jp

@@ -122,7 +122,6 @@ anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,
 /jump/next.php?r=$document
 /index.php?main_page=product_info&cPath=$document,domain=buzz|life|live|site|store|top|xyz
 /index.php?main_page=product_info&products_id=$document,domain=buzz|life|live|site|store|top|xyz
-||add.yumetsukijunna.com^
 
 !#if adguard
 !#include jpfp-ag.txt

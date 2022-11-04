@@ -8,7 +8,7 @@ I can't guarantee these filers/rules won't cause problems. If you found problems
 
 個人作成のAdGuard/uBlock Origin用フィルタないしルールです。これらの使用により不具合が発生することがあります。いかなる形であれこれらのフィルタないしルールを使用する方は、それによる被害や損失に対し、管理人Yuki2718と当レポジトリのすべての貢献者が一切の責任を負わないことに同意するものとします。不具合についてはIssueを通じてご報告ください。
 
-## AdGuard Japanese filters Plus
+## AdGuard Japanese filter Plus
 
 This complements [AdGuard Japanese filter](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_7_Japanese/filter.txt) and mainly consists of 1) additional generic rules to counter circumvention ads and anti-adblock, and 2) specific rules to address sites not addresed in the Japanese filters. Only AdGuard AdBlocker (browser extension), uBlock Origin, AdGuard AdBlocker MV3, and uBlock Origin Lite are officially supported.
 

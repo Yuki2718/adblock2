@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20221103
+! Version: 20221104
 
 ! ---------- Ads general ----------
 !!#if !ext_ubol
@@ -50,6 +50,7 @@ minitool.com##.page-top-ads
 wikiru.jp##.sticky-ads
 
 !#if env_mobile
+cinema.ne.jp,jma.go.jp,novelup.plus##.ad-sp
 kidsna.com##.google-ads
 !#endif
 

@@ -26,7 +26,6 @@
 /bnr/list?i=$subdocument,~third-party
 /bnr/top?i=$subdocument,~third-party
 /ceef/gdt3g0/tbt/*$xmlhttprequest,third-party
-/code/native.js?h=
 /code/pops.js?h=
 /fp-interstitial.js
 /frms/NTV$subdocument,~third-party

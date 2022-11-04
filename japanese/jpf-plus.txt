@@ -87,6 +87,7 @@ onepiece-akumanomi.com##div.adsbygoogle
 !#endif
 
 ! ---------- Cosmetic specific (Adult): too few visitors ----------
+anianierosuki.work##div[id^="sidebar"]
 carrozzeria-cdl.jp##.article-body > blockquote:has([href*="?PR="])
 carrozzeria-cdl.jp##p > [href*="?PR="] > img
 

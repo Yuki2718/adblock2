@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20221104
+! Version: 20221105
 
 ! ---------- Ads general ----------
 /^https:\/\/[-a-z]{8,15}\.(?:com|net)\/40[01]\/\d{7}$/$script,third-party
@@ -25,6 +25,9 @@
 ! ---------- Popup general ----------
 &key=*&adb=y$popup,third-party
 ?key=*&submetric=$popup,third-party
+
+! Ad servers
+||fundingchoicesmessages.google.com^$third-party
 
 ! ---------- Cosmetic general ----------
 ###ad_300:not([style^="position: absolute; left: -5000px"])
@@ -54,6 +57,18 @@
 ##.ad-placement:not(.adsbox):not(.afs_ads):not(#ablockercheck)
 ##.ad-refresh:not(.adsbox)
 ##div[style^="z-index: 999999; background-image: url(\"data:image/gif;base64,"][style$="position: absolute;"]
+
+#$#.div-gpt-ad { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
+~anydebrid.com,~colonist.io,~ff14angler.com,~downloads.descendant.me,~hotdebrid.com,~html5.gamedistribution.com,~paraphraser.io,~sekai-kabuka.com,~tamrieltradecentre.com,~teemo.gg,~xtremestream.co#$#ins.adsbygoogle { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
+#$#[class^="div-gpt-ad"] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
+#$#[id^="div-gpt-ad"] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
+#$#div[id^="div-gpt-"]:not([id^="div-gpt-ad"]) { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
+
+! Exception: blocking
+@@||fundingchoicesmessages.google.com^$script,domain=adshnk.com|bbc.com|downloads.descendant.me|rocketnews24.com|soranews24.com|stooq.com|stooq.pl|youpouch.com
+
+! Exception: cosmetic
+dropgalaxy.com,kabutan.jp,rocketnews24.com,saitama-np.co.jp,soranews24.com,youpouch.com#@$#[id^="div-gpt-ad"] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
 
 ! Exception: anti anti-adb
 /ads-prebid.js$script,redirect-rule=prebid-ads

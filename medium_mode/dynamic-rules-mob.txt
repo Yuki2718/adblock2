@@ -665,6 +665,7 @@ sears.com shld.net * noop
 secure.booked.net s2.bookcdn.com * noop
 seekingalpha.com cdn.qumucloud.com * noop
 seekingalpha.com januscapital.qumucloud.com * noop
+shadowban.yuzurisa.com ailizijiang.wenaiwu.net * noop
 shop-list.com global.cdn.idcfcloud.net * noop
 siliconangle.com video.cube365.net * noop
 slack.com a.slack-edge.com * noop

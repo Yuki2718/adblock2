@@ -708,6 +708,7 @@ ryky.deviantart.com st.deviantart.net * noop
 seekingalpha.com cdn.qumucloud.com * noop
 seekingalpha.com globalindicesrealtime.xignite.com * noop
 seekingalpha.com januscapital.qumucloud.com * noop
+shadowban.yuzurisa.com ailizijiang.wenaiwu.net * noop
 siliconangle.com video.cube365.net * noop
 slack.com a.slack-edge.com * noop
 slashdot.org a.fsdn.com * noop

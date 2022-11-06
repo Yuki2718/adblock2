@@ -39,7 +39,7 @@ Please report any incorrect blocking or error via [Issue ticket](https://github.
 - Google Safe Browsingでカバーされている悪質サイト
 - 失効ドメイン
 
-<a href="https://subscribe.adblockplus.org?location=https://raw.githubusercontent.com/Yuki2718/adblock2/main/japanese/jpf-plus.txt&title=AdGuard%20Japanese%20filters%20Plus">Subscribe/購読する</a>
+<a href="https://subscribe.adblockplus.org?location=https://raw.githubusercontent.com/Yuki2718/adblock2/main/japanese/jpf-plus.txt&title=AdGuard%20Japanese%20filter%20Plus">Subscribe/購読する</a>
 [View List/中身を見る](https://raw.githubusercontent.com/Yuki2718/adblock2/main/japanese/jpf-plus.txt)
 
 ## AdGuard DNS filter Unbreaker for Japanese（AdGuard DNSフィルタ不具合修正パッチ）

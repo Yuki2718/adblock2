@@ -48,7 +48,6 @@
 ://notads.*.xyz/$script
 =eyJ.js^$script
 ?oo=1^$xmlhttprequest,third-party
-?zoneid=*&ab=1|$script,third-party
 _300_250_
 
 ! ---------- Ads 3p ----------

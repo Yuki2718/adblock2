@@ -6,7 +6,7 @@
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
-&zoneid=*&rb=$xmlhttprequest,~third-party
+&zoneid=*&rb=$xmlhttprequest,third-party
 -960x60.gif|$third-party,image,domain=~edu|~gov|~jp
 .com/script/compatibility.js|$third-party
 .org/script/compatibility.js|$third-party

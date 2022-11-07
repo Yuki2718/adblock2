@@ -14,7 +14,7 @@
 /^https?:\/\/[a-z-]{6,16}\.(?:com?|pro|info|xyz)\/[a-d][-\.\/_A-Za-z][DHWXm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6swyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$script,xmlhttprequest,third-party,match-case
 /^https?:\/\/[a-z]{7,16}\.(?:buzz|lol|one|xyz)\/[+\/0-9a-zA-Z]{400,}$/$subdocument,third-party
 /^https?:\/\/[a-z]{7,16}\.(?:buzz|lol|one|xyz)\/[+\/0-9a-zA-Z]{140,}$/$image,ping,third-party
-/^https?:\/\/[a-z]{8,15}\.(?:com|net)\/5\/\d{7}(?:\?_=\d+)?$/$script,third-party
+/^https?:\/\/[a-z]{8,15}\.(?:com|net|xyz)\/5\/\d{7}(?:\?_=\d+)?$/$script,third-party
 /ajax/banner/list?page=$xmlhttprequest,~third-party
 /get/*?zoneid=$script
 /js/ppndr.

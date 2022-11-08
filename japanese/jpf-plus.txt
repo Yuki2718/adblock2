@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20221108
+! Version: 20221109
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -61,6 +61,7 @@ _300_250_
 
 ! ---------- Popup general ----------
 &key=*&adb=y^$popup,third-party
+?spot_id=*&psid=https://$popup,third-party
 
 ! ---------- Cosmetic general ----------
 ##.asg-vast-overlay

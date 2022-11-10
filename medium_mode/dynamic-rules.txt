@@ -597,6 +597,7 @@ chicagotribune.com tribdss.com * noop
 chrome.en.softonic.com sftcdn.net * noop
 cmt3.research.microsoft.com client.hip.live.com * noop
 cnn.com cnn.io * noop
+community.ingress.com onvanilla.net * noop
 daftsex.com daxab.com * noop
 delta.com onelink-translations.com * noop
 developers.google.com google-developers.appspot.com * noop

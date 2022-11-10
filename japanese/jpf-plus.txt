@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20221109
+! Version: 20221110
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -54,6 +54,10 @@ _300_250_
 
 ! ---------- Ads 3p ----------
 ||cloudflare.com/ajax/libs/postscribe/$script,third-party
+
+! ---------- Ads specific: too few visitors ----------
+! maybe exclude in MV3 in future
+||gameland.ifdef.jp/pr-menu.html
 
 ! ---------- Ads specific (adult): too few visitors ----------
 ! maybe exclude in MV3 in future

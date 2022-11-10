@@ -548,6 +548,7 @@ box.com cdn01.boxcdn.net * noop
 chat.stackexchange.com cdn-chat.sstatic.net * noop
 chicagotribune.com tribdss.com * noop
 cnn.com cnn.io * noop
+community.ingress.com onvanilla.net * noop
 compete.kotaku.com kinja.com * noop
 delta.com onelink-translations.com * noop
 dev.gnupg.org files.gnupg.net * noop

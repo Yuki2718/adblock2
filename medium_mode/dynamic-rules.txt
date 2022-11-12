@@ -835,6 +835,7 @@ www.groupon.com grouponcdn.com * noop
 www.heraldtribune.com cdn.gatehousemedia.com * noop
 www.holidaypirates.com holidaypirates.kayak.co.uk * noop
 www.homedepot.com assets.homedepot-static.com * noop
+www.hootsuite.com ionfiles.scribblecdn.net * noop
 www.hotwire.com ak-secure.hotwirestatic.com * noop
 www.huffingtonpost.co.uk bbc.co.uk * noop
 www.huffingtonpost.co.uk bbci.co.uk * noop

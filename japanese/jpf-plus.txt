@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20221110
+! Version: 20221114
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -104,6 +104,11 @@ carrozzeria-cdl.jp##p > [href*="?PR="] > img
 
 ! ---------- JS: too few visitors ----------
 anianierosuki.work##+js(nowoif)
+
+! ---------- JS: others ----------
+! https://github.com/AdguardTeam/AdguardFilters/issues/134555
+520call.me,520cc.cc##+js(set, all520dddaaa2022aaa, undefined)
+520call.me,520cc.cc##+js(set, all520dddaaa2022ccc, true)
 
 ! ---------- Exception: blocking ----------
 @@||point-g.rakuten.co.jp/pg_assets/item/contets/*_300_250_$image,~third-party

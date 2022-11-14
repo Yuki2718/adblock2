@@ -73,11 +73,11 @@ no-large-media: behind-the-scene false
 * cdn.auth0.com * noop
 * cdn.bootcss.com * noop
 * cdn.channel.io * noop
+* cdn.cloudflare.net * noop
 * cdn.cxense.com * noop
 * cdn.datatables.net * noop
 * cdn.delight-vr.com * noop
 * cdn.embed.ly * noop
-* cdn.embed.ly.cdn.cloudflare.net * noop
 * cdn.embedly.com * noop
 * cdn.espn.com * noop
 * cdn.firebase.com * noop
@@ -89,7 +89,6 @@ no-large-media: behind-the-scene false
 * cdn.jifo.co * noop
 * cdn.jotfor.ms * noop
 * cdn.jsdelivr.net * noop
-* cdn.jsdelivr.net.cdn.cloudflare.net * noop
 * cdn.jwplayer.com * noop
 * cdn.livefyre.com * noop
 * cdn.mathjax.org * noop
@@ -668,6 +667,7 @@ secure.booked.net s2.bookcdn.com * noop
 seekingalpha.com cdn.qumucloud.com * noop
 seekingalpha.com januscapital.qumucloud.com * noop
 shadowban.yuzurisa.com ailizijiang.wenaiwu.net * noop
+shein.com sheinsz.ltwebstatic.com * noop
 shop-list.com global.cdn.idcfcloud.net * noop
 siliconangle.com video.cube365.net * noop
 slack.com a.slack-edge.com * noop

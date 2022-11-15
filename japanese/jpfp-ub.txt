@@ -2,10 +2,9 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20221104
+! Version: 20221116
 
 ! ---------- Ads general ----------
-!!#if !ext_ubol
 /^https:\/\/[0-9a-z]{7,25}\.com\/v2(?:\/0\/)?(?=[-_0-9a-z]{0,84}[A-Z])(?=[-_a-zA-Z]{0,84}[0-9])[-_0-9a-zA-Z]{54,85}(#\?v=[0-9a-f]{32})?$/$ping,script,xhr,3p,match-case
 /^https?:\/\/[a-z]{5,12}\.com\/script\/bootstrap\.js$/$script,3p,match-case,domain=~edu|~gov|~jp
 /^https?:\/\/[a-z]{5,12}\.com\/script\/jquery\.js$/$script,3p,match-case,domain=~edu|~gov|~jp
@@ -14,15 +13,6 @@
 /^https?:\/\/[a-z]{7,16}\.com?\/(?=[+\/a-zA-Z]*\d)(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{400,}$/$frame,popup,3p,match-case,domain=~edu|~gov|~jp
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)\/(?!api|available)[a-z]{4,}\.json$/$xhr,3p,match-case,domain=~edu|~gov|~jp
 /^https?:\/\/[a-z]{8,16}\.com?\/(?=[%a-zA-Z]*\d)(?=[%0-9a-z]*[A-Z])[%0-9a-zA-Z]{170,}$/$script,3p,match-case,domain=~edu|~gov|~jp
-!!#endif
-!#if false
-/^https:\/\/[a-z]{10,14}\.(?:ca[ms]a?|fun)\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
-/^https?:\/\/[a-z]{5,12}\.com\/script\/(?:bootstrap|jquery)\.js$/$script,3p,match-case,domain=~edu|~gov|~jp
-/^https:\/\/[a-z]{8,15}\.com\/(?:beta|gamma|omega)\/\d{3,4}$/$xhr,3p
-/^https:\/\/[a-z]{8,16}\.(?:club|fun|hair|work|xyz)\/[%0-9a-zA-Z]{170,}$/$script,3p,match-case
-/^https?:\/\/[a-z]{7,16}\.(?:buzz|lol|one|xyz)\/[+\/0-9a-zA-Z]{400,}$/$frame,3p
-/^https?:\/\/[a-z]{7,16}\.(?:buzz|lol|one|xyz)\/[+\/0-9a-zA-Z]{140,}$/$image,ping,3p
-!#endif
 
 ! ---------- Cosmetic general ----------
 !#if env_mobile

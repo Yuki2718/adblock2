@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20221114
+! Version: 20221116
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -58,6 +58,8 @@ _300_250_
 ! ---------- Ads specific: too few visitors ----------
 ! maybe exclude in MV3 in future
 ||gameland.ifdef.jp/pr-menu.html
+||m.media-amazon.com/images/I/$domain=graoda.blog.fc2.com
+||ssl-images-amazon.com/images/I/$domain=graoda.blog.fc2.com
 
 ! ---------- Ads specific (adult): too few visitors ----------
 ! maybe exclude in MV3 in future
@@ -81,12 +83,20 @@ _300_250_
 english.mag2.com###text-4 a:not([href="http://www.mag2.com/"])
 fortune.auone.jp##.adsense
 fugaofftime.com##.entry-content > p > span[style="color: #999999; font-size: 12px;"]
+graoda.blog.fc2.com###sidebar_r > table[style="table-layout: fixed;"]
+graoda.blog.fc2.com##.ad > table[style="table-layout: fixed;"]
+graoda.blog.fc2.com##div[id^="AmazonLINK"]
+graoda.blog.fc2.com##table[width="700"][height="300"]
 kaigainohannoublog.blog55.fc2.com##.plugin1_outline:first-child
 kaigainohannoublog.blog55.fc2.com##.plugin2_outline:last-child
 lper.info##.wpa
 number-pedia.com##.widget:has(> div > .adsbygoogle)
 ssbsblg.blogspot.com##.btmads
 ssbsblg.blogspot.com##.sponserd
+!#if env_mobile
+graoda.blog.fc2.com###gailing02
+graoda.blog.fc2.com##.thum_pic
+!#endif
 
 ! ---------- Cosmetic specific: others ----------
 arvo.showcase-tv.com,getpaidstock.com,kazokuchannel.doorblog.jp,nandemo-uketori.com,sukupara.jp##ins.adsbygoogle

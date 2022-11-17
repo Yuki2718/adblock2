@@ -112,7 +112,6 @@ onepiece-akumanomi.com##div.adsbygoogle
 anianierosuki.work##div[id^="sidebar"]
 carrozzeria-cdl.jp##.article-body > blockquote:has([href*="?PR="])
 carrozzeria-cdl.jp##p > [href*="?PR="] > img
-eromanga001.com
 
 ! ---------- CSS ----------
 *##ins.adsbygoogle:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)

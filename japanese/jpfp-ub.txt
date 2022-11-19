@@ -43,7 +43,6 @@
 *##.thk_ps_widget
 *##.widget_mobile_ad
 *##div[class][data-index][style^="float: none;"]
-*##div[id^="active_overlay"]
 !#endif
 
 ! ---------- Cosmetic specific ----------

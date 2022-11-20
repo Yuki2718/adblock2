@@ -861,6 +861,7 @@ www.slate.com sadmin.brightcove.com * noop
 www.slate.com static.cdnslate.com * noop
 www.slideshare.net slidesharecdn.com * noop
 www.speedtest.net b.cdnst.net * noop
+www.spotify.com wap.spotifycdn.com * noop
 www.statista.com cdn.statcdn.com * noop
 www.swarmapp.com 4sqi.net * noop
 www.target.com assets.targetimg1.com * noop

@@ -927,6 +927,7 @@ www.slate.com static.cdnslate.com * noop
 www.slideshare.net slidesharecdn.com * noop
 www.speedtest.net b.cdnst.net * noop
 www.spiegel.de arc.nexx.cloud * noop
+www.spotify.com wap.spotifycdn.com * noop
 www.stager.live cdn.bootcss.com * noop
 www.stager.live pic.stagerlive.com * noop
 www.statista.com cdn.statcdn.com * noop

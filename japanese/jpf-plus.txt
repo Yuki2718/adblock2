@@ -92,6 +92,7 @@ _300_250_
 english.mag2.com###text-4 a:not([href="http://www.mag2.com/"])
 fortune.auone.jp##.adsense
 fugaofftime.com##.entry-content > p > span[style="color: #999999; font-size: 12px;"]
+ganohr.net###easyModal
 graoda.blog.fc2.com###sidebar_r > table[style="table-layout: fixed;"]
 graoda.blog.fc2.com##.ad > table[style="table-layout: fixed;"]
 graoda.blog.fc2.com##div[id^="AmazonLINK"]

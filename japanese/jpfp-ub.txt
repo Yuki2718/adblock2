@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20221122
+! Version: 20221124
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -52,6 +52,8 @@
 bg-mania.jp,j-cast.com,smartlog.jp,space.com##.adunit
 costcotuu.com##.ads1
 costcotuu.com##.ads_footer
+futabanet.jp##.ad-billboard
+futabanet.jp,president.jp##.ad-rectangle
 gq.com,gqjapan.jp,vogue.com,wired.jp##.ad--mid-content
 gq.com,gqjapan.jp,vogue.com,wired.jp##.ad-stickyhero
 gq.com,gqjapan.jp,vogue.com,wired.jp##.full-bleed-ad
@@ -59,8 +61,9 @@ minitool.com##.page-bottom-fixed-ads
 minitool.com##.page-top-ads
 nhentai.net##.advt
 pastebin.com##.adsbyvli
-president.jp##.ad-rectangle
+seesaa.net##div[id^="crt-"][style]
 togetter.com##.ad_rectangle
+tver.jp##.ad-section
 wikiru.jp##.sticky-ads
 
 !#if env_mobile

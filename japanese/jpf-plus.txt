@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20221121
+! Version: 20221124
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -89,6 +89,7 @@ _300_250_
 ##iframe[style*="opacity: 1 !important; max-width:"][style*="position: fixed !important; display: block !important; z-index: 2147483647 !important; inset:"]
 
 ! ---------- Cosmetic specific: too few visitors ----------
+act-amuse-japan.co.jp##div[class^="bgd-ads"]
 english.mag2.com###text-4 a:not([href="http://www.mag2.com/"])
 fortune.auone.jp##.adsense
 fugaofftime.com##.entry-content > p > span[style="color: #999999; font-size: 12px;"]

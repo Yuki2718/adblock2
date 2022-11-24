@@ -333,7 +333,6 @@ no-large-media: behind-the-scene false
 * sdk.vmh.univision.com * noop
 * seal-goldengate.bbb.org * noop
 * seal.alphassl.com * noop
-* seal.geotrust.com * noop
 * seal.websecurity.norton.com * noop
 * secure.apps.shappify.com * noop
 * secure.checkout.visa.com * noop
@@ -348,7 +347,6 @@ no-large-media: behind-the-scene false
 * slides.com * noop
 * slideshow.hibustudio.com * noop
 * slimfaq.com * noop
-* smarticon.geotrust.com * noop
 * snapppt.com * noop
 * snapwidget.com * noop
 * spoxy-shard5.spot.im * noop
@@ -513,7 +511,6 @@ account.trendmicro.com libs.coremetrics.com * noop
 accounts.firefox.com mozilla.net * noop
 admin.microsoft.com prod.msocdn.com * noop
 aliexpress.com assets.alicdn.com * noop
-animeflv.cc animeid.cc * noop
 answers.microsoft.com msecnd.net * noop
 app.box.com public.boxcloud.com * noop
 apple.com aaplimg.com * noop
@@ -612,7 +609,6 @@ login.microsoftonline.com msftauth.net * noop
 login.microsoftonline.com office.com * noop
 login.norton.com static.nortoncdn.com * noop
 m.drtuber.com drtst.com * noop
-m.huffingtonpost.co.uk amp.assets.huffpost.com * noop
 m.imdb.com m.media-amazon.com * noop
 m.livejasmin.com dditscdn.com * noop
 m.nuvid.com nvdst.com * noop
@@ -630,8 +626,6 @@ money.cnn.com cdn.turner.com * noop
 my.norton.com static.nortoncdn.com * noop
 myspace.com x.myspacecdn.com * noop
 nordvpn.com s1.nordcdn.com * noop
-nutmegsportinggoods.com cdn.tm.shopifysvc.com * noop
-nyahentai.com static.nyahentai.pw * noop
 office.com c.s-microsoft.com * noop
 office.com msocdn.com * noop
 office.com r1.res.office365.com * noop
@@ -899,6 +893,8 @@ www.yummly.com s.yumm.ly * noop
 www.zdnet.com cn.cbsimg.net * noop
 www.zillow.com zillowstatic.com * noop
 www.zoho.com jz.zohostatic.com * noop
+www1.animeflv.bz animeid.to * noop
+www1.animeflv.bz embedsito.com * noop
 xhamster.com xhcdn.com * noop
 yahoo.com yahoodns.net * noop
 yandex.com yandex-images.clstorage.net * noop

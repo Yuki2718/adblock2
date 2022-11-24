@@ -344,7 +344,6 @@ no-large-media: behind-the-scene false
 * seal-sanjose.bbb.org * noop
 * seal.alphassl.com * noop
 * seal.buysafe.com * noop
-* seal.geotrust.com * noop
 * secure.apps.shappify.com * noop
 * secure.checkout.visa.com * noop
 * secure.comodo.com * noop
@@ -362,7 +361,6 @@ no-large-media: behind-the-scene false
 * slides.com * noop
 * slideshow.hibustudio.com * noop
 * slimfaq.com * noop
-* smarticon.geotrust.com * noop
 * snapppt.com * noop
 * snapwidget.com * noop
 * sp.auth.adobe.com * noop
@@ -559,7 +557,6 @@ admin.microsoft.com res.office365.com * noop
 admin.microsoft.com shellprod.msocdn.com * noop
 admin.microsoft.com webshell.suite.office.com * noop
 aliexpress.com assets.alicdn.com * noop
-animeflv.cc animeid.cc * noop
 answers.microsoft.com msecnd.net * noop
 app.box.com cdn01.boxcdn.net * noop
 app.box.com public.boxcloud.com * noop
@@ -669,8 +666,6 @@ money.cnn.com cdn.turner.com * noop
 my.norton.com static.nortoncdn.com * noop
 myspace.com x.myspacecdn.com * noop
 nordvpn.com s1.nordcdn.com * noop
-nutmegsportinggoods.com cdn.tm.shopifysvc.com * noop
-nyahentai.com static.nyahentai.pw * noop
 office.com amp.azure.net * noop
 office.com c.s-microsoft.com * noop
 office.com msocdn.com * noop
@@ -971,6 +966,8 @@ www.yummly.com s.yumm.ly * noop
 www.zdnet.com cn.cbsimg.net * noop
 www.zillow.com zillowstatic.com * noop
 www.zoho.com jz.zohostatic.com * noop
+www1.animeflv.bz animeid.to * noop
+www1.animeflv.bz embedsito.com * noop
 yahoo.com yahoodns.net * noop
 yandex.com yandex-images.clstorage.net * noop
 yandex.com yastatic.net * noop

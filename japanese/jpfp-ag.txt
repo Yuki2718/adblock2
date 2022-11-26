@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20221114
+! Version: 20221126
 
 ! ---------- Ads general ----------
 /^https:\/\/[-a-z]{8,15}\.(?:com|net)\/40[01]\/\d{7}$/$script,third-party
@@ -113,6 +113,11 @@ dropgalaxy.com,kabutan.jp,rocketnews24.com,saitama-np.co.jp,soranews24.com,youpo
 #@#.ad-placeholder
 #@#.ad-placement
 #@#.ad-refresh
+#@#.div-gpt-ad
+#@#div[class^="div-gpt-ad"]
+#@#div[id^="div-gpt-"]
+#@#[class^="div-gpt-ad"]
+~kabutan.jp#@#[id^="div-gpt-ad"]
 
 ! ---------- Scam & Redirect ----------
 /\/[0-9a-z]{8,10}\?shu=[0-9a-z]{150,}/$document

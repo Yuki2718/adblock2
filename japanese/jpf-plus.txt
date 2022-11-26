@@ -105,6 +105,9 @@ how-to-sexfriends.com##.homeaddbottom p
 how-to-sexfriends.com##.homeaddtop
 kaigainohannoublog.blog55.fc2.com##.plugin1_outline:first-child
 kaigainohannoublog.blog55.fc2.com##.plugin2_outline:last-child
+kanji.me##.ggtitle
+kujoyugo.com##.booklink-box
+kujoyugo.com##.widget-below-related-entries
 lper.info##.wpa
 number-pedia.com##.widget:has(> div > .adsbygoogle)
 salary-saver.com##.ani:has(> .widget_tsnc_ads_custom_html)

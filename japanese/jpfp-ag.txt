@@ -65,6 +65,9 @@
 #$#[id^="div-gpt-ad"] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
 #$#div[id^="div-gpt-"]:not([id^="div-gpt-ad"]) { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
 
+! ---------- Cosmetic specific ----------
+kabutan.jp##div[id^="div-gpt-ad"]
+
 ! Exception: blocking
 @@||fundingchoicesmessages.google.com^$script,domain=adshnk.com|bbc.com|downloads.descendant.me|rocketnews24.com|soranews24.com|stooq.com|stooq.pl|youpouch.com
 
@@ -117,7 +120,7 @@ dropgalaxy.com,kabutan.jp,rocketnews24.com,saitama-np.co.jp,soranews24.com,youpo
 #@#div[class^="div-gpt-ad"]
 #@#div[id^="div-gpt-"]
 #@#[class^="div-gpt-ad"]
-~kabutan.jp#@#[id^="div-gpt-ad"]
+#@#[id^="div-gpt-ad"]
 
 ! ---------- Scam & Redirect ----------
 /\/[0-9a-z]{8,10}\?shu=[0-9a-z]{150,}/$document

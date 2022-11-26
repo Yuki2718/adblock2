@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20221126
+! Version: 20221127
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -127,8 +127,16 @@ onepiece-akumanomi.com##div.adsbygoogle
 
 ! ---------- Cosmetic specific (Adult): too few visitors ----------
 anianierosuki.work##div[id^="sidebar"]
+c-actress.com###block-9
+c-actress.com##.single-related-area
+c-actress.com##.singletop-widget
 carrozzeria-cdl.jp##.article-body > blockquote:has([href*="?PR="])
 carrozzeria-cdl.jp##p > [href*="?PR="] > img
+ukemi-no-kiwami.work###pc_text-9
+ukemi-no-kiwami.work##.widget-below-related-entries
+ukemi-no-kiwami.work##.widget-below-single-content-title
+ukemi-no-kiwami.work##.widget-single-content-bottom
+ukemi-no-kiwami.work##.widget_block
 
 ! ---------- CSS ----------
 *##ins.adsbygoogle:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
@@ -165,7 +173,6 @@ anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,
 /?r=dir&zoneid=$all
 /jump/next.php?r=$document
 /index.php?main_page=product_info&cPath=$document,domain=buzz|life|live|site|store|top|xyz
-/index.php?main_page=product_info&products_id=$document,domain=buzz|life|live|site|store|top|xyz
 
 !#if adguard
 !#include jpfp-ag.txt

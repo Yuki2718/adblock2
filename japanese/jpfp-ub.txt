@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20221126
+! Version: 20221127
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -50,7 +50,10 @@
 ! For Ignore generic
 25news.jp,cantera.camp,futsal-design.jp,happyell.com,lacrosse-plus.net,mamagirl.jp,mlb.com##.p-ad
 basketball-zine.com##.top-ad
+beauty.oricon.co.jp##.Billboard-ad
 bg-mania.jp,j-cast.com,smartlog.jp,space.com##.adunit
+blog.jp,gamewith.jp,googirl.jp,h1g.jp###gStickyAd
+blogspot.com##.AdSense
 costcotuu.com##.ads1
 costcotuu.com##.ads_footer
 futabanet.jp##.ad-billboard
@@ -58,12 +61,12 @@ futabanet.jp,president.jp##.ad-rectangle
 gq.com,gqjapan.jp,vogue.com,wired.jp##.ad--mid-content
 gq.com,gqjapan.jp,vogue.com,wired.jp##.ad-stickyhero
 gq.com,gqjapan.jp,vogue.com,wired.jp##.full-bleed-ad
+h1g.jp,seesaa.net##div[id^="crt-"][style]
 minitool.com##.page-bottom-fixed-ads
 minitool.com##.page-top-ads
 nhentai.net##.advt
 oricon.co.jp##.block-ads-yahoo
 pastebin.com##.adsbyvli
-seesaa.net##div[id^="crt-"][style]
 togetter.com##.ad_rectangle
 tver.jp##.ad-section
 wikiru.jp##.sticky-ads

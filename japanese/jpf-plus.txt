@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20221129
+! Version: 20221130
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -94,6 +94,7 @@ _300_250_
 act-amuse-japan.co.jp##div[class^="bgd-ads"]
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="//ck.jp."])
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="https://www.amazon.co.jp/gp/"])
+dmlab.jp###sponsorsNav
 english.mag2.com###text-4 a:not([href="http://www.mag2.com/"])
 fortune.auone.jp##.adsense
 fugaofftime.com##.entry-content > p > span[style="color: #999999; font-size: 12px;"]
@@ -127,7 +128,7 @@ arvo.showcase-tv.com,getpaidstock.com,kazokuchannel.doorblog.jp,nandemo-uketori.
 onepiece-akumanomi.com##div.adsbygoogle
 !#endif
 
-! ---------- Cosmetic specific (Adult): too few visitors ----------
+! ---------- Cosmetic specific (adult): too few visitors ----------
 anianierosuki.work##div[id^="sidebar"]
 c-actress.com###block-9
 c-actress.com##.single-related-area

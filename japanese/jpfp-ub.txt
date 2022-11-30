@@ -45,8 +45,7 @@
 *##div[class][data-index][style^="float: none;"]
 !#endif
 
-! ---------- Cosmetic specific ----------
-! For Ignore generic
+! ---------- Cosmetic specific - Ignore generic ----------
 25news.jp,cantera.camp,futsal-design.jp,happyell.com,lacrosse-plus.net,mamagirl.jp,mlb.com##.p-ad
 basketball-zine.com##.top-ad
 beauty.oricon.co.jp##.Billboard-ad
@@ -56,6 +55,7 @@ blogspot.com##.AdSense
 cartoonnetwork.jp,dmlab.jp,i2chmeijin.blog.fc2.com,his-vacation.com,magnet-novels.com,twitis.me##.adBox
 costcotuu.com##.ads1
 costcotuu.com##.ads_footer
+favolog.org###ad-box1
 futabanet.jp##.ad-billboard
 futabanet.jp,president.jp##.ad-rectangle
 gq.com,gqjapan.jp,vogue.com,wired.jp##.ad--mid-content
@@ -69,6 +69,7 @@ minitool.com##.page-top-ads
 oricon.co.jp##.block-ads-yahoo
 pastebin.com##.adsbyvli
 togetter.com##.ad_rectangle
+twicolle-plus.com##.ad-bnr
 tver.jp##.ad-section
 wikiru.jp##.sticky-ads
 !#if env_mobile
@@ -78,8 +79,7 @@ kidsna.com##.google-ads
 telling.asahi.com##.p-ad
 !#endif
 
-! ---------- Cosmetic specific (adult) ----------
-! For Ignore generic
+! ---------- Cosmetic specific (adult) - Ignore generic ----------
 doujinhibiki.net##.adBox
 javfan.one,javmix.*,javtheater.com,openloadpro.com##.__isboostOverContent
 nhentai.net##.advt

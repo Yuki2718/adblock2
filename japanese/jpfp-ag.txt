@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20221126
+! Version: 20221130
 
 ! ---------- Ads general ----------
 /^https:\/\/[-a-z]{8,15}\.(?:com|net)\/40[01]\/\d{7}$/$script,third-party
@@ -68,13 +68,15 @@
 ! ---------- Cosmetic specific ----------
 kabutan.jp##div[id^="div-gpt-ad"]
 
+kazukichi0914.hatenablog.com###adframe:style(position: absolute !important; left: -4000px !important;)
+
 ! Exception: blocking
 @@||fundingchoicesmessages.google.com^$script,domain=adshnk.com|bbc.com|downloads.descendant.me|rocketnews24.com|soranews24.com|stooq.com|stooq.pl|youpouch.com
 
 ! Exception: cosmetic
 dropgalaxy.com,kabutan.jp,rocketnews24.com,saitama-np.co.jp,soranews24.com,youpouch.com#@$#[id^="div-gpt-ad"] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
 
-! Exception: anti anti-adb
+! Anti anti-adb
 /ads-prebid.js$script,redirect-rule=prebid-ads
 /prebid-add.js$script,redirect-rule=prebid-ads
 /prebid-ads.js$script,redirect-rule=prebid-ads,domain=~exey.io
@@ -89,6 +91,7 @@ dropgalaxy.com,kabutan.jp,rocketnews24.com,saitama-np.co.jp,soranews24.com,youpo
 ||fundingchoicesmessages.google.com^$third-party
 ||media.net/dmedianet.js$redirect=noopjs
 ||nessainy.net/favicon.ico$image,redirect=32x32-transparent.png
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect=googlesyndication-adsbygoogle
 
 #@##ad_300
 #@##ad_728
@@ -121,6 +124,8 @@ dropgalaxy.com,kabutan.jp,rocketnews24.com,saitama-np.co.jp,soranews24.com,youpo
 #@#div[id^="div-gpt-"]
 #@#[class^="div-gpt-ad"]
 #@#[id^="div-gpt-ad"]
+kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -4000px !important; }
+kazukichi0914.hatenablog.com#@##adframe:not(frameset)
 
 ! ---------- Scam & Redirect ----------
 /\/[0-9a-z]{8,10}\?shu=[0-9a-z]{150,}/$document

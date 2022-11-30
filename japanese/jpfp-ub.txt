@@ -74,6 +74,7 @@ tver.jp##.ad-section
 wikiru.jp##.sticky-ads
 !#if env_mobile
 4gamer.net,smhn.info##.top_ad
+chikakb.ldblog.jp##.sp_ad
 cinema.ne.jp,jma.go.jp,novelup.plus##.ad-sp
 kidsna.com##.google-ads
 telling.asahi.com##.p-ad

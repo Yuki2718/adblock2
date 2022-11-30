@@ -575,6 +575,7 @@ godaddy.com img1.wsimg.com * noop
 google.com googleusercontent.com * noop
 graphicriver.net assets.shopfront.envato-static.com * noop
 hbr.org media.richrelevance.com * noop
+help.disneyplus.com disneystreaming.service-now.com * noop
 help.getadblock.com freshdesk.com * noop
 help.twitter.com cdn.cms-twdigitalassets.com * noop
 hotels.com a.cdn-hotels.com * noop
@@ -739,10 +740,7 @@ www.denverpost.com sip.azurewebsites.windows.net * noop
 www.deviantart.com st.deviantart.net * noop
 www.digitaltrends.com cookiebot.com * noop
 www.discovery.com ddmcdn.com * noop
-www.dl8x.com drtst.com * noop
-www.dl8x.com txxx.com * noop
-www.dl8x.com www.drtuber.com * noop
-www.dl8x.com www.gotporn.com * noop
+www.disneyplus.com prod-static.disney-plus.net * noop
 www.dropbox.com dropbox-dns.com * noop
 www.dropbox.com dropboxstatic.com * noop
 www.dropbox.com dropboxusercontent.com * noop

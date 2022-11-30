@@ -158,7 +158,7 @@ anianierosuki.work##+js(nowoif)
 ! ---------- Exception: cosmetic ----------
 anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,hotdebrid.com,html5.gamedistribution.com,kantangame.com,model-viewer.com,paraphraser.io,play.aidungeon.io,sekai-kabuka.com,tamrieltradecentre.com,teemo.gg,xtremestream.co#@#ins.adsbygoogle:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
 
-! ---------- Exception: anti anti-adb ----------
+! ---------- Anti anti-adb ----------
 @@/ads-prebid.js$script,~third-party
 @@||g.adspeed.net/ad.php?do=detectadblocker|$script
 @@||ganohr.net^$ghide

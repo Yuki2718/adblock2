@@ -68,8 +68,6 @@
 ! ---------- Cosmetic specific ----------
 kabutan.jp##div[id^="div-gpt-ad"]
 
-kazukichi0914.hatenablog.com###adframe:style(position: absolute !important; left: -4000px !important;)
-
 ! Exception: blocking
 @@||fundingchoicesmessages.google.com^$script,domain=adshnk.com|bbc.com|downloads.descendant.me|rocketnews24.com|soranews24.com|stooq.com|stooq.pl|youpouch.com
 

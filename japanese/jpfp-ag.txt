@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20221130
+! Version: 20221201
 
 ! ---------- Ads general ----------
 /^https:\/\/[-a-z]{8,15}\.(?:com|net)\/40[01]\/\d{7}$/$script,third-party
@@ -38,8 +38,8 @@
 ###ad_box:not([style^="position: absolute; left: -5000px"])
 ###ad_footer:not([style^="position: absolute; left: -5000px"])
 ###ad_slot:not([style^="position: absolute; left: -5000px"])
-~streetinsider.com###ad_space:not([style^="position: absolute; left: -5000px"])
-###adframe:not(frameset):not([style^="position: absolute; left: -5000px"])
+~musmus.main.jp,~streetinsider.com###ad_space:not([style^="position: absolute; left: -5000px"])
+~kazukichi0914.hatenablog.com###adframe:not(frameset):not([style^="position: absolute; left: -5000px"])
 ###adheader:not([style^="position: absolute; left: -5000px"])
 ###ads-1:not([style^="position: absolute; left: -5000px"])
 ###ads-banner:not([style^="position: absolute; left: -5000px"])
@@ -123,7 +123,6 @@ dropgalaxy.com,kabutan.jp,rocketnews24.com,saitama-np.co.jp,soranews24.com,youpo
 #@#[class^="div-gpt-ad"]
 #@#[id^="div-gpt-ad"]
 kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -4000px !important; }
-kazukichi0914.hatenablog.com#@##adframe:not(frameset)
 
 ! ---------- Scam & Redirect ----------
 /\/[0-9a-z]{8,10}\?shu=[0-9a-z]{150,}/$document

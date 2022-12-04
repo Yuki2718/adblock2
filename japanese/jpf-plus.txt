@@ -2,21 +2,22 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20221130
+! Version: 20221205
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
 &zoneid=*&rb=$xmlhttprequest,third-party
--960x60.gif|$third-party,image,domain=~edu|~gov|~jp
+-960x60.gif|$image,third-party,domain=~edu|~gov|~jp
 .com/1?z=$script,third-party
 .com/script/compatibility.js|$third-party
 .net/1?z=$script,third-party
 .org/script/compatibility.js|$third-party
 /300x250.html?targetUrl=$subdocument
 /300x250.html|$subdocument,third-party
-/960-60.gif|$third-party,image,domain=~edu|~gov|~jp
-/960x120.gif|$third-party,image,domain=~edu|~gov|~jp
-/960X60.gif|$third-party,image,domain=~edu|~gov|~jp
+/960-60.gif|$image,third-party,domain=~edu|~gov|~jp
+/960x120.gif|$image,third-party,domain=~edu|~gov|~jp
+/960X60.gif|$image,third-party,domain=~edu|~gov|~jp
+/?request_ab2=*zoneid=$xmlhttprequest,third-party
 /\/assets\/jquery\/jquery-\d\.\d\.(?:\d\.)?min\.js\?(?:v=2)?&?type=(?:adult|mainstream)$/$script,~third-party
 /\/wp-content\/uploads\/[a-z]{6,9}\.js(?:\?ver=[.0-9]+|,qver=[.0-9]+\.pagespeed\..+\.js)$/$script,~third-party
 /\/wp-content\/uploads\/[a-zA-Z]{12}\/[a-zA-Z]{12}\.js(?:\?ver=[.0-9]+|,qver=[.0-9]+\.pagespeed\..+\.js)$/$script,~third-party
@@ -56,7 +57,6 @@
 ://go.*/i?$subdocument,third-party
 ://notads.*.xyz/$script
 =eyJ.js^$script
-?oo=1^$xmlhttprequest,third-party
 _300_250_
 ! Incompatible with MV3
 /^https:\/\/[0-9a-z]{7,25}\.com\/v2(?:\/0\/)?(?=[-_0-9a-z]{0,84}[A-Z])(?=[-_a-zA-Z]{0,84}[0-9])[-_0-9a-zA-Z]{54,85}(#\?v=[0-9a-f]{32})?$/$ping,script,xmlhttprequest,third-party,match-case
@@ -113,6 +113,7 @@ kujoyugo.com##.booklink-box
 kujoyugo.com##.widget-below-related-entries
 lper.info##.wpa
 number-pedia.com##.widget:has(> div > .adsbygoogle)
+parudou5.com##.kijibu > .hanyouwaku1
 salary-saver.com##.ani:has(> .widget_tsnc_ads_custom_html)
 ssbsblg.blogspot.com##.btmads
 ssbsblg.blogspot.com##.sponserd

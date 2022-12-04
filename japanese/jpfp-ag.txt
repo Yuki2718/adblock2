@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20221201
+! Version: 20221205
 
 ! ---------- Ads general ----------
 /^https:\/\/[-a-z]{8,15}\.(?:com|net)\/40[01]\/\d{7}$/$script,third-party
@@ -21,6 +21,7 @@
 /script/atg.js$script,third-party
 /ts.php?$xmlhttprequest,third-party
 /wp-content/plugins/script-manager/assets/js/script-manager.js?
+?oo=1^$xmlhttprequest,third-party
 ?zoneid=*&ab=1|$script,third-party
 
 ! ---------- Popup general ----------

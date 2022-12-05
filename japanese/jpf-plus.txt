@@ -48,6 +48,8 @@
 /out/b.html#$subdocument,~third-party
 /sc4fr/rwff/f9ef/*$script,xmlhttprequest,third-party
 /ssp/req/*/?pb=$script,third-party
+/tmp/?n=$subdocument,~third-party
+/tmp/?s=1|$script,~third-party
 /utx?cb=$xmlhttprequest,third-party
 /utx?tid=$xmlhttprequest,third-party
 /vast/?zid=$xmlhttprequest,third-party
@@ -58,6 +60,10 @@
 ://notads.*.xyz/$script
 =eyJ.js^$script
 _300_250_
+! Mobile
+/\/tmp\/[0-9a-z]{6}\.js$/$script,~third-party,match-case,domain=com|xxx
+/tmp/?width=300&$subdocument,~third-party
+/tmp/?zone=$subdocument,~third-party
 ! Incompatible with MV3
 /^https:\/\/[0-9a-z]{7,25}\.com\/v2(?:\/0\/)?(?=[-_0-9a-z]{0,84}[A-Z])(?=[-_a-zA-Z]{0,84}[0-9])[-_0-9a-zA-Z]{54,85}(#\?v=[0-9a-f]{32})?$/$ping,script,xmlhttprequest,third-party,match-case
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)\/(?!api|available)[a-z]{4,}\.json$/$xmlhttprequest,third-party,match-case,domain=~edu|~gov|~jp
@@ -118,16 +124,14 @@ salary-saver.com##.ani:has(> .widget_tsnc_ads_custom_html)
 ssbsblg.blogspot.com##.btmads
 ssbsblg.blogspot.com##.sponserd
 webmake.info###text-7
-!#if env_mobile
+! Mobile
 graoda.blog.fc2.com###gailing02
 graoda.blog.fc2.com##.thum_pic
-!#endif
 
 ! ---------- Cosmetic specific: others ----------
 arvo.showcase-tv.com,getpaidstock.com,kazokuchannel.doorblog.jp,nandemo-uketori.com,sukupara.jp##ins.adsbygoogle
-!#if env_mobile
+! Mobile
 onepiece-akumanomi.com##div.adsbygoogle
-!#endif
 
 ! ---------- Cosmetic specific (adult): too few visitors ----------
 anianierosuki.work##div[id^="sidebar"]

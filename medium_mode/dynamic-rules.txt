@@ -945,6 +945,7 @@ www.usenix.org pantheonsite.io * noop
 www.vicsdrumshop.com assets.reverbsites.com * noop
 www.viki.com viki.io * noop
 www.viptube.com vptpsn.com * noop
+www.virustotal.com googlehosted.com * noop
 www.virustotal.com virustotalcloud.appspot.com * noop
 www.vividseats.com a.vsstatic.com * noop
 www.walmart.com i5.wal.co * noop

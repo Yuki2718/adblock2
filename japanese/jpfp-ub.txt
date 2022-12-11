@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20221203
+! Version: 20221212
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -55,6 +55,7 @@ blogspot.com##.AdSense
 cartoonnetwork.jp,dmlab.jp,i2chmeijin.blog.fc2.com,his-vacation.com,magnet-novels.com,twitis.me##.adBox
 costcotuu.com##.ads1
 costcotuu.com##.ads_footer
+diamond.jp##.gpt-ad
 favolog.org###ad-box1
 futabanet.jp##.ad-billboard
 futabanet.jp,president.jp##.ad-rectangle
@@ -64,10 +65,13 @@ gq.com,gqjapan.jp,vogue.com,wired.jp##.full-bleed-ad
 hatenablog.com##.insentence-adsense
 hatenablog.com##.insentence-adsense2
 h1g.jp,seesaa.net##div[id^="crt-"][style]
+kotaku.com##.ad-left-top
+kotaku.com##.ad-top-banner
 minitool.com##.page-bottom-fixed-ads
 minitool.com##.page-top-ads
 oricon.co.jp##.block-ads-yahoo
 pastebin.com##.adsbyvli
+techcrunch.com##.ad-unit:not(.text-ad)
 togetter.com##.ad_rectangle
 twicolle-plus.com##.ad-bnr
 tver.jp##.ad-section
@@ -78,6 +82,7 @@ chikakb.ldblog.jp##.sp_ad
 cinema.ne.jp,jma.go.jp,novelup.plus##.ad-sp
 kidsna.com##.google-ads
 s.kakaku.com###headerAd
+sbapp.net##.ads_center
 telling.asahi.com##.p-ad
 !#endif
 

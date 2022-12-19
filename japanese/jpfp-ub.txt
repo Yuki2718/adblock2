@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20221218
+! Version: 20221220
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -79,6 +79,7 @@ minitool.com##.page-bottom-fixed-ads
 minitool.com##.page-top-ads
 oricon.co.jp##.block-ads-yahoo
 pastebin.com##.adsbyvli
+t-dilemma.info##.ad-space
 techcrunch.com##.ad-unit:not(.text-ad)
 togetter.com##.ad_rectangle
 twicolle-plus.com##.ad-bnr
@@ -87,6 +88,7 @@ tver.jp##.ad-section
 4gamer.net,smhn.info##.top_ad
 chikakb.ldblog.jp##.sp_ad
 cinema.ne.jp,jma.go.jp,novelup.plus##.ad-sp
+himanatokiniyaruo.com###float-bnr
 kidsna.com##.google-ads
 s.kakaku.com###headerAd
 sbapp.net##.ads_center

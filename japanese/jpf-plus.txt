@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20221218
+! Version: 20221220
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -122,6 +122,7 @@ kanji.me##.ggtitle
 kujoyugo.com##.booklink-box
 kujoyugo.com##.widget-below-related-entries
 lper.info##.wpa
+malanka.tech###modal-overlay
 number-pedia.com##.widget:has(> div > .adsbygoogle)
 parudou5.com##.kijibu > .hanyouwaku1
 salary-saver.com##.ani:has(> .widget_tsnc_ads_custom_html)
@@ -129,10 +130,12 @@ ssbsblg.blogspot.com##.btmads
 ssbsblg.blogspot.com##.sponserd
 twi55.com##.l-sidebar > .widget_custom_html
 twi55.com##.postCta
+weblan3.com##.ad_ArticleTop
 webmake.info###text-7
 ! Mobile
 graoda.blog.fc2.com###gailing02
 graoda.blog.fc2.com##.thum_pic
+pawakichi.xyz##.plugin-ad
 
 ! ---------- Cosmetic specific: others ----------
 arvo.showcase-tv.com,getpaidstock.com,kazokuchannel.doorblog.jp,nandemo-uketori.com,sukupara.jp##ins.adsbygoogle
@@ -148,6 +151,7 @@ c-actress.com##.single-related-area
 c-actress.com##.singletop-widget
 carrozzeria-cdl.jp##.article-body > blockquote:has([href*="?PR="])
 carrozzeria-cdl.jp##p > [href*="?PR="] > img
+h7-game.com##.entry-content > div.wp-block-st-blocks-my-box
 ukemi-no-kiwami.work###pc_text-9
 ukemi-no-kiwami.work##.widget-below-related-entries
 ukemi-no-kiwami.work##.widget-below-single-content-title

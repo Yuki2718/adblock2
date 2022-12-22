@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20221218
+! Version: 20221222
 
 ! ---------- Ads general ----------
 /^https:\/\/[-a-z]{8,15}\.(?:com|net)\/500\/\d{7}\?/$xmlhttprequest,third-party
@@ -60,20 +60,13 @@
 ##.adde_modal-overlay
 ##div[style^="z-index: 999999; background-image: url(\"data:image/gif;base64,"][style$="position: absolute;"]
 
-#$#.div-gpt-ad { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
-~anydebrid.com,~colonist.io,~ff14angler.com,~downloads.descendant.me,~hotdebrid.com,~html5.gamedistribution.com,~paraphraser.io,~sekai-kabuka.com,~tamrieltradecentre.com,~teemo.gg,~xtremestream.co#$#ins.adsbygoogle { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
-#$#[class^="div-gpt-ad"] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
-#$#[id^="div-gpt-ad"] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
-#$#div[id^="div-gpt-"]:not([id^="div-gpt-ad"]) { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
+#$#div[class*="ad"][style="width: 1px; height: 1px; position: absolute; left: -10000px; top: -10000px; z-index: -10000;"] { display: block !important; }
 
 ! ---------- Cosmetic specific ----------
-kabutan.jp##div[id^="div-gpt-ad"]
 
 ! Exception: blocking
-@@||fundingchoicesmessages.google.com^$script,domain=adshnk.com|bbc.com|downloads.descendant.me|rocketnews24.com|soranews24.com|stooq.com|stooq.pl|youpouch.com
 
 ! Exception: cosmetic
-dropgalaxy.com,kabutan.jp,rocketnews24.com,saitama-np.co.jp,soranews24.com,youpouch.com#@$#[id^="div-gpt-ad"] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
 
 ! Anti anti-adb
 /ads-prebid.js$script,redirect-rule=prebid-ads
@@ -87,7 +80,6 @@ dropgalaxy.com,kabutan.jp,rocketnews24.com,saitama-np.co.jp,soranews24.com,youpo
 ||coinzillatag.com^$script,redirect=noopjs
 ||doubleclick.net/tag/js/gpt.js$~xmlhttprequest,redirect=googletagservices-gpt
 ||doubleclick.net^$xmlhttprequest,redirect=nooptext,domain=~d3ward.github.io
-||fundingchoicesmessages.google.com^$third-party
 ||media.net/dmedianet.js$redirect=noopjs
 ||nessainy.net/favicon.ico$image,redirect=32x32-transparent.png
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect=googlesyndication-adsbygoogle
@@ -118,11 +110,6 @@ dropgalaxy.com,kabutan.jp,rocketnews24.com,saitama-np.co.jp,soranews24.com,youpo
 #@#.ad-placeholder
 #@#.ad-placement
 #@#.ad-refresh
-#@#.div-gpt-ad
-#@#div[class^="div-gpt-ad"]
-#@#div[id^="div-gpt-"]
-#@#[class^="div-gpt-ad"]
-#@#[id^="div-gpt-ad"]
 kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -4000px !important; }
 
 ! ---------- Scam & Redirect ----------

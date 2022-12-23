@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20221221
+! Version: 20221224
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -86,6 +86,7 @@ twicolle-plus.com##.ad-bnr
 tver.jp##.ad-section
 !#if env_mobile
 4gamer.net,smhn.info##.top_ad
+appbank.net##.banner-ad
 chikakb.ldblog.jp##.sp_ad
 cinema.ne.jp,jma.go.jp,novelup.plus##.ad-sp
 digle.tokyo###taboola-below-article-thumbnails

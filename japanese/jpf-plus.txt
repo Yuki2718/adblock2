@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20221221
+! Version: 20221224
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -105,6 +105,7 @@ _300_250_
 act-amuse-japan.co.jp##div[class^="bgd-ads"]
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="//ck.jp."])
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="https://www.amazon.co.jp/gp/"])
+days366.com##div[class^="days366_"]
 dmlab.jp###sponsorsNav
 english.mag2.com###text-4 a:not([href="http://www.mag2.com/"])
 fnf.seesaa.net##.module--free:not(.side--right > section:first-child)

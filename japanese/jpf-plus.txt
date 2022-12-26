@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20221224
+! Version: 20221227
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -103,6 +103,7 @@ _300_250_
 ! ---------- Cosmetic specific: too few visitors ----------
 55years-phone-games.com##.mainbox .widget_st_custom_html_widget
 act-amuse-japan.co.jp##div[class^="bgd-ads"]
+archlinux.site##.entry-content > div > .adsbygoogle:upward(1)
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="//ck.jp."])
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="https://www.amazon.co.jp/gp/"])
 days366.com##div[class^="days366_"]
@@ -126,6 +127,8 @@ kujoyugo.com##.booklink-box
 kujoyugo.com##.widget-below-related-entries
 lper.info##.wpa
 malanka.tech###modal-overlay
+mamana.jp##.entry-content > .add
+mamana.jp##article > div.widget_custom_html:first-child
 number-pedia.com##.widget:has(> div > .adsbygoogle)
 parudou5.com##.kijibu > .hanyouwaku1
 salary-saver.com##.ani:has(> .widget_tsnc_ads_custom_html)
@@ -138,6 +141,8 @@ webmake.info###text-7
 ! Mobile
 graoda.blog.fc2.com###gailing02
 graoda.blog.fc2.com##.thum_pic
+lark-scent.com###modal-content
+lark-scent.com###modal-overlay
 pawakichi.xyz##.plugin-ad
 
 ! ---------- Cosmetic specific: others ----------

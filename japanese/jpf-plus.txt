@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20221227
+! Version: 20221230
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -190,13 +190,13 @@ anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,
 ||ads-twitter.com/uwt.js$xmlhttprequest,third-party,redirect=nooptext
 ||doubleclick.net/favicon.ico$image,redirect=32x32.png
 ||google-analytics.com/analytics.js$redirect=google-analytics_analytics.js
+! Incompatible with MV3
+/300x250.$imageredirect-rule=1x1.gif
+/player/stats.php?$image,1p,redirect-rule=1x1.gif
+/popunder_$script,redirect-rule=noopjs
 
 ! ---------- Exception: for default lists ----------
 #@#.adsbygoogle
-
-! Incompatible with MV3
-/player/stats.php?$image,1p,redirect-rule=1x1.gif
-/popunder_$script,redirect-rule=noopjs
 
 ! ---------- Scam & Redirect ----------
 /?r=dir&zoneid=$all

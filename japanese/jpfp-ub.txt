@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20221228
+! Version: 20221230
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -68,6 +68,7 @@ cartoonnetwork.jp,dmlab.jp,i2chmeijin.blog.fc2.com,his-vacation.com,magnet-novel
 cnet.com##.right-ad-block
 cnn.co.jp###ad-large-header
 cnn.co.jp,japan.zdnet.com##.ad-txt
+coinpost.jp##.googlead
 costcotuu.com##.ads1
 costcotuu.com##.ads_footer
 diamond.jp##.gpt-ad
@@ -77,6 +78,7 @@ futabanet.jp,president.jp##.ad-rectangle
 gizmodo.com###leftrail_dynamic_ad_wrapper
 gizmodo.com##.ad-left-top
 gizmodo.com##.ad-top-banner
+gizmodo.jp##.p-post-ad
 gq.com,gqjapan.jp,vogue.com,wired.jp##.ad--mid-content
 gq.com,gqjapan.jp,vogue.com,wired.jp##.ad-stickyhero
 gq.com,gqjapan.jp,vogue.com,wired.jp##.full-bleed-ad

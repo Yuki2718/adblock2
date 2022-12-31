@@ -2,13 +2,15 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20221230
+! Version: 20230101
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
+/^https:\/\/[a-z]{10,14}\.casa\/tsk\/[\*_0-9a-zA-Z]{600,}$/$image,3p
 /^https:\/\/[a-z]{10,14}\.casa\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
 /^https:\/\/[a-z]{10,14}\.com\/(?=[%=\?_0-9a-zA-Z]*\*)(?=[%\*=\?_a-zA-Z]*\d)(?=[%\*=\?_0-9a-z]*[A-Z])[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p,domain=~edu|~gov|~jp
 /^https:\/\/[a-z]{10,14}\.fun\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
+/^https:\/\/[a-z]{10,14}\.website\/tsk\/[\*_0-9a-zA-Z]{600,}$/$image,3p
 /^https:\/\/[a-z]{8,15}\.com\/beta\/\d{3,4}$/$xhr,3p
 /^https:\/\/[a-z]{8,15}\.com\/gamma\/\d{3,4}$/$xhr,3p
 /^https:\/\/[a-z]{8,15}\.com\/omega\/\d{3,4}$/$xhr,3p
@@ -18,6 +20,8 @@
 /^https?:\/\/[a-z]{7,16}\.buzz\/(?=[+\/a-zA-Z]*\d)(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{400,}$/$frame,popup,3p,match-case
 /^https?:\/\/[a-z]{7,16}\.com?\/(?=[+\/a-zA-Z]*\d)(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{140,}$/$image,ping,3p,match-case,domain=~edu|~gov|~jp
 /^https?:\/\/[a-z]{7,16}\.com?\/(?=[+\/a-zA-Z]*\d)(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{400,}$/$frame,popup,3p,match-case,domain=~edu|~gov|~jp
+/^https?:\/\/[a-z]{7,16}\.info\/(?=[+\/a-zA-Z]*\d)(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{140,}$/$image,ping,3p,match-case
+/^https?:\/\/[a-z]{7,16}\.info\/(?=[+\/a-zA-Z]*\d)(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{400,}$/$frame,popup,3p,match-case
 /^https?:\/\/[a-z]{7,16}\.lol\/(?=[+\/a-zA-Z]*\d)(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{140,}$/$image,ping,3p,match-case
 /^https?:\/\/[a-z]{7,16}\.lol\/(?=[+\/a-zA-Z]*\d)(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{400,}$/$frame,popup,3p,match-case
 /^https?:\/\/[a-z]{7,16}\.one\/(?=[+\/a-zA-Z]*\d)(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{140,}$/$image,ping,3p,match-case
@@ -46,13 +50,12 @@
 !#endif
 
 ! ---------- Cosmetic specific ----------
-facebook.com##div[role="complementary"] div:not([class]):not([id]) > span:not([class]):not([id]):not([aria-labelledby])
-facebook.com##div[role="region"] + div[role="main"] div[role="article"] div[style="border-radius: max(0px, min(8px, ((100vw - 4px) - 100%) * 9999)) / 8px;"] > div[class]:not([class*=" "])
 
 ! ---------- Cosmetic specific - Ignore generic ----------
 25news.jp,cantera.camp,futsal-design.jp,happyell.com,lacrosse-plus.net,mamagirl.jp,mlb.com##.p-ad
 2ch-matomenews.com###float-bnr
 5chmap.com,9db.jp,blog.jp,gamewith.jp,googirl.jp,h1g.jp###gStickyAd
+alc.co.jp##.header-ad
 arstechnica.com##.ad_wrapper
 arstechnica.com##.ad_xrail_top
 article.auone.jp,muragon.com##.rectangle-ad

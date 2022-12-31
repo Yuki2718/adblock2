@@ -78,6 +78,7 @@ _300_250_
 
 ! ---------- Ads specific: too few visitors ----------
 ! maybe exclude in MV3 in future
+||blog-sokuhou.com/suma-img/kjk/lpimg/pcv1/bn01.jpg
 ||gameland.ifdef.jp/pr-menu.html
 ||m.media-amazon.com/images/I/$domain=graoda.blog.fc2.com
 ||ssl-images-amazon.com/images/I/$domain=graoda.blog.fc2.com
@@ -105,6 +106,8 @@ _300_250_
 55years-phone-games.com##.mainbox .widget_st_custom_html_widget
 act-amuse-japan.co.jp##div[class^="bgd-ads"]
 archlinux.site##.entry-content > div > .adsbygoogle:upward(1)
+axia-hakusan.com###menu > .rightmenu > .rmenutitle:hs-text(超爆安ねじ一覧):upward(2)
+axia-hakusan.com###menu:last-child:has(img[src$="/bana.jpg"])
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="//ck.jp."])
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="https://www.amazon.co.jp/gp/"])
 days366.com##div[class^="days366_"]

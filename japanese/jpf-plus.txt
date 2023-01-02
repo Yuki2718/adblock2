@@ -43,7 +43,6 @@
 /ceef/gdt3g0/tbt/*$xmlhttprequest,third-party
 /code/pops.js?h=
 /cuid/?f=https%$xmlhttprequest,third-party
-/drh.hh?$subdocument
 /fp-interstitial.js
 /frms/NTV$subdocument,~third-party
 /player/html.php?aid=start_html&*&referer=$subdocument,~third-party

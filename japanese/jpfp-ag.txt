@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230101
+! Version: 20230106
 
 ! ---------- Ads general ----------
 /^https:\/\/[-a-z]{8,15}\.(?:com|net)\/500\/\d{7}\?/$xmlhttprequest,third-party
@@ -124,7 +124,8 @@ kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -
 /zcvisitor/*?campaignid$document
 ?bid=0.*&search_referrer_domain=$document
 ^apb=*&ata=mobilemdots^$document
-^cep=*&lptoken=$document
+^cep=*&s1=$document
+^cep=*&zoneid=$document
 ! Incompatible with MV3
 /^https:\/\/(?:www\d\.)?[-a-z]{6,}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}\/\?[cs]id=[-_0-9a-zA-Z]{16,36}(?:&qs\d=\S+)?&[cs]id=[_0-9a-f]{1,32}$/$document,match-case
 /^https?:\/\/((?!www)[a-z]{3,}|\d{2})?\.?[-0-9a-z]{6,}\.(?:buzz|com|de|fun|guru|info|li[fv]e|mobi|online|pw|site|space|top|us|xyz)\/(?:[a-z]{6,8}\/)?\/?\?[ou]=[0-9a-z]{7}&[ou]=[0-9a-z]{7}/$document,subdocument,match-case

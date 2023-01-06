@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230106
+! Version: 20230107
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -142,6 +142,7 @@ number-pedia.com##.widget:has(> div > .adsbygoogle)
 ocsoku.com###right-box > .plugin-memo:first-child
 ocsoku.com###right-box > .plugin-memo:last-of-type
 parudou5.com##.kijibu > .hanyouwaku1
+phpjavascriptroom.com##.gads
 salary-saver.com##.ani:has(> .widget_tsnc_ads_custom_html)
 solohiker2020.com##div[id^="soloh-"]
 ssbsblg.blogspot.com##.btmads

@@ -19,9 +19,11 @@
 /960x120.gif|$image,third-party,domain=~edu|~gov|~jp
 /960X60.gif|$image,third-party,domain=~edu|~gov|~jp
 /?request_ab2=*zoneid=$xmlhttprequest,third-party
+/jss/external_pop.js?$~third-party
 /script/intrf.js|$third-party
 /script/ippg.js|$third-party
 /script/suv4r.js|$third-party
+/sweetie/hello.min.js?id=$script,third-party
 /\/assets\/jquery\/jquery-\d\.\d\.(?:\d\.)?min\.js\?(?:v=2)?&?type=(?:adult|mainstream)$/$script,~third-party
 /\/wp-content\/uploads\/[a-z]{6,9}\.js(?:\?ver=[.0-9]+|,qver=[.0-9]+\.pagespeed\..+\.js)$/$script,~third-party
 /\/wp-content\/uploads\/[a-zA-Z]{12}\/[a-zA-Z]{12}\.js(?:\?ver=[.0-9]+|,qver=[.0-9]+\.pagespeed\..+\.js)$/$script,~third-party
@@ -48,6 +50,8 @@
 /cuid/?f=https%$xmlhttprequest,third-party
 /fp-interstitial.js
 /frms/NTV$subdocument,~third-party
+/lvesnk.html?zoneid=
+/nativeads_v2/nativeads_v2_$script,~third-party
 /player/html.php?aid=start_html&*&referer=$subdocument,~third-party
 /player/html.php?aid=pause_html&*&referer=$subdocument,~third-party
 /player/html.php?aid=pre_roll_html&$subdocument,~third-party
@@ -61,6 +65,8 @@
 /utx?cb=$xmlhttprequest,third-party
 /utx?tid=$xmlhttprequest,third-party
 /vast/?zid=$xmlhttprequest,third-party
+/xuanfusige.js
+/_ad#str-$subdocument,~third-party
 ://a.*/loader?a=$subdocument,third-party
 ://ad.*.php?id=$script,~third-party
 ://creative.xxx*.com/widgets/$subdocument,third-party
@@ -84,6 +90,7 @@ _300_250_
 ||blog-sokuhou.com/suma-img/kjk/lpimg/pcv1/bn01.jpg
 ||gameland.ifdef.jp/pr-menu.html
 ||m.media-amazon.com/images/I/$domain=graoda.blog.fc2.com
+||rtec.co.jp/koukoku*$script,~third-party
 ||ssl-images-amazon.com/images/I/$domain=graoda.blog.fc2.com
 
 ! ---------- Ads specific (adult): too few visitors ----------

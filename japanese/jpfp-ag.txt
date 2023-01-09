@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230106
+! Version: 20230110
 
 ! ---------- Ads general ----------
 /^https:\/\/[-a-z]{8,15}\.(?:com|net)\/500\/\d{7}\?/$xmlhttprequest,third-party
@@ -22,6 +22,8 @@
 /wp-content/plugins/script-manager/assets/js/script-manager.js?
 ?oo=1^$xmlhttprequest,third-party
 ?zoneid=*&ab=1|$script,third-party
+! Incompatible with MV3
+/^https:\/\/[0-9a-z]{4,8}\.(?:autos|beauty|co|[lm]o[lm])\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,third-party,match-case
 
 ! ---------- Popup general ----------
 &key=*&adb=y$popup,third-party

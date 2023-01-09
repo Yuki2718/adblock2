@@ -2,9 +2,14 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230107
+! Version: 20230110
 
 ! ---------- Ads general ----------
+/^https:\/\/[0-9a-z]{4,8}\.autos\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,3p,match-case
+/^https:\/\/[0-9a-z]{4,8}\.beauty\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,3p,match-case
+/^https:\/\/[0-9a-z]{4,8}\.co\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,3p,match-case
+/^https:\/\/[0-9a-z]{4,8}\.lol\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,3p,match-case
+/^https:\/\/[0-9a-z]{4,8}\.mom\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,3p,match-case
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
 /^https:\/\/[a-z]{10,14}\.casa\/tsk\/[\*_0-9a-zA-Z]{600,}$/$image,3p
 /^https:\/\/[a-z]{10,14}\.casa\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p

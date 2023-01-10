@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230107
+! Version: 20230110
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -120,6 +120,8 @@ axia-hakusan.com###menu > .rightmenu > .rmenutitle:hs-text(超爆安ねじ一覧
 axia-hakusan.com###menu:last-child:has(img[src$="/bana.jpg"])
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="//ck.jp."])
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="https://www.amazon.co.jp/gp/"])
+cad-data.com###KkPcSideTu > nav + aside
+cad-data.com###topKokuchi
 days366.com##div[class^="days366_"]
 dmlab.jp###sponsorsNav
 english.mag2.com###text-4 a:not([href="http://www.mag2.com/"])
@@ -156,6 +158,7 @@ ssbsblg.blogspot.com##.btmads
 ssbsblg.blogspot.com##.sponserd
 twi55.com##.l-sidebar > .widget_custom_html
 twi55.com##.postCta
+twitter.macdrivelove.com###text1 > p > span.lbg[style="font-size:12px"]
 weblan3.com##.ad_ArticleTop
 webmake.info###text-7
 ! Mobile
@@ -203,7 +206,7 @@ anianierosuki.work##+js(nowoif)
 ! ---------- Exception: cosmetic ----------
 anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,hotdebrid.com,html5.gamedistribution.com,kantangame.com,model-viewer.com,paraphraser.io,play.aidungeon.io,sekai-kabuka.com,tamrieltradecentre.com,teemo.gg,xtremestream.co#@#ins.adsbygoogle:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
 
-! ---------- Anti anti-adb ----------
+! ---------- Anti anti-adb - general ----------
 @@/ads-prebid.js$script,~third-party
 @@||g.adspeed.net/ad.php?do=detectadblocker|$script
 @@||ganohr.net^$ghide
@@ -214,6 +217,10 @@ anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,
 /300x250.$image,redirect-rule=1x1.gif
 /player/stats.php?$image,1p,redirect-rule=1x1.gif
 /popunder_$script,redirect-rule=noopjs
+
+! ---------- Anti anti-adb - too few visitors ----------
+||b9dm.us/block-ads/
+cad-data.com#@#.adspace
 
 ! ---------- Exception: for default lists ----------
 #@#.adsbygoogle

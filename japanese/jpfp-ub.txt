@@ -98,6 +98,7 @@ kotaku.com##.ad-left-top
 kotaku.com##.ad-top-banner
 minitool.com##.page-bottom-fixed-ads
 minitool.com##.page-top-ads
+nishinippon.co.jp##.c-ad
 oricon.co.jp##.block-ads-yahoo
 pastebin.com##.adsbyvli
 sabatech.jp##.rectangle
@@ -117,9 +118,11 @@ chofucity.com,matomeantena.com###overlay_ad
 cinema.ne.jp,jma.go.jp,novelup.plus##.ad-sp
 digle.tokyo###taboola-below-article-thumbnails
 economical.co.jp###footer-ad
+gamespark.jp,reanimal.jp,s.animeanime.jp,s.carcareplus.jp,s.cinemacafe.net,s.cyclestyle.net,s.inside-games.jp,s.netsecurity.ne.jp,s.resemom.jp,s.response.jp,s.spyder7.com##.header-ad
 himanatokiniyaruo.com###float-bnr
 kidsna.com##.google-ads
 mantan-web.jp##.ad_text
+matomegamer.com##.rectangle_ad
 s.kakaku.com###headerAd
 sbapp.net##.ads_center
 telling.asahi.com##.p-ad

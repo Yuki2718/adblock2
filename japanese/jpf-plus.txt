@@ -171,7 +171,7 @@ pawakichi.xyz##.plugin-ad
 ! ---------- Cosmetic specific: others ----------
 arvo.showcase-tv.com,getpaidstock.com,kazokuchannel.doorblog.jp,nandemo-uketori.com,sukupara.jp##ins.adsbygoogle
 ! if piano is blocked
-bizspa.jp,esse-online.jp,kyobun.co.jp,tennenseikatsu.jp###tpModal
+bizspa.jp,digiday.jp,esse-online.jp,j-cast.com,joshi-spa.jp,kyobun.co.jp,nikkan-spa.jp,tennenseikatsu.jp###tpModal
 ! PH by this list
 oshiete.goo.ne.jp##.pr-unit
 ! Mobile

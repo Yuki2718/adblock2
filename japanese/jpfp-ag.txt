@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230110
+! Version: 20230113
 
 ! ---------- Ads general ----------
 /^https:\/\/[-a-z]{8,15}\.(?:com|net)\/500\/\d{7}\?/$xmlhttprequest,third-party
@@ -52,6 +52,7 @@
 ###banner468:not([style^="position: absolute; left: -5000px"])
 ###banner728x90:not([style^="position: absolute; left: -5000px"])
 ##.ad-300x250:not(.ads)
+~job.inshokuten.com##.ad-area:not(.text-ad)
 ##.ad-left:not(.adsbox)
 ##.ad-link:not(.adsbox)
 ##.ad-loading:not(.adsbox)
@@ -61,6 +62,7 @@
 ##.ad-refresh:not(.adsbox)
 ##.adde_modal_detector
 ##.adde_modal-overlay
+##.ads_container:not(.text-ad)
 ##div[style^="z-index: 999999; background-image: url(\"data:image/gif;base64,"][style$="position: absolute;"]
 
 #$#div[class*="ad" i][style="width: 1px; height: 1px; position: absolute; left: -10000px; top: -10000px; z-index: -10000;"] { display: block !important; }
@@ -106,6 +108,7 @@
 #@##banner468
 #@##banner728x90
 #@#.ad-300x250
+#@#.ad-area
 #@#.ad-left
 #@#.ad-link
 #@#.ad-loading
@@ -113,6 +116,7 @@
 #@#.ad-placeholder
 #@#.ad-placement
 #@#.ad-refresh
+#@#.ads_container
 kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -4000px !important; }
 
 ! ---------- Scam & Redirect ----------

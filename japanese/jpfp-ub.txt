@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230111
+! Version: 20230116
 
 ! ---------- Ads general ----------
 /^https:\/\/[0-9a-z]{4,8}\.autos\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,3p,match-case
@@ -64,6 +64,7 @@ alc.co.jp##.header-ad
 arstechnica.com##.ad_wrapper
 arstechnica.com##.ad_xrail_top
 article.auone.jp,muragon.com##.rectangle-ad
+av01.tv###tile-ad
 basketball-zine.com##.top-ad
 beauty.oricon.co.jp##.Billboard-ad
 bg-mania.jp,j-cast.com,smartlog.jp,space.com##.adunit
@@ -73,6 +74,7 @@ buzzfeed.com##.Ad--loading
 buzzfeed.com##.ad-inline
 buzzfeed.com##.js-ad
 cartoonnetwork.jp,dmlab.jp,i2chmeijin.blog.fc2.com,his-vacation.com,magnet-novels.com,twitis.me##.adBox
+cined.com###header-ads
 cnet.com##.right-ad-block
 cnn.co.jp###ad-large-header
 cnn.co.jp,japan.zdnet.com##.ad-txt
@@ -98,6 +100,8 @@ kotaku.com##.ad-left-top
 kotaku.com##.ad-top-banner
 minitool.com##.page-bottom-fixed-ads
 minitool.com##.page-top-ads
+nicovideo.jp###footer-ad
+nicovideo.jp###middle-ad
 nishinippon.co.jp##.c-ad
 oricon.co.jp##.block-ads-yahoo
 pastebin.com##.adsbyvli

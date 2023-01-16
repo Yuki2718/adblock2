@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230116
+! Version: 20230117
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -226,6 +226,7 @@ anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,
 
 ! ---------- Anti anti-adb - too few visitors ----------
 ||b9dm.us/block-ads/
+||b9good.us/block-ads/
 cad-data.com#@#.adspace
 
 ! ---------- Exception: for default lists ----------

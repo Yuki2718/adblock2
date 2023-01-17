@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230116
+! Version: 20230117
 
 ! ---------- Ads general ----------
 /^https:\/\/[0-9a-z]{4,8}\.autos\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,3p,match-case
@@ -75,6 +75,10 @@ buzzfeed.com##.ad-inline
 buzzfeed.com##.js-ad
 cartoonnetwork.jp,dmlab.jp,i2chmeijin.blog.fc2.com,his-vacation.com,magnet-novels.com,twitis.me##.adBox
 cined.com###header-ads
+cined.com###right-widget-b-ads_widget-26
+cined.com###right-widget-c-ads_widget-24
+cined.com###right-widget-d-ads_widget-37
+cined.com###right-widget-top-ads_widget-21
 cnet.com##.right-ad-block
 cnn.co.jp###ad-large-header
 cnn.co.jp,japan.zdnet.com##.ad-txt
@@ -82,6 +86,7 @@ coinpost.jp##.googlead
 costcotuu.com##.ads1
 costcotuu.com##.ads_footer
 diamond.jp##.gpt-ad
+duhoctrungquoc.vn###ads_inline_z
 favolog.org###ad-box1
 futabanet.jp##.ad-billboard
 futabanet.jp,president.jp##.ad-rectangle
@@ -127,6 +132,7 @@ himanatokiniyaruo.com###float-bnr
 kidsna.com##.google-ads
 mantan-web.jp##.ad_text
 matomegamer.com##.rectangle_ad
+pixiv.net###ad-footer
 s.kakaku.com###headerAd
 sbapp.net##.ads_center
 telling.asahi.com##.p-ad

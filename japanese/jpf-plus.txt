@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230117
+! Version: 20230118
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -194,6 +194,9 @@ ukemi-no-kiwami.work##.widget_block
 
 ! ---------- Cosmetic specific: popular in Japan ----------
 anitube.biz##ins[style*="width:300px"]
+
+! ---------- Cosmetic specific: too obtrusive annoyances ----------
+slideshare.net###scribd-ad-exit-modal
 
 ! ---------- CSS ----------
 *##ins.adsbygoogle:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)

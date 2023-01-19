@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230117
+! Version: 20230119
 
 ! ---------- Ads general ----------
 /^https:\/\/[0-9a-z]{4,8}\.autos\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,3p,match-case
@@ -122,6 +122,7 @@ tver.jp##.ad-section
 4gamer.net,smhn.info##.top_ad
 allabout.co.jp##.ad-bnr
 appbank.net##.banner-ad
+app-liv.jp##.ad-area
 chikakb.ldblog.jp##.sp_ad
 chofucity.com,matomeantena.com###overlay_ad
 cinema.ne.jp,jma.go.jp,novelup.plus##.ad-sp

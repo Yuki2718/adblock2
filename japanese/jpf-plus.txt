@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230118
+! Version: 20230119
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -128,7 +128,6 @@ english.mag2.com###text-4 a:not([href="http://www.mag2.com/"])
 fnf.seesaa.net##.module--free:not(.side--right > section:first-child)
 fortune.auone.jp##.adsense
 fugaofftime.com##.entry-content > p > span[style="color: #999999; font-size: 12px;"]
-ganohr.net###gnr-modal
 graoda.blog.fc2.com###sidebar_r > table[style="table-layout: fixed;"]
 graoda.blog.fc2.com##.ad > table[style="table-layout: fixed;"]
 graoda.blog.fc2.com##div[id^="AmazonLINK"]
@@ -172,7 +171,7 @@ pawakichi.xyz##.plugin-ad
 ! ---------- Cosmetic specific: others ----------
 arvo.showcase-tv.com,getpaidstock.com,kazokuchannel.doorblog.jp,nandemo-uketori.com,sukupara.jp##ins.adsbygoogle
 ! if piano is blocked
-bizspa.jp,digiday.jp,esse-online.jp,j-cast.com,joshi-spa.jp,kyobun.co.jp,nikkan-spa.jp,tennenseikatsu.jp###tpModal
+bizspa.jp,digiday.jp,esse-online.jp,j-cast.com,joshi-spa.jp,kyobun.co.jp,my-golfdigest.jp,nikkan-spa.jp,tennenseikatsu.jp###tpModal
 ! PH by this list
 oshiete.goo.ne.jp##.pr-unit
 ! Mobile
@@ -218,7 +217,6 @@ anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,
 ! ---------- Anti anti-adb - general ----------
 @@/ads-prebid.js$script,~third-party
 @@||g.adspeed.net/ad.php?do=detectadblocker|$script
-@@||ganohr.net^$ghide
 ||ads-twitter.com/uwt.js$xmlhttprequest,third-party,redirect=nooptext
 ||doubleclick.net/favicon.ico$image,redirect=32x32.png
 ||google-analytics.com/analytics.js$redirect=google-analytics_analytics.js
@@ -231,6 +229,8 @@ anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,
 ||b9dm.us/block-ads/
 ||b9good.us/block-ads/
 cad-data.com#@#.adspace
+pc-plaza.com##+js(acs, jQuery, DHAntiAdBlocker)
+pc-plaza.com##.jconfirm
 
 ! ---------- Exception: for default lists ----------
 #@#.adsbygoogle

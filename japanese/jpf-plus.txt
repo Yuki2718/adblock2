@@ -124,9 +124,12 @@ cad-data.com###KkPcSideTu > nav + aside
 cad-data.com###topKokuchi
 days366.com##div[class^="days366_"]
 dmlab.jp###sponsorsNav
+doorblog.jp,heypo.net###meerkat-contents
 english.mag2.com###text-4 a:not([href="http://www.mag2.com/"])
 fnf.seesaa.net##.module--free:not(.side--right > section:first-child)
 fortune.auone.jp##.adsense
+freak-da.hatenablog.com###bottom-editarea
+freak-da.hatenablog.com##.entry-footer-html
 fugaofftime.com##.entry-content > p > span[style="color: #999999; font-size: 12px;"]
 graoda.blog.fc2.com###sidebar_r > table[style="table-layout: fixed;"]
 graoda.blog.fc2.com##.ad > table[style="table-layout: fixed;"]

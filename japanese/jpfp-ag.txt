@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230113
+! Version: 20230120
 
 ! ---------- Ads general ----------
 /^https:\/\/[-a-z]{8,15}\.(?:com|net)\/500\/\d{7}\?/$xmlhttprequest,third-party
@@ -73,7 +73,7 @@
 
 ! Exception: cosmetic
 
-! Anti anti-adb
+! ---------- Anti anti-adb - general ----------
 /ads-prebid.js$script,redirect-rule=prebid-ads
 /prebid-add.js$script,redirect-rule=prebid-ads
 /prebid-ads.js$script,redirect-rule=prebid-ads,domain=~exey.io
@@ -87,6 +87,7 @@
 ||doubleclick.net^$xmlhttprequest,redirect=nooptext,domain=~d3ward.github.io
 ||media.net/dmedianet.js$redirect=noopjs
 ||nessainy.net/favicon.ico$image,redirect=32x32-transparent.png
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule=googlesyndication-adsbygoogle,domain=~zipextractor.app
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect=googlesyndication-adsbygoogle
 
 #@##ad_300

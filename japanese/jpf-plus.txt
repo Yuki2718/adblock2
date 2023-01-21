@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230119
+! Version: 20230121
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -113,6 +113,10 @@ _300_250_
 ##iframe[style*="opacity: 1 !important; max-width:"][style*="position: fixed !important; display: block !important; z-index: 2147483647 !important; inset:"]
 
 ! ---------- Cosmetic specific: too few visitors ----------
+3dyasan.com###custom_html-11
+3dyasan.com###custom_html-12
+3dyasan.com##.custom-html-widget > font[size="3"]
+3dyasan.com##.entry__content > font[size="3"]
 55years-phone-games.com##.mainbox .widget_st_custom_html_widget
 act-amuse-japan.co.jp##div[class^="bgd-ads"]
 archlinux.site##.entry-content > div > .adsbygoogle:upward(1)

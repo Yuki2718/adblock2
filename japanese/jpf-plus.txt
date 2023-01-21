@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230121
+! Version: 20230122
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -238,6 +238,9 @@ anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,
 cad-data.com#@#.adspace
 pc-plaza.com##+js(acs, jQuery, DHAntiAdBlocker)
 pc-plaza.com##.jconfirm
+
+! ---------- Anti anti-adb - other ----------
+@@||afreecatv.com/asset/service/ad/check_ad.js$~third-party
 
 ! ---------- Exception: for default lists ----------
 #@#.adsbygoogle

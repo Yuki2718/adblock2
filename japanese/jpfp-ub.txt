@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230119
+! Version: 20230122
 
 ! ---------- Ads general ----------
 /^https:\/\/[0-9a-z]{4,8}\.autos\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,3p,match-case
@@ -110,6 +110,7 @@ nicovideo.jp###middle-ad
 nishinippon.co.jp##.c-ad
 oricon.co.jp##.block-ads-yahoo
 pastebin.com##.adsbyvli
+qiita.com##div[id^="dfp-slot-"]
 sabatech.jp##.rectangle
 sabatech.jp##.widget_fit_aditem_class
 t-dilemma.info##.ad-space

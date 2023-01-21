@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230121
+! Version: 20230122
 
 ! ---------- Ads general ----------
 /^https:\/\/[-a-z]{8,15}\.(?:com|net)\/500\/\d{7}\?/$xmlhttprequest,third-party
@@ -87,8 +87,8 @@
 ||doubleclick.net^$xmlhttprequest,redirect=nooptext,domain=~d3ward.github.io
 ||media.net/dmedianet.js$redirect=noopjs
 ||nessainy.net/favicon.ico$image,redirect=32x32-transparent.png
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=~amachamusic.chagasi.com|~heim.jp|~leechpremium.net|~zipextractor.app
-||pagead2.googlesyndication.com^$xmlhttprequest,redirect=googlesyndication-adsbygoogle
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,redirect=googlesyndication-adsbygoogle,domain=~amachamusic.chagasi.com|~heim.jp|~leechpremium.net|~zipextractor.app
+||pagead2.googlesyndication.com/|$xmlhttprequest,redirect=noopjs
 
 #@##ad_300
 #@##ad_728

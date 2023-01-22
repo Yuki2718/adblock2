@@ -122,6 +122,7 @@ act-amuse-japan.co.jp##div[class^="bgd-ads"]
 archlinux.site##.entry-content > div > .adsbygoogle:upward(1)
 axia-hakusan.com###menu > .rightmenu > .rmenutitle:hs-text(超爆安ねじ一覧):upward(2)
 axia-hakusan.com###menu:last-child:has(img[src$="/bana.jpg"])
+blogmimi.com,legend-anime.com##div[style^="float:none;margin:"]
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="//ck.jp."])
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="https://www.amazon.co.jp/gp/"])
 cad-data.com###KkPcSideTu > nav + aside

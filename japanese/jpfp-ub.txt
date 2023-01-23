@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230122
+! Version: 20230124
 
 ! ---------- Ads general ----------
 /^https:\/\/[0-9a-z]{4,8}\.autos\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,3p,match-case
@@ -85,8 +85,10 @@ cnn.co.jp,japan.zdnet.com##.ad-txt
 coinpost.jp##.googlead
 costcotuu.com##.ads1
 costcotuu.com##.ads_footer
+denpa-labo.com,doujineromanga-collection.com,doujinparadise.com,ero-doujin.info,eromanga001.com,eromanganote.com,eromash.com,hentai-books.com,nijigen-daiaru.com,offudoujin.com##.advrbox
 diamond.jp##.gpt-ad
 duhoctrungquoc.vn###ads_inline_z
+eromanga-school.com##.ad-top
 favolog.org###ad-box1
 futabanet.jp##.ad-billboard
 futabanet.jp,president.jp##.ad-rectangle

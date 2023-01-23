@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230122
+! Version: 20230124
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -130,6 +130,7 @@ cad-data.com###topKokuchi
 days366.com##div[class^="days366_"]
 dmlab.jp###sponsorsNav
 doorblog.jp,heypo.net###meerkat-contents
+dotpict.net#?#div[id^="ads"]:upward(1)
 english.mag2.com###text-4 a:not([href="http://www.mag2.com/"])
 fnf.seesaa.net##.module--free:not(.side--right > section:first-child)
 fortune.auone.jp##.adsense

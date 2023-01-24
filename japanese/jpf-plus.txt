@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230124
+! Version: 20230125
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -159,6 +159,7 @@ number-pedia.com##.widget:has(> div > .adsbygoogle)
 ocsoku.com###right-box > .plugin-memo:first-child
 ocsoku.com###right-box > .plugin-memo:last-of-type
 parudou5.com##.kijibu > .hanyouwaku1
+pfch.blog.jp##.right-container > .plugin-popular_articles_with_image ~ .plugin-memo
 phpjavascriptroom.com##.gads
 solarjournal.jp###pchdright
 salary-saver.com##.ani:has(> .widget_tsnc_ads_custom_html)
@@ -170,6 +171,7 @@ twi55.com##.postCta
 twitter.macdrivelove.com###text1 > p > span.lbg[style="font-size:12px"]
 weblan3.com##.ad_ArticleTop
 webmake.info###text-7
+xn--zckm5bnq2mpa6a1fz490bkx4ayzmvi9g.com###text-21
 ! Mobile
 graoda.blog.fc2.com###gailing02
 graoda.blog.fc2.com##.thum_pic

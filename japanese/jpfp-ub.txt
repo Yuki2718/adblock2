@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230125
+! Version: 20230126
 
 ! ---------- Ads general ----------
 /^https:\/\/[0-9a-z]{4,8}\.autos\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,3p,match-case
@@ -109,6 +109,7 @@ kotaku.com##.ad-left-top
 kotaku.com##.ad-top-banner
 minitool.com##.page-bottom-fixed-ads
 minitool.com##.page-top-ads
+nbcnews.com##.ad-container
 nicovideo.jp###footer-ad
 nicovideo.jp###middle-ad
 nishinippon.co.jp##.c-ad

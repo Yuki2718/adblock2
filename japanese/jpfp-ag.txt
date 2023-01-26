@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230122
+! Version: 20230127
 
 ! ---------- Ads general ----------
 /^https:\/\/[-a-z]{8,15}\.(?:com|net)\/500\/\d{7}\?/$xmlhttprequest,third-party
@@ -89,6 +89,8 @@
 ||nessainy.net/favicon.ico$image,redirect=32x32-transparent.png
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,redirect=googlesyndication-adsbygoogle,domain=~amachamusic.chagasi.com|~heim.jp|~leechpremium.net|~zipextractor.app
 ||pagead2.googlesyndication.com/|$xmlhttprequest,redirect=noopjs
+!Incimpatible with MV3
+||googletagmanager.com/gtag/js$script,xmlhttprequest,redirect-rule=googletagmanager-gtm,domain=~myshows.me|~xeroshoes.com
 
 #@##ad_300
 #@##ad_728
@@ -121,18 +123,39 @@
 kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -4000px !important; }
 
 ! ---------- Scam & Redirect ----------
+&dci=*&tds_campaign=$document
+.com/away.php^$document
 /\/[0-9a-z]{8,10}\?shu=[0-9a-z]{150,}/$document
 /^https?:\/\/[-0-9a-z]{5,}\.com\/[0-9a-z]{8,10}\?key=[0-9a-f]{32}$/$subdocument,third-party
 /_dating\d\/index\.html\?aref=/$document
+/?cid=*&dom=$document
+/?clck=*&sid=$document
+/?pl=*&sm=$document
+/?s1=*&click_id=$document
+/?type=*&button=2&clickid=$document
+/aff.php?*&data2=$document
+/click.php?key=*&cpc=0&$document
 /click?pid=*&sub1=$document
 /click?pid=*&sub1=$popup,third-party
 /index.php?uid=*&code=ad^$document
+/tds/ae?*&clickid=$document
 /tds/ae?tds_campaign=$document
+/werrx01/?$document
 /zcvisitor/*?campaignid$document
 ?bid=0.*&search_referrer_domain=$document
+?brand=*&fingerprint_=$document
+?brand=*&model=*&clickid=$document
+://0.*.biz/?p=$document
 ^apb=*&ata=mobilemdots^$document
 ^cep=*&s1=$document
 ^cep=*&zoneid=$document
+^device_model=*&p1=https$document
+^lpkey=*&uclickhash=$document
+^phone=050-$document
+^s=*&ssk=*&svar=*&z=$document
+||37.1.213.100^
+||5.61.55.143^
 ! Incompatible with MV3
-/^https:\/\/(?:www\d\.)?[-a-z]{6,}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}\/\?[cs]id=[-_0-9a-zA-Z]{16,36}(?:&qs\d=\S+)?&[cs]id=[_0-9a-f]{1,32}$/$document,match-case
-/^https?:\/\/((?!www)[a-z]+|\d{2,4})?\.?[-0-9a-z]{6,}\.(?:buzz|com|de|fun|guru|info|li[fv]e|mobi|online|pw|site|space|top|us|xyz)\/(?:[0-9a-z]{6,8}\/)?\/?\?[ou]=[0-9a-z]{7}&[ou]=[0-9a-z]{7}/$document,subdocument,match-case
+/^https:\/\/(?:www\d\.)?[-a-z]{6,}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}\/\?cid=[-_0-9a-zA-Z]{10,36}(?:&qs\d=\S+)?&sid=[_0-9a-f]{1,32}(?:&s=0\.\d+)?$/$document,match-case,domain=com|info|net|org
+/^https:\/\/(?:www\d\.)?[-a-z]{6,}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}\/\?sid=[_0-9a-f]{1,32}(?:&qs\d=\S+)?&cid=[-_0-9a-zA-Z]{10,36}(?:&s=0\.\d+)?$/$document,match-case,domain=com|info|net|org
+/^https?:\/\/((?!www)[a-z]+|\d{2,4})?\.?[-0-9a-z]{5,}\.[a-z]{2,6}\/(?:[0-9a-z]{6,8}\/)?\/?\?[ou]=[0-9a-z]{7}&[ou]=[0-9a-z]{7}/$document,subdocument,match-case,domain=buzz|com|de|fun|guru|info|life|live|mobi|online|pw|site|skin|space|top|us|xyz

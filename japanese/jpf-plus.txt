@@ -199,7 +199,7 @@ c-actress.com##.singletop-widget
 carrozzeria-cdl.jp##.article-body > blockquote:has([href*="?PR="])
 carrozzeria-cdl.jp##p > [href*="?PR="] > img
 fuzokuinfo.com##tr[bgcolor="#ffffff"] > td[colspan="2"] > hr + br
-fuzokuinfo.com##tr[bgcolor="#ffffff"] > td[colspan="2"] > hr:has(+  br)
+fuzokuinfo.com##tr[bgcolor="#ffffff"] > td[colspan="2"] > hr:has(+ br)
 h7-game.com##.entry-content > div.wp-block-st-blocks-my-box
 ukemi-no-kiwami.work###pc_text-9
 ukemi-no-kiwami.work##.widget-below-related-entries

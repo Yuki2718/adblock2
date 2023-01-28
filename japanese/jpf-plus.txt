@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230127
+! Version: 20230128
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -192,6 +192,7 @@ oshiete.goo.ne.jp##.pr-unit
 onepiece-akumanomi.com##div.adsbygoogle
 
 ! ---------- Cosmetic specific (adult): too few visitors ----------
+1201914.com###pc_text-21
 anianierosuki.work##div[id^="sidebar"]
 c-actress.com###block-9
 c-actress.com##.single-related-area

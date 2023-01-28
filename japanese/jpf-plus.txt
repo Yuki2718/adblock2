@@ -202,7 +202,6 @@ carrozzeria-cdl.jp##p > [href*="?PR="] > img
 fuzokuinfo.com##tr[bgcolor="#ffffff"] > td[colspan="2"] > hr + br
 fuzokuinfo.com##tr[bgcolor="#ffffff"] > td[colspan="2"] > hr:has(+ br)
 h7-game.com##.entry-content > div.wp-block-st-blocks-my-box
-missav.com##.banner-300
 ukemi-no-kiwami.work###pc_text-9
 ukemi-no-kiwami.work##.widget-below-related-entries
 ukemi-no-kiwami.work##.widget-below-single-content-title

@@ -110,6 +110,7 @@ kotaku.com##.ad-left-top
 kotaku.com##.ad-top-banner
 minitool.com##.page-bottom-fixed-ads
 minitool.com##.page-top-ads
+missav.com##.banner-300
 nbcnews.com##.ad-container
 nicovideo.jp###footer-ad
 nicovideo.jp###middle-ad

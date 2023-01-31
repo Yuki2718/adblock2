@@ -58,6 +58,7 @@ no-large-media: behind-the-scene false
 * bigcommerce.com * noop
 * bigcommerce.hubshop.ly * noop
 * blob.core.windows.net * noop
+* blogger.l.google.com * noop
 * braintreegateway.com * noop
 * c.disquscdn.com * noop
 * c0.wp.com * noop
@@ -580,7 +581,6 @@ behind-the-scene * image noop
 behind-the-scene * inline-script noop
 blogspot.com accounts.blogger.com * noop
 blogspot.com accounts.google.com * noop
-blogspot.com blogger.l.google.com * noop
 boards.4channel.org s.4cdn.org * noop
 bookaa.amadeus.com static.geetest.com * noop
 business.linkedin.com content.linkedin.com * noop

@@ -58,6 +58,7 @@ no-large-media: behind-the-scene false
 * bigcommerce.com * noop
 * bigcommerce.hubshop.ly * noop
 * blob.core.windows.net * noop
+* blogger.l.google.com * noop
 * c.disquscdn.com * noop
 * c0.wp.com * noop
 * calendar.google.com * noop
@@ -535,7 +536,6 @@ blogs.nytimes.com int.nyt.com * noop
 blogs.nytimes.com static01.nyt.com * noop
 blogspot.com accounts.blogger.com * noop
 blogspot.com accounts.google.com * noop
-blogspot.com blogger.l.google.com * noop
 boards.4channel.org s.4cdn.org * noop
 book.china-airlines.com geetest.com * noop
 bookaa.amadeus.com geetest.com * noop

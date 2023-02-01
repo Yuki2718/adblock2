@@ -132,6 +132,7 @@ togetter.com##.ad_rectangle
 twicolle-plus.com##.ad-bnr
 tver.jp##.ad-section
 xda-developers.com##.adsninja-ad-zone
+zdnet.com##.ad_container
 !#if env_mobile
 4gamer.net,smhn.info##.top_ad
 allabout.co.jp##.ad-bnr

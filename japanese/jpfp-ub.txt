@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230201
+! Version: 20230203
 
 ! ---------- Ads general ----------
 /^https:\/\/[0-9a-z]{4,8}\.autos\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,3p,match-case
@@ -49,7 +49,7 @@
 *##.amp-ad
 *##.adWidget
 *##.interstitial-ad
-*##.quads-location
+~subsbr.net,*##.quads-location
 *##.thk_ps_widget
 *##.widget_mobile_ad
 *##div[class][data-index][style^="float: none;"]
@@ -95,6 +95,7 @@ duhoctrungquoc.vn###ads_inline_z
 eromanga-school.com##.ad-top
 favolog.org###ad-box1
 fnn.jp##.ad-bnr
+forbesjapan.com##.article-detail-ad
 futabanet.jp##.ad-billboard
 futabanet.jp,president.jp##.ad-rectangle
 gizmodo.com###leftrail_dynamic_ad_wrapper
@@ -117,6 +118,8 @@ missav.com##.banner-300
 nbcnews.com##.ad-container
 nicovideo.jp###footer-ad
 nicovideo.jp###middle-ad
+nikaraw.com##.blockads_big
+nikaraw.com##.blockads_vg
 nishinippon.co.jp##.c-ad
 oricon.co.jp##.block-ads-yahoo
 pastebin.com##.adsbyvli
@@ -141,7 +144,7 @@ article.auone.jp##.video-ad
 asahi.com##.list-ad
 chikakb.ldblog.jp##.sp_ad
 chofucity.com,matomeantena.com###overlay_ad
-cinema.ne.jp,jma.go.jp,novelup.plus##.ad-sp
+cinema.ne.jp,forbesjapan.com,jma.go.jp,novelup.plus##.ad-sp
 digle.tokyo###taboola-below-article-thumbnails
 economical.co.jp###footer-ad
 gamespark.jp,reanimal.jp,s.animeanime.jp,s.carcareplus.jp,s.cinemacafe.net,s.cyclestyle.net,s.inside-games.jp,s.netsecurity.ne.jp,s.resemom.jp,s.response.jp,s.spyder7.com##.header-ad
@@ -153,6 +156,7 @@ pixiv.net###ad-footer
 s.kakaku.com###headerAd
 sbapp.net##.ads_center
 telling.asahi.com##.p-ad
+watch.impress.co.jp###gStickyAd
 !#endif
 
 ! ---------- Cosmetic specific (adult) - Ignore generic ----------

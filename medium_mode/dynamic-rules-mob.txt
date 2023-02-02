@@ -197,6 +197,7 @@ no-large-media: behind-the-scene false
 * freecalend.com * noop
 * freshlive.tv * noop
 * g.alicdn.com * noop
+* g.swiftycdn.net * noop
 * gdriveplayer.io * noop
 * gfycat.com * noop
 * gifs.com * noop
@@ -395,6 +396,7 @@ no-large-media: behind-the-scene false
 * tilda.ws * noop
 * tnc.maps.arcgis.com * noop
 * ton.twimg.com * noop
+* traincdn.com * noop
 * transactions.sendowl.com * noop
 * translate.google.com * noop
 * translate.googleapis.com * noop

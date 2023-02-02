@@ -202,6 +202,7 @@ no-large-media: behind-the-scene false
 * forms.zohopublic.com * noop
 * fpbns.net * noop
 * freshlive.tv * noop
+* g.swiftycdn.net * noop
 * gdriveplayer.io * noop
 * gfycat.com * noop
 * gifs.com * noop
@@ -413,6 +414,7 @@ no-large-media: behind-the-scene false
 * tokenizer.borderfree-vault.com * noop
 * ton.twimg.com * noop
 * tradingview.com * noop
+* traincdn.com * noop
 * transactions.sendowl.com * noop
 * translate.google.com * noop
 * translate.googleapis.com * noop

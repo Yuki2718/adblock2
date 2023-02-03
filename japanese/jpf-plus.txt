@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230201
+! Version: 20230204
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -108,6 +108,7 @@ _300_250_
 ##.asg-vast-overlay
 ##.vjs-overlayed.size-300x250
 ##a[class][real-href^="//"][onmouseup="setRealHref(event)"]
+##a[dontfo=""][style$="position: absolute; z-index: 2147483647;"]
 ##div[id][style^="position: fixed; inset: 0px; z-index: 2147483647; background: black"][style*="opacity: 0.01"]
 ##div[style="position:fixed;inset:0px;z-index:100000;height:100%;width:100%"]
 ##div[style*="z-index: 2147483647;"][style*="top: 0px; left: 0px;"][style*="position:"]
@@ -130,6 +131,7 @@ bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="//ck.jp."])
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="https://www.amazon.co.jp/gp/"])
 cad-data.com###KkPcSideTu > nav + aside
 cad-data.com###topKokuchi
+copa.sakura.ne.jp##.post table:has(script[src^="http://spdeliver.i-mobile.co.jp"])
 days366.com##div[class^="days366_"]
 dmlab.jp###sponsorsNav
 doorblog.jp,heypo.net###meerkat-contents

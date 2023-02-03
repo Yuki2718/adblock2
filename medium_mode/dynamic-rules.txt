@@ -120,6 +120,7 @@ no-large-media: behind-the-scene false
 * cdnjs.cloudflare.com * noop
 * cdnsecakmi.kaltura.com * noop
 * ceros.com * noop
+* challenges.cloudflare.com * noop
 * check.ddos-guard.net * noop
 * checkout.borderfree.com * noop
 * checkout.fiftyone.com * noop

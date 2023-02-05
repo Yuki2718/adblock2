@@ -2,9 +2,10 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230205
+! Version: 20230206
 
 ! ---------- Ads general ----------
+.com/promo.php?c=$subdocument,third-party
 /^https:\/\/[-a-z]{8,15}\.(?:com|net)\/500\/\d{7}\?/$xmlhttprequest,third-party
 /^https:\/\/[a-z]{10,14}\.(?:casa|website)\/tsk\/[\*_0-9a-zA-Z]{600,}$/$image,third-party
 /^https:\/\/[a-z]{10,14}\.(?:ca[ms]a?|fun)\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xmlhttprequest,third-party
@@ -19,6 +20,7 @@
 /js/ppndr.
 /script/atg.js$script,third-party
 /ts.php?$xmlhttprequest,third-party
+/wcm/?sh=$script,third-party
 /wp-content/plugins/script-manager/assets/js/script-manager.js?
 ?oo=1^$xmlhttprequest,third-party
 ?zoneid=*&ab=1|$script,third-party

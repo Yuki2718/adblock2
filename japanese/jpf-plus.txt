@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230204
+! Version: 20230206
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -151,6 +151,7 @@ hakuhin.jp##div[style="display:table; margin:10px auto -10px;"]
 how-to-sexfriends.com##.entry-content > a.no-icon
 how-to-sexfriends.com##.homeaddbottom p
 how-to-sexfriends.com##.homeaddtop
+hpgpixer.jp###index_adtop
 kaigainohannoublog.blog55.fc2.com##.plugin1_outline:first-child
 kaigainohannoublog.blog55.fc2.com##.plugin2_outline:last-child
 kanji.me##.ggtitle

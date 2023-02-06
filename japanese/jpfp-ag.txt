@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230206
+! Version: 20230207
 
 ! ---------- Ads general ----------
 .com/promo.php?c=$subdocument,third-party
@@ -123,7 +123,6 @@
 kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -4000px !important; }
 
 ! ---------- Anti anti-adb - too few visitors ----------
-ssbsblg.blogspot.com#%#//scriptlet('prevent-setTimeout', 'remove')
 
 ! ---------- Scam & Redirect ----------
 &dci=*&tds_campaign=$document

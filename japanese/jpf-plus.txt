@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230207
+! Version: 20230209
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -187,6 +187,7 @@ lark-scent.com###modal-overlay
 pawakichi.xyz##.plugin-ad
 
 ! ---------- Cosmetic specific: others ----------
+520call.me,520cc.cc###inplayer
 arvo.showcase-tv.com,getpaidstock.com,kazokuchannel.doorblog.jp,nandemo-uketori.com,sukupara.jp##ins.adsbygoogle
 ! if piano is blocked
 bizspa.jp,digiday.jp,esse-online.jp,j-cast.com,joshi-spa.jp,kyobun.co.jp,my-golfdigest.jp,nikkan-spa.jp,tennenseikatsu.jp###tpModal
@@ -218,6 +219,8 @@ ukemi-no-kiwami.work##.widget_block
 anitube.biz##ins[style*="width:300px"]
 
 ! ---------- Cosmetic specific: too obtrusive annoyances ----------
+anshin-lifenet.com###footer-ad-box
+anshin-lifenet.com##.header_fixed
 slideshare.net###scribd-ad-exit-modal
 
 ! ---------- CSS ----------
@@ -227,8 +230,6 @@ slideshare.net###scribd-ad-exit-modal
 anianierosuki.work##+js(nowoif)
 
 ! ---------- JS: others ----------
-! https://github.com/AdguardTeam/AdguardFilters/issues/134555
-520call.me,520cc.cc##+js(set, all520dddaaa2022aaa, undefined)
 520call.me,520cc.cc##+js(set, all520dddaaa2022ccc, true)
 
 ! ---------- Exception: blocking ----------
@@ -258,6 +259,7 @@ pc-plaza.com##+js(acs, jQuery, DHAntiAdBlocker)
 pc-plaza.com##.jconfirm
 
 ! ---------- Anti anti-adb - other ----------
+@@||520click.com/ad.php
 @@||afreecatv.com/asset/service/ad/check_ad.js$~third-party
 
 ! ---------- Exception: for default lists ----------

@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230209
+! Version: 20230210
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -19,6 +19,7 @@
 /960x120.gif|$image,third-party,domain=~edu|~gov|~jp
 /960X60.gif|$image,third-party,domain=~edu|~gov|~jp
 /?request_ab2=*zoneid=$xmlhttprequest,third-party
+/images/ad_phoneconfirm150.gif
 /jss/external_pop.js?$~third-party
 /script/intrf.js|$third-party
 /script/ippg.js|$third-party

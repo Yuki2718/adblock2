@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230209
+! Version: 20230210
 
 ! ---------- Ads general ----------
 .com/promo.php?c=$subdocument,third-party
@@ -26,6 +26,8 @@
 ?zoneid=*&ab=1|$script,third-party
 ! Incompatible with MV3
 /^https:\/\/[0-9a-z]{4,8}\.(?:autos|beauty|co|[lm]o[lm]|xyz)\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,third-party,match-case
+/^https?:\/\/[a-z]{7,16}\.(?:com?|org)\/(?=[+\/0-9a-zA-Z]*\+)(?=[+\/a-zA-Z]*\d)(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{400,}$/$subdocument,third-party
+/^https?:\/\/[a-z]{7,16}\.(?:com?|org)\/(?=[+\/0-9a-zA-Z]*\+)(?=[+\/a-zA-Z]*\d)(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{140,}$/$image,ping,third-party
 
 ! ---------- Popup general ----------
 &key=*&adb=y$popup,third-party
@@ -69,6 +71,7 @@
 
 ! ---------- Cosmetic specific ----------
 ssbsblg.blogspot.com##.btmads
+ssbsblg.blogspot.com##.drads1 > ins.adsbygoogle
 ssbsblg.blogspot.com##.sponserd
 
 ! Exception: blocking

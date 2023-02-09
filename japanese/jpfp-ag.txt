@@ -26,8 +26,8 @@
 ?zoneid=*&ab=1|$script,third-party
 ! Incompatible with MV3
 /^https:\/\/[0-9a-z]{4,8}\.(?:autos|beauty|co|[lm]o[lm]|xyz)\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,third-party,match-case
-/^https?:\/\/[a-z]{7,16}\.(?:com?|org)\/(?=[+\/0-9a-zA-Z]*\+)(?=[+\/a-zA-Z]*\d)(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{400,}$/$subdocument,third-party
-/^https?:\/\/[a-z]{7,16}\.(?:com?|org)\/(?=[+\/0-9a-zA-Z]*\+)(?=[+\/a-zA-Z]*\d)(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{140,}$/$image,ping,third-party
+/^https?:\/\/[a-z]{7,16}\.(?:com?|org)\/(?=[+\/0-9a-zA-Z]*\+)(?=[+\/a-zA-Z]*\d)(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{400,}$/$subdocument,third-party,domain=~edu|~gov|~jp
+/^https?:\/\/[a-z]{7,16}\.(?:com?|org)\/(?=[+\/0-9a-zA-Z]*\+)(?=[+\/a-zA-Z]*\d)(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{140,}$/$image,ping,third-party,domain=~edu|~gov|~jp
 
 ! ---------- Popup general ----------
 &key=*&adb=y$popup,third-party

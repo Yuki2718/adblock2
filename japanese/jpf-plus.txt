@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230210
+! Version: 20230212
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -150,6 +150,7 @@ graoda.blog.fc2.com##table[width="700"][height="300"]
 hakuhin.jp##.menu_ads
 hakuhin.jp##div[style="display:table; margin:10px auto -10px;"]
 hibara.org###post > p > .adsbygoogle:upward(1)
+horahorazoon.blog.2nt.com##.im_ad
 how-to-sexfriends.com##.entry-content > a.no-icon
 how-to-sexfriends.com##.homeaddbottom p
 how-to-sexfriends.com##.homeaddtop
@@ -163,6 +164,8 @@ lper.info##.wpa
 malanka.tech###modal-overlay
 mamana.jp##.entry-content > .add
 mamana.jp##article > div.widget_custom_html:first-child
+massigra.net##.adlabel
+massigra.net##.kkvxmargin > div.adlabel + div
 number-pedia.com##.widget:has(> div > .adsbygoogle)
 ocsoku.com###right-box > .plugin-memo:first-child
 ocsoku.com###right-box > .plugin-memo:last-of-type
@@ -171,6 +174,8 @@ pfch.blog.jp##.right-container > .plugin-popular_articles_with_image ~ .plugin-m
 phpjavascriptroom.com##.gads
 solarjournal.jp###pchdright
 salary-saver.com##.ani:has(> .widget_tsnc_ads_custom_html)
+schizophonic9.blog103.fc2.com##.side-menu > div > .plugin-freearea > a[href^="http://px.a8.net/svt/ejp?"]:upward(3)
+sl65amg.blog.fc2.com##.plugin-freearea:has(> a[href^="https://www.amazon.co.jp"])
 solohiker2020.com##div[id^="soloh-"]
 ssbsblg.blogspot.com##.btmads
 ssbsblg.blogspot.com##.sponserd
@@ -219,9 +224,10 @@ ukemi-no-kiwami.work##.widget_block
 ! ---------- Cosmetic specific: popular in Japan ----------
 anitube.biz##ins[style*="width:300px"]
 
-! ---------- Cosmetic specific: too obtrusive annoyances ----------
+! ---------- Cosmetic specific: obtrusive or unneeded annoyances ----------
 anshin-lifenet.com###footer-ad-box
 anshin-lifenet.com##.header_fixed
+blog###marketingbar
 slideshare.net###scribd-ad-exit-modal
 
 ! ---------- CSS ----------

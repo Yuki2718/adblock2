@@ -166,6 +166,8 @@ mamana.jp##.entry-content > .add
 mamana.jp##article > div.widget_custom_html:first-child
 massigra.net##.adlabel
 massigra.net##.kkvxmargin > div.adlabel + div
+monjiro.net###headBarArea
+monjiro.net##.adtitle2
 number-pedia.com##.widget:has(> div > .adsbygoogle)
 ocsoku.com###right-box > .plugin-memo:first-child
 ocsoku.com###right-box > .plugin-memo:last-of-type
@@ -204,6 +206,7 @@ onepiece-akumanomi.com##div.adsbygoogle
 
 ! ---------- Cosmetic specific (adult): too few visitors ----------
 1201914.com###pc_text-21
+amuse-labo.com##div[id^="amuse-"]
 anianierosuki.work##div[id^="sidebar"]
 bikyakudaimaou.com###first > .plugin1_outline:nth-child(-n+2)
 bikyakudaimaou.com###second > .plugin2_outline:first-child

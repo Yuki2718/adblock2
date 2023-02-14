@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230212
+! Version: 20230215
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -25,7 +25,6 @@
 /script/ippg.js|$third-party
 /script/suv4r.js|$third-party
 /sweetie/hello.min.js?id=$script,third-party
-/\/assets\/jquery\/jquery-\d\.\d\.(?:\d\.)?min\.js\?(?:v=2)?&?type=(?:adult|mainstream)$/$script,~third-party
 /\/nb\/[a-z]{4}\.js$/$script,~third-party,match-case
 /^https:\/\/www\.[a-z]{8,14}\.com\/[a-z]{1,4}\.js$/$script,third-party,match-case,domain=~edu|~gov|~jp
 /^https:\/\/[0-9a-z]{13}\.cloudfront\.net\/(?=[-+\/a-zA-Z]*\d)(?=[-+\/0-9a-z]*[A-Z])[-+\/0-9a-zA-Z]{300,}$/$script,3p,match-case
@@ -58,6 +57,7 @@
 /player/html.php?aid=pre_roll_html&$subdocument,~third-party
 /player/html.php?aid=post_roll_html^$redirect=noop.html,subdocument,~third-party
 /pub?id=$script,third-party
+/redirect?feed=$subdocument
 /rek/?n=$subdocument,~third-party
 /rek/?s=1|$script,~third-party
 /out/b.html#$subdocument,~third-party
@@ -82,8 +82,6 @@ _300_250_
 /\/tmp\/[0-9a-z]{6}\.js$/$script,~third-party,match-case,domain=com|xxx
 /tmp/?width=300&$subdocument,~third-party
 /tmp/?zone=$subdocument,~third-party
-! Incompatible with MV3
-/^https:\/\/[0-9a-z]{7,25}\.com\/v2(?:\/0\/)?(?=[-_0-9a-z]{0,84}[A-Z])(?=[-_a-zA-Z]{0,84}[0-9])[-_0-9a-zA-Z]{54,85}(#\?v=[0-9a-f]{32})?$/$ping,script,xmlhttprequest,third-party,match-case
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)\/(?!api|available)[a-z]{4,}\.json$/$xmlhttprequest,third-party,match-case,domain=~edu|~gov|~jp
 
 ! ---------- Ads 3p ----------
@@ -113,7 +111,6 @@ _300_250_
 ##div[id][style^="position: fixed; inset: 0px; z-index: 2147483647; background: black"][style*="opacity: 0.01"]
 ##div[style="position:fixed;inset:0px;z-index:100000;height:100%;width:100%"]
 ##div[style*="z-index: 2147483647;"][style*="top: 0px; left: 0px;"][style*="position:"]
-##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
 ##iframe[class][scrolling="no"][sandbox="allow-same-origin allow-scripts allow-popups"][style*="z-index: 2147483647; position: fixed"]
 ##iframe[style*="opacity: 1 !important; max-width:"][style*="position: fixed !important; display: block !important; z-index: 2147483647 !important; inset:"]
 

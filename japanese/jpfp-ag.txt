@@ -73,9 +73,6 @@
 ##div[style^="z-index: 999999; background-image: url(\"data:image/gif;base64,"][style$="position: absolute;"]
 
 ! ---------- Cosmetic specific ----------
-ssbsblg.blogspot.com##.btmads
-ssbsblg.blogspot.com##.drads1 > ins.adsbygoogle
-ssbsblg.blogspot.com##.sponserd
 
 ! Exception: blocking
 
@@ -131,9 +128,6 @@ ssbsblg.blogspot.com##.sponserd
 kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -4000px !important; }
 
 ! ---------- Anti anti-adb - too few visitors ----------
-@@||ssbsblg.blogspot.com^$generichide
-@@||ssbsblg.glitch.me^$script,domain=ssbsblg.blogspot.com
-||ssbsblg.blogspot.com^$csp=script-src 'self' 'unsafe-eval' http: https:
 
 ! ---------- Scam & Redirect ----------
 &dci=*&tds_campaign=$document

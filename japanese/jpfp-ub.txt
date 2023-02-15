@@ -66,6 +66,7 @@ cined.com###right-widget-b-ads_widget-26
 cined.com###right-widget-c-ads_widget-24
 cined.com###right-widget-d-ads_widget-37
 cined.com###right-widget-top-ads_widget-21
+cnet.com###ad_large
 cnet.com##.right-ad-block
 cnn.co.jp###ad-large-header
 cnn.co.jp,japan.zdnet.com##.ad-txt

@@ -174,10 +174,9 @@ phpjavascriptroom.com##.gads
 solarjournal.jp###pchdright
 salary-saver.com##.ani:has(> .widget_tsnc_ads_custom_html)
 schizophonic9.blog103.fc2.com##.side-menu > div > .plugin-freearea > a[href^="http://px.a8.net/svt/ejp?"]:upward(3)
+shokunin-san.com##.provision_area > .adsbygoogle:upward(1)
 sl65amg.blog.fc2.com##.plugin-freearea:has(> a[href^="https://www.amazon.co.jp"])
 solohiker2020.com##div[id^="soloh-"]
-ssbsblg.blogspot.com##.btmads
-ssbsblg.blogspot.com##.sponserd
 twi55.com##.l-sidebar > .widget_custom_html
 twi55.com##.postCta
 twitter.macdrivelove.com###text1 > p > span.lbg[style="font-size:12px"]

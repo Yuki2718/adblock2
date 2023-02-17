@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230215
+! Version: 20230218
 
 ! ---------- Ads general ----------
 /^https:\/\/[0-9a-z]{4,8}\.autos\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,3p,match-case
@@ -124,6 +124,9 @@ togetter.com###ad_overlay
 togetter.com##.ad_rectangle
 tokai-tv.com##.adArea
 twicolle-plus.com##.ad-bnr
+twtimez.net##.adDown
+twtimez.net##.adMiddle
+twtimez.net##.adTop
 tver.jp##.ad-section
 watch.impress.co.jp##.ad-inline
 xda-developers.com##.adsninja-ad-zone

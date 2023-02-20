@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230218
+! Version: 20230221
 
 ! ---------- Ads general ----------
 /^https:\/\/[0-9a-z]{4,8}\.autos\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,3p,match-case
@@ -99,6 +99,7 @@ jpnumber.com##.adsright
 kamikouryaku.net,wikiru.jp##.sticky-ads
 kotaku.com##.ad-left-top
 kotaku.com##.ad-top-banner
+kyobun.co.jp##[data-advadstrackid]
 minitool.com##.page-bottom-fixed-ads
 minitool.com##.page-top-ads
 missav.com##.banner-300
@@ -148,6 +149,7 @@ eow.alc.co.jp###ad_header
 gamespark.jp,reanimal.jp,s.animeanime.jp,s.carcareplus.jp,s.cinemacafe.net,s.cyclestyle.net,s.inside-games.jp,s.netsecurity.ne.jp,s.resemom.jp,s.response.jp,s.spyder7.com##.header-ad
 himanatokiniyaruo.com###float-bnr
 kidsna.com##.google-ads
+mamastar.jp##.ad-text
 mantan-web.jp##.ad_text
 matomegamer.com##.rectangle_ad
 oppai-paipai.com##.ad-head

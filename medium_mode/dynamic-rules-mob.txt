@@ -683,6 +683,7 @@ store.moncler.com media.yoox.biz * noop
 store.steampowered.com steamstatic.com * noop
 stores.office.com ea-contentstorage.osi.office.net * noop
 streamsb.net streamsb.com * noop
+substack.com substackcdn.com * noop
 support.logmeininc.com assets.cdngetgo.com * noop
 support.mozilla.org support.cdn.mozilla.net * noop
 themeforest.net assets.shopfront.envato-static.com * noop

@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230218
+! Version: 20230223
 
 ! ---------- Ads general ----------
 .com/promo.php?c=$subdocument,third-party
@@ -15,7 +15,6 @@
 /^https?:\/\/[a-z]{5,12}\.com\/script\/(?:bootstrap|jquery)\.js$/$script,third-party,match-case,domain=~edu|~gov|~jp
 /^https:\/\/[a-z]{8,15}\.com\/(?:beta|gamma|omega)\/\d{3,4}$/$xmlhttprequest,third-party
 /^https:\/\/[a-z]{8,16}\.(?:club|fun|hair|work|xyz)\/[%0-9a-zA-Z]{170,}$/$script,third-party,match-case
-/^https?:\/\/[a-z-]{6,16}\.(?:com?|pro|info|xyz)\/[a-d][-\.\/_A-Za-z][DHWXm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6swyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$script,xmlhttprequest,third-party,match-case
 /^https?:\/\/[a-z]{7,16}\.(?:buzz|info|lol|one|xyz)\/[+\/0-9a-zA-Z]{400,}$/$subdocument,third-party
 /^https?:\/\/[a-z]{7,16}\.(?:buzz|info|lol|one|xyz)\/[+\/0-9a-zA-Z]{140,}$/$image,ping,third-party
 /ajax/banner/list?page=$xmlhttprequest,~third-party
@@ -163,6 +162,10 @@ kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -
 ^s=*&ssk=*&svar=*&z=$document
 ||37.1.213.100^
 ||5.61.55.143^
+! https://github.com/AdguardTeam/AdguardFilters/issues/143447#issuecomment-1438352020
+!#if (adguard_app_windows || adguard_app_mac || adguard_app_android)
+61.121.245.*$network
+!#endif
 ! Incompatible with MV3
 /^https:\/\/(?:www\d\.)?[-a-z]{6,}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}\/\?cid=[-_0-9a-zA-Z]{10,36}(?:&qs\d=\S+)?&sid=[_0-9a-f]{1,32}(?:&s=0\.\d+)?$/$document,match-case,domain=com|info|net|org
 /^https:\/\/(?:www\d\.)?[-a-z]{6,}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}\/\?sid=[_0-9a-f]{1,32}(?:&qs\d=\S+)?&cid=[-_0-9a-zA-Z]{10,36}(?:&s=0\.\d+)?$/$document,match-case,domain=com|info|net|org

@@ -2,28 +2,18 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230223
+! Version: 20230225
 
 ! ---------- Ads general ----------
-&subAffId={SUBAFFID}^$subdocument,script,third-party
 &zoneid=*&rb=$xmlhttprequest,third-party
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
 -960x80.gif|$image,third-party,domain=~edu|~gov|~jp
-.com/1?z=$script,third-party
-.com/script/compatibility.js|$third-party
-.net/1?z=$script,third-party
-.org/script/compatibility.js|$third-party
-/300x250.html?targetUrl=$subdocument
-/300x250.html|$subdocument,third-party
 /960-60.gif|$image,third-party,domain=~edu|~gov|~jp
 /960x120.gif|$image,third-party,domain=~edu|~gov|~jp
 /960X60.gif|$image,third-party,domain=~edu|~gov|~jp
 /?request_ab2=*zoneid=$xmlhttprequest,third-party
 /images/ad_phoneconfirm150.gif
 /jss/external_pop.js?$~third-party
-/script/intrf.js|$third-party
-/script/ippg.js|$third-party
-/script/suv4r.js|$third-party
 /sweetie/hello.min.js?id=$script,third-party
 /\/nb\/[a-z]{4}\.js$/$script,~third-party,match-case
 /^https:\/\/www\.[a-z]{8,14}\.com\/[a-z]{1,4}\.js$/$script,third-party,match-case,domain=~edu|~gov|~jp
@@ -37,10 +27,6 @@
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)\/[-a-z]{4,}\.css\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$stylesheet,third-party,match-case
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)\/[a-z]{4,}\.png\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$image,third-party,match-case
 /a/na/js/*?container=$script,third-party
-/api/spots/*^fill=$xmlhttprequest
-/asset/angular.min.js?t=$xmlhttprequest,~third-party
-/asset/jquery/slim-3.2.min.js?*&t=$xmlhttprequest,~third-party
-/bens/vinos*.js?$script,third-party
 /bnr/footer?i=$subdocument,~third-party
 /bnr/list?i=$subdocument,~third-party
 /bnr/top?i=$subdocument,~third-party
@@ -52,10 +38,6 @@
 /frms/NTV$subdocument,~third-party
 /lvesnk.html?zoneid=
 /nativeads_v2/nativeads_v2_$script,~third-party
-/player/html.php?aid=start_html&*&referer=$subdocument,~third-party
-/player/html.php?aid=pause_html&*&referer=$subdocument,~third-party
-/player/html.php?aid=pre_roll_html&$subdocument,~third-party
-/player/html.php?aid=post_roll_html^$redirect=noop.html,subdocument,~third-party
 /pub?id=$script,third-party
 /redirect?feed=$subdocument
 /rek/?n=$subdocument,~third-party
@@ -64,17 +46,12 @@
 /ssp/req/*/?pb=$script,third-party
 /tmp/?n=$subdocument,~third-party
 /tmp/?s=1|$script,~third-party
-/utx?cb=$xmlhttprequest,third-party
-/utx?tid=$xmlhttprequest,third-party
 /vast/?zid=$xmlhttprequest,third-party
 /xuanfusige.js
 /_ad#str-$subdocument,~third-party
-://a.*/loader?a=$subdocument,third-party
 ://ad.*.php?id=$script,~third-party
-://cdn.*.com/renderer/renderer.js|$script,third-party
 ://creative.xxx*.com/widgets/$subdocument,third-party
 ://go.*/i?$subdocument,third-party
-://loc.*.com/renderer/renderer.js|$script,third-party
 ://notads.*.xyz/$script
 =eyJ.js^$script
 _300_250_
@@ -155,6 +132,7 @@ how-to-sexfriends.com##.entry-content > a.no-icon
 how-to-sexfriends.com##.homeaddbottom p
 how-to-sexfriends.com##.homeaddtop
 hpgpixer.jp###index_adtop
+jewellles.com##.gads
 kaigainohannoublog.blog55.fc2.com##.plugin1_outline:first-child
 kaigainohannoublog.blog55.fc2.com##.plugin2_outline:last-child
 kanji.me##.ggtitle
@@ -200,8 +178,6 @@ arvo.showcase-tv.com,getpaidstock.com,kazokuchannel.doorblog.jp,nandemo-uketori.
 bizspa.jp,digiday.jp,esse-online.jp,j-cast.com,joshi-spa.jp,kyobun.co.jp,my-golfdigest.jp,nikkan-spa.jp,tennenseikatsu.jp###tpModal
 ! PH by this list
 oshiete.goo.ne.jp##.pr-unit
-! Mobile
-onepiece-akumanomi.com##div.adsbygoogle
 
 ! ---------- Cosmetic specific (adult): too few visitors ----------
 1201914.com###pc_text-21
@@ -272,7 +248,7 @@ pc-plaza.com##.jconfirm
 @@||afreecatv.com/asset/service/ad/check_ad.js$~third-party
 
 ! ---------- Exception: for default lists ----------
-#@#.adsbygoogle
+#@#ins.adsbygoogle
 
 ! ---------- Scam & Redirect ----------
 /?r=dir&zoneid=$all

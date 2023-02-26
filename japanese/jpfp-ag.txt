@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230225
+! Version: 20230226
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -61,8 +61,8 @@
 &key=*&adb=y$popup,third-party
 ?key=*&submetric=$popup,third-party
 
-! Ad servers
-||fundingchoicesmessages.google.com^$third-party
+! ---------- Ads specific: too few visitors ----------
+||hikaku-master.com/banner/$subdocument
 
 ! ---------- Cosmetic general ----------
 ###ad_300:not([style^="position: absolute; left: -5000px"])

@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230221
+! Version: 20230226
 
 ! ---------- Ads general ----------
 /^https:\/\/[0-9a-z]{4,8}\.autos\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,3p,match-case
@@ -89,10 +89,12 @@ gizmodo.jp##.p-post-ad
 gq.com,gqjapan.jp,vogue.com,wired.jp##.ad--mid-content
 gq.com,gqjapan.jp,vogue.com,wired.jp##.ad-stickyhero
 gq.com,gqjapan.jp,vogue.com,wired.jp##.full-bleed-ad
+h1g.jp,seesaa.net##div[id^="crt-"][style]
 hamakei.com###_ads
 hatenablog.com##.insentence-adsense
 hatenablog.com##.insentence-adsense2
-h1g.jp,seesaa.net##div[id^="crt-"][style]
+huffingtonpost.jp##.ad-leaderboard-flex
+huffingtonpost.jp##.advertisement-holder
 ismedia.jp##.m-ad
 jpnumber.com##.adsleft
 jpnumber.com##.adsright

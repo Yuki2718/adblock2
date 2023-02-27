@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230226
+! Version: 20230228
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -37,11 +37,9 @@
 /player/html.php?aid=post_roll_html^$redirect=noop.html,subdocument,~third-party
 /js/ppndr.
 /script/atg.js$third-party
-/script/intrf.js$third-party
 /script/ippg.js$third-party
 /script/native_render.js$third-party
 /script/native_server.js$third-party
-/script/suv4r.js$third-party
 /ts.php?$xmlhttprequest,third-party
 /utx?cb=$xmlhttprequest,third-party
 /utx?tid=$xmlhttprequest,third-party

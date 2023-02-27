@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230225
+! Version: 20230228
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -136,6 +136,7 @@ jewellles.com##.gads
 kaigainohannoublog.blog55.fc2.com##.plugin1_outline:first-child
 kaigainohannoublog.blog55.fc2.com##.plugin2_outline:last-child
 kanji.me##.ggtitle
+kodate-ru.com#?#.sidebar > h4.widgettitle:contains(スポンサードリンク)
 kujoyugo.com##.booklink-box
 kujoyugo.com##.widget-below-related-entries
 lper.info##.wpa
@@ -156,6 +157,7 @@ solarjournal.jp###pchdright
 salary-saver.com##.ani:has(> .widget_tsnc_ads_custom_html)
 schizophonic9.blog103.fc2.com##.side-menu > div > .plugin-freearea > a[href^="http://px.a8.net/svt/ejp?"]:upward(3)
 shokunin-san.com##.provision_area > .adsbygoogle:upward(1)
+sitebk.com##.nest-h3 > div.productWrap:upward(1)
 sl65amg.blog.fc2.com##.plugin-freearea:has(> a[href^="https://www.amazon.co.jp"])
 solohiker2020.com##div[id^="soloh-"]
 twi55.com##.l-sidebar > .widget_custom_html
@@ -218,6 +220,9 @@ anianierosuki.work##+js(nowoif)
 520call.me,520cc.cc##+js(set, all520dddaaa2022ccc, true)
 
 ! ---------- Exception: blocking ----------
+@@||g.doubleclick.net/pagead/ads?$subdocument,domain=sitappa.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=sitappa.com
+@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/$script,domain=sitappa.com
 @@||point-g.rakuten.co.jp/pg_assets/item/contets/*_300_250_$image,~third-party
 
 ! ---------- Exception: cosmetic ----------

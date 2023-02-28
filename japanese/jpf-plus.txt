@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230228
+! Version: 20230301
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -26,7 +26,6 @@
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)\/tag\.min\.js$/$script,third-party
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)\/[-a-z]{4,}\.css\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$stylesheet,third-party,match-case
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)\/[a-z]{4,}\.png\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$image,third-party,match-case
-/a/na/js/*?container=$script,third-party
 /bnr/footer?i=$subdocument,~third-party
 /bnr/list?i=$subdocument,~third-party
 /bnr/top?i=$subdocument,~third-party
@@ -165,6 +164,10 @@ twi55.com##.postCta
 twitter.macdrivelove.com###text1 > p > span.lbg[style="font-size:12px"]
 weblan3.com##.ad_ArticleTop
 webmake.info###text-7
+white-sesame.jp##.ad-in-single
+white-sesame.jp##.blog-sidebar--ad:upward(1)
+white-sesame.jp##.single-blog__ad-title
+white-sesame.jp##.single-blog__card-lists--ad
 xn--zckm5bnq2mpa6a1fz490bkx4ayzmvi9g.com###text-21
 ! Mobile
 graoda.blog.fc2.com###gailing02

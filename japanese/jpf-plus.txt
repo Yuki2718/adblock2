@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230301
+! Version: 20230303
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -70,6 +70,7 @@ _300_250_
 ||gameland.ifdef.jp/pr-menu.html
 ||m.media-amazon.com/images/I/$domain=graoda.blog.fc2.com
 ||rtec.co.jp/koukoku*$script,~third-party
+||sandiegoyuyu.com/images/stories/ad_agency/
 ||ssl-images-amazon.com/images/I/$domain=graoda.blog.fc2.com
 
 ! ---------- Ads specific (adult): too few visitors ----------
@@ -77,7 +78,6 @@ _300_250_
 ||ero-mangacafe.com^$subdocument,~third-party
 
 ! ---------- Popup general ----------
-&key=*&adb=y^$popup,third-party
 ?spot_id=*&psid=https://$popup,third-party
 
 ! ---------- Cosmetic general ----------
@@ -220,7 +220,6 @@ slideshare.net###scribd-ad-exit-modal
 anianierosuki.work##+js(nowoif)
 
 ! ---------- JS: others ----------
-520call.me,520cc.cc##+js(set, all520dddaaa2022ccc, true)
 
 ! ---------- Exception: blocking ----------
 @@||g.doubleclick.net/pagead/ads?$subdocument,domain=sitappa.com
@@ -259,9 +258,7 @@ pc-plaza.com##.jconfirm
 #@#ins.adsbygoogle
 
 ! ---------- Scam & Redirect ----------
-/?r=dir&zoneid=$all
 /jump/next.php?r=$document
-/index.php?main_page=product_info&cPath=$document,domain=buzz|life|live|site|store|top|xyz
 
 !#if adguard
 !#include jpfp-ag.txt

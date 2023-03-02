@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230301
+! Version: 20230303
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -162,6 +162,7 @@ kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -
 /?cid=*&dom=$document
 /?clck=*&sid=$document
 /?pl=*&sm=$document
+/?r=dir&zoneid=$all
 /?s1=*&click_id=$document
 /?type=*&button=2&clickid=$document
 /aff.php?*&data2=$document

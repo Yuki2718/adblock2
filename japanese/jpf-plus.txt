@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230303
+! Version: 20230305
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -132,6 +132,9 @@ how-to-sexfriends.com##.homeaddbottom p
 how-to-sexfriends.com##.homeaddtop
 hpgpixer.jp###index_adtop
 jewellles.com##.gads
+jquery-master.net##section[style="height:270px"]
+jquerystudy.info###sideBannerFrame
+js.studio-kingdom.com###book_recommend
 kaigainohannoublog.blog55.fc2.com##.plugin1_outline:first-child
 kaigainohannoublog.blog55.fc2.com##.plugin2_outline:last-child
 kanji.me##.ggtitle

@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230306
+! Version: 20230310
 
 ! ---------- Ads general ----------
 /^https:\/\/[0-9a-z]{4,8}\.autos\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,3p,match-case
@@ -56,6 +56,9 @@ basketball-zine.com##.top-ad
 beauty.oricon.co.jp##.Billboard-ad
 bg-mania.jp,j-cast.com,smartlog.jp,space.com##.adunit
 blogspot.com##.AdSense
+boom-app.wiki##.ad-300
+boom-app.wiki##.ad-468
+boom-app.wiki##.ad-728
 buzzfeed.com##.Ad--awareness-bp
 buzzfeed.com##.Ad--loading
 buzzfeed.com##.ad-inline

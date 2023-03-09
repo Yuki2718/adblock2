@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230305
+! Version: 20230310
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -50,7 +50,6 @@
 ://ad.*.php?id=$script,~third-party
 ://creative.xxx*.com/widgets/$subdocument,third-party
 ://go.*/i?$subdocument,third-party
-://notads.*.xyz/$script
 =eyJ.js^$script
 _300_250_
 ! Mobile
@@ -187,6 +186,8 @@ oshiete.goo.ne.jp##.pr-unit
 
 ! ---------- Cosmetic specific (adult): too few visitors ----------
 1201914.com###pc_text-21
+2chcopipe.blog.2nt.com##.left_p:first-child
+2chcopipe.blog.2nt.com##dd > div > a[href*="amazon.co.jp"]
 amuse-labo.com##div[id^="amuse-"]
 anianierosuki.work##div[id^="sidebar"]
 bikyakudaimaou.com###first > .plugin1_outline:nth-child(-n+2)
@@ -196,6 +197,8 @@ c-actress.com##.single-related-area
 c-actress.com##.singletop-widget
 carrozzeria-cdl.jp##.article-body > blockquote:has([href*="?PR="])
 carrozzeria-cdl.jp##p > [href*="?PR="] > img
+dim2database.blog.fc2.com###fc2relate_entry_thumbnail_area + div.content
+dim2database.blog.fc2.com##.flickr_navi + div.content
 fuzokuinfo.com##tr[bgcolor="#ffffff"] > td[colspan="2"] > hr + br
 fuzokuinfo.com##tr[bgcolor="#ffffff"] > td[colspan="2"] > hr:has(+ br)
 h7-game.com##.entry-content > div.wp-block-st-blocks-my-box

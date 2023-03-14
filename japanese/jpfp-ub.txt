@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230310
+! Version: 20230314
 
 ! ---------- Ads general ----------
 /^https:\/\/[0-9a-z]{4,8}\.autos\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,3p,match-case
@@ -123,6 +123,7 @@ qiita.com##div[id^="dfp-slot-"]
 realsound.jp##.widget-adsense
 sabatech.jp##.rectangle
 sabatech.jp##.widget_fit_aditem_class
+seesaa.net###article-ad
 siteindices.com##div[id*="ScriptRoot"]
 t-dilemma.info##.ad-space
 techcrunch.com##.ad-unit:not(.text-ad)

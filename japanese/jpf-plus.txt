@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230312
+! Version: 20230314
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -41,6 +41,7 @@
 /rek/?s=1|$script,~third-party
 /out/b.html#$subdocument,~third-party
 /ssp/req/*/?pb=$script,third-party
+/sweetie/hello.min.js?id=$script,third-party
 /tmp/?n=$subdocument,~third-party
 /tmp/?s=1|$script,~third-party
 /vast/?zid=$xmlhttprequest,third-party

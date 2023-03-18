@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230312
+! Version: 20230319
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -65,6 +65,8 @@
 
 ! ---------- Ads specific: too few visitors ----------
 ||hikaku-master.com/banner/$subdocument
+||k-manga.jp/cover_320/3/39365/b39365_5_320.jpg$domain=xn--x8jcy0c0cxjs5a465r9i0a4uaz40cb0ths9cm4f.com
+||lh3.googleusercontent.com/9Frr0PsBq8LqcaaRKcS53pSf0E5kGYMqKwG3RPYMJ1kmTTiKnQuzA1XAR3bBMtKVoA$image,domain=taoruseitai.com|towelstretches.com|xn--28ja8nb9uubn3byzm464cuetahu3avcz915bwoe.com|xn--68j4ha6nb9ec3md2np203dfmi14l5p7mgke.com|xn--68jwj3a3byaa9a4s2ee0369lixepotkf2m.com|xn--cck3byahyp4g6gna7180lnuda5729lznh.com|xn--u9j8a8k6aj3a6wy551c8cl30l6j0d.com|xn--w8jua40cb1121b38be8d4zad9pnko86zz4q93bew1dou1i.com|xn--w8jua40cb1121b38be8d4zad9pnko86zz4q93bew1dou1i.com|xn--x8jcy0c0cxjs5a465r9i0a4uaz40cb0ths9cm4f.com
 
 ! ---------- Cosmetic general ----------
 ###ad_300:not([style^="position: absolute; left: -5000px"])
@@ -100,7 +102,15 @@
 ##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
 ##div[style^="z-index: 999999; background-image: url(\"data:image/gif;base64,"][style$="position: absolute;"]
 
-! ---------- Cosmetic specific ----------
+! ---------- Cosmetic specific: too few visitors ----------
+taoruseitai.com,towelstretches.com,xn--28ja8nb9uubn3byzm464cuetahu3avcz915bwoe.com,xn--68j4ha6nb9ec3md2np203dfmi14l5p7mgke.com,xn--68jwj3a3byaa9a4s2ee0369lixepotkf2m.com,xn--cck3byahyp4g6gna7180lnuda5729lznh.com,xn--u9j8a8k6aj3a6wy551c8cl30l6j0d.com,xn--w8jua40cb1121b38be8d4zad9pnko86zz4q93bew1dou1i.com,xn--x8jcy0c0cxjs5a465r9i0a4uaz40cb0ths9cm4f.com###main-contents > center > div[style^="width: 30"]
+taoruseitai.com,towelstretches.com,xn--28ja8nb9uubn3byzm464cuetahu3avcz915bwoe.com,xn--68j4ha6nb9ec3md2np203dfmi14l5p7mgke.com,xn--68jwj3a3byaa9a4s2ee0369lixepotkf2m.com,xn--cck3byahyp4g6gna7180lnuda5729lznh.com,xn--u9j8a8k6aj3a6wy551c8cl30l6j0d.com,xn--w8jua40cb1121b38be8d4zad9pnko86zz4q93bew1dou1i.com,xn--x8jcy0c0cxjs5a465r9i0a4uaz40cb0ths9cm4f.com##.widget_custom_html
+taoruseitai.com,towelstretches.com,xn--28ja8nb9uubn3byzm464cuetahu3avcz915bwoe.com,xn--68j4ha6nb9ec3md2np203dfmi14l5p7mgke.com,xn--68jwj3a3byaa9a4s2ee0369lixepotkf2m.com,xn--cck3byahyp4g6gna7180lnuda5729lznh.com,xn--u9j8a8k6aj3a6wy551c8cl30l6j0d.com,xn--w8jua40cb1121b38be8d4zad9pnko86zz4q93bew1dou1i.com,xn--x8jcy0c0cxjs5a465r9i0a4uaz40cb0ths9cm4f.com##a[href^="https://af-next.com/link.php"]
+taoruseitai.com,towelstretches.com,xn--28ja8nb9uubn3byzm464cuetahu3avcz915bwoe.com,xn--68j4ha6nb9ec3md2np203dfmi14l5p7mgke.com,xn--68jwj3a3byaa9a4s2ee0369lixepotkf2m.com,xn--cck3byahyp4g6gna7180lnuda5729lznh.com,xn--u9j8a8k6aj3a6wy551c8cl30l6j0d.com,xn--w8jua40cb1121b38be8d4zad9pnko86zz4q93bew1dou1i.com,xn--x8jcy0c0cxjs5a465r9i0a4uaz40cb0ths9cm4f.com##a[href^="https://al.dmm.co.jp/"]
+taoruseitai.com,towelstretches.com,xn--28ja8nb9uubn3byzm464cuetahu3avcz915bwoe.com,xn--68j4ha6nb9ec3md2np203dfmi14l5p7mgke.com,xn--68jwj3a3byaa9a4s2ee0369lixepotkf2m.com,xn--cck3byahyp4g6gna7180lnuda5729lznh.com,xn--u9j8a8k6aj3a6wy551c8cl30l6j0d.com,xn--w8jua40cb1121b38be8d4zad9pnko86zz4q93bew1dou1i.com,xn--x8jcy0c0cxjs5a465r9i0a4uaz40cb0ths9cm4f.com##a[href^="https://cl.link-ag.net/click/"]
+taoruseitai.com,towelstretches.com,xn--28ja8nb9uubn3byzm464cuetahu3avcz915bwoe.com,xn--68j4ha6nb9ec3md2np203dfmi14l5p7mgke.com,xn--68jwj3a3byaa9a4s2ee0369lixepotkf2m.com,xn--cck3byahyp4g6gna7180lnuda5729lznh.com,xn--u9j8a8k6aj3a6wy551c8cl30l6j0d.com,xn--w8jua40cb1121b38be8d4zad9pnko86zz4q93bew1dou1i.com,xn--x8jcy0c0cxjs5a465r9i0a4uaz40cb0ths9cm4f.com##a[href^="https://hb.afl.rakuten.co.jp"]
+taoruseitai.com,towelstretches.com,xn--28ja8nb9uubn3byzm464cuetahu3avcz915bwoe.com,xn--68j4ha6nb9ec3md2np203dfmi14l5p7mgke.com,xn--68jwj3a3byaa9a4s2ee0369lixepotkf2m.com,xn--cck3byahyp4g6gna7180lnuda5729lznh.com,xn--u9j8a8k6aj3a6wy551c8cl30l6j0d.com,xn--w8jua40cb1121b38be8d4zad9pnko86zz4q93bew1dou1i.com,xn--x8jcy0c0cxjs5a465r9i0a4uaz40cb0ths9cm4f.com##a[href^="https://link-a.net/gate.php"]
+taoruseitai.com,towelstretches.com,xn--28ja8nb9uubn3byzm464cuetahu3avcz915bwoe.com,xn--68j4ha6nb9ec3md2np203dfmi14l5p7mgke.com,xn--68jwj3a3byaa9a4s2ee0369lixepotkf2m.com,xn--cck3byahyp4g6gna7180lnuda5729lznh.com,xn--u9j8a8k6aj3a6wy551c8cl30l6j0d.com,xn--w8jua40cb1121b38be8d4zad9pnko86zz4q93bew1dou1i.com,xn--x8jcy0c0cxjs5a465r9i0a4uaz40cb0ths9cm4f.com##div[style$="border: 3px solid #EDEDED; border-radius: 10px;"]
 
 ! Exception: blocking
 
@@ -156,6 +166,7 @@
 kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -4000px !important; }
 
 ! ---------- Anti anti-adb - too few visitors ----------
+taoruseitai.com,towelstretches.com,xn--28ja8nb9uubn3byzm464cuetahu3avcz915bwoe.com,xn--68j4ha6nb9ec3md2np203dfmi14l5p7mgke.com,xn--68jwj3a3byaa9a4s2ee0369lixepotkf2m.com,xn--cck3byahyp4g6gna7180lnuda5729lznh.com,xn--u9j8a8k6aj3a6wy551c8cl30l6j0d.com,xn--w8jua40cb1121b38be8d4zad9pnko86zz4q93bew1dou1i.com,xn--x8jcy0c0cxjs5a465r9i0a4uaz40cb0ths9cm4f.com#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', '/google_ad_client/')
 
 ! ---------- Scam & Redirect ----------
 &dci=*&tds_campaign=$document

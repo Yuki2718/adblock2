@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230314
+! Version: 20230318
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -34,7 +34,6 @@
 /fp-interstitial.js
 /frms/NTV$subdocument,~third-party
 /lvesnk.html?zoneid=
-/nativeads_v2/nativeads_v2_$script,~third-party
 /pub?id=$script,third-party
 /redirect?feed=$subdocument
 /rek/?n=$subdocument,~third-party
@@ -101,6 +100,7 @@ act-amuse-japan.co.jp##div[class^="bgd-ads"]
 archlinux.site##.entry-content > div > .adsbygoogle:upward(1)
 axia-hakusan.com###menu > .rightmenu > .rmenutitle:hs-text(超爆安ねじ一覧):upward(2)
 axia-hakusan.com###menu:last-child:has(img[src$="/bana.jpg"])
+blog.manabusakai.com##.unit
 blogmimi.com,legend-anime.com##div[style^="float:none;margin:"]
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="//ck.jp."])
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="https://www.amazon.co.jp/gp/"])
@@ -151,6 +151,7 @@ monjiro.net##.adtitle2
 number-pedia.com##.widget:has(> div > .adsbygoogle)
 ocsoku.com###right-box > .plugin-memo:first-child
 ocsoku.com###right-box > .plugin-memo:last-of-type
+paintmanga.web.fc2.com##div[style$="background-color:#ffffff;width:160px;text-align:center;float:left"]
 parudou5.com##.kijibu > .hanyouwaku1
 pfch.blog.jp##.right-container > .plugin-popular_articles_with_image ~ .plugin-memo
 phpjavascriptroom.com##.gads

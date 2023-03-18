@@ -690,6 +690,7 @@ pandora.tv player.h-cdn.com * noop
 phys.org internapcdn.net * noop
 pinterest.com s.pinimg.com * noop
 pixiv.net s.pximg.net * noop
+plarium.com x-plarium.com * noop
 play.google.com content.googleapis.com * noop
 playstation.com auth.api.sonyentertainmentnetwork.com * noop
 portal.azure.com azure.net * noop

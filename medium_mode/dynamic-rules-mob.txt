@@ -647,6 +647,7 @@ outlook.office365.com webshell.suite.office.com * noop
 phys.org internapcdn.net * noop
 pinterest.com s.pinimg.com * noop
 pixiv.net s.pximg.net * noop
+plarium.com x-plarium.com * noop
 play.google.com content.googleapis.com * noop
 portal.azure.com azure.net * noop
 portal.office.com outlook.office365.com * noop

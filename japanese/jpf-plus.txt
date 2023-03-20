@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230320
+! Version: 20230321
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -95,6 +95,7 @@ _300_250_
 55years-phone-games.com##.mainbox .widget_st_custom_html_widget
 aclub.okinawa##.col-md-12 > div[align="center"]:last-child a
 act-amuse-japan.co.jp##div[class^="bgd-ads"]
+anan.jpn.org##div[style="background:#fff;border:solid royalblue 1px;border-radius:5px;margin-right:7px;"]
 archlinux.site##.entry-content > div > .adsbygoogle:upward(1)
 axia-hakusan.com###menu > .rightmenu > .rmenutitle:hs-text(超爆安ねじ一覧):upward(2)
 axia-hakusan.com###menu:last-child:has(img[src$="/bana.jpg"])
@@ -135,6 +136,8 @@ js.studio-kingdom.com###book_recommend
 kaigainohannoublog.blog55.fc2.com##.plugin1_outline:first-child
 kaigainohannoublog.blog55.fc2.com##.plugin2_outline:last-child
 kanji.me##.ggtitle
+kimpalife.com###bottom-editarea > span[style="font-size: 70%;"]
+kimpalife.com##.hatena-module-body > p[style="text-align: center;"] > span[style="font-size: 80%;"]
 kodate-ru.com#?#.sidebar > h4.widgettitle:contains(スポンサードリンク)
 kujoyugo.com##.booklink-box
 kujoyugo.com##.widget-below-related-entries

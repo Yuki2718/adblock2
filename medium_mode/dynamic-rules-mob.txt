@@ -570,7 +570,7 @@ gatherhere.com cdnjs.gathercdn.com * noop
 getpocket.com cdn-apple.com * noop
 gitee.com vo.aicdn.com * noop
 github.com github.githubassets.com * noop
-github.com render.githubusercontent.com * noop
+github.com githubusercontent.com * noop
 githubuniverse.com web.app * noop
 gitlab.com assets.gitlab-static.net * noop
 globalnews.ca videoplayer.smdg.ca * noop

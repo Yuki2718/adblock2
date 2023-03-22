@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230321
+! Version: 20230323
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -83,6 +83,7 @@ _300_250_
 ##div[class][style="cursor: pointer;"] > img[src^="//"]
 ##div[id][style^="position: fixed; inset: 0px; z-index: 2147483647; background: black"][style*="opacity: 0.01"]
 ##div[style="position:fixed;inset:0px;z-index:100000;height:100%;width:100%"]
+##div[style*="cursor: no-drop"][style*="user-select: none"][style*="position: fixed"][style*="top:"][style*="left:"][style*="z-index"]:empty + *:not([class]):not([id])
 ##div[style*="z-index: 2147483647;"][style*="top: 0px; left: 0px;"][style*="position:"]
 ##iframe[class][scrolling="no"][sandbox="allow-same-origin allow-scripts allow-popups"][style*="z-index: 2147483647; position: fixed"]
 ##iframe[style*="opacity: 1 !important; max-width:"][style*="position: fixed !important; display: block !important; z-index: 2147483647 !important; inset:"]
@@ -103,8 +104,6 @@ blog.manabusakai.com##.unit
 blogmimi.com,legend-anime.com##div[style^="float:none;margin:"]
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="//ck.jp."])
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="https://www.amazon.co.jp/gp/"])
-cad-data.com###KkPcSideTu > nav + aside
-cad-data.com###topKokuchi
 copa.sakura.ne.jp##.post table:has(script[src^="http://spdeliver.i-mobile.co.jp"])
 days366.com##div[class^="days366_"]
 dmlab.jp###sponsorsNav
@@ -191,6 +190,7 @@ oshiete.goo.ne.jp##.pr-unit
 1201914.com###pc_text-21
 2chcopipe.blog.2nt.com##.left_p:first-child
 2chcopipe.blog.2nt.com##dd > div > a[href*="amazon.co.jp"]
+adlt18antenna.xyz##.slide_in_bnr
 amuse-labo.com##div[id^="amuse-"]
 anianierosuki.work##div[id^="sidebar"]
 bikyakudaimaou.com###first > .plugin1_outline:nth-child(-n+2)
@@ -251,9 +251,6 @@ anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,
 /popunder_$script,redirect-rule=noopjs
 
 ! ---------- Anti anti-adb - too few visitors ----------
-||b9dm.us/block-ads/
-||b9good.us/block-ads/
-cad-data.com#@#.adspace
 pc-plaza.com##+js(acs, jQuery, DHAntiAdBlocker)
 pc-plaza.com##.jconfirm
 

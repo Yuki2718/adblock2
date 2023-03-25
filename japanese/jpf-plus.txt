@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230323
+! Version: 20230326
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -115,6 +115,9 @@ fortune.auone.jp##.adsense
 freak-da.hatenablog.com###bottom-editarea
 freak-da.hatenablog.com##.entry-footer-html
 fugaofftime.com##.entry-content > p > span[style="color: #999999; font-size: 12px;"]
+gakuryou.net###ADw970
+gakuryou.net###ADw970_
+gakuryou.net###wrapBanner
 graoda.blog.fc2.com###sidebar_r > table[style="table-layout: fixed;"]
 graoda.blog.fc2.com##.ad > table[style="table-layout: fixed;"]
 graoda.blog.fc2.com##div[id^="AmazonLINK"]
@@ -132,6 +135,7 @@ jewellles.com##.gads
 jquery-master.net##section[style="height:270px"]
 jquerystudy.info###sideBannerFrame
 js.studio-kingdom.com###book_recommend
+juku-kyoiku.com###big
 kaigainohannoublog.blog55.fc2.com##.plugin1_outline:first-child
 kaigainohannoublog.blog55.fc2.com##.plugin2_outline:last-child
 kanji.me##.ggtitle
@@ -162,6 +166,7 @@ shokunin-san.com##.provision_area > .adsbygoogle:upward(1)
 sitebk.com##.nest-h3 > div.productWrap:upward(1)
 sl65amg.blog.fc2.com##.plugin-freearea:has(> a[href^="https://www.amazon.co.jp"])
 solohiker2020.com##div[id^="soloh-"]
+step.piano.or.jp###maincontent > .font-size-0-8.border-bottom-1-grey.margin-bottom-0-5
 twi55.com##.l-sidebar > .widget_custom_html
 twi55.com##.postCta
 twitter.macdrivelove.com###text1 > p > span.lbg[style="font-size:12px"]
@@ -192,6 +197,7 @@ oshiete.goo.ne.jp##.pr-unit
 2chcopipe.blog.2nt.com##dd > div > a[href*="amazon.co.jp"]
 adlt18antenna.xyz##.slide_in_bnr
 amuse-labo.com##div[id^="amuse-"]
+animekabegami.blog.jp###sub div.column-inner-2 > center > :not(font)
 anianierosuki.work##div[id^="sidebar"]
 bikyakudaimaou.com###first > .plugin1_outline:nth-child(-n+2)
 bikyakudaimaou.com###second > .plugin2_outline:first-child

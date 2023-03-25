@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230321
+! Version: 20230326
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -88,15 +88,10 @@
 ###adsquare:not([style^="position: absolute; left: -5000px"])
 ###banner468:not([style^="position: absolute; left: -5000px"])
 ###banner728x90:not([style^="position: absolute; left: -5000px"])
-##.ad-300x250:not(.ads)
 ~job.inshokuten.com##.ad-area:not(.text-ad)
-##.ad-left:not(.adsbox)
 ##.ad-link:not(.adsbox)
-##.ad-loading:not(.adsbox)
-##.ad-marker:not(.adsbox)
 ##.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
 ##.ad-placement:not(.adsbox):not(.afs_ads):not(#ablockercheck)
-##.ad-refresh:not(.adsbox)
 ##.adde_modal_detector
 ##.adde_modal-overlay
 ##.ads_container:not(.text-ad)
@@ -154,15 +149,10 @@ taoruseitai.com,towelstretches.com,xn--28ja8nb9uubn3byzm464cuetahu3avcz915bwoe.c
 #@##adsquare
 #@##banner468
 #@##banner728x90
-#@#.ad-300x250
 #@#.ad-area
-#@#.ad-left
 #@#.ad-link
-#@#.ad-loading
-#@#.ad-marker
 #@#.ad-placeholder
 #@#.ad-placement
-#@#.ad-refresh
 #@#.ads_container
 kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -4000px !important; }
 

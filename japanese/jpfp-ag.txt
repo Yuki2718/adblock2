@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230326
+! Version: 20230327
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -34,6 +34,9 @@
 /api/spots/*$xmlhttprequest,third-party
 /asset/angular.min.js?t=$xmlhttprequest,~third-party
 /asset/jquery/slim-3.2.min.js?*&t=$xmlhttprequest,~third-party
+/assets/jquery/adult0.js?v=$script,~third-party
+/assets/jquery/adult100.js?v=$script,~third-party
+/assets/jquery/main100.js?v=$script,~third-party
 /bens/vinos*.js?$script,third-party
 /get/*?zoneid=$script
 /player/html.php?aid=start_html&*&referer=$subdocument,~third-party
@@ -188,10 +191,7 @@ taoruseitai.com,towelstretches.com,xn--28ja8nb9uubn3byzm464cuetahu3avcz915bwoe.c
 ^cep=*&zoneid=$document
 ^device_model=*&p1=https$document
 ^lpkey=*&uclickhash=$document
-^phone=050-$document
 ^s=*&ssk=*&svar=*&z=$document
-||37.1.213.100^
-||5.61.55.143^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/143447#issuecomment-1438352020
 !#if (adguard_app_windows || adguard_app_mac || adguard_app_android)
 61.121.245.*$network

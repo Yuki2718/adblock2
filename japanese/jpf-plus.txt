@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230326
+! Version: 20230329
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -63,10 +63,12 @@ _300_250_
 ||blog-sokuhou.com/suma-img/kjk/lpimg/pcv1/bn01.jpg
 ||burutira.up.seesaa.net/image/click1.gif
 ||gameland.ifdef.jp/pr-menu.html
+||ibird.jp/img/banner_
 ||m.media-amazon.com/images/I/$domain=graoda.blog.fc2.com
 ||rtec.co.jp/koukoku*$script,~third-party
 ||sandiegoyuyu.com/images/stories/ad_agency/
 ||ssl-images-amazon.com/images/I/$domain=graoda.blog.fc2.com
+||zunda.site/ad/
 
 ! ---------- Ads specific (adult): too few visitors ----------
 ! maybe exclude in MV3 in future
@@ -259,9 +261,9 @@ anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,
 ! ---------- Anti anti-adb - too few visitors ----------
 pc-plaza.com##+js(acs, jQuery, DHAntiAdBlocker)
 pc-plaza.com##.jconfirm
+zunda.site#$##ad_box { height: 50px !important; }
 
 ! ---------- Anti anti-adb - other ----------
-@@||520click.com/ad.php
 @@||afreecatv.com/asset/service/ad/check_ad.js$~third-party
 
 ! ---------- Exception: for default lists ----------

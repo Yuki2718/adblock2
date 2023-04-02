@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230402
+! Version: 20230403
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -217,6 +217,7 @@ dim2database.blog.fc2.com##.flickr_navi + div.content
 fuzokuinfo.com##tr[bgcolor="#ffffff"] > td[colspan="2"] > hr + br
 fuzokuinfo.com##tr[bgcolor="#ffffff"] > td[colspan="2"] > hr:has(+ br)
 h7-game.com##.entry-content > div.wp-block-st-blocks-my-box
+hitodumanews.com##.kkku
 ukemi-no-kiwami.work###pc_text-9
 ukemi-no-kiwami.work##.widget-below-related-entries
 ukemi-no-kiwami.work##.widget-below-single-content-title

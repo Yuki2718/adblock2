@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230401
+! Version: 20230404
 
 ! ---------- Ads general ----------
 /^https:\/\/[0-9a-z]{4,8}\.autos\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,3p,match-case
@@ -151,6 +151,8 @@ zdnet.com##.ad_container
 4gamer.net,smhn.info##.top_ad
 allabout.co.jp##.ad-bnr
 appbank.net##.banner-ad
+appbank.net##.entry-bottom-ad
+appbank.net##.sp-ad
 article.auone.jp##.video-ad
 asahi.com##.list-ad
 chikakb.ldblog.jp##.sp_ad

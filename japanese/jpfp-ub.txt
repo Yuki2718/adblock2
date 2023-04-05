@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230404
+! Version: 20230406
 
 ! ---------- Ads general ----------
 /^https:\/\/[0-9a-z]{4,8}\.autos\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,3p,match-case
@@ -28,12 +28,12 @@
 ! ---------- Cosmetic general ----------
 !#if env_mobile
 *###WIX_ADS
-*##.ad-area:not(.text-ad)
+~job.inshokuten.com,~netmile.co.jp,*##.ad-area:not(.text-ad)
 *##.adPost
 *##.amp-ad
 *##.adWidget
 *##.interstitial-ad
-~subsbr.net,*##.quads-location
+*##.quads-location
 *##.thk_ps_widget
 *##.widget_mobile_ad
 *##div[class][data-index][style^="float: none;"]

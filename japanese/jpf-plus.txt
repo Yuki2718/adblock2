@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230404
+! Version: 20230406
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -98,6 +98,9 @@ _300_250_
 55years-phone-games.com##.mainbox .widget_st_custom_html_widget
 aclub.okinawa##.col-md-12 > div[align="center"]:last-child a
 act-amuse-japan.co.jp##div[class^="bgd-ads"]
+addchannel.net##.Module > div > script[src^="https://js.ad-spire.net"]:upward(2)
+addchannel.net##.Side > .-bgnone:last-child
+addchannel.net##.right-bottom--ad
 anan.jpn.org##div[style="background:#fff;border:solid royalblue 1px;border-radius:5px;margin-right:7px;"]
 archlinux.site##.entry-content > div > .adsbygoogle:upward(1)
 axia-hakusan.com###menu > .rightmenu > .rmenutitle:hs-text(超爆安ねじ一覧):upward(2)
@@ -108,6 +111,7 @@ bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="//ck.jp."])
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="https://www.amazon.co.jp/gp/"])
 copa.sakura.ne.jp##.post table:has(script[src^="http://spdeliver.i-mobile.co.jp"])
 days366.com##div[class^="days366_"]
+deai-report110.com##.widget_text.side-widgets
 dmlab.jp###sponsorsNav
 doorblog.jp,heypo.net###meerkat-contents
 dotpict.net#?#div[id^="ads"]:upward(1)
@@ -138,6 +142,7 @@ jquery-master.net##section[style="height:270px"]
 jquerystudy.info###sideBannerFrame
 js.studio-kingdom.com###book_recommend
 juku-kyoiku.com###big
+juuuke.com##.product
 kaigainohannoublog.blog55.fc2.com##.plugin1_outline:first-child
 kaigainohannoublog.blog55.fc2.com##.plugin2_outline:last-child
 kanji.me##.ggtitle
@@ -154,6 +159,8 @@ massigra.net##.adlabel
 massigra.net##.kkvxmargin > div.adlabel + div
 monjiro.net###headBarArea
 monjiro.net##.adtitle2
+musiatui.blog.fc2.com###entry-footer
+musiatui.blog.fc2.com##.side_by_side
 number-pedia.com##.widget:has(> div > .adsbygoogle)
 ocsoku.com###right-box > .plugin-memo:first-child
 ocsoku.com###right-box > .plugin-memo:last-of-type

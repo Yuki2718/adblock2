@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230406
+! Version: 20230407
 
 ! ---------- Ads general ----------
 /^https:\/\/[0-9a-z]{4,8}\.autos\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,3p,match-case
@@ -133,6 +133,7 @@ seesaa.net###article-ad
 siteindices.com##div[id*="ScriptRoot"]
 t-dilemma.info##.ad-space
 techcrunch.com##.ad-unit:not(.text-ad)
+techtarget.com###leaderboard.ad
 theregister.com##.adun
 togetter.com###ad_overlay
 togetter.com##.ad_rectangle

@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230406
+! Version: 20230407
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -124,6 +124,11 @@ fugaofftime.com##.entry-content > p > span[style="color: #999999; font-size: 12p
 gakuryou.net###ADw970
 gakuryou.net###ADw970_
 gakuryou.net###wrapBanner
+gamelandos.com##p > font[color="#0000FF"]:has(+ br + script)
+gamelandos.com##td > font[color="#0000FF"]:has(+ br + hr + script)
+gamelandos.com##td > hr:has(+ script)
+gamelandos.com##td > script + br
+gamelandos.com##td > script + br + br
 graoda.blog.fc2.com###sidebar_r > table[style="table-layout: fixed;"]
 graoda.blog.fc2.com##.ad > table[style="table-layout: fixed;"]
 graoda.blog.fc2.com##div[id^="AmazonLINK"]

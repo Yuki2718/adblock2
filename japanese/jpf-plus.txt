@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230409
+! Version: 20230413
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -171,6 +171,8 @@ ocsoku.com###right-box > .plugin-memo:first-child
 ocsoku.com###right-box > .plugin-memo:last-of-type
 paintmanga.web.fc2.com##div[style$="background-color:#ffffff;width:160px;text-align:center;float:left"]
 parudou5.com##.kijibu > .hanyouwaku1
+pawakichi.xyz##.article-body-inner > b:last-of-type:has-text(/参考書籍|関連製品/)
+pawakichi.xyz##.booklink-box
 pfch.blog.jp##.right-container > .plugin-popular_articles_with_image ~ .plugin-memo
 phpjavascriptroom.com##.gads
 solarjournal.jp###pchdright

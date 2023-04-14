@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230413
+! Version: 20230415
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -59,14 +59,16 @@ _300_250_
 ||cloudflare.com/ajax/libs/postscribe/$script,third-party
 
 ! ---------- Ads specific: too few visitors ----------
-! maybe exclude in MV3 in future
+||asae.client.jp/pr.html
 ||blog-sokuhou.com/suma-img/kjk/lpimg/pcv1/bn01.jpg
 ||burutira.up.seesaa.net/image/click1.gif
+||dokugakukan.net/file/js/google_ad.js
 ||gameland.ifdef.jp/pr-menu.html
 ||ibird.jp/img/banner_
 ||m.media-amazon.com/images/I/$domain=graoda.blog.fc2.com
 ||rtec.co.jp/koukoku*$script,~third-party
 ||sandiegoyuyu.com/images/stories/ad_agency/
+||smon-hiroba.net/shihoshoshi/images/hiroba_ss.png
 ||ssl-images-amazon.com/images/I/$domain=graoda.blog.fc2.com
 ||zunda.site/ad/
 
@@ -91,10 +93,10 @@ _300_250_
 ##iframe[style*="opacity: 1 !important; max-width:"][style*="position: fixed !important; display: block !important; z-index: 2147483647 !important; inset:"]
 
 ! ---------- Cosmetic specific: too few visitors ----------
-3dyasan.com###custom_html-11
 3dyasan.com###custom_html-12
 3dyasan.com##.custom-html-widget > font[size="3"]
 3dyasan.com##.entry__content > font[size="3"]
+3dyasan.com,tech-diary.net###custom_html-11
 55years-phone-games.com##.mainbox .widget_st_custom_html_widget
 aclub.okinawa##.col-md-12 > div[align="center"]:last-child a
 act-amuse-japan.co.jp##div[class^="bgd-ads"]
@@ -103,6 +105,12 @@ addchannel.net##.Side > .-bgnone:last-child
 addchannel.net##.right-bottom--ad
 anan.jpn.org##div[style="background:#fff;border:solid royalblue 1px;border-radius:5px;margin-right:7px;"]
 archlinux.site##.entry-content > div > .adsbygoogle:upward(1)
+asae.client.jp##.footer-date1 > .footer-menu:last-of-type
+asae.client.jp##.footer-date3 > .footer-menu:last-of-type
+asae.client.jp##.main-pr
+asae.client.jp##.right-box:has(> .adsbygoogle)
+asae.client.jp##.right-box:has(> .iframe-pr)
+asae.client.jp##.right-title:has-text(/PR|スポンサーリンク/)
 axia-hakusan.com###menu > .rightmenu > .rmenutitle:hs-text(超爆安ねじ一覧):upward(2)
 axia-hakusan.com###menu:last-child:has(img[src$="/bana.jpg"])
 blog.manabusakai.com##.unit
@@ -257,13 +265,33 @@ anianierosuki.work##+js(nowoif)
 
 ! ---------- JS: others ----------
 
-! ---------- Exception: blocking ----------
+! ---------- Exception: blocking - too few visitors ----------
+@@||31012.jp/wp-content/uploads/2019/11/ad2.jpg
+@@||a8.net/svt/bgt$image,domain=point.monocla.com
+@@||azclick.jp/images/ad/$image,~third-party
+@@||copilog2.jp/bds_403501/webroot/ad_img/$image,domain=ikkaku.net
+@@||dmlab.jp/images/adtech/*$image,~third-party
+@@||houritsusoudan.biz/ad/image/$image,~third-party
+@@||ienohikari.net/ad/img/ad_$image,~third-party
+
+! ---------- Exception: blocking - othres ----------
 @@||g.doubleclick.net/pagead/ads?$subdocument,domain=sitappa.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=sitappa.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/$script,domain=sitappa.com
 @@||point-g.rakuten.co.jp/pg_assets/item/contets/*_300_250_$image,~third-party
 
-! ---------- Exception: cosmetic ----------
+! ---------- Exception: cosmetic - too few visitors ----------
+azclick.jp#@##topAd
+ienohikari.net#@#.ad_btn
+ikkaku.net#@#.ad-bottom
+ikkaku.net#@#.adImg
+iwakuni-fudosan.jp#@#.ad__item
+iwakuni-fudosan.jp#@#.ads01
+iwakuni-fudosan.jp#@#.top-ad
+point.monocla.com#@#.adbox1
+technobell.co.jp#@##footer_ad
+
+! ---------- Exception: cosmetic - others ----------
 anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,hotdebrid.com,html5.gamedistribution.com,kantangame.com,model-viewer.com,paraphraser.io,play.aidungeon.io,sekai-kabuka.com,tamrieltradecentre.com,teemo.gg,xtremestream.co#@#ins.adsbygoogle:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
 
 ! ---------- Anti anti-adb - general ----------

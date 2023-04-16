@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230409
+! Version: 20230417
 
 ! ---------- Ads general ----------
 /^https:\/\/[0-9a-z]{4,8}\.autos\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,3p,match-case
@@ -49,6 +49,8 @@ globaliconews.com##.td-a-rec
 47news.jp##.ad_inner
 5chmap.com,9db.jp,blog.jp,gamewith.jp,googirl.jp,h1g.jp,realsound.jp,sponichi.co.jp###gStickyAd
 alc.co.jp##.header-ad
+ameblo.jp##.subAdBannerArea
+ameblo.jp##.subAdBannerHeader
 arstechnica.com##.ad_wrapper
 arstechnica.com##.ad_xrail_top
 article.auone.jp,muragon.com##.rectangle-ad
@@ -115,6 +117,7 @@ minitool.com##.page-bottom-fixed-ads
 minitool.com##.page-top-ads
 missav.com##.banner-300
 momoiroadult.com##a[href^="https://click.dtiserv2.com/"]
+nazology.net##.ads-wide
 nbcnews.com##.ad-container
 nicovideo.jp###footer-ad
 nicovideo.jp###middle-ad

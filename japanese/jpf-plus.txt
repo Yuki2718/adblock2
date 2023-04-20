@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230417
+! Version: 20230421
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -93,11 +93,13 @@ _300_250_
 ##iframe[style*="opacity: 1 !important; max-width:"][style*="position: fixed !important; display: block !important; z-index: 2147483647 !important; inset:"]
 
 ! ---------- Cosmetic specific: too few visitors ----------
+17inch.blog.ss-blog.jp###af
 3dyasan.com###custom_html-12
 3dyasan.com##.custom-html-widget > font[size="3"]
 3dyasan.com##.entry__content > font[size="3"]
 3dyasan.com,tech-diary.net###custom_html-11
 55years-phone-games.com##.mainbox .widget_st_custom_html_widget
+58ch.doorblog.jp###myad
 aclub.okinawa##.col-md-12 > div[align="center"]:last-child a
 act-amuse-japan.co.jp##div[class^="bgd-ads"]
 addchannel.net##.Module > div > script[src^="https://js.ad-spire.net"]:upward(2)
@@ -165,6 +167,8 @@ kodate-ru.com#?#.sidebar > h4.widgettitle:contains(スポンサードリンク)
 kujoyugo.com##.booklink-box
 kujoyugo.com##.widget-below-related-entries
 lper.info##.wpa
+lv73.net###広告-ad
+lv73.net##.amazon-ko-ko-ku
 malanka.tech###modal-overlay
 mamana.jp##.entry-content > .add
 mamana.jp##article > div.widget_custom_html:first-child
@@ -238,11 +242,13 @@ deai-app.jp###modal-content
 deai-app.jp###modal-overlay
 dim2database.blog.fc2.com###fc2relate_entry_thumbnail_area + div.content
 dim2database.blog.fc2.com##.flickr_navi + div.content
+eroerosanta.blog.jp##.article-body-inner > div[style="text-align:center;margin:20px auto;padding:15px;background:#ddf3f5;"]
 fuzokuinfo.com##tr[bgcolor="#ffffff"] > td[colspan="2"] > hr + br
 fuzokuinfo.com##tr[bgcolor="#ffffff"] > td[colspan="2"] > hr:has(+ br)
 h7-game.com##.entry-content > div.wp-block-st-blocks-my-box
 hitodumanews.com##.kkku
 kawaiijavcat.com,kawaiijavolds.com##.adddiv
+sexv.jp##.knbdn-size-336x280
 ukemi-no-kiwami.work###pc_text-9
 ukemi-no-kiwami.work##.widget-below-related-entries
 ukemi-no-kiwami.work##.widget-below-single-content-title

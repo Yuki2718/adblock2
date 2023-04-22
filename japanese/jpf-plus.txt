@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230421
+! Version: 20230423
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -47,7 +47,6 @@
 ://ad.*.php?id=$script,~third-party
 ://creative.xxx*.com/widgets/$subdocument,third-party
 ://go.*/i?$subdocument,third-party
-=eyJ.js^$script
 _300_250_
 ! Mobile
 /\/tmp\/[0-9a-z]{6}\.js$/$script,~third-party,match-case,domain=com|xxx
@@ -122,8 +121,11 @@ bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="https://www.amazon.co.jp
 copa.sakura.ne.jp##.post table:has(script[src^="http://spdeliver.i-mobile.co.jp"])
 days366.com##div[class^="days366_"]
 deai-report110.com##.widget_text.side-widgets
+dinvia.diary.to##div[class^="article-body"] > iframe[src^="https://al.dmm.co.jp"] + [id]
 dmlab.jp###sponsorsNav
 doorblog.jp,heypo.net###meerkat-contents
+doragon-keiba.com###text-3
+doragon-keiba.com##.content > div[style="float:none;margin:10px 0 10px 0;text-align:center;"]
 dotpict.net#?#div[id^="ads"]:upward(1)
 english.mag2.com###text-4 a:not([href="http://www.mag2.com/"])
 fnf.seesaa.net##.module--free:not(.side--right > section:first-child)
@@ -161,11 +163,14 @@ juuuke.com##.product
 kaigainohannoublog.blog55.fc2.com##.plugin1_outline:first-child
 kaigainohannoublog.blog55.fc2.com##.plugin2_outline:last-child
 kanji.me##.ggtitle
+ken1.link##.bg-deco-metal1
+ken1.link##.widget_text
 kimpalife.com###bottom-editarea > span[style="font-size: 70%;"]
 kimpalife.com##.hatena-module-body > p[style="text-align: center;"] > span[style="font-size: 80%;"]
 kodate-ru.com#?#.sidebar > h4.widgettitle:contains(スポンサードリンク)
 kujoyugo.com##.booklink-box
 kujoyugo.com##.widget-below-related-entries
+lper.info###text-4
 lper.info##.wpa
 lv73.net###広告-ad
 lv73.net##.amazon-ko-ko-ku
@@ -233,6 +238,9 @@ animekabegami.blog.jp###sub div.column-inner-2 > center > :not(font)
 anianierosuki.work##div[id^="sidebar"]
 bikyakudaimaou.com###first > .plugin1_outline:nth-child(-n+2)
 bikyakudaimaou.com###second > .plugin2_outline:first-child
+bird-pedia.com##.ad_area_bottom
+bird-pedia.com##.body > center
+bird-pedia.com,dechamore.net###text-2
 c-actress.com###block-9
 c-actress.com##.single-related-area
 c-actress.com##.singletop-widget
@@ -240,6 +248,11 @@ carrozzeria-cdl.jp##.article-body > blockquote:has([href*="?PR="])
 carrozzeria-cdl.jp##p > [href*="?PR="] > img
 deai-app.jp###modal-content
 deai-app.jp###modal-overlay
+dechamore.net###text-27
+dechamore.net###text-31
+dechamore.net###text-5
+dechamore.net###text-6
+dechamore.net##.add_contents
 dim2database.blog.fc2.com###fc2relate_entry_thumbnail_area + div.content
 dim2database.blog.fc2.com##.flickr_navi + div.content
 eroerosanta.blog.jp##.article-body-inner > div[style="text-align:center;margin:20px auto;padding:15px;background:#ddf3f5;"]
@@ -264,7 +277,10 @@ anshin-lifenet.com##.header_fixed
 blog###marketingbar
 slideshare.net###scribd-ad-exit-modal
 
-! ---------- CSS ----------
+! ---------- CSS: too few visitors ----------
+dechamore.net###sub-contents[style^="position: fixed"]:style(position: static !important;)
+
+! ---------- CSS: others ----------
 *##ins.adsbygoogle:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
 
 ! ---------- JS: too few visitors ----------

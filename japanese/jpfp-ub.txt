@@ -2,15 +2,9 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230419
+! Version: 20230423
 
 ! ---------- Ads general ----------
-/^https:\/\/[0-9a-z]{4,8}\.autos\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,3p,match-case
-/^https:\/\/[0-9a-z]{4,8}\.beauty\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,3p,match-case
-/^https:\/\/[0-9a-z]{4,8}\.co\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,3p,match-case
-/^https:\/\/[0-9a-z]{4,8}\.lol\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,3p,match-case
-/^https:\/\/[0-9a-z]{4,8}\.mom\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,3p,match-case
-/^https:\/\/[0-9a-z]{4,8}\.xyz\/(?=[a-z]{0,6}[0-9A-Z])[0-9a-zA-Z]{7}\.js$/$script,3p,match-case
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
 /^https:\/\/[a-z]{10,14}\.casa\/tsk\/[\*_0-9a-zA-Z]{600,}$/$image,3p
 /^https:\/\/[a-z]{10,14}\.casa\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -83,6 +77,7 @@ costcotuu.com##.ads1
 costcotuu.com##.ads_footer
 denpa-labo.com,doujineromanga-collection.com,doujinparadise.com,ero-doujin.info,eromanga001.com,eromanganote.com,eromash.com,hentai-books.com,nijigen-daiaru.com,offudoujin.com##.advrbox
 diamond.jp##.gpt-ad
+downdetector.jp###zdcFloatingBtn
 duhoctrungquoc.vn###ads_inline_z
 eromanga-school.com##.ad-top
 favolog.org###ad-box1
@@ -154,6 +149,7 @@ yomiuri.co.jp##.p-ad-thumbnail-txt
 zdnet.com##.ad_container
 !#if env_mobile
 4gamer.net,smhn.info##.top_ad
+47news.jp##.ad_inner
 allabout.co.jp##.ad-bnr
 appbank.net##.banner-ad
 appbank.net##.entry-bottom-ad

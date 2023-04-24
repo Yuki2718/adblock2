@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230423
+! Version: 20230425
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -53,6 +53,7 @@ basketball-zine.com##.top-ad
 bbc.com##.dotcom-ad
 beauty.oricon.co.jp##.Billboard-ad
 bg-mania.jp,j-cast.com,smartlog.jp,space.com##.adunit
+blog.livedoor.jp##.t_b ~ a[href^="https://amzn.to"]
 blogspot.com##.AdSense
 boom-app.wiki##.ad-300
 boom-app.wiki##.ad-468
@@ -142,6 +143,7 @@ twtimez.net##.adDown
 twtimez.net##.adMiddle
 twtimez.net##.adTop
 tver.jp##.ad-section
+warotanien.net##.ad-responsive
 watch.impress.co.jp##.ad-inline
 withnews.jp##.article-ad
 xda-developers.com##.adsninja-ad-zone
@@ -164,7 +166,7 @@ doorblog.jp##.blogroll_ads
 economical.co.jp###footer-ad
 eow.alc.co.jp###ad_header
 gamespark.jp,reanimal.jp,s.animeanime.jp,s.carcareplus.jp,s.cinemacafe.net,s.cyclestyle.net,s.inside-games.jp,s.netsecurity.ne.jp,s.resemom.jp,s.response.jp,s.spyder7.com##.header-ad
-himanatokiniyaruo.com###float-bnr
+himanatokiniyaruo.com,warotanien.net###float-bnr
 kakolog.jp##.ad_header
 kidsna.com##.google-ads
 mamastar.jp##.ad-text

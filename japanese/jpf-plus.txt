@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230424
+! Version: 20230425
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -97,6 +97,8 @@ _300_250_
 3dyasan.com##.custom-html-widget > font[size="3"]
 3dyasan.com##.entry__content > font[size="3"]
 3dyasan.com,tech-diary.net###custom_html-11
+4father.net##.entry-content > div[style="float: none; margin:10px 0 10px 0; text-align:center;"]
+4father.net,lper.info###text-4
 55years-phone-games.com##.mainbox .widget_st_custom_html_widget
 58ch.doorblog.jp###myad
 aclub.okinawa##.col-md-12 > div[align="center"]:last-child a
@@ -118,6 +120,9 @@ blog.manabusakai.com##.unit
 blogmimi.com,legend-anime.com##div[style^="float:none;margin:"]
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="//ck.jp."])
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="https://www.amazon.co.jp/gp/"])
+carmania.info##.entry-content > h2:last-of-type ~ div[style="float: right; margin: 0; border: solid 2.5px #000000;"]
+carmania.info##.entry-content > h2:last-of-type ~ p:has(> a)
+carmania.info##.entry-content > h2:last-of-type ~ p[style="margin: 0;"]
 copa.sakura.ne.jp##.post table:has(script[src^="http://spdeliver.i-mobile.co.jp"])
 days366.com##div[class^="days366_"]
 deai-report110.com##.widget_text.side-widgets
@@ -170,7 +175,6 @@ kimpalife.com##.hatena-module-body > p[style="text-align: center;"] > span[style
 kodate-ru.com#?#.sidebar > h4.widgettitle:contains(スポンサードリンク)
 kujoyugo.com##.booklink-box
 kujoyugo.com##.widget-below-related-entries
-lper.info###text-4
 lper.info##.wpa
 lv73.net###広告-ad
 lv73.net##.amazon-ko-ko-ku
@@ -196,6 +200,7 @@ rancolle.com###top_image_box > aside > .amazon_link
 rancolle.com##.ad_artbox
 rancolle.com##.follow_region > .pc_only[style="margin-bottom:10px;"]
 rancolle.com##article > aside > .ri_box.undisplay_s600
+saitamarket.com##.entry-content > p span.marker-under-blue:upward(p)
 solarjournal.jp###pchdright
 salary-saver.com##.ani:has(> .widget_tsnc_ads_custom_html)
 schizophonic9.blog103.fc2.com##.side-menu > div > .plugin-freearea > a[href^="http://px.a8.net/svt/ejp?"]:upward(3)
@@ -224,6 +229,7 @@ graoda.blog.fc2.com##.thum_pic
 lark-scent.com,tokimekistory.com###modal-content
 lark-scent.com,tokimekistory.com###modal-overlay
 pawakichi.xyz##.plugin-ad
+rancolle.com##.rectangle_box
 
 ! ---------- Cosmetic specific: others ----------
 arvo.showcase-tv.com,getpaidstock.com,kazokuchannel.doorblog.jp,nandemo-uketori.com,sukupara.jp##ins.adsbygoogle

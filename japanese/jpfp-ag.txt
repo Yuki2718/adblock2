@@ -103,6 +103,7 @@
 ##.sidebar-ad:not(div.adsbygoogle)
 ##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
 ##div[style^="z-index: 999999; background-image: url(\"data:image/gif;base64,"][style$="position: absolute;"]
+##div[id][style^="position: fixed; inset: 0px; z-index: 2147483647; background: black"][style*="opacity: 0.01"]
 ##[data-ad-module]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(div.adsbygoogle)
 ##[data-ad-width]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(div.adsbygoogle)
 ##[data-adblockkey]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(html):not(div.adsbygoogle)

@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230426
+! Version: 20230429
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -30,7 +30,7 @@
 /exports/tour_20/*
 /exzUndSJBH.js*$script,~third-party
 /fp-interstitial.js
-/frms/NTV$subdocument,~third-party
+/frms/NTV*$subdocument,~third-party
 /lvesnk.html?zoneid=
 /pub?id=$script,third-party
 /redirect?feed=$subdocument
@@ -115,7 +115,7 @@ asae.client.jp##.main-pr
 asae.client.jp##.right-box:has(> .adsbygoogle)
 asae.client.jp##.right-box:has(> .iframe-pr)
 asae.client.jp##.right-title:has-text(/PR|スポンサーリンク/)
-axia-hakusan.com###menu > .rightmenu > .rmenutitle:hs-text(超爆安ねじ一覧):upward(2)
+axia-hakusan.com###menu > .rightmenu > .rmenutitle:has-text(超爆安ねじ一覧):upward(2)
 axia-hakusan.com###menu:last-child:has(img[src$="/bana.jpg"])
 blog.manabusakai.com##.unit
 blogmimi.com,legend-anime.com##div[style^="float:none;margin:"]

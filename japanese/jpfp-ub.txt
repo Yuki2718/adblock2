@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230425
+! Version: 20230503
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -109,6 +109,7 @@ kamikouryaku.net,wikiru.jp##.sticky-ads
 kotaku.com##.ad-left-top
 kotaku.com##.ad-top-banner
 kyobun.co.jp##[data-advadstrackid]
+makeuseof.com,xda-developers.com##.adsninja-ad-zone
 minitool.com##.page-bottom-fixed-ads
 minitool.com##.page-top-ads
 missav.com##.banner-300
@@ -131,6 +132,7 @@ sabatech.jp##.rectangle
 sabatech.jp##.widget_fit_aditem_class
 seesaa.net###article-ad
 siteindices.com##div[id*="ScriptRoot"]
+srad.jp###ads-article-left
 t-dilemma.info##.ad-space
 techcrunch.com##.ad-unit:not(.text-ad)
 techtarget.com###leaderboard.ad
@@ -146,7 +148,7 @@ tver.jp##.ad-section
 warotanien.net##.ad-responsive
 watch.impress.co.jp##.ad-inline
 withnews.jp##.article-ad
-xda-developers.com##.adsninja-ad-zone
+yomiuri.co.jp##.ads_inview
 yomiuri.co.jp##.p-ad-thumbnail-txt
 zdnet.com##.ad_container
 !#if env_mobile

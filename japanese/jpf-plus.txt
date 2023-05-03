@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230429
+! Version: 20230503
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -108,6 +108,7 @@ addchannel.net##.right-bottom--ad
 adventuregame-irie.com##.entry-content > center:has-text(/^スポンサーリンク$/)
 adventuregame-irie.com##.hatena-module-html > .hatena-module-body > div > .adsbygoogle:upward(3)
 anan.jpn.org##div[style="background:#fff;border:solid royalblue 1px;border-radius:5px;margin-right:7px;"]
+anizines.com##.toc-adsense
 archlinux.site##.entry-content > div > .adsbygoogle:upward(1)
 asae.client.jp##.footer-date1 > .footer-menu:last-of-type
 asae.client.jp##.footer-date3 > .footer-menu:last-of-type
@@ -278,6 +279,8 @@ ukemi-no-kiwami.work##.widget-below-related-entries
 ukemi-no-kiwami.work##.widget-below-single-content-title
 ukemi-no-kiwami.work##.widget-single-content-bottom
 ukemi-no-kiwami.work##.widget_block
+! Mobile
+sweetchocolate.blogterest.net##.blockAreaHeader a[href^="https://al.dmm.co.jp/"]
 
 ! ---------- Cosmetic specific: popular in Japan ----------
 anitube.biz##ins[style*="width:300px"]

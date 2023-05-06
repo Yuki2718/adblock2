@@ -605,6 +605,7 @@ drive.google.com content.googleapis.com * noop
 dynamed.com smallcontent.ebsco-content.com * noop
 ebay.com ebaystatic.com * noop
 elsevier.com cdn.elsevier.io * noop
+entra.microsoft.com azure.net * noop
 extreme.com admin.brightcove.com * noop
 fancy.com thefancy.com * noop
 fandom.com slot1-images.wikia.nocookie.net * noop
@@ -876,6 +877,7 @@ www.metacafe.com cdn.mcstatic.com * noop
 www.microcenter.com content.webcollage.net * noop
 www.microcenter.com www.googletagmanager.com * noop
 www.microsoft.com c.s-microsoft.com * noop
+www.microsoft365.com office.net * noop
 www.mlb.com mlbinfra.com * noop
 www.musiciansfriend.com recs.richrelevance.com * noop
 www.myenglishteacher.eu hb.wpmucdn.com * noop

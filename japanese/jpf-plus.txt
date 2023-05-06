@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230503
+! Version: 20230507
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -198,6 +198,8 @@ pawakichi.xyz##.article-body-inner > b:last-of-type:has-text(/参考書籍|関�
 pawakichi.xyz##.booklink-box
 pfch.blog.jp##.right-container > .plugin-popular_articles_with_image ~ .plugin-memo
 phpjavascriptroom.com##.gads
+quallia-style.com##.veu_contentAddSection
+quallia-style.com##.widget_text > div > center > script[src$="/rakuten_widget.js"]:upward(3)
 rancolle.com###top_image_box > aside > .amazon_link
 rancolle.com##.ad_artbox
 rancolle.com##.follow_region > .pc_only[style="margin-bottom:10px;"]

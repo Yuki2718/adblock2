@@ -557,6 +557,7 @@ drive.google.com content.googleapis.com * noop
 ebay.com ebaystatic.com * noop
 en.softonic.com sftcdn.net * noop
 englishlive.ef.com ef-cdn.com * noop
+entra.microsoft.com azure.net * noop
 extreme.com admin.brightcove.com * noop
 fandom.wikia.com static.wikia.nocookie.net * noop
 figshare.com figstatic.com * noop
@@ -821,6 +822,7 @@ www.metacafe.com cdn.mcstatic.com * noop
 www.microcenter.com content.webcollage.net * noop
 www.microcenter.com www.googletagmanager.com * noop
 www.microsoft.com c.s-microsoft.com * noop
+www.microsoft365.com office.net * noop
 www.mlb.com mlbinfra.com * noop
 www.myenglishteacher.eu hb.wpmucdn.com * noop
 www.nationalreview.com pantheonsite.io * noop

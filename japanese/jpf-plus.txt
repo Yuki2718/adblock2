@@ -171,7 +171,9 @@ kaigainohannoublog.blog55.fc2.com##.plugin1_outline:first-child
 kaigainohannoublog.blog55.fc2.com##.plugin2_outline:last-child
 kanji.me##.ggtitle
 ken1.link##.bg-deco-metal1
-ken1.link##.widget_text
+ken1.link,ken2.link##.widget_text
+ken2.link##.bigbanner_top
+ken2.link##.su-box
 kimpalife.com###bottom-editarea > span[style="font-size: 70%;"]
 kimpalife.com##.hatena-module-body > p[style="text-align: center;"] > span[style="font-size: 80%;"]
 kodate-ru.com#?#.sidebar > h4.widgettitle:contains(スポンサードリンク)
@@ -198,6 +200,7 @@ pawakichi.xyz##.article-body-inner > b:last-of-type:has-text(/参考書籍|関�
 pawakichi.xyz##.booklink-box
 pfch.blog.jp##.right-container > .plugin-popular_articles_with_image ~ .plugin-memo
 phpjavascriptroom.com##.gads
+premium-tsubu-hero.net###wp--skip-link--target > p.has-text-align-center:has-text(/^PR$/)
 quallia-style.com##.veu_contentAddSection
 quallia-style.com##.widget_text > div > center > script[src$="/rakuten_widget.js"]:upward(3)
 rancolle.com###top_image_box > aside > .amazon_link
@@ -220,12 +223,16 @@ tokimekistory.com##.adboxcontainer_t
 twi55.com##.l-sidebar > .widget_custom_html
 twi55.com##.postCta
 twitter.macdrivelove.com###text1 > p > span.lbg[style="font-size:12px"]
+wakarueconomics.com##.widget-index-bottom
 weblan3.com##.ad_ArticleTop
 webmake.info###text-7
 white-sesame.jp##.ad-in-single
 white-sesame.jp##.blog-sidebar--ad:upward(1)
 white-sesame.jp##.single-blog__ad-title
 white-sesame.jp##.single-blog__card-lists--ad
+xn--glay-yn4c8b9a8lo661apz3h.com##.entry-content > center > .adsbygoogle:upward(1)
+xn--glay-yn4c8b9a8lo661apz3h.com##.entry-content > center > [href*="px.a8"]:upward(1)
+xn--glay-yn4c8b9a8lo661apz3h.com##.entry-content > p + center:has-text(Sponsored)
 xn--zckm5bnq2mpa6a1fz490bkx4ayzmvi9g.com###text-21
 ! Mobile
 graoda.blog.fc2.com###gailing02
@@ -275,6 +282,8 @@ fuzokuinfo.com##tr[bgcolor="#ffffff"] > td[colspan="2"] > hr:has(+ br)
 h7-game.com##.entry-content > div.wp-block-st-blocks-my-box
 hitodumanews.com##.kkku
 kawaiijavcat.com,kawaiijavolds.com##.adddiv
+nozokizennkaimax.xyz###custom_html-4
+nozokizennkaimax.xyz##.mainbottom-widget
 sexv.jp##.knbdn-size-336x280
 ukemi-no-kiwami.work###pc_text-9
 ukemi-no-kiwami.work##.widget-below-related-entries

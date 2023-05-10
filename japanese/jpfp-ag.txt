@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230423
+! Version: 20230511
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -95,11 +95,15 @@
 ##.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
 ##.ad-placement:not(.adsbox):not(.afs_ads):not(#ablockercheck)
 ##.ad-slot:not(.adsbox):not(div.adsbygoogle)
-~lamire.jp##.ad-unit:not(.text-ad):not(:empty)
+##.ad-space:not(:empty):not(.textads)
+~lamire.jp##.ad-unit:not(.text-ad):not(:empty):not(.textads)
+##.ad-zone:not(:empty):not(.textads)
 ##.ad_unit:not(.text-ad)
 ##.adde_modal_detector
 ##.adde_modal-overlay
 ##.ads_container:not(.text-ad)
+##.banner-ads:not(:empty):not(.textads)
+##.banner_ads:not(:empty):not(.textads)
 ##.sidebar-ad:not(div.adsbygoogle)
 ##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
 ##div[style^="z-index: 999999; background-image: url(\"data:image/gif;base64,"][style$="position: absolute;"]
@@ -166,9 +170,13 @@ taoruseitai.com,towelstretches.com,xn--28ja8nb9uubn3byzm464cuetahu3avcz915bwoe.c
 #@#.ad-placeholder
 #@#.ad-placement
 #@#.ad-slot
+#@#.ad-space
 #@#.ad-unit
+#@#.ad-zone
 #@#.ad_unit
 #@#.ads_container
+#@#.banner-ads
+#@#.banner_ads
 #@#.sidebar-ad
 #@#[data-ad-module]
 #@#[data-ad-width]

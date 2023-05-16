@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230511
+! Version: 20230517
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -137,6 +137,7 @@ doragon-keiba.com##.content > div[style="float:none;margin:10px 0 10px 0;text-al
 dotpict.net#?#div[id^="ads"]:upward(1)
 english.mag2.com###text-4 a:not([href="http://www.mag2.com/"])
 ethan1173.cocolog-nifty.com##.module-typelist:first-child
+fanzonetokyo.jp##div[id^="fanzo-"]
 fnf.seesaa.net##.module--free:not(.side--right > section:first-child)
 fortune.auone.jp##.adsense
 freak-da.hatenablog.com###bottom-editarea
@@ -204,6 +205,7 @@ paintmanga.web.fc2.com##div[style$="background-color:#ffffff;width:160px;text-al
 parudou5.com##.kijibu > .hanyouwaku1
 pawakichi.xyz##.article-body-inner > b:last-of-type:has-text(/参考書籍|関連製品/)
 pawakichi.xyz##.booklink-box
+pc119.toyama.jp###block-31
 pfch.blog.jp##.right-container > .plugin-popular_articles_with_image ~ .plugin-memo
 phpjavascriptroom.com##.gads
 premium-tsubu-hero.net###wp--skip-link--target > p.has-text-align-center:has-text(/^PR$/)

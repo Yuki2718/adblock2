@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230507
+! Version: 20230517
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -20,6 +20,7 @@
 /^https?:\/\/[a-z]{5,6}\.com\/script\/pattern\.js$/$script,3p,match-case,domain=~edu|~gov|~jp
 
 ! ---------- Cosmetic general ----------
+*##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
 !#if env_mobile
 *###WIX_ADS
 ~job.inshokuten.com,~netmile.co.jp,*##.ad-area:not(.text-ad)
@@ -28,6 +29,7 @@
 *##.adWidget
 *##.interstitial-ad
 *##.quads-location
+*##.sponsor-h2-center
 *##.thk_ps_widget
 *##.widget_mobile_ad
 *##div[class][data-index][style^="float: none;"]
@@ -42,6 +44,7 @@ globaliconews.com##.td-a-rec
 2ch-matomenews.com###float-bnr
 47news.jp##.ad_inner
 5chmap.com,9db.jp,blog.jp,gameo.jp,gamewith.jp,googirl.jp,h1g.jp,realsound.jp,sponichi.co.jp###gStickyAd
+alc.co.jp##.box-ad
 alc.co.jp##.header-ad
 ameblo.jp##.subAdBannerArea
 ameblo.jp##.subAdBannerHeader
@@ -141,6 +144,7 @@ togetter.com###ad_overlay
 togetter.com##.ad_rectangle
 tokai-tv.com##.adArea
 twicolle-plus.com##.ad-bnr
+twpro.jp###ads-top
 twtimez.net##.adDown
 twtimez.net##.adMiddle
 twtimez.net##.adTop

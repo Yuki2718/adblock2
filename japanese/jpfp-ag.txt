@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230511
+! Version: 20230517
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -93,7 +93,6 @@
 ##.Ad-Container:not(div.adsbygoogle)
 ##.ad-link:not(.adsbox)
 ##.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
-##.ad-placement:not(.adsbox):not(.afs_ads):not(#ablockercheck)
 ##.ad-slot:not(.adsbox):not(div.adsbygoogle)
 ##.ad-space:not(:empty):not(.textads)
 ~lamire.jp##.ad-unit:not(.text-ad):not(:empty):not(.textads)
@@ -168,7 +167,6 @@ taoruseitai.com,towelstretches.com,xn--28ja8nb9uubn3byzm464cuetahu3avcz915bwoe.c
 #@#.ad-area
 #@#.ad-link
 #@#.ad-placeholder
-#@#.ad-placement
 #@#.ad-slot
 #@#.ad-space
 #@#.ad-unit

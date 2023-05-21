@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230517
+! Version: 20230522
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -48,6 +48,7 @@ alc.co.jp##.box-ad
 alc.co.jp##.header-ad
 ameblo.jp##.subAdBannerArea
 ameblo.jp##.subAdBannerHeader
+applikoryaku.com,basketball-zine.com,downtownreport.net,folk-media.com,kakuge.com,kurashi-no.jp,refind2ch.org##.ad_overlay
 arstechnica.com##.ad_wrapper
 arstechnica.com##.ad_xrail_top
 article.auone.jp,muragon.com##.rectangle-ad
@@ -108,6 +109,7 @@ ismedia.jp##.m-ad
 jiji.com##.ArticleAdSide
 jpnumber.com##.adsleft
 jpnumber.com##.adsright
+kamigame.jp###ad_top
 kamikouryaku.net,wikiru.jp##.sticky-ads
 kotaku.com##.ad-left-top
 kotaku.com##.ad-top-banner
@@ -163,6 +165,7 @@ allabout.co.jp##.ad-bnr
 appbank.net##.banner-ad
 appbank.net##.entry-bottom-ad
 appbank.net##.sp-ad
+appbank.net##.title-ad
 article.auone.jp##.video-ad
 asahi.com##.list-ad
 chikakb.ldblog.jp##.sp_ad
@@ -176,6 +179,7 @@ gamespark.jp,reanimal.jp,s.animeanime.jp,s.carcareplus.jp,s.cinemacafe.net,s.cyc
 himanatokiniyaruo.com,warotanien.net###float-bnr
 kakolog.jp##.ad_header
 kidsna.com##.google-ads
+kurashi-no.jp##.inline_ad
 mamastar.jp##.ad-text
 mantan-web.jp##.ad_text
 matomegamer.com##.rectangle_ad
@@ -183,6 +187,7 @@ oppai-paipai.com##.ad-head
 pixiv.net###ad-footer
 s.kakaku.com###headerAd
 sbapp.net##.ads_center
+shufuse.com##div[class^="_taxel_ad_article_"]
 telling.asahi.com##.p-ad
 topics.smt.docomo.ne.jp###ad_middle
 watch.impress.co.jp###gStickyAd

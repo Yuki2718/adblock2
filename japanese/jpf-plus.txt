@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230522
+! Version: 20230523
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -17,8 +17,6 @@
 /o.js|$script,third-party
 /sweetie/hello.min.js?id=$script,third-party
 /\/nb\/[a-z]{4}\.js$/$script,~third-party,match-case
-/^https:\/\/www\.[a-z]{8,14}\.com\/[a-z]{1,4}\.js$/$script,third-party,match-case,domain=~edu|~gov|~jp
-/​^https:\/\/[a-z]{6}\.com\/script/[a-z]{8}\.js$/$script,3p,match-case,domain=~edu|~gov|~jp
 /^https?:\/\/[-.0-9a-z]+-ad\.(?:com|jp|net)[\/:]/$script,third-party
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)(\/(?:\d{1,5}|0NaN|articles?|browse|index|movie|news|pages?|static|view|web|wiki)){1,4}(?:\.html|\/)?$/$subdocument,third-party,match-case,domain=~edu|~gov|~jp
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)\/[-a-z]{4,}\.css\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$stylesheet,third-party,match-case
@@ -95,6 +93,8 @@ _300_250_
 ##iframe[style*="opacity: 1 !important; max-width:"][style*="position: fixed !important; display: block !important; z-index: 2147483647 !important; inset:"]
 
 ! ---------- Cosmetic specific: too few visitors ----------
+1173go.com##.widget-over-article
+1173go.com##.widget-under-related-entries
 17inch.blog.ss-blog.jp###af
 3dyasan.com###custom_html-12
 3dyasan.com##.custom-html-widget > font[size="3"]
@@ -122,6 +122,7 @@ asae.client.jp##.right-box:has(> .iframe-pr)
 asae.client.jp##.right-title:has-text(/PR|スポンサーリンク/)
 axia-hakusan.com###menu > .rightmenu > .rmenutitle:has-text(超爆安ねじ一覧):upward(2)
 axia-hakusan.com###menu:last-child:has(img[src$="/bana.jpg"])
+blog.h-wd.info##.widget-sidebar-scroll
 blog.manabusakai.com##.unit
 blogmimi.com,legend-anime.com##div[style^="float:none;margin:"]
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="//ck.jp."])
@@ -221,6 +222,8 @@ rancolle.com##.ad_artbox
 rancolle.com##.follow_region > .pc_only[style="margin-bottom:10px;"]
 rancolle.com##article > aside > .ri_box.undisplay_s600
 saitamarket.com##.entry-content > p span.marker-under-blue:upward(p)
+sanbongi.info##.panel-body > p > .adsbygoogle:upward(1)
+sanbongi.info,webmake.info###text-7
 solarjournal.jp###pchdright
 salary-saver.com##.ani:has(> .widget_tsnc_ads_custom_html)
 schizophonic9.blog103.fc2.com##.side-menu > div > .plugin-freearea > a[href^="http://px.a8.net/svt/ejp?"]:upward(3)
@@ -239,7 +242,6 @@ twitter.macdrivelove.com###text1 > p > span.lbg[style="font-size:12px"]
 upcom.sakura.ne.jp##div[style$="width:280px;margin:0px;padding:5px;text-align:center;overflow:hidden;"]
 wakarueconomics.com##.widget-index-bottom
 weblan3.com##.ad_ArticleTop
-webmake.info###text-7
 white-sesame.jp##.ad-in-single
 white-sesame.jp##.blog-sidebar--ad:upward(1)
 white-sesame.jp##.single-blog__ad-title
@@ -247,6 +249,7 @@ white-sesame.jp##.single-blog__card-lists--ad
 xn--glay-yn4c8b9a8lo661apz3h.com##.entry-content > center > .adsbygoogle:upward(1)
 xn--glay-yn4c8b9a8lo661apz3h.com##.entry-content > center > [href*="px.a8"]:upward(1)
 xn--glay-yn4c8b9a8lo661apz3h.com##.entry-content > p + center:has-text(Sponsored)
+xn--t8jg7842a3jax1ftt5fm9j.com##.sidebar_content > div.widget_text
 xn--zckm5bnq2mpa6a1fz490bkx4ayzmvi9g.com###text-21
 ! Mobile
 graoda.blog.fc2.com###gailing02

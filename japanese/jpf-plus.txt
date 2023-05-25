@@ -200,6 +200,7 @@ mamana.jp##article > div.widget_custom_html:first-child
 mankitu-blog.com##div[id^="manki-"]
 massigra.net##.adlabel
 massigra.net##.kkvxmargin > div.adlabel + div
+mgkca.com##.col-md-6:has(> .card > div > .adsbygoogle)
 monjiro.net###headBarArea
 monjiro.net##.adtitle2
 musiatui.blog.fc2.com###entry-footer

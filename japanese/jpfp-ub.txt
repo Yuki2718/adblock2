@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230531
+! Version: 20230605
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -105,6 +105,7 @@ h1g.jp,seesaa.net##div[id^="crt-"][style]
 hamakei.com###_ads
 hatenablog.com##.insentence-adsense
 hatenablog.com##.insentence-adsense2
+hentaipaw.com##.header-ad
 huffingtonpost.jp##.ad-leaderboard-flex
 huffingtonpost.jp##.advertisement-holder
 imgur.com##.ad-slot
@@ -122,6 +123,7 @@ makeuseof.com,xda-developers.com##.adsninja-ad-zone
 minitool.com##.page-bottom-fixed-ads
 minitool.com##.page-top-ads
 missav.com##.banner-300
+mixch.tv##.footer-ad
 momoiroadult.com##a[href^="https://click.dtiserv2.com/"]
 nazology.net##.ads-wide
 nbcnews.com##.ad-container

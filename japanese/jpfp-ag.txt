@@ -2,16 +2,20 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230605
+! Version: 20230607
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
 .com/promo.php?c=$subdocument,third-party
+.com/script/asset.js|$third-party
 .com/script/compatibility.js|$third-party
 .com/script/foundation.js|$third-party
+.com/script/image.js|$third-party
 .com/script/npa2.min.js|$third-party
+.com/script/xbox.js|$third-party
 .net/1?z=$script,third-party
 .org/script/compatibility.js|$third-party
+.php?s=su&r=*&sadbl=1&$xmlhttprequest,third-party
 /300x250.html|$subdocument,third-party
 /\/assets\/jquery\/jquery-\d\.\d\.(?:\d\.)?min\.js\?(?:v=2)?&?type=(?:adult|mainstream)$/$script,~third-party
 /\/js\/\d{2,3}eka\d{2,3}\.js$/$script,~third-party,domain=com
@@ -36,6 +40,7 @@
 /assets/jquery/main100.js?v=$script,~third-party
 /bens/vinos*.js?$script,third-party
 /cuid/?f=https%$xmlhttprequest,third-party
+/deity.php?q=$xmlhttprequest,third-party
 /gb/zone?zid=$xmlhttprequest,third-party
 /get/*?zoneid=$script
 /player/html.php?aid=start_html&*&referer=$subdocument,~third-party

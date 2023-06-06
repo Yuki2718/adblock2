@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230605
+! Version: 20230607
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -127,10 +127,13 @@ blogmimi.com,legend-anime.com##div[style^="float:none;margin:"]
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="//ck.jp."])
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="https://www.amazon.co.jp/gp/"])
 bonjinnikki.com##div[id^="bonji-"]
+brandthinking.net##.recommended
 carmania.info##.entry-content > h2:last-of-type ~ div[style="float: right; margin: 0; border: solid 2.5px #000000;"]
 carmania.info##.entry-content > h2:last-of-type ~ p:has(> a)
 carmania.info##.entry-content > h2:last-of-type ~ p[style="margin: 0;"]
 copa.sakura.ne.jp##.post table:has(script[src^="http://spdeliver.i-mobile.co.jp"])
+corocoro-tabi.com###secondary > .widget_custom_html
+corocoro-tabi.com###custom_html-15 > .widget_text > .textwidget > a
 days366.com##div[class^="days366_"]
 deai-report110.com##.widget_text.side-widgets
 dinvia.diary.to##div[class^="article-body"] > iframe[src^="https://al.dmm.co.jp"] + [id]
@@ -210,6 +213,7 @@ nsdev.jp##.l-mainContent__inner > .post_content > p:last-of-type:has(> iframe[he
 number-pedia.com##.widget:has(> div > .adsbygoogle)
 ocsoku.com###right-box > .plugin-memo:first-child
 ocsoku.com###right-box > .plugin-memo:last-of-type
+ogurigo.jp##.entry-content > p > span[style="color: #999999; font-size: 12px;"]
 osayama.com###black-studio-tinymce-24
 osayama.com###black-studio-tinymce-5
 paintmanga.web.fc2.com##div[style$="background-color:#ffffff;width:160px;text-align:center;float:left"]

@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230607
+! Version: 20230609
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -142,6 +142,7 @@ doorblog.jp,heypo.net###meerkat-contents
 doragon-keiba.com###text-3
 doragon-keiba.com##.content > div[style="float:none;margin:10px 0 10px 0;text-align:center;"]
 dotpict.net#?#div[id^="ads"]:upward(1)
+ec.enoki.xyz##.content_table_mother[id$="_ads"]
 english.mag2.com###text-4 a:not([href="http://www.mag2.com/"])
 ethan1173.cocolog-nifty.com##.module-typelist:first-child
 fanzonetokyo.jp##div[id^="fanzo-"]

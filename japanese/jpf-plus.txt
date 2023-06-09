@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230609
+! Version: 20230610
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -74,6 +74,7 @@ _300_250_
 ! ---------- Ads specific (adult): too few visitors ----------
 ! maybe exclude in MV3 in future
 ||ero-mangacafe.com^$subdocument,~third-party
+||gayroom.jp/banner/
 
 ! ---------- Popup general ----------
 ?spot_id=*&psid=https://$popup,third-party
@@ -120,6 +121,8 @@ asae.client.jp##.right-box:has(> .iframe-pr)
 asae.client.jp##.right-title:has-text(/PR|スポンサーリンク/)
 axia-hakusan.com###menu > .rightmenu > .rmenutitle:has-text(超爆安ねじ一覧):upward(2)
 axia-hakusan.com###menu:last-child:has(img[src$="/bana.jpg"])
+bazooo.com###main > section.widget_text
+bazooo.com##.toplinkyuni
 bazutore.com##.kijikome3
 blog.h-wd.info##.widget-sidebar-scroll
 blog.manabusakai.com##.unit
@@ -169,6 +172,7 @@ graoda.blog.fc2.com##div[id^="AmazonLINK"]
 graoda.blog.fc2.com##table[width="700"][height="300"]
 hakuhin.jp##.menu_ads
 hakuhin.jp##div[style="display:table; margin:10px auto -10px;"]
+haseakio.hatenablog.com##.hatena-module-html > .hatena-module-body > script[src^="//ws-fe.amazon-adsystem.com/"]:upward(2)
 hcz.jp###koukoku
 hcz.jp##.header-bottom:has(> .adsbygoogle)
 hibara.org###post > p > .adsbygoogle:upward(1)
@@ -196,6 +200,7 @@ kimpalife.com##.hatena-module-body > p[style="text-align: center;"] > span[style
 kodate-ru.com#?#.sidebar > h4.widgettitle:contains(スポンサードリンク)
 kujoyugo.com##.booklink-box
 kujoyugo.com##.widget-below-related-entries
+kuram.tv###side_pr
 lper.info##.wpa
 lv73.net###広告-ad
 lv73.net##.amazon-ko-ko-ku
@@ -246,6 +251,7 @@ step.piano.or.jp###maincontent > .font-size-0-8.border-bottom-1-grey.margin-bott
 studio-de.com###block-11
 studio-de.com###block-12
 tokimekistory.com##.adboxcontainer_t
+tottemoyasashiibitcoin.net##.code-block-1
 twi55.com##.l-sidebar > .widget_custom_html
 twi55.com##.postCta
 twitter.macdrivelove.com###text1 > p > span.lbg[style="font-size:12px"]
@@ -307,6 +313,8 @@ dim2database.blog.fc2.com##.flickr_navi + div.content
 eroerosanta.blog.jp##.article-body-inner > div[style="text-align:center;margin:20px auto;padding:15px;background:#ddf3f5;"]
 fuzokuinfo.com##tr[bgcolor="#ffffff"] > td[colspan="2"] > hr + br
 fuzokuinfo.com##tr[bgcolor="#ffffff"] > td[colspan="2"] > hr:has(+ br)
+gayroom.jp##.hentry > .clearfix > .box > .pict
+gayroom.jp##div[style="padding: 5px; background-color: gray; color: #ffffff;"]:has-text(【広告】)
 h7-game.com##.entry-content > div.wp-block-st-blocks-my-box
 hitodumanews.com##.kkku
 imurunokioku.blog.jp###j_j_j

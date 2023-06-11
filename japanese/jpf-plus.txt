@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230610
+! Version: 20230612
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -110,6 +110,7 @@ addchannel.net##.Side > .-bgnone:last-child
 addchannel.net##.right-bottom--ad
 adventuregame-irie.com##.entry-content > center:has-text(/^スポンサーリンク$/)
 adventuregame-irie.com##.hatena-module-html > .hatena-module-body > div > .adsbygoogle:upward(3)
+alpha.information-portal.net##.side > .linebox:not(:has(> .twitter-timeline))
 anan.jpn.org##div[style="background:#fff;border:solid royalblue 1px;border-radius:5px;margin-right:7px;"]
 anizines.com##.toc-adsense
 archlinux.site##.entry-content > div > .adsbygoogle:upward(1)
@@ -125,6 +126,7 @@ bazooo.com###main > section.widget_text
 bazooo.com##.toplinkyuni
 bazutore.com##.kijikome3
 blog.h-wd.info##.widget-sidebar-scroll
+blog.information-portal.net##.mg-sidebar > .widget_custom_html
 blog.manabusakai.com##.unit
 blogmimi.com,legend-anime.com##div[style^="float:none;margin:"]
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="//ck.jp."])

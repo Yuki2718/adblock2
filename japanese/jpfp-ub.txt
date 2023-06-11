@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230605
+! Version: 20230612
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -191,6 +191,7 @@ mantan-web.jp##.ad_text
 matomegamer.com##.rectangle_ad
 oppai-paipai.com##.ad-head
 pixiv.net###ad-footer
+realsound.jp##.ad02
 s.kakaku.com###headerAd
 sbapp.net##.ads_center
 shufuse.com##div[class^="_taxel_ad_article_"]

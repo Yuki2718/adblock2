@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230612
+! Version: 20230619
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -103,6 +103,8 @@ gyazo.com##.lower-ad
 gyazo.com##.upper-ad-box
 h1g.jp,seesaa.net##div[id^="crt-"][style]
 hamakei.com###_ads
+hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org##.sleeping-ad-in-entry
+hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org##.sleeping-ads
 hatenablog.com##.insentence-adsense
 hatenablog.com##.insentence-adsense2
 hentaipaw.com##.header-ad
@@ -110,6 +112,7 @@ huffingtonpost.jp##.ad-leaderboard-flex
 huffingtonpost.jp##.advertisement-holder
 imgur.com##.ad-slot
 ismedia.jp##.m-ad
+jav.direct,javfan.one,javmix.*,javtheater.com,openloadpro.com##.__isboostOverContent
 jiji.com##.ArticleAdSide
 jpnumber.com##.adsleft
 jpnumber.com##.adsright
@@ -183,6 +186,9 @@ economical.co.jp###footer-ad
 eow.alc.co.jp###ad_header
 gamespark.jp,reanimal.jp,s.animeanime.jp,s.carcareplus.jp,s.cinemacafe.net,s.cyclestyle.net,s.inside-games.jp,s.netsecurity.ne.jp,s.resemom.jp,s.response.jp,s.spyder7.com##.header-ad
 himanatokiniyaruo.com,warotanien.net###float-bnr
+javdock.com,javhdporn.net##.header-ad-mobile
+javdock.com,javhdporn.net##.sidebar-ads
+javdock.com,javhdporn.net##.under-player-ad-mobile
 kakolog.jp##.ad_header
 kidsna.com##.google-ads
 kurashi-no.jp##.inline_ad

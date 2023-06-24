@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230612
+! Version: 20230624
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -136,6 +136,7 @@ brandthinking.net##.recommended
 carmania.info##.entry-content > h2:last-of-type ~ div[style="float: right; margin: 0; border: solid 2.5px #000000;"]
 carmania.info##.entry-content > h2:last-of-type ~ p:has(> a)
 carmania.info##.entry-content > h2:last-of-type ~ p[style="margin: 0;"]
+clean-souji.com##div[id^="clean-"]
 copa.sakura.ne.jp##.post table:has(script[src^="http://spdeliver.i-mobile.co.jp"])
 corocoro-tabi.com###secondary > .widget_custom_html
 corocoro-tabi.com###custom_html-15 > .widget_text > .textwidget > a

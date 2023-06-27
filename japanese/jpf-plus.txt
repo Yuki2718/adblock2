@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230624
+! Version: 20230628
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -128,6 +128,8 @@ bazutore.com##.kijikome3
 blog.h-wd.info##.widget-sidebar-scroll
 blog.information-portal.net##.mg-sidebar > .widget_custom_html
 blog.manabusakai.com##.unit
+blog.toyget.com##.hatena-module-html > div > a[href^="https://px.a8.net"]:upward(2)
+blog.toyget.com##.hatena-module-html > div > div > script[src^="//rws.a8.net"]:upward(3)
 blogmimi.com,legend-anime.com##div[style^="float:none;margin:"]
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="//ck.jp."])
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="https://www.amazon.co.jp/gp/"])

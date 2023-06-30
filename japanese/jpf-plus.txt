@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230628
+! Version: 20230701
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -112,6 +112,7 @@ adventuregame-irie.com##.entry-content > center:has-text(/^スポンサーリン
 adventuregame-irie.com##.hatena-module-html > .hatena-module-body > div > .adsbygoogle:upward(3)
 alpha.information-portal.net##.side > .linebox:not(:has(> .twitter-timeline))
 anan.jpn.org##div[style="background:#fff;border:solid royalblue 1px;border-radius:5px;margin-right:7px;"]
+androidpolice.com##.ad-current
 anizines.com##.toc-adsense
 archlinux.site##.entry-content > div > .adsbygoogle:upward(1)
 asae.client.jp##.footer-date1 > .footer-menu:last-of-type
@@ -135,9 +136,11 @@ bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="//ck.jp."])
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="https://www.amazon.co.jp/gp/"])
 bonjinnikki.com##div[id^="bonji-"]
 brandthinking.net##.recommended
+c-camera.com###online_store
 carmania.info##.entry-content > h2:last-of-type ~ div[style="float: right; margin: 0; border: solid 2.5px #000000;"]
 carmania.info##.entry-content > h2:last-of-type ~ p:has(> a)
 carmania.info##.entry-content > h2:last-of-type ~ p[style="margin: 0;"]
+check-pc.com##.maker_link_footer
 clean-souji.com##div[id^="clean-"]
 copa.sakura.ne.jp##.post table:has(script[src^="http://spdeliver.i-mobile.co.jp"])
 corocoro-tabi.com###secondary > .widget_custom_html
@@ -251,6 +254,7 @@ shogaisha-shuro.com###main_column > .opacity
 shokunin-san.com##.provision_area > .adsbygoogle:upward(1)
 sitebk.com##.nest-h3 > div.productWrap:upward(1)
 sl65amg.blog.fc2.com##.plugin-freearea:has(> a[href^="https://www.amazon.co.jp"])
+sokupochi.com##.sidebar > section[id^="text-"]
 solohiker2020.com##div[id^="soloh-"]
 step.piano.or.jp###maincontent > .font-size-0-8.border-bottom-1-grey.margin-bottom-0-5
 studio-de.com###block-11
@@ -323,12 +327,15 @@ gayroom.jp##div[style="padding: 5px; background-color: gray; color: #ffffff;"]:h
 h7-game.com##.entry-content > div.wp-block-st-blocks-my-box
 hitodumanews.com##.kkku
 imurunokioku.blog.jp###j_j_j
+josona.com##.l-main > .dividerBottom > .dividerTop
 kawaiijavcat.com,kawaiijavolds.com##.adddiv
 kyonyu.jp###custom_html-12
 kyonyu.jp###custom_html-59
 kyonyu.jp###custom_html-60
 kyonyu.jp###custom_html-61
 kyonyu.jp###single-page_ad
+lovinyou.site##.textwidget [href^="https://click.duga.jp/ppv/"]
+lovinyou.site##.textwidget [href^="https://pcolle.jp/product/detail/"]
 mominagara-girls.xyz###custom_html-5
 mominagara-girls.xyz###custom_html-6
 mominagara-girls.xyz###execphp-5

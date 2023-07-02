@@ -184,6 +184,7 @@ no-large-media: behind-the-scene false
 * embed.tumblr.com * noop
 * embed.vodstream.xyz * noop
 * embedmaker.com * noop
+* embedsb.com * noop
 * entitlement.auth.adobe.com * noop
 * esrimedia.maps.arcgis.com * noop
 * exceda.com * noop
@@ -531,8 +532,6 @@ no-large-media: behind-the-scene false
 * zendesk.com * noop
 * zetacdn.net * noop
 4chan.org s.4cdn.org * noop
-9anime.ru mcloud.to * noop
-9anime.ru staticf.akacdn.ru * noop
 9anime.tv staticf.akacdn.ru * noop
 abc13.com edgecastdns.net * noop
 abcnews.go.com assets-cdn.abcnews.com * noop
@@ -561,6 +560,7 @@ admin.microsoft.com res.office365.com * noop
 admin.microsoft.com shellprod.msocdn.com * noop
 admin.microsoft.com webshell.suite.office.com * noop
 aliexpress.com assets.alicdn.com * noop
+animeflv.vc animeid.live * noop
 answers.microsoft.com msecnd.net * noop
 app.box.com cdn01.boxcdn.net * noop
 app.box.com public.boxcloud.com * noop
@@ -860,8 +860,7 @@ www.kaspersky.com assets.kasperskydaily.com * noop
 www.kayak.co.uk r9cdn.net * noop
 www.kayak.com r9cdn.net * noop
 www.kayak.com.au r9cdn.net * noop
-www.kiss-anime.ws animesource.me * noop
-www.kiss-anime.ws cdn.fluidplayer.com * noop
+www.kissanimes.net animesource.me * noop
 www.klm.com static-afkl.com * noop
 www.ladbible.com theladbible.com * noop
 www.latimes.com ca-times.brightspotcdn.com * noop
@@ -974,8 +973,6 @@ www.yummly.com s.yumm.ly * noop
 www.zdnet.com cn.cbsimg.net * noop
 www.zillow.com zillowstatic.com * noop
 www.zoho.com jz.zohostatic.com * noop
-www1.animeflv.bz animeid.to * noop
-www1.animeflv.bz embedsito.com * noop
 yahoo.com yahoodns.net * noop
 yandex.com yandex-images.clstorage.net * noop
 yandex.com yastatic.net * noop

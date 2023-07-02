@@ -178,6 +178,7 @@ no-large-media: behind-the-scene false
 * embed.tumblr.com * noop
 * embed.vodstream.xyz * noop
 * embedmaker.com * noop
+* embedsb.com * noop
 * esrimedia.maps.arcgis.com * noop
 * exceda.com * noop
 * fast.wistia.com * noop
@@ -515,6 +516,7 @@ account.trendmicro.com libs.coremetrics.com * noop
 accounts.firefox.com mozilla.net * noop
 admin.microsoft.com prod.msocdn.com * noop
 aliexpress.com assets.alicdn.com * noop
+animeflv.vc animeid.live * noop
 answers.microsoft.com msecnd.net * noop
 app.box.com public.boxcloud.com * noop
 apple.com aaplimg.com * noop
@@ -807,6 +809,7 @@ www.kaspersky.com assets.kasperskydaily.com * noop
 www.kayak.co.uk r9cdn.net * noop
 www.kayak.com r9cdn.net * noop
 www.kayak.com.au r9cdn.net * noop
+www.kissanimes.net animesource.me * noop
 www.ladbible.com theladbible.com * noop
 www.latimes.com ca-times.brightspotcdn.com * noop
 www.latimes.com ca-times.psdops.com * noop
@@ -901,8 +904,6 @@ www.yummly.com s.yumm.ly * noop
 www.zdnet.com cn.cbsimg.net * noop
 www.zillow.com zillowstatic.com * noop
 www.zoho.com jz.zohostatic.com * noop
-www1.animeflv.bz animeid.to * noop
-www1.animeflv.bz embedsito.com * noop
 xhamster.com xhcdn.com * noop
 yahoo.com yahoodns.net * noop
 yandex.com yandex-images.clstorage.net * noop

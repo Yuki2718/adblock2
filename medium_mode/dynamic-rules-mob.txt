@@ -884,14 +884,12 @@ www.trustpilot.com businessunitprofile-cdn.trustpilot.net * noop
 www.tube8.com t8cdn.com * noop
 www.twitch.tv twitchcdn.net * noop
 www.usenix.org pantheonsite.io * noop
-www.vicsdrumshop.com assets.reverbsites.com * noop
 www.viki.com viki.io * noop
 www.virustotal.com googlehosted.com * noop
 www.virustotal.com virustotalcloud.appspot.com * noop
 www.vividseats.com a.vsstatic.com * noop
 www.walmart.com i5.wal.co * noop
 www.walmart.com i5.walmartimages.com * noop
-www.watchanimes.net vidstreaming.io * noop
 www.weebly.com templates.editmysite.com * noop
 www.weebly.com weebly.ghost.io * noop
 www.wired.com player-wired.cnevids.com * noop

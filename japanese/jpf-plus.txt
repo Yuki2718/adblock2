@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230701
+! Version: 20230704
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -223,6 +223,8 @@ monjiro.net###headBarArea
 monjiro.net##.adtitle2
 musiatui.blog.fc2.com###entry-footer
 musiatui.blog.fc2.com##.side_by_side
+news.minory.org###block-3
+news.minory.org###block-5
 nsdev.jp##.l-mainContent__inner > .post_content > p:last-of-type:has(> iframe[height="250"])
 number-pedia.com##.widget:has(> div > .adsbygoogle)
 ocsoku.com###right-box > .plugin-memo:first-child

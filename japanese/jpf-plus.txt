@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230704
+! Version: 20230709
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -72,7 +72,7 @@ _300_250_
 ||zunda.site/ad/
 
 ! ---------- Ads specific (adult): too few visitors ----------
-! maybe exclude in MV3 in future
+||angel-bbs.com/ssi/koukoku_
 ||ero-mangacafe.com^$subdocument,~third-party
 ||gayroom.jp/banner/
 
@@ -312,6 +312,13 @@ c-actress.com##.single-related-area
 c-actress.com##.singletop-widget
 carrozzeria-cdl.jp##.article-body > blockquote:has([href*="?PR="])
 carrozzeria-cdl.jp##p > [href*="?PR="] > img
+chipai-only.com###block-24
+chipai-only.com##.sc_frame_wrap > a[href^="https://al.dmm.co.jp"] > p[style="text-align: center;"] > img[height="600"]
+chipai-only.com##.widget_block:has(> div > div > p > ins.dmm-widget-placement)
+chipai-only.com,paipai-only.com##.mainwidget
+chipai-only.com,paipai-only.com##.oriads
+chipai-only.com,paipai-only.com##.sc_frame_wrap > p + h2:has-text(/^実際に/)
+chipai-only.com,paipai-only.com##.sidebar_content > .widget_block:first-child
 deai-app.jp###modal-content
 deai-app.jp###modal-overlay
 dechamore.net###text-27
@@ -338,6 +345,7 @@ kyonyu.jp###custom_html-61
 kyonyu.jp###single-page_ad
 lovinyou.site##.textwidget [href^="https://click.duga.jp/ppv/"]
 lovinyou.site##.textwidget [href^="https://pcolle.jp/product/detail/"]
+maruidesu.blog12.fc2.com##.plugin2_outline > div > div.plugin-freearea:upward(2)
 mominagara-girls.xyz###custom_html-5
 mominagara-girls.xyz###custom_html-6
 mominagara-girls.xyz###execphp-5
@@ -346,12 +354,19 @@ mominagara-girls.xyz##.erKokOrigin:upward(1)
 mominagara-girls.xyz##.entry-content > h2:has-text(/関連作品|おすすめ動画/)
 nozokizennkaimax.xyz###custom_html-4
 nozokizennkaimax.xyz##.mainbottom-widget
+paipai-only.com###block-132
+paipai-only.com##.sc_frame_wrap > p > a[href^="https://al.dmm.co.jp"] > img[width="1200"][height="600"]
+paipai-only.com##.sc_frame_wrap > p > a[href^="https://al.dmm.co.jp"]:has(> img[width="1200"][height="600"]) + br + a[href^="https://al.dmm.co.jp"]
+paipai-only.com##.single-related-area
+paipai-only.com##.widget_block > div > div.oriads:upward(2)
 sexv.jp##.knbdn-size-336x280
+toshimi.top#?#.widget_text > div > p > script[src*=".jp/ufo/"]:upward(3)
 ukemi-no-kiwami.work###pc_text-9
 ukemi-no-kiwami.work##.widget-below-related-entries
 ukemi-no-kiwami.work##.widget-below-single-content-title
 ukemi-no-kiwami.work##.widget-single-content-bottom
 ukemi-no-kiwami.work##.widget_block
+xn--pck2b0fk1795b663b.com###adarea1
 ! Mobile
 sweetchocolate.blogterest.net##.blockAreaHeader a[href^="https://al.dmm.co.jp/"]
 

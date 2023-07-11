@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230709
+! Version: 20230712
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -328,7 +328,11 @@ dechamore.net##.add_contents
 dechamore.net,sharevideos.org###text-6
 dim2database.blog.fc2.com###fc2relate_entry_thumbnail_area + div.content
 dim2database.blog.fc2.com##.flickr_navi + div.content
+ero100k.blog.2nt.com##.sidemenu_body:has(> .plg_body > div.plugin-freearea > a[target="_blank"])
 eroerosanta.blog.jp##.article-body-inner > div[style="text-align:center;margin:20px auto;padding:15px;background:#ddf3f5;"]
+eroflash777.blog.2nt.com##.blog_entry_more > a[href*="dmm.co.jp"]
+eroflash777.blog.2nt.com##.blog_entry_more > br:not(span + br)
+eroflash777.blog.2nt.com##.blog_entry_more > span[style="background-color:#ff6666;color:#ffffff;font-size:xx-large"]
 fuzokuinfo.com##tr[bgcolor="#ffffff"] > td[colspan="2"] > hr + br
 fuzokuinfo.com##tr[bgcolor="#ffffff"] > td[colspan="2"] > hr:has(+ br)
 gayroom.jp##.hentry > .clearfix > .box > .pict
@@ -338,6 +342,7 @@ hitodumanews.com##.kkku
 imurunokioku.blog.jp###j_j_j
 josona.com##.l-main > .dividerBottom > .dividerTop
 kawaiijavcat.com,kawaiijavolds.com##.adddiv
+kintekigeri.blog.2nt.com##.right > .plugin-freearea
 kyonyu.jp###custom_html-12
 kyonyu.jp###custom_html-59
 kyonyu.jp###custom_html-60
@@ -366,6 +371,7 @@ ukemi-no-kiwami.work##.widget-below-related-entries
 ukemi-no-kiwami.work##.widget-below-single-content-title
 ukemi-no-kiwami.work##.widget-single-content-bottom
 ukemi-no-kiwami.work##.widget_block
+worldrankingup.blog.2nt.com###left > .plugin1_outline:last-child
 xn--pck2b0fk1795b663b.com###adarea1
 ! Mobile
 sweetchocolate.blogterest.net##.blockAreaHeader a[href^="https://al.dmm.co.jp/"]

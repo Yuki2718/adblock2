@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230712
+! Version: 20230713
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -219,6 +219,8 @@ mankitu-blog.com##div[id^="manki-"]
 massigra.net##.adlabel
 massigra.net##.kkvxmargin > div.adlabel + div
 mgkca.com##.col-md-6:has(> .card > div > .adsbygoogle)
+mikasaphp.net##table[cellpadding="5"] > tbody > tr > td[align="center"]
+mikasaphp.net##td[bgcolor="White"] > center > table[cellpadding="3"][width="96%"][bgcolor="#007fc0"]
 monjiro.net###headBarArea
 monjiro.net##.adtitle2
 musiatui.blog.fc2.com###entry-footer
@@ -333,6 +335,8 @@ eroerosanta.blog.jp##.article-body-inner > div[style="text-align:center;margin:2
 eroflash777.blog.2nt.com##.blog_entry_more > a[href*="dmm.co.jp"]
 eroflash777.blog.2nt.com##.blog_entry_more > br:not(span + br)
 eroflash777.blog.2nt.com##.blog_entry_more > span[style="background-color:#ff6666;color:#ffffff;font-size:xx-large"]
+fetideai.info##a[href^="//ac.cross-system.com"]
+fetideai.info,sm-anal.com##.charabox
 fuzokuinfo.com##tr[bgcolor="#ffffff"] > td[colspan="2"] > hr + br
 fuzokuinfo.com##tr[bgcolor="#ffffff"] > td[colspan="2"] > hr:has(+ br)
 gayroom.jp##.hentry > .clearfix > .box > .pict
@@ -340,6 +344,8 @@ gayroom.jp##div[style="padding: 5px; background-color: gray; color: #ffffff;"]:h
 h7-game.com##.entry-content > div.wp-block-st-blocks-my-box
 hitodumanews.com##.kkku
 imurunokioku.blog.jp###j_j_j
+iyasiya.com##.image-antenna-list + aside
+iyasiya.com##article > .sub_main + aside
 josona.com##.l-main > .dividerBottom > .dividerTop
 kawaiijavcat.com,kawaiijavolds.com##.adddiv
 kintekigeri.blog.2nt.com##.right > .plugin-freearea
@@ -359,12 +365,16 @@ mominagara-girls.xyz##.erKokOrigin:upward(1)
 mominagara-girls.xyz##.entry-content > h2:has-text(/関連作品|おすすめ動画/)
 nozokizennkaimax.xyz###custom_html-4
 nozokizennkaimax.xyz##.mainbottom-widget
+orangenic.jp###slideBanner
+orangenic.jp##.adContents
+pab.blogterest.net###pn067bigbanner
 paipai-only.com###block-132
 paipai-only.com##.sc_frame_wrap > p > a[href^="https://al.dmm.co.jp"] > img[width="1200"][height="600"]
 paipai-only.com##.sc_frame_wrap > p > a[href^="https://al.dmm.co.jp"]:has(> img[width="1200"][height="600"]) + br + a[href^="https://al.dmm.co.jp"]
 paipai-only.com##.single-related-area
 paipai-only.com##.widget_block > div > div.oriads:upward(2)
 sexv.jp##.knbdn-size-336x280
+suzukikurumi.net##.pc > .banner
 toshimi.top#?#.widget_text > div > p > script[src*=".jp/ufo/"]:upward(3)
 ukemi-no-kiwami.work###pc_text-9
 ukemi-no-kiwami.work##.widget-below-related-entries

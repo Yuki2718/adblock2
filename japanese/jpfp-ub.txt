@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230619
+! Version: 20230713
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -54,6 +54,7 @@ applikoryaku.com,basketball-zine.com,downtownreport.net,folk-media.com,kakuge.co
 arstechnica.com##.ad_wrapper
 arstechnica.com##.ad_xrail_top
 article.auone.jp,muragon.com##.rectangle-ad
+ascii.jp##.ad_gam
 av01.tv###tile-ad
 basketball-zine.com##.top-ad
 bbc.com##.dotcom-ad

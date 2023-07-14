@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230713
+! Version: 20230715
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -120,6 +120,7 @@ jpnumber.com##.adsright
 kakenhi.net,seesaa.net###article-ad
 kamigame.jp###ad_top
 kamikouryaku.net,wikiru.jp##.sticky-ads
+kobe-np.co.jp##.ad-wrap
 kotaku.com##.ad-left-top
 kotaku.com##.ad-top-banner
 kyobun.co.jp##[data-advadstrackid]

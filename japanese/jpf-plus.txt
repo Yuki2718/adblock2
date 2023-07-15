@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230715
+! Version: 20230716
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -74,6 +74,7 @@ _300_250_
 ! ---------- Ads specific (adult): too few visitors ----------
 ||angel-bbs.com/ssi/koukoku_
 ||ero-mangacafe.com^$subdocument,~third-party
+||erotube.phalko.com/images/affiliate/
 ||gayroom.jp/banner/
 
 ! ---------- Popup general ----------
@@ -120,6 +121,8 @@ asae.client.jp##.main-pr
 asae.client.jp##.right-box:has(> .adsbygoogle)
 asae.client.jp##.right-box:has(> .iframe-pr)
 asae.client.jp##.right-title:has-text(/PR|スポンサーリンク/)
+asukiaaa.blogspot.com###Image2
+asukiaaa.blogspot.com###Image3
 axia-hakusan.com###menu > .rightmenu > .rmenutitle:has-text(超爆安ねじ一覧):upward(2)
 axia-hakusan.com###menu:last-child:has(img[src$="/bana.jpg"])
 bazooo.com###main > section.widget_text
@@ -156,6 +159,10 @@ ec.enoki.xyz##.content_table_mother[id$="_ads"]
 english.mag2.com###text-4 a:not([href="http://www.mag2.com/"])
 ethan1173.cocolog-nifty.com##.module-typelist:first-child
 fanzonetokyo.jp##div[id^="fanzo-"]
+flashfabrica.com##.BIG_banner
+flashfabrica.com##.flash_banner
+flashfabrica.com##.index_center
+flashfabrica.com##.link_mini
 fnf.seesaa.net##.module--free:not(.side--right > section:first-child)
 fortune.auone.jp##.adsense
 freak-da.hatenablog.com###bottom-editarea
@@ -224,6 +231,11 @@ monjiro.net###headBarArea
 monjiro.net##.adtitle2
 musiatui.blog.fc2.com###entry-footer
 musiatui.blog.fc2.com##.side_by_side
+natsukimemo.com##.ad-2cl
+natsukimemo.com##div[style="margin-top:40px;color:#999;"]
+nengaya.net###HTML1
+nengaya.net##.HTML > div > .entryadwrapper2:upward(2)
+nengaya.net##div[class^="bigbanner"]
 news.minory.org###block-3
 news.minory.org###block-5
 nsdev.jp##.l-mainContent__inner > .post_content > p:last-of-type:has(> iframe[height="250"])

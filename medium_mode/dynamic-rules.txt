@@ -316,6 +316,7 @@ no-large-media: behind-the-scene false
 * production-cmp.isgprivacy.cbsi.com * noop
 * productreviews.shopifycdn.com * noop
 * public.slidesharecdn.com * noop
+* public.tableau.com * noop
 * purch.auth0.com * noop
 * qdembed.com * noop
 * rawgit.com * noop

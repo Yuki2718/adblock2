@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230718
+! Version: 20230724
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -27,7 +27,7 @@
 /^https:\/\/[a-z]{10,14}\.(?:ca[ms]a?|fun)\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xmlhttprequest,third-party
 /^https:\/\/[a-z]{8,15}\.com\/(?:alpha|beta|gamma|omega)\/\d{3,4}$/$xmlhttprequest,third-party
 /^https:\/\/[a-z]{8,16}\.(?:club|fun|hair|work|xyz)\/[%0-9a-zA-Z]{170,}$/$script,third-party,match-case
-/^https?:\/\/[a-z]{5,6}\.com\/script\/[0-9a-z]{1,8}(\.min)?\.js$/$script,third-party,match-case,domain=~edu|~gov|~jp
+/^https?:\/\/[a-z]{5,6}\.com\/script\/[0-9a-z]{1,11}(\.min)?\.js$/$script,third-party,match-case,domain=~edu|~gov|~jp
 /^https?:\/\/[a-z]{7,16}\.(?:buzz|info|lol|one|xyz)\/[+\/0-9a-zA-Z]{400,}$/$subdocument,third-party
 /^https?:\/\/[a-z]{7,16}\.(?:buzz|info|lol|one|xyz)\/[+\/0-9a-zA-Z]{140,}$/$image,ping,third-party
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)\/tag\.min\.js$/$script,third-party
@@ -98,6 +98,7 @@
 ###banner728x90:not([style^="position: absolute; left: -5000px"])
 ~job.inshokuten.com,~netmile.co.jp##.ad-area:not(.text-ad)
 ##.Ad-Container:not(.adsbygoogle)
+~job.inshokuten.com,~sexgr.net,~u-yas.dev,~webbtelescope.org##.ad-box:not(#ad-banner)
 ##.ad-link:not(.adsbox)
 ##.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
 ##.ad-slot:not(.adsbox):not(.adsbygoogle)
@@ -175,6 +176,7 @@ taoruseitai.com,towelstretches.com,xn--28ja8nb9uubn3byzm464cuetahu3avcz915bwoe.c
 #@##banner728x90
 #@#.Ad-Container
 #@#.ad-area
+#@#.ad-box
 #@#.ad-link
 #@#.ad-placeholder
 #@#.ad-slot

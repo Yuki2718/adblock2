@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230715
+! Version: 20230724
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -50,6 +50,7 @@ alc.co.jp##.box-ad
 alc.co.jp##.header-ad
 ameblo.jp##.subAdBannerArea
 ameblo.jp##.subAdBannerHeader
+anond.hatelabo.jp,f.hatena.ne.jp##.double-rectangle
 applikoryaku.com,basketball-zine.com,downtownreport.net,folk-media.com,kakuge.com,kurashi-no.jp,refind2ch.org##.ad_overlay
 arstechnica.com##.ad_wrapper
 arstechnica.com##.ad_xrail_top

@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230724
+! Version: 20230727
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -255,6 +255,7 @@ pawakichi.xyz##.booklink-box
 pc119.toyama.jp###block-31
 pfch.blog.jp##.right-container > .plugin-popular_articles_with_image ~ .plugin-memo
 phpjavascriptroom.com##.gads
+pokemon-wiki.com###topgd
 premium-tsubu-hero.net###wp--skip-link--target > p.has-text-align-center:has-text(/^PR$/)
 quallia-style.com##.veu_contentAddSection
 quallia-style.com##.widget_text > div > center > script[src$="/rakuten_widget.js"]:upward(3)
@@ -307,7 +308,7 @@ rancolle.com##.rectangle_box
 ! ---------- Cosmetic specific: others ----------
 ! too intrusive and redundant
 373news.com##.ad-area-jack-absolute
-arvo.showcase-tv.com,getpaidstock.com,kazokuchannel.doorblog.jp,nandemo-uketori.com,sukupara.jp##ins.adsbygoogle
+arvo.showcase-tv.com,getpaidstock.com,kazokuchannel.doorblog.jp,nandemo-uketori.com,sukupara.jp,wakariyasui.sakura.ne.jp##ins.adsbygoogle
 ! if piano is blocked
 bizspa.jp,digiday.jp,esse-online.jp,j-cast.com,japannews.yomiuri.co.jp,joshi-spa.jp,kyobun.co.jp,my-golfdigest.jp,nikkan-spa.jp,tennenseikatsu.jp###tpModal
 ! PH by this list

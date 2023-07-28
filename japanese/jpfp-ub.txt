@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230724
+! Version: 20230729
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -90,7 +90,7 @@ downdetector.jp###zdcFloatingBtn
 duhoctrungquoc.vn###ads_inline_z
 eromanga-school.com##.ad-top
 favolog.org###ad-box1
-fnn.jp##.ad-bnr
+fnn.jp,twicolle-plus.com##.ad-bnr
 forbesjapan.com##.article-detail-ad
 futabanet.jp##.ad-billboard
 futabanet.jp,president.jp##.ad-rectangle
@@ -137,12 +137,13 @@ nicovideo.jp###footer-ad
 nicovideo.jp###middle-ad
 nikaraw.com##.blockads_big
 nikaraw.com##.blockads_vg
-nikkan-spa.jp##.ad-widget
+nikkan-spa.jp,taskle.jp##.ad-widget
 nishinippon.co.jp##.c-ad
 oppai-paipai.com##.ad-box
 oricon.co.jp##.block-ads-yahoo
 pastebin.com##.adsbyvli
 pormo.me##.ads-text
+precious.jp##.entry_ad
 qiita.com##div[id^="dfp-slot-"]
 realsound.jp##.widget-adsense
 sabatech.jp##.rectangle
@@ -157,7 +158,6 @@ togetter.com###ad_overlay
 togetter.com##.ad_rectangle
 tokai-tv.com##.adArea
 tokyomotion.com###player-advertising
-twicolle-plus.com##.ad-bnr
 twpro.jp###ads-top
 twtimez.net##.adDown
 twtimez.net##.adMiddle

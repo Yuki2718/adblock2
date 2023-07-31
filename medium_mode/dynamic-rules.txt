@@ -678,6 +678,7 @@ office.com msocdn.com * noop
 office.com r1.res.office365.com * noop
 office.com videoplayercdn.osi.office.net * noop
 office.com www.microsoft.com * noop
+open.spotify.com open.spotifycdn.com * noop
 outlook.live.com msftauth.net * noop
 outlook.live.com office365.com * noop
 outlook.office.com b-msedge.net * noop

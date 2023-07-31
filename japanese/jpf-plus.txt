@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230729
+! Version: 20230801
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -17,7 +17,7 @@
 /o.js|$script,third-party
 /sweetie/hello.min.js?id=$script,third-party
 /\/nb\/[a-z]{4}\.js$/$script,~third-party,match-case
-/^https:\/\/[a-z]{10,12}\.com\/[\/a-z]{2,12}\?id=19\d{5}$/$script,third-party,match-case
+/^https:\/\/[a-z]{10,12}\.com\/[\/a-z]{2,}\?id=19\d{5}$/$script,third-party,match-case
 /^https?:\/\/[-.0-9a-z]+-ad\.(?:com|jp|net)[\/:]/$script,third-party
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)(\/(?:\d{1,5}|0NaN|articles?|browse|index|movie|news|pages?|static|view|web|wiki)){1,4}(?:\.html|\/)?$/$subdocument,third-party,match-case,domain=~edu|~gov|~jp
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)\/[-a-z]{4,}\.css\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$stylesheet,third-party,match-case
@@ -76,7 +76,12 @@ _300_250_
 ||angel-bbs.com/ssi/koukoku_
 ||ero-mangacafe.com^$subdocument,~third-party
 ||erotube.phalko.com/images/affiliate/
+||gakinko.net/pr/
 ||gayroom.jp/banner/
+||gyutto.com/data/$domain=ddsearch.jp
+||kuma.tvcapture.net/capture/kuma/kakocap05231045/img/DXLIVE.jpg
+||kuma.tvcapture.net/capture/kuma/kakocap05231045/img/nozox00.jpg
+||tenka1.com/g/?
 
 ! ---------- Popup general ----------
 ?spot_id=*&psid=https://$popup,third-party
@@ -241,6 +246,7 @@ nengaya.net##.HTML > div > .entryadwrapper2:upward(2)
 nengaya.net##div[class^="bigbanner"]
 news.minory.org###block-3
 news.minory.org###block-5
+nmm.blog.jp##aff-view
 nsdev.jp##.l-mainContent__inner > .post_content > p:last-of-type:has(> iframe[height="250"])
 number-pedia.com##.widget:has(> div > .adsbygoogle)
 ocsoku.com###right-box > .plugin-memo:first-child
@@ -283,6 +289,8 @@ solohiker2020.com##div[id^="soloh-"]
 step.piano.or.jp###maincontent > .font-size-0-8.border-bottom-1-grey.margin-bottom-0-5
 studio-de.com###block-11
 studio-de.com###block-12
+timeskk.jword.jp##.right_aff
+timeskk.jword.jp##.ss-area
 tokimekistory.com##.adboxcontainer_t
 tottemoyasashiibitcoin.net##.code-block-1
 twi55.com##.l-sidebar > .widget_custom_html
@@ -334,6 +342,7 @@ bird-pedia.com,dechamore.net###text-2
 c-actress.com###block-9
 c-actress.com##.single-related-area
 c-actress.com##.singletop-widget
+caplogger.com##.side:has(> .plugin-freearea > .side_ad_list)
 carrozzeria-cdl.jp##.article-body > blockquote:has([href*="?PR="])
 carrozzeria-cdl.jp##p > [href*="?PR="] > img
 chipai-only.com###block-24
@@ -350,9 +359,13 @@ dechamore.net###text-31
 dechamore.net###text-5
 dechamore.net##.add_contents
 dechamore.net,sharevideos.org###text-6
+dennou2.jp##table[height="1867"] > tbody > tr > td:has(> a[href^="https://track.bannerbridge.net/click.php"][rel="nofollow"])
+dennou2.jp##td[height="3293"] > table[width="948"] + hr + table[width="908"]
+dennou2.jp##td[height="3293"] > table[width="948"] + hr + table[width="908"] + div[align="center"] > hr:first-child
 dim2database.blog.fc2.com###fc2relate_entry_thumbnail_area + div.content
 dim2database.blog.fc2.com##.flickr_navi + div.content
 ero100k.blog.2nt.com##.sidemenu_body:has(> .plg_body > div.plugin-freearea > a[target="_blank"])
+ero3dmovie.net##.play__main > div[style^="display: block; position: relative; top: 0px; left: 0px"]
 eroerosanta.blog.jp##.article-body-inner > div[style="text-align:center;margin:20px auto;padding:15px;background:#ddf3f5;"]
 eroflash777.blog.2nt.com##.blog_entry_more > a[href*="dmm.co.jp"]
 eroflash777.blog.2nt.com##.blog_entry_more > br:not(span + br)
@@ -363,11 +376,18 @@ fuzokuinfo.com##tr[bgcolor="#ffffff"] > td[colspan="2"] > hr + br
 fuzokuinfo.com##tr[bgcolor="#ffffff"] > td[colspan="2"] > hr:has(+ br)
 gayroom.jp##.hentry > .clearfix > .box > .pict
 gayroom.jp##div[style="padding: 5px; background-color: gray; color: #ffffff;"]:has-text(【広告】)
+gravurestatus.com##.widget-side:first-child
 h7-game.com##.entry-content > div.wp-block-st-blocks-my-box
 hitodumanews.com##.kkku
+houmotsu.com##center > table[with="468"]
 imurunokioku.blog.jp###j_j_j
 iyasiya.com##.image-antenna-list + aside
 iyasiya.com##article > .sub_main + aside
+jkdaisuki.ad55.net##body:not([style]) > center:has(> center > a[href^="https://track.bannerbridge.net/click.php?"][rel="nofollow"][target="_blank"])
+jkdaisuki.ad55.net##body:not([style]) > div[align="center"]:has(> table a[href^="http://gcolle.net/product_info."][href*="/affiliate_banner_id"][target="_blank"])
+jkdaisuki.ad55.net##body:not([style]) > div[align="center"]:has(> table a[href^="http://gcolle.net/product_info."][href*="/affiliate_banner_id"][target="_blank"]) + hr
+jkdaisuki.ad55.net##body:not([style]) > p[align="center"]:has(> a[href^="http://pcolle.jp/?af_id"][target="_blank"])
+jkdaisuki.ad55.net##body:not([style]) > p[align="center"]:has(> a[href^="http://pcolle.jp/?af_id"][target="_blank"]) + hr
 josona.com##.l-main > .dividerBottom > .dividerTop
 kawaiijavcat.com,kawaiijavolds.com##.adddiv
 kintekigeri.blog.2nt.com##.right > .plugin-freearea
@@ -379,6 +399,7 @@ kyonyu.jp###single-page_ad
 lovinyou.site##.textwidget [href^="https://click.duga.jp/ppv/"]
 lovinyou.site##.textwidget [href^="https://pcolle.jp/product/detail/"]
 maruidesu.blog12.fc2.com##.plugin2_outline > div > div.plugin-freearea:upward(2)
+migimaki.com##.sidebar > center:not(:last-of-type)
 mominagara-girls.xyz###custom_html-5
 mominagara-girls.xyz###custom_html-6
 mominagara-girls.xyz###execphp-5
@@ -396,8 +417,10 @@ paipai-only.com##.sc_frame_wrap > p > a[href^="https://al.dmm.co.jp"]:has(> img[
 paipai-only.com##.single-related-area
 paipai-only.com##.widget_block > div > div.oriads:upward(2)
 sexv.jp##.knbdn-size-336x280
+sexy.from.tv##.ah
 suzukikurumi.net##.pc > .banner
 toshimi.top#?#.widget_text > div > p > script[src*=".jp/ufo/"]:upward(3)
+tvcaphokan1.blog99.fc2.com##.p_block:has(> div > div > .plugin-freearea > a[target="_blank"])
 ukemi-no-kiwami.work###pc_text-9
 ukemi-no-kiwami.work##.widget-below-related-entries
 ukemi-no-kiwami.work##.widget-below-single-content-title
@@ -405,6 +428,10 @@ ukemi-no-kiwami.work##.widget-single-content-bottom
 ukemi-no-kiwami.work##.widget_block
 worldrankingup.blog.2nt.com###left > .plugin1_outline:last-child
 xn--pck2b0fk1795b663b.com###adarea1
+zurinetanomori.com##.ently_text > a[href^="https://al.dmm.co.jp"][target="_blank"] > img[width="180"]
+zurinetanomori.com##.trackback_outline + .comment_outline
+zurinetanomori.com##div[class$="_outline"]:has(> div > .ta_center > script[src*="//adm.shinobi.jp/"])
+zurinetanomori.com##div[class$="_outline"]:has(> div > .plugin-freearea > a[href^="https://click.duga.jp"])
 ! Mobile
 sweetchocolate.blogterest.net##.blockAreaHeader a[href^="https://al.dmm.co.jp/"]
 

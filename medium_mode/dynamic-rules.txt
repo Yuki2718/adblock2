@@ -698,6 +698,7 @@ play.google.com content.googleapis.com * noop
 playstation.com auth.api.sonyentertainmentnetwork.com * noop
 portal.azure.com azure.net * noop
 portal.office.com outlook.office365.com * noop
+preview.redd.it www.redditstatic.com * noop
 protection.office.com login.microsoftonline.com * noop
 protection.office.com msauth.net * noop
 protection.office.com msftauth.net * noop

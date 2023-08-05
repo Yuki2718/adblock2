@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230729
+! Version: 20230805
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -62,6 +62,7 @@ bbc.com##.dotcom-ad
 beauty.oricon.co.jp##.Billboard-ad
 bg-mania.jp,j-cast.com,smartlog.jp,space.com##.adunit
 blog.livedoor.jp##.t_b ~ a[href^="https://amzn.to"]
+blog.livedoor.jp##.t_b ~ div > a[href^="https://al.dmm.co"]
 blogspot.com##.AdSense
 boom-app.wiki##.ad-300
 boom-app.wiki##.ad-468
@@ -86,6 +87,7 @@ costcotuu.com##.ads1
 costcotuu.com##.ads_footer
 denpa-labo.com,doujineromanga-collection.com,doujinparadise.com,ero-doujin.info,eromanga001.com,eromanganote.com,eromash.com,hentai-books.com,nijigen-daiaru.com,offudoujin.com##.advrbox
 diamond.jp##.gpt-ad
+dot.asahi.com##.a-ad
 downdetector.jp###zdcFloatingBtn
 duhoctrungquoc.vn###ads_inline_z
 eromanga-school.com##.ad-top
@@ -124,7 +126,7 @@ kamikouryaku.net,wikiru.jp##.sticky-ads
 kobe-np.co.jp##.ad-wrap
 kotaku.com##.ad-left-top
 kotaku.com##.ad-top-banner
-kyobun.co.jp##[data-advadstrackid]
+kyobun.co.jp##.td-a-ad
 makeuseof.com,xda-developers.com##.adsninja-ad-zone
 minitool.com##.page-bottom-fixed-ads
 minitool.com##.page-top-ads

@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230801
+! Version: 20230805
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -400,6 +400,7 @@ lovinyou.site##.textwidget [href^="https://click.duga.jp/ppv/"]
 lovinyou.site##.textwidget [href^="https://pcolle.jp/product/detail/"]
 maruidesu.blog12.fc2.com##.plugin2_outline > div > div.plugin-freearea:upward(2)
 migimaki.com##.sidebar > center:not(:last-of-type)
+min-ero.jp###picmo_av_flame
 mominagara-girls.xyz###custom_html-5
 mominagara-girls.xyz###custom_html-6
 mominagara-girls.xyz###execphp-5

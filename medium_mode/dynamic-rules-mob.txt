@@ -656,6 +656,7 @@ plarium.com x-plarium.com * noop
 play.google.com content.googleapis.com * noop
 portal.azure.com azure.net * noop
 portal.office.com outlook.office365.com * noop
+preview.redd.it www.redditstatic.com * noop
 previous-recipients.levchinprize.com cdn.readymag.com * noop
 products.office.com query.prod.cms.rt.microsoft.com * noop
 protection.office.com office365.com * noop

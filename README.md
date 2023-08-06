@@ -80,3 +80,8 @@ Mobile version of Yuki's uBlock Dynamic Rules
 Yuki's uBlock Dynamic Rulesのモバイル版です。
 
 [View Rules/中身を見る](https://raw.githubusercontent.com/Yuki2718/adblock2/main/medium_mode/dynamic-rules-mob.txt)
+
+## おまけ
+
+[よくある質問](https://github.com/Yuki2718/adblock2/wiki/%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E8%B3%AA%E5%95%8F)
+コンテンツブロックにおいてよくある誤解や質問への答えをまとめました。一部、内容が古くなっていることにご注意ください。

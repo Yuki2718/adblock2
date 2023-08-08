@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230807
+! Version: 20230809
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -137,6 +137,7 @@ mixch.tv##.footer-ad
 momoiroadult.com##a[href^="https://click.dtiserv2.com/"]
 nazology.net##.ads-wide
 nbcnews.com##.ad-container
+news.biglobe.ne.jp###gadsOverlayUnit
 nicovideo.jp###footer-ad
 nicovideo.jp###middle-ad
 nikaraw.com##.blockads_big

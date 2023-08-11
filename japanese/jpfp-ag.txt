@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230809
+! Version: 20230812
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -21,7 +21,7 @@
 /^https:\/\/[a-z]{10,14}\.(?:ca[ms]a?|fun)\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xmlhttprequest,third-party
 /^https:\/\/[a-z]{8,15}\.com\/(?:alpha|beta|gamma|omega)\/\d{3,4}$/$xmlhttprequest,third-party
 /^https:\/\/[a-z]{8,16}\.(?:club|fun|hair|work|xyz)\/[%0-9a-zA-Z]{170,}$/$script,third-party,match-case
-/^https?:\/\/[a-z]{5,6}\.com\/script\/[-_0-9a-z]+(\.min)?\.js$/$script,third-party,match-case,domain=~edu|~gov|~jp
+/^https?:\/\/[a-z]{5,7}\.com\/script\/[-_0-9a-z]+(\.min)?\.js$/$script,third-party,match-case,domain=~edu|~gov|~jp
 /^https?:\/\/[a-z]{7,16}\.(?:buzz|info|lol|one|xyz)\/[+\/0-9a-zA-Z]{400,}$/$subdocument,third-party
 /^https?:\/\/[a-z]{7,16}\.(?:buzz|info|lol|one|xyz)\/[+\/0-9a-zA-Z]{140,}$/$image,ping,third-party
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)\/tag\.min\.js$/$script,third-party

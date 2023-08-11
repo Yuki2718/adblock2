@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230809
+! Version: 20230812
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -374,6 +374,12 @@ eroflash777.blog.2nt.com##.blog_entry_more > br:not(span + br)
 eroflash777.blog.2nt.com##.blog_entry_more > span[style="background-color:#ff6666;color:#ffffff;font-size:xx-large"]
 fetideai.info##a[href^="//ac.cross-system.com"]
 fetideai.info,sm-anal.com##.charabox
+fuuvideogay.blog.2nt.com###textLink
+fuuvideogay.blog.2nt.com##.inner-contents > .pconly
+fuuvideogay.blog.2nt.com##article > .pconly
+fuuvideogay.blog.2nt.com##article > h5:has(+ table[cellpadding="1"] .nls_product_set_wrap)
+fuuvideogay.blog.2nt.com##article > table[cellpadding="1"]:has([href^="https://www.e-nls.com/access.php"])
+fuuvideogay.blog.2nt.com##a[href^="https://www.e-nls.com/access.php"]
 fuzokuinfo.com##tr[bgcolor="#ffffff"] > td[colspan="2"] > hr + br
 fuzokuinfo.com##tr[bgcolor="#ffffff"] > td[colspan="2"] > hr:has(+ br)
 gayroom.jp##.hentry > .clearfix > .box > .pict
@@ -419,6 +425,10 @@ paipai-only.com##.sc_frame_wrap > p > a[href^="https://al.dmm.co.jp"] > img[widt
 paipai-only.com##.sc_frame_wrap > p > a[href^="https://al.dmm.co.jp"]:has(> img[width="1200"][height="600"]) + br + a[href^="https://al.dmm.co.jp"]
 paipai-only.com##.single-related-area
 paipai-only.com##.widget_block > div > div.oriads:upward(2)
+puriketsu.jp##.imgsize109[href^="https://www.amazon.co.jp"][target="_blank"]
+puriketsu.jp##.menu1BlockBase:has(a[href^="https://www.amazon.co.jp"][target="_blank"] > img)
+puriketsu.jp##.sample_h_12:has(+ a[href^="https://www.amazon.co.jp"][target="_blank"])
+puriketsu.jp##.topad a[href^="https://af.ko-tube.com/c.php"]
 sexv.jp##.knbdn-size-336x280
 sexy.from.tv##.ah
 suzukikurumi.net##.pc > .banner

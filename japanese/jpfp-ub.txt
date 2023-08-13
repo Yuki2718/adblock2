@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230812
+! Version: 20230814
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -66,6 +66,7 @@ bg-mania.jp,j-cast.com,smartlog.jp,space.com##.adunit
 blog.livedoor.jp##.t_b ~ a[href^="https://amzn.to"]
 blog.livedoor.jp##.t_b ~ div > a[href^="https://al.dmm.co"]
 blogspot.com##.AdSense
+blogspot.com##.adgoogle-wrapper
 boom-app.wiki##.ad-300
 boom-app.wiki##.ad-468
 boom-app.wiki##.ad-728
@@ -113,6 +114,7 @@ hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadia
 hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org##.sleeping-ads
 hatenablog.com##.insentence-adsense
 hatenablog.com##.insentence-adsense2
+headline.mtfj.net###header_adv
 hentaipaw.com##.header-ad
 huffingtonpost.jp##.ad-leaderboard-flex
 huffingtonpost.jp##.advertisement-holder

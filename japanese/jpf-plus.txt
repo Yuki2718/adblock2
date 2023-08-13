@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230812
+! Version: 20230814
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -223,6 +223,7 @@ kodate-ru.com#?#.sidebar > h4.widgettitle:contains(スポンサードリンク)
 kujoyugo.com##.booklink-box
 kujoyugo.com##.widget-below-related-entries
 kuram.tv###side_pr
+logw.jp##.ad_sidenavi
 lper.info##.wpa
 lv73.net###広告-ad
 lv73.net##.amazon-ko-ko-ku
@@ -501,6 +502,7 @@ anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,
 /\/wp-content\/uploads\/[a-z]{6,9}\.js(?:\?ver=[.0-9]+|,qver=[.0-9]+\.pagespeed\..+\.js)$/$script,~third-party
 /\/wp-content\/uploads\/[a-zA-Z]{12}\/[a-zA-Z]{12}\.js(?:\?ver=[.0-9]+|,qver=[.0-9]+\.pagespeed\..+\.js)$/$script,~third-party
 @@/ads-prebid.js$script,~third-party
+@@||ads.remix.es/advertisement.js|$script
 @@||g.adspeed.net/ad.php?do=detectadblocker|$script
 ||ads-twitter.com/uwt.js$xmlhttprequest,third-party,redirect=nooptext
 ||doubleclick.net/favicon.ico$image,redirect=32x32.png

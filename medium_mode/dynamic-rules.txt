@@ -574,6 +574,7 @@ arstechnica.com cdn.arstechnica.net * noop
 arstechnica.com player.cnevids.com * noop
 artsandculture.google.com embed.culturalspot.org * noop
 asia.nikkei.com piano.io * noop
+auth.mozilla.auth0.com cdn.sso.mozilla.com * noop
 aws.amazon.com a0.awsstatic.com * noop
 aws.amazon.com aws.a2z.com * noop
 behind-the-scene * * noop

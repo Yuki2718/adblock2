@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230812
+! Version: 20230817
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -192,6 +192,9 @@ kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -
 
 ! ---------- Anti anti-adb - too few visitors ----------
 taoruseitai.com,towelstretches.com,xn--28ja8nb9uubn3byzm464cuetahu3avcz915bwoe.com,xn--68j4ha6nb9ec3md2np203dfmi14l5p7mgke.com,xn--68jwj3a3byaa9a4s2ee0369lixepotkf2m.com,xn--cck3byahyp4g6gna7180lnuda5729lznh.com,xn--u9j8a8k6aj3a6wy551c8cl30l6j0d.com,xn--w8jua40cb1121b38be8d4zad9pnko86zz4q93bew1dou1i.com,xn--x8jcy0c0cxjs5a465r9i0a4uaz40cb0ths9cm4f.com#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', '/google_ad_client/')
+
+! ---------- Anti anti-adb - others ----------
+digiday.jp#%#//scriptlet('prevent-element-src-loading', 'script','experience-ap.piano.io')
 
 ! ---------- Scam & Redirect ----------
 &dci=*&tds_campaign=$document

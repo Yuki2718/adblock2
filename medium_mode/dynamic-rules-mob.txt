@@ -526,6 +526,7 @@ appleinsider.com insidercdn.com * noop
 appleinsider.com www.apple.com * noop
 arstechnica.com cdn.arstechnica.net * noop
 asia.nikkei.com piano.io * noop
+auth.mozilla.auth0.com cdn.sso.mozilla.com * noop
 aws.amazon.com a0.awsstatic.com * noop
 aws.amazon.com aws.a2z.com * noop
 azuredatacentermap.azurewebsites.net a-afdentry.net.trafficmanager.net * noop

@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230819
+! Version: 20230821
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -82,6 +82,10 @@ _300_250_
 ||kuma.tvcapture.net/capture/kuma/kakocap05231045/img/DXLIVE.jpg
 ||kuma.tvcapture.net/capture/kuma/kakocap05231045/img/nozox00.jpg
 ||tenka1.com/g/?
+
+! ---------- Self-ads specific: obtrusive or unneeded ----------
+||genecal.jp/img/bunner_l.gif
+||p-rate.com/images/common/bnr_adwanted.jpg
 
 ! ---------- Popup general ----------
 ?spot_id=*&psid=https://$popup,third-party
@@ -410,6 +414,7 @@ lovinyou.site##.textwidget [href^="https://pcolle.jp/product/detail/"]
 maruidesu.blog12.fc2.com##.plugin2_outline > div > div.plugin-freearea:upward(2)
 migimaki.com##.sidebar > center:not(:last-of-type)
 min-ero.jp###picmo_av_flame
+mitsurugi.org##.main > h4.head ~ div
 mominagara-girls.xyz###custom_html-5
 mominagara-girls.xyz###custom_html-6
 mominagara-girls.xyz###execphp-5

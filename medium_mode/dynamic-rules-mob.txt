@@ -313,7 +313,6 @@ no-large-media: behind-the-scene false
 * public.tableau.com * noop
 * purch.auth0.com * noop
 * rawgit.com * noop
-* redirect-ads.com * noop
 * resources.emaze.com * noop
 * runstant.com * noop
 * s.blogsmithmedia.com * noop
@@ -551,6 +550,7 @@ box.com cdn01.boxcdn.net * noop
 chat.stackexchange.com cdn-chat.sstatic.net * noop
 chicagotribune.com tribdss.com * noop
 cnn.com cnn.io * noop
+colada365.app cdn.colada365.com * noop
 community.ingress.com onvanilla.net * noop
 compete.kotaku.com kinja.com * noop
 delta.com onelink-translations.com * noop
@@ -879,6 +879,7 @@ www.theguardian.com guim.co.uk * noop
 www.thetimesnews.com cdn.gatehousemedia.com * noop
 www.theweathernetwork.com s1.twnmm.com * noop
 www.tiktok.com ttwstatic.com * noop
+www.tokopedia.com assets.tokopedia.net * noop
 www.travelocity.com suggest.expedia.com * noop
 www.travelocity.com travel-assets.com * noop
 www.travelocity.com www.expedia.com * noop

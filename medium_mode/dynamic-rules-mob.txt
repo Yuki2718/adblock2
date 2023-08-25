@@ -676,6 +676,7 @@ shadowban.yuzurisa.com ailizijiang.wenaiwu.net * noop
 shein.com sheinsz.ltwebstatic.com * noop
 shop-list.com global.cdn.idcfcloud.net * noop
 siliconangle.com video.cube365.net * noop
+skype.com skypeassets.com * noop
 slack.com a.slack-edge.com * noop
 slashdot.org a.fsdn.com * noop
 slickdeals.net slickdealscdn.com * noop

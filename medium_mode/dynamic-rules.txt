@@ -717,6 +717,7 @@ seekingalpha.com januscapital.qumucloud.com * noop
 shadowban.yuzurisa.com ailizijiang.wenaiwu.net * noop
 shein.com sheinsz.ltwebstatic.com * noop
 siliconangle.com video.cube365.net * noop
+skype.com skypeassets.com * noop
 slack.com a.slack-edge.com * noop
 slashdot.org a.fsdn.com * noop
 soundcloud.com a-v2.sndcdn.com * noop

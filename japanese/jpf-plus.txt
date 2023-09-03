@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230903
+! Version: 20230904
 
 ! ---------- Ads general ----------
 &zoneid=*&rb=$xmlhttprequest,third-party
@@ -253,6 +253,9 @@ nengaya.net##.HTML > div > .entryadwrapper2:upward(2)
 nengaya.net##div[class^="bigbanner"]
 news.minory.org###block-3
 news.minory.org###block-5
+newslabo.info##div[id^=newsl-]
+newslabo.info##.article-body > center > .adsbygoogle:upward(1)
+newslabo.info##.article-body > center:has(> .adsbygoogle)
 nmm.blog.jp##aff-view
 nsdev.jp##.l-mainContent__inner > .post_content > p:last-of-type:has(> iframe[height="250"])
 number-pedia.com##.widget:has(> div > .adsbygoogle)

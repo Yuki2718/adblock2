@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230903
+! Version: 20230904
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -78,12 +78,14 @@
 ||tmh.io/wp-content/KU.png
 
 ! ---------- Cosmetic general ----------
+###adContext:not(:empty)
 ###ad_300:not([style^="position: absolute; left: -5000px"])
 ###ad_728:not([style^="position: absolute; left: -5000px"])
 ###ad_area:not([style^="position: absolute; left: -5000px"])
 ###ad_big:not([style^="position: absolute; left: -5000px"])
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 ###ad_footer:not([style^="position: absolute; left: -5000px"])
+###ad_img:not(:empty)
 ###ad_slot:not([style^="position: absolute; left: -5000px"])
 ~musmus.main.jp,~streetinsider.com###ad_space:not([style^="position: absolute; left: -5000px"])
 ~freepdfcomic.com,~kazukichi0914.hatenablog.com,~puzzle-ch.com###adframe:not(frameset):not([style^="position: absolute; left: -5000px"])
@@ -95,6 +97,10 @@
 ###adsquare:not([style^="position: absolute; left: -5000px"])
 ###banner468:not([style^="position: absolute; left: -5000px"])
 ###banner728x90:not([style^="position: absolute; left: -5000px"])
+###downloadAd:not(:empty)
+###topBannerAd:not(:empty)
+###topbannerad:not(:empty)
+###weatherad:not(:empty)
 ~job.inshokuten.com,~netmile.co.jp##.ad-area:not(.text-ad)
 ##.Ad-Container:not(.adsbygoogle)
 ~job.inshokuten.com,~sexgr.net,~u-yas.dev,~webbtelescope.org##.ad-box:not(#ad-banner)
@@ -156,12 +162,14 @@ taoruseitai.com,towelstretches.com,xn--28ja8nb9uubn3byzm464cuetahu3avcz915bwoe.c
 !Incimpatible with MV3
 ||googletagmanager.com/gtag/js$script,xmlhttprequest,redirect-rule=googletagmanager-gtm,domain=~myshows.me|~xeroshoes.com
 
+#@##adContext
 #@##ad_300
 #@##ad_728
 #@##ad_area
 #@##ad_big
 #@##ad_box
 #@##ad_footer
+#@##ad_img
 #@##ad_slot
 #@##ad_space
 #@##adframe:not(frameset)
@@ -173,6 +181,10 @@ taoruseitai.com,towelstretches.com,xn--28ja8nb9uubn3byzm464cuetahu3avcz915bwoe.c
 #@##adsquare
 #@##banner468
 #@##banner728x90
+#@##downloadAd
+#@##topBannerAd
+#@##topbannerad
+#@##weatherad
 #@#.Ad-Container
 #@#.ad-area
 #@#.ad-box

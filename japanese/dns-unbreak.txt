@@ -2,7 +2,7 @@
 ! Expires: 5 days
 ! Homepage: https://github.com/Yuki2718/adblock
 ! Licence: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
-! Version: 20230318
+! Version: 20230904
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/105095
 @@||res.ads.nicovideo.jp^|
@@ -12,5 +12,5 @@
 @@||b92.yahoo.co.jp^|
 @@||js.adsrvr.org^|
 ! https://github.com/AdguardTeam/AdguardFilters/pull/90357
-@@||google-analytics.com^|
+@@||www.google-analytics.com^|
 

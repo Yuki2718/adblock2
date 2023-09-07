@@ -29,7 +29,6 @@
 /exports/tour_20/*
 /exzUndSJBH.js*$script,~third-party
 /frms/NTV*$subdocument,~third-party
-/lvesnk.html?zoneid=
 /pub?id=$script,third-party
 /redirect?feed=$subdocument
 /rek/?n=$subdocument,~third-party
@@ -479,6 +478,7 @@ dechamore.net###sub-contents[style^="position: fixed"]:style(position: static !i
 anianierosuki.work##+js(nowoif)
 
 ! ---------- JS: others ----------
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, playerConfig.embeddedPlayerConfig)
 
 ! ---------- Exception: blocking - too few visitors ----------
 @@||31012.jp/wp-content/uploads/2019/11/ad2.jpg

@@ -2,10 +2,9 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230904
+! Version: 20230911
 
 ! ---------- Ads general ----------
-&zoneid=*&rb=$xmlhttprequest,third-party
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
 -960x80.gif|$image,third-party,domain=~edu|~gov|~jp
 /960-60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -50,6 +49,8 @@ _300_250_
 /tmp/?width=300&$subdocument,~third-party
 /tmp/?zone=$subdocument,~third-party
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)\/(?!api|available)[a-z]{4,}\.json$/$xmlhttprequest,third-party,match-case,domain=~edu|~gov|~jp
+! Incompatible with MV3
+/^https?:\/\/[a-z]{8,15}\.(?:com|net)\/(?!api|available|team)[a-z]{4,}\.json$/$xmlhttprequest,third-party,match-case,domain=~edu|~gov|~jp
 
 ! ---------- Ads 3p ----------
 ||cloudflare.com/ajax/libs/postscribe/$script,third-party
@@ -197,6 +198,7 @@ graoda.blog.fc2.com###sidebar_r > table[style="table-layout: fixed;"]
 graoda.blog.fc2.com##.ad > table[style="table-layout: fixed;"]
 graoda.blog.fc2.com##div[id^="AmazonLINK"]
 graoda.blog.fc2.com##table[width="700"][height="300"]
+gxy-life.com##.aside6
 hakuhin.jp##.menu_ads
 hakuhin.jp##div[style="display:table; margin:10px auto -10px;"]
 haseakio.hatenablog.com##.hatena-module-html > .hatena-module-body > script[src^="//ws-fe.amazon-adsystem.com/"]:upward(2)
@@ -483,11 +485,8 @@ youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse
 ! ---------- Exception: blocking - too few visitors ----------
 @@||31012.jp/wp-content/uploads/2019/11/ad2.jpg
 @@||a8.net/svt/bgt$image,domain=point.monocla.com
-@@||azclick.jp/images/ad/$image,~third-party
-@@||copilog2.jp/bds_403501/webroot/ad_img/$image,domain=ikkaku.net
 @@||dmlab.jp/images/adtech/*$image,~third-party
 @@||houritsusoudan.biz/ad/image/$image,~third-party
-@@||ienohikari.net/ad/img/ad_$image,~third-party
 
 ! ---------- Exception: blocking - othres ----------
 @@||g.doubleclick.net/pagead/ads?$subdocument,domain=sitappa.com
@@ -496,10 +495,6 @@ youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse
 @@||point-g.rakuten.co.jp/pg_assets/item/contets/*_300_250_$image,~third-party
 
 ! ---------- Exception: cosmetic - too few visitors ----------
-azclick.jp#@##topAd
-ienohikari.net#@#.ad_btn
-ikkaku.net#@#.ad-bottom
-ikkaku.net#@#.adImg
 iwakuni-fudosan.jp#@#.ad__item
 iwakuni-fudosan.jp#@#.ads01
 iwakuni-fudosan.jp#@#.top-ad

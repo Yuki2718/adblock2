@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230911
+! Version: 20230915
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -139,6 +139,9 @@ axia-hakusan.com###menu:last-child:has(img[src$="/bana.jpg"])
 bazooo.com###main > section.widget_text
 bazooo.com##.toplinkyuni
 bazutore.com##.kijikome3
+bknews.biz###headBanner
+bknews.biz###header_banner
+bknews.biz###sideBanner
 blog.h-wd.info##.widget-sidebar-scroll
 blog.information-portal.net##.mg-sidebar > .widget_custom_html
 blog.manabusakai.com##.unit

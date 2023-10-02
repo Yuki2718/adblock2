@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20230930
+! Version: 20231003
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -17,7 +17,7 @@
 /sweetie/hello.min.js?id=$script,third-party
 /\/nb\/[a-z]{4}\.js$/$script,~third-party,match-case
 /^https:\/\/(?:[a-z]{2}\.)?[a-z]{10,14}\.(?:casa|com|guru|website)\/[a-z]{2,3}\/\d{5}\?md=[%0-9a-zA-Z]{900,}(?:&cr=\d{5})?$/$xmlhttprequest,third-party,match-case
-/^https:\/\/www\.(?!instagram)[a-z]{8,16}\.com\/(?:[a-z]{2,10}[-.])?[a-z]{2,10}\.(?:min\.)?js$/$script,third-party,match-case,domain=~com|~edu|~gov|~jp
+/^https:\/\/www\.(?!instagram)[a-z]{8,16}\.com\/(assets\/)?(scripts\/)?(api\/)?(?:[a-z]{2,10}[-.])?[a-z]{2,10}\.(?:min\.)?js$/$script,third-party,match-case,domain=~com|~edu|~gov|~jp|~net
 /^https?:\/\/[-.0-9a-z]+-ad\.(?:com|jp|net)[\/:]/$script,third-party
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)(\/(?:\d{1,5}|0NaN|articles?|browse|index|movie|news|pages?|static|view|web|wiki)){1,4}(?:\.html|\/)?$/$subdocument,third-party,match-case,domain=~edu|~gov|~jp
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)\/[-a-z]{4,}\.css\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$stylesheet,third-party,match-case
@@ -307,7 +307,6 @@ studio-de.com###block-11
 studio-de.com###block-12
 timeskk.jword.jp##.right_aff
 timeskk.jword.jp##.ss-area
-tokimekistory.com##.adboxcontainer_t
 tottemoyasashiibitcoin.net##.code-block-1
 twi55.com##.l-sidebar > .widget_custom_html
 twi55.com##.postCta
@@ -327,6 +326,7 @@ xn--t8jg7842a3jax1ftt5fm9j.com##.sidebar_content > div.widget_text
 xn--zckm5bnq2mpa6a1fz490bkx4ayzmvi9g.com###text-21
 youchien.net##.wrap-bnr
 ! Mobile
+buzzcafe.click,buzzdoor.net,goodjob1.com,koko-doko18.com,kokodoko-18.com,lark-scent.com,tokimekistory.com##.sp_checkbox_under
 graoda.blog.fc2.com###gailing02
 graoda.blog.fc2.com##.thum_pic
 lark-scent.com,tokimekistory.com###modal-content

@@ -74,6 +74,7 @@ buzzfeed.com##.Ad--awareness-bp
 buzzfeed.com##.Ad--loading
 buzzfeed.com##.ad-inline
 buzzfeed.com##.js-ad
+caramel-sp.com##.textad
 cartoonnetwork.jp,dmlab.jp,i2chmeijin.blog.fc2.com,his-vacation.com,magnet-novels.com,twitis.me##.adBox
 ciatr.jp##.ad-frame
 cined.com###header-ads

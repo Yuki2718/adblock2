@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231003
+! Version: 20231006
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -69,8 +69,8 @@
 ://creative.*/widgets/v4/Universal?$subdocument,third-party
 ://loc.*.com/renderer/renderer.js|$script,third-party
 ://media.*/js/code.min.js|$script,third-party
-://www.*.com/*/scripts/*.min.css|$script,third-party,match-case
-?_=e3&v=*&s=$script,third-party,match-case,to=com
+://www.*.com/*/scripts/*.min.css|$script,third-party
+?_=e3&v=*&s=$script,third-party,to=com
 ! Incompatible with MV3
 /^https?:\/\/[a-z]{7,16}\.(?:com?|org)\/(?=[\/a-zA-Z]*[+0-9])(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{400,}$/$subdocument,third-party,domain=~edu|~gov|~jp
 /^https?:\/\/[a-z]{7,16}\.(?:com?|org)\/(?=[\/a-zA-Z]*[+0-9])(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{140,}$/$image,ping,third-party,domain=~edu|~gov|~jp

@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231004
+! Version: 20231007
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -382,6 +382,10 @@ dennou2.jp##td[height="3293"] > table[width="948"] + hr + table[width="908"]
 dennou2.jp##td[height="3293"] > table[width="948"] + hr + table[width="908"] + div[align="center"] > hr:first-child
 dim2database.blog.fc2.com###fc2relate_entry_thumbnail_area + div.content
 dim2database.blog.fc2.com##.flickr_navi + div.content
+doa-xvv.blog.jp###sidebar-inner > a[href^="https://al.dmm.com/"]
+doa-xvv.blog.jp##.article-body-inner > br + div[align="center"]:has(> a[target="_blank"])
+doa-xvv.blog.jp##.article-body-inner > br + div[align]:has(> a[target="_blank"])
+doa-xvv.blog.jp##.article-body-inner > table[border="0"]
 ero100k.blog.2nt.com##.sidemenu_body:has(> .plg_body > div.plugin-freearea > a[target="_blank"])
 ero3dmovie.net##.play__main > div[style^="display: block; position: relative; top: 0px; left: 0px"]
 eroerosanta.blog.jp##.article-body-inner > div[style="text-align:center;margin:20px auto;padding:15px;background:#ddf3f5;"]
@@ -513,12 +517,11 @@ anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,
 @@/ads-prebid.js$script,~third-party
 @@||ads.remix.es/advertisement.js|$script
 @@||g.adspeed.net/ad.php?do=detectadblocker|$script
-||ads-twitter.com/uwt.js$xmlhttprequest,third-party,redirect=nooptext
 ||doubleclick.net/favicon.ico$image,redirect=32x32.png
 ||google-analytics.com/analytics.js$redirect=google-analytics_analytics.js
 ! Incompatible with MV3
 /300x250.$image,redirect-rule=1x1.gif
-/player/stats.php?$image,1p,redirect-rule=1x1.gif
+/player/stats.php?$image,~third-party,redirect-rule=1x1.gif
 /popunder_$script,redirect-rule=noopjs
 
 ! ---------- Anti anti-adb - too few visitors ----------

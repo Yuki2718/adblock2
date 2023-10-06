@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231006
+! Version: 20231007
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -159,6 +159,7 @@ taoruseitai.com,towelstretches.com,xn--28ja8nb9uubn3byzm464cuetahu3avcz915bwoe.c
 ||adclixx.net^$script,third-party,redirect=prevent-bab2,important
 ||adnetasia.com^$script,third-party,redirect=prevent-bab2,important
 ||ads-api.twitter.com^$xmlhttprequest,redirect=nooptext,domain=~twitter.com
+||ads-twitter.com/uwt.js$xmlhttprequest,third-party,redirect=nooptext
 ||adtrackers.net^$script,third-party,redirect=prevent-bab2,important
 ||bannertrack.net^$script,third-party,redirect=prevent-bab2,important
 ||coinzillatag.com^$script,redirect=noopjs

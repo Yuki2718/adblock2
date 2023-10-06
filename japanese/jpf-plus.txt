@@ -383,7 +383,6 @@ dennou2.jp##td[height="3293"] > table[width="948"] + hr + table[width="908"] + d
 dim2database.blog.fc2.com###fc2relate_entry_thumbnail_area + div.content
 dim2database.blog.fc2.com##.flickr_navi + div.content
 doa-xvv.blog.jp###sidebar-inner > a[href^="https://al.dmm.com/"]
-doa-xvv.blog.jp##.article-body-inner > br + div[align="center"]:has(> a[target="_blank"])
 doa-xvv.blog.jp##.article-body-inner > br + div[align]:has(> a[target="_blank"])
 doa-xvv.blog.jp##.article-body-inner > table[border="0"]
 ero100k.blog.2nt.com##.sidemenu_body:has(> .plg_body > div.plugin-freearea > a[target="_blank"])

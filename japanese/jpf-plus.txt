@@ -484,9 +484,12 @@ dechamore.net###sub-contents[style^="position: fixed"]:style(position: static !i
 *##ins.adsbygoogle:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
 
 ! ---------- JS: too few visitors ----------
-anianierosuki.work##+js(nowoif)
+anianierosuki.work#%#//scriptlet('prevent-window-open')
 
 ! ---------- JS: others ----------
+! Additional anti anti-adb for YT: commented out as causing slower loading
+! Add to My filters without initial ! at your own risk, if you prefer added protection in case main filters are bypassed.
+!youtube.com#%#//scriptlet('abort-on-stack-trace', 'Object.defineProperty', '/[A-Z]kb .+polymer/')
 
 ! ---------- Exception: blocking - too few visitors ----------
 @@||31012.jp/wp-content/uploads/2019/11/ad2.jpg

@@ -488,7 +488,7 @@ anianierosuki.work#%#//scriptlet('prevent-window-open')
 
 ! ---------- JS: others ----------
 ! Additional anti anti-adb for YT: commented out as causing slower loading
-! Add to My filters without initial ! at your own risk, if you prefer added protection in case main filters are bypassed.
+! Add to My filters without initial ! at your own risk, if you prefer added protection in case main filters are bypassed. Remember you will eventually have to remove the rule by YT's future updates
 !youtube.com#%#//scriptlet('abort-on-stack-trace', 'Object.defineProperty', '/[A-Z]kb .+polymer/')
 
 ! ---------- Exception: blocking - too few visitors ----------

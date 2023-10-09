@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231007
+! Version: 20231009
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -117,7 +117,7 @@
 ##.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
 ##.ad-slot:not(.adsbox):not(.adsbygoogle)
 ##.ad-space:not(:empty):not(.textads)
-~lamire.jp##.ad-unit:not(.text-ad):not(:empty):not(.textads)
+~lamire.jp##.ad-unit:not(.text-ad):not(.textads)
 ##.ad-zone:not(:empty):not(.textads)
 ##.ad_unit:not(.text-ad)
 ##.adde_modal_detector

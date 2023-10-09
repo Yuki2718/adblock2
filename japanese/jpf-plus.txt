@@ -2,7 +2,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231007
+! Version: 20231010
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -487,6 +487,7 @@ dechamore.net###sub-contents[style^="position: fixed"]:style(position: static !i
 anianierosuki.work#%#//scriptlet('prevent-window-open')
 
 ! ---------- JS: others ----------
+youtube.com#%#//scriptlet('set-constant', 'yt.config_.EXPERIMENT_FLAGS.ab_det_fet_wr_en', 'false')
 ! Additional anti anti-adb for YT: commented out as causing slower loading
 ! Add to My filters without initial ! at your own risk, if you prefer added protection in case main filters are bypassed. Remember you will eventually have to remove the rule by YT's future updates
 !youtube.com#%#//scriptlet('abort-on-stack-trace', 'Object.defineProperty', '/[A-Z]kb .+polymer/')

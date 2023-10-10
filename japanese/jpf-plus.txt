@@ -99,7 +99,7 @@ _300_250_
 ##div[class][style="cursor: pointer;"] > img[src^="//"]
 ##div[style="position:fixed;inset:0px;z-index:100000;height:100%;width:100%"]
 ##div[style*="cursor: no-drop"][style*="user-select: none"][style*="position: fixed"][style*="top:"][style*="left:"][style*="z-index"]:empty + *:not([class]):not([id])
-##div[style*="z-index: 2147483647;"][style*="top: 0px; left: 0px;"][style*="position:"]
+##body > div[style*="z-index: 2147483647;"][style*="top: 0px; left: 0px;"][style*="position:"]
 ##iframe[class][scrolling="no"][sandbox="allow-same-origin allow-scripts allow-popups"][style*="z-index: 2147483647; position: fixed"]
 ##iframe[style*="opacity: 1 !important; max-width:"][style*="position: fixed !important; display: block !important; z-index: 2147483647 !important; inset:"]
 

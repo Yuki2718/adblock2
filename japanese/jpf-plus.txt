@@ -487,9 +487,7 @@ dechamore.net###sub-contents[style^="position: fixed"]:style(position: static !i
 anianierosuki.work#%#//scriptlet('prevent-window-open')
 
 ! ---------- JS: others ----------
-! Additional anti anti-adb for YT: commented out as causing slower loading
-! Add to My filters without initial ! at your own risk, if you prefer added protection in case main filters are bypassed. Remember you will eventually have to remove the rule by YT's future updates
-!youtube.com#%#//scriptlet('abort-on-stack-trace', 'Object.defineProperty', '/[A-Z]kb .+polymer/')
+www.youtube.com#%#//scriptlet('abort-on-stack-trace', 'btoa', '/[VW]kb \S+polymer/')
 
 ! ---------- Exception: blocking - too few visitors ----------
 @@||31012.jp/wp-content/uploads/2019/11/ad2.jpg

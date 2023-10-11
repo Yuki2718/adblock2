@@ -484,10 +484,10 @@ dechamore.net###sub-contents[style^="position: fixed"]:style(position: static !i
 *##ins.adsbygoogle:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
 
 ! ---------- JS: too few visitors ----------
-anianierosuki.work#%#//scriptlet('prevent-window-open')
+anianierosuki.work##+js(nowoif)
 
 ! ---------- JS: others ----------
-www.youtube.com#%#//scriptlet('abort-on-stack-trace', 'btoa', '/[VW]kb \S+polymer/')
+www.youtube.com##+js(aost, btoa, /[VW]kb \S+polymer/)
 
 ! ---------- Exception: blocking - too few visitors ----------
 @@||31012.jp/wp-content/uploads/2019/11/ad2.jpg

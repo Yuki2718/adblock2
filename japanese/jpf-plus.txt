@@ -2,7 +2,7 @@
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231011
+! Version: 20231015
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -17,7 +17,6 @@
 /sweetie/hello.min.js?id=$script,third-party
 /\/nb\/[a-z]{4}\.js$/$script,~third-party,match-case
 /^https:\/\/(?:[a-z]{2}\.)?[a-z]{10,14}\.(?:casa|com|guru|website)\/[a-z]{2,3}\/\d{5}\?md=[%0-9a-zA-Z]{900,}(?:&cr=\d{5})?$/$xmlhttprequest,third-party,match-case
-/^https:\/\/www\.(?!instagram)[a-z]{8,16}\.com\/(assets\/)?(scripts\/)?(api\/)?(?:[a-z]{2,10}[-.])?[a-z]{2,10}\.(?:min\.)?js$/$script,third-party,match-case,domain=~com|~edu|~gov|~jp|~net
 /^https?:\/\/[-.0-9a-z]+-ad\.(?:com|jp|net)[\/:]/$script,third-party
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)(\/(?:\d{1,5}|0NaN|articles?|browse|index|movie|news|pages?|static|view|web|wiki)){1,4}(?:\.html|\/)?$/$subdocument,third-party,match-case,domain=~edu|~gov|~jp
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)\/[-a-z]{4,}\.css\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$stylesheet,third-party,match-case
@@ -51,6 +50,7 @@ _300_250_
 /tmp/?zone=$subdocument,~third-party
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)\/(?!api|available)[a-z]{4,}\.json$/$xmlhttprequest,third-party,match-case,domain=~edu|~gov|~jp
 ! Incompatible with MV3
+/^https:\/\/www\.(?!instagram)[a-z]{8,16}\.com\/(assets\/)?(?:js|scripts)?\/?(api\/)?(?:[a-z]{2,10}[-.])?[A-Za-z]{2,10}[-.](?:min\.)?js$/$script,third-party,match-case,domain=~com|~edu|~gov|~jp|~net|~org
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)\/(?!api|available|team)[a-z]{4,}\.json$/$xmlhttprequest,third-party,match-case,domain=~edu|~gov|~jp
 
 ! ---------- Ads 3p ----------
@@ -487,7 +487,7 @@ dechamore.net###sub-contents[style^="position: fixed"]:style(position: static !i
 anianierosuki.work##+js(nowoif)
 
 ! ---------- JS: others ----------
-www.youtube.com##+js(aost, btoa, /[VW]kb \S+polymer/)
+!www.youtube.com##+js(set, getDataPromise, 1)
 
 ! ---------- Exception: blocking - too few visitors ----------
 @@||31012.jp/wp-content/uploads/2019/11/ad2.jpg

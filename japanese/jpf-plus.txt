@@ -487,6 +487,7 @@ dechamore.net###sub-contents[style^="position: fixed"]:style(position: static !i
 anianierosuki.work##+js(nowoif)
 
 ! ---------- JS: others ----------
+! Causes auto-refresh of videos on the first watch, hence commented out
 !www.youtube.com##+js(set, getDataPromise, 1)
 
 ! ---------- Exception: blocking - too few visitors ----------

@@ -487,6 +487,7 @@ dechamore.net###sub-contents[style^="position: fixed"]:style(position: static !i
 anianierosuki.work##+js(nowoif)
 
 ! ---------- JS: others ----------
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.enable_ab_report_on_errorscreen, false)
 ! Causes auto-refresh of videos on the first watch, hence commented out
 ! If you're willing to test, please add the line below to My/User filters without the initial !
 !www.youtube.com##+js(set, getDataPromise, 1)

@@ -487,7 +487,7 @@ dechamore.net###sub-contents[style^="position: fixed"]:style(position: static !i
 anianierosuki.work##+js(nowoif)
 
 ! ---------- JS: others ----------
-www.youtube.com##+js(aost, Request, /Vkb.*?polymer/)
+www.youtube.com##+js(aost, Request, /Vkb \S+polymer/)
 ! Causes auto-refresh of videos on the first watch, hence commented out
 ! If you're willing to test, please add the line below to My/User filters without the initial !
 !www.youtube.com##+js(set, getDataPromise, 1)

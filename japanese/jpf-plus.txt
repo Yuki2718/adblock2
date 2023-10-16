@@ -2,7 +2,7 @@
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231015
+! Version: 20231016
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -487,7 +487,7 @@ dechamore.net###sub-contents[style^="position: fixed"]:style(position: static !i
 anianierosuki.work##+js(nowoif)
 
 ! ---------- JS: others ----------
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.enable_ab_report_on_errorscreen, false)
+www.youtube.com##+js(aost, Request, /Vkb.*?polymer/)
 ! Causes auto-refresh of videos on the first watch, hence commented out
 ! If you're willing to test, please add the line below to My/User filters without the initial !
 !www.youtube.com##+js(set, getDataPromise, 1)

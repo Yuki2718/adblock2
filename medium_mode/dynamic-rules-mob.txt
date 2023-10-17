@@ -616,6 +616,7 @@ login.microsoftonline.com login.live.com * noop
 login.microsoftonline.com msauth.net * noop
 login.microsoftonline.com msftauth.net * noop
 login.microsoftonline.com office.com * noop
+login.microsoftonline.com wpc.omegacdn.net * noop
 login.norton.com static.nortoncdn.com * noop
 m.drtuber.com drtst.com * noop
 m.imdb.com m.media-amazon.com * noop

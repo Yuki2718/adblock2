@@ -1,8 +1,8 @@
 ! Title: AdGuard module - not for independent use
-! Expires: 2 days (update frequency)
+! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231015
+! Version: 20231017
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party

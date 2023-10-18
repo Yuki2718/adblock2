@@ -488,7 +488,6 @@ anianierosuki.work##+js(nowoif)
 
 ! ---------- JS: others ----------
 www.youtube.com##+js(aost, JSON.stringify, /[A-Za-z]lb \S+polymer/)
-www.youtube.com##+js(json-prune-fetch-response, [].playerResponse.auxiliaryUi playerResponse.auxiliaryUi auxiliaryUi, , propsToMatch, url:player?key=)
 
 ! ---------- Exception: blocking - too few visitors ----------
 @@||31012.jp/wp-content/uploads/2019/11/ad2.jpg

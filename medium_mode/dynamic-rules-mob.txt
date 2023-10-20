@@ -69,6 +69,7 @@ no-large-media: behind-the-scene false
 * cdn-ssl.vidible.tv * noop
 * cdn-static-1.medium.com * noop
 * cdn-wglc.gcdn.co * noop
+* cdn.abysscdn.com * noop
 * cdn.acast.com * noop
 * cdn.ampproject.org * noop
 * cdn.auth0.com * noop
@@ -423,6 +424,7 @@ no-large-media: behind-the-scene false
 * videopress.com * noop
 * videospider.in * noop
 * videostreaming.rocks * noop
+* vidmoly.to * noop
 * vidnext.net * noop
 * vidoza.net * noop
 * vidtech.cbsinteractive.com * noop

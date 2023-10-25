@@ -2,7 +2,7 @@
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231020
+! Version: 20231026
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -288,6 +288,7 @@ rancolle.com###top_image_box > aside > .amazon_link
 rancolle.com##.ad_artbox
 rancolle.com##.follow_region > .pc_only[style="margin-bottom:10px;"]
 rancolle.com##article > aside > .ri_box.undisplay_s600
+rich-master.jp#?#table[cellspacing="0"][cellpadding="3"][border="1"][style="border-collapse: collapse"]:has(strong:has-text(■Ａｄｓ))
 ronron-blog.com###custom_html-2
 ronron-blog.com###sponsor
 saitamarket.com##.entry-content > p span.marker-under-blue:upward(p)
@@ -403,6 +404,7 @@ fuzokuinfo.com##tr[bgcolor="#ffffff"] > td[colspan="2"] > hr + br
 fuzokuinfo.com##tr[bgcolor="#ffffff"] > td[colspan="2"] > hr:has(+ br)
 gayroom.jp##.hentry > .clearfix > .box > .pict
 gayroom.jp##div[style="padding: 5px; background-color: gray; color: #ffffff;"]:has-text(【広告】)
+gekiyasu-musyusei.com##.right-con:last-child
 gravurestatus.com##.widget-side:first-child
 h7-game.com##.entry-content > div.wp-block-st-blocks-my-box
 hitodumanews.com##.kkku
@@ -453,6 +455,8 @@ sexv.jp##.knbdn-size-336x280
 sexy.from.tv##.ah
 suzukikurumi.net##.pc > .banner
 toshimi.top#?#.widget_text > div > p > script[src*=".jp/ufo/"]:upward(3)
+tousatu.tv###main-contents > div[align="center"]
+tousatu.tv###sidebar-in > .widget_text:first-child
 tvcaphokan1.blog99.fc2.com##.p_block:has(> div > div > .plugin-freearea > a[target="_blank"])
 ukemi-no-kiwami.work###pc_text-9
 ukemi-no-kiwami.work##.widget-below-related-entries

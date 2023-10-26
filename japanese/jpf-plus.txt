@@ -492,7 +492,7 @@ dechamore.net###sub-contents[style^="position: fixed"]:style(position: static !i
 anianierosuki.work##+js(nowoif)
 
 ! ---------- JS: others ----------
-!www.youtube.com##+js(aost, btoa, /[A-Za-z]lb \S+polymer/)
+www.youtube.com##+js(aost, Request, /[A-Za-z]lb.+polymer/)
 
 ! ---------- Exception: blocking - too few visitors ----------
 @@||31012.jp/wp-content/uploads/2019/11/ad2.jpg

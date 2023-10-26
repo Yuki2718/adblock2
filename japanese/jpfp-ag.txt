@@ -2,7 +2,7 @@
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231017
+! Version: 20231026
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -152,10 +152,6 @@ taoruseitai.com,towelstretches.com,xn--28ja8nb9uubn3byzm464cuetahu3avcz915bwoe.c
 ! Exception: cosmetic
 
 ! ---------- Anti anti-adb - general ----------
-/adframe.js$subdocument,redirect-rule=noopframe
-/ads-prebid.js$script,redirect-rule=prebid-ads
-/prebid-add.js$script,redirect-rule=prebid-ads
-/prebid-ads.js$script,redirect-rule=prebid-ads,domain=~exey.io
 ||adclixx.net^$script,third-party,redirect=prevent-bab2,important
 ||adnetasia.com^$script,third-party,redirect=prevent-bab2,important
 ||ads-api.twitter.com^$xmlhttprequest,redirect=nooptext,domain=~twitter.com
@@ -170,6 +166,11 @@ taoruseitai.com,towelstretches.com,xn--28ja8nb9uubn3byzm464cuetahu3avcz915bwoe.c
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,redirect=googlesyndication-adsbygoogle,domain=~amachamusic.chagasi.com|~heim.jp|~leechpremium.net|~zipextractor.app
 ||pagead2.googlesyndication.com/|$xmlhttprequest,redirect=noopjs
 !Incimpatible with MV3
+/adframe.js$subdocument,redirect-rule=noopframe
+/ads-prebid.js$script,redirect-rule=prebid-ads
+/prebid-add.js$script,redirect-rule=prebid-ads
+/prebid-ads.js$script,redirect-rule=prebid-ads,domain=~exey.io
+||google-analytics.com/analytics.js$redirect-rule=google-analytics,domain=~okwave.jp
 ||googletagmanager.com/gtag/js$script,xmlhttprequest,redirect-rule=googletagmanager-gtm,domain=~myshows.me|~xeroshoes.com
 
 #@##adContext

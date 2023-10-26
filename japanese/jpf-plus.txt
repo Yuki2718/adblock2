@@ -522,9 +522,7 @@ anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,
 @@||ads.remix.es/advertisement.js|$script
 @@||g.adspeed.net/ad.php?do=detectadblocker|$script
 ||doubleclick.net/favicon.ico$image,redirect=32x32.png
-||google-analytics.com/analytics.js$redirect=google-analytics_analytics.js
 ! Incompatible with MV3
-/300x250.$image,redirect-rule=1x1.gif
 /player/stats.php?$image,~third-party,redirect-rule=1x1.gif
 /popunder_$script,redirect-rule=noopjs
 

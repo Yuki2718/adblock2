@@ -1,5 +1,5 @@
 ! Title: AdGuard Japanese filter Plus
-! Expires: 1 days (update frequency)
+! Expires: 12 hours
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
 ! Version: 20231027
@@ -492,7 +492,7 @@ dechamore.net###sub-contents[style^="position: fixed"]:style(position: static !i
 anianierosuki.work##+js(nowoif)
 
 ! ---------- JS: others ----------
-www.youtube.com##+js(aost, Request, /[A-Za-z]lb.+polymer/)
+www.youtube.com##+js(aost, Request, /[A-Za-z]lb \S+polymer/)
 
 ! ---------- Exception: blocking - too few visitors ----------
 @@||31012.jp/wp-content/uploads/2019/11/ad2.jpg

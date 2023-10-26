@@ -2,7 +2,7 @@
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231026
+! Version: 20231027
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -170,7 +170,7 @@ dmlab.jp###sponsorsNav
 doorblog.jp,heypo.net###meerkat-contents
 doragon-keiba.com###text-3
 doragon-keiba.com##.content > div[style="float:none;margin:10px 0 10px 0;text-align:center;"]
-dotpict.net#?#div[id^="ads"]:upward(1)
+dotpict.net##div[id^="ads"]:upward(1)
 e0166nt.com##.side-menu:first-child > .side-heading
 e0166nt.com##.sidebar-style > .module:first-child
 ec.enoki.xyz##.content_table_mother[id$="_ads"]
@@ -230,7 +230,8 @@ ken2.link##.bigbanner_top
 ken2.link##.su-box
 kimpalife.com###bottom-editarea > span[style="font-size: 70%;"]
 kimpalife.com##.hatena-module-body > p[style="text-align: center;"] > span[style="font-size: 80%;"]
-kodate-ru.com#?#.sidebar > h4.widgettitle:contains(スポンサードリンク)
+kodate-ru.com##.sidebar > h4.widgettitle:has-text(スポンサードリンク)
+kondatepon.com##.cm_box
 kujoyugo.com##.booklink-box
 kujoyugo.com##.widget-below-related-entries
 kuram.tv###side_pr
@@ -454,7 +455,7 @@ puriketsu.jp##.topad a[href^="https://af.ko-tube.com/c.php"]
 sexv.jp##.knbdn-size-336x280
 sexy.from.tv##.ah
 suzukikurumi.net##.pc > .banner
-toshimi.top#?#.widget_text > div > p > script[src*=".jp/ufo/"]:upward(3)
+toshimi.top##.widget_text > div > p > script[src*=".jp/ufo/"]:upward(3)
 tousatu.tv###main-contents > div[align="center"]
 tousatu.tv###sidebar-in > .widget_text:first-child
 tvcaphokan1.blog99.fc2.com##.p_block:has(> div > div > .plugin-freearea > a[target="_blank"])
@@ -491,7 +492,7 @@ dechamore.net###sub-contents[style^="position: fixed"]:style(position: static !i
 anianierosuki.work##+js(nowoif)
 
 ! ---------- JS: others ----------
-www.youtube.com##+js(aost, btoa, /[A-Za-z]lb \S+polymer/)
+!www.youtube.com##+js(aost, btoa, /[A-Za-z]lb \S+polymer/)
 
 ! ---------- Exception: blocking - too few visitors ----------
 @@||31012.jp/wp-content/uploads/2019/11/ad2.jpg

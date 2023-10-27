@@ -1,5 +1,5 @@
 ! Title: AdGuard module - not for independent use
-! Expires: 1 days (update frequency)
+! Expires: 12 hours
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
 ! Version: 20231026
@@ -170,8 +170,8 @@ taoruseitai.com,towelstretches.com,xn--28ja8nb9uubn3byzm464cuetahu3avcz915bwoe.c
 /ads-prebid.js$script,redirect-rule=prebid-ads
 /prebid-add.js$script,redirect-rule=prebid-ads
 /prebid-ads.js$script,redirect-rule=prebid-ads,domain=~exey.io
-||google-analytics.com/analytics.js$redirect-rule=google-analytics,domain=~okwave.jp
-||googletagmanager.com/gtag/js$script,xmlhttprequest,redirect-rule=googletagmanager-gtm,domain=~myshows.me|~xeroshoes.com
+||google-analytics.com/analytics.js$redirect-rule=google-analytics
+||googletagmanager.com/gtag/js$script,xmlhttprequest,redirect-rule=googletagmanager-gtm,domain=~myshows.me|~okwave.jp|~xeroshoes.com
 
 #@##adContext
 #@##ad_300

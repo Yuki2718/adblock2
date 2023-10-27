@@ -1,5 +1,5 @@
 ! Title: uBO module - not for independent use
-! Expires: 1 days (update frequency)
+! Expires: 12 hours
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
 ! Version: 20231026

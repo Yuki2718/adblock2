@@ -2,7 +2,7 @@
 ! Expires: 12 hours
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231031
+! Version: 20231103
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -13,7 +13,6 @@
 /?request_ab2=*zoneid=$xmlhttprequest,third-party
 /images/ad_phoneconfirm150.gif
 /jss/external_pop.js?$~third-party
-/o.js|$script,third-party
 /sweetie/hello.min.js?id=$script,third-party
 /\/nb\/[a-z]{4}\.js$/$script,~third-party,match-case
 /^https:\/\/(?:[a-z]{2}\.)?[a-z]{10,14}\.(?:casa|com|guru|website)\/[a-z]{2,3}\/\d{5}\?md=[%0-9a-zA-Z]{900,}(?:&cr=\d{5})?$/$xmlhttprequest,third-party,match-case
@@ -48,9 +47,8 @@ _300_250_
 /\/tmp\/[0-9a-z]{6}\.js$/$script,~third-party,match-case,domain=com|xxx
 /tmp/?width=300&$subdocument,~third-party
 /tmp/?zone=$subdocument,~third-party
-/^https?:\/\/[a-z]{8,15}\.(?:com|net)\/(?!api|available)[a-z]{4,}\.json$/$xmlhttprequest,third-party,match-case,domain=~edu|~gov|~jp
 ! Incompatible with MV3
-/^https:\/\/www\.(?!instagram)[a-z]{8,16}\.com\/(assets\/)?(static\/)?(scripts\/)?(api\/)?(?:[a-z]{2,10}[-.])?[a-z]{2,10}\.(?:min\.)?js$/$script,3p,match-case,domain=~com|~edu|~gov|~jp|~net|~org
+/^https:\/\/www\.(?!instagram)[a-z]{8,16}\.com\/(assets\/)?(static\/)?(scripts\/)?(api\/)?(?:[a-z]{2,10}[-.])?[a-z]{2,10}\.(?:min\.)?js$/$script,third-party,,match-case,domain=~com|~edu|~gov|~jp|~net|~org
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)\/(?!api|available|team)[a-z]{4,}\.json$/$xmlhttprequest,third-party,match-case,domain=~edu|~gov|~jp
 
 ! ---------- Ads 3p ----------
@@ -442,6 +440,7 @@ nozokizennkaimax.xyz###custom_html-4
 nozokizennkaimax.xyz##.mainbottom-widget
 orangenic.jp###slideBanner
 orangenic.jp##.adContents
+oshikatu.com##a[href^="https://cocoa-job.jp/"][rel="sponsored noopener"]
 pab.blogterest.net###pn067bigbanner
 paipai-only.com###block-132
 paipai-only.com##.sc_frame_wrap > p > a[href^="https://al.dmm.co.jp"] > img[width="1200"][height="600"]

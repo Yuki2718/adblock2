@@ -2,7 +2,7 @@
 ! Expires: 12 hours
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231026
+! Version: 20231103
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -44,6 +44,7 @@ globaliconews.com##.td-a-rec
 ! ---------- Cosmetic specific - Ignore generic ----------
 00h.co.jp##.ad_r
 0115765.com###sticky-ads
+25ans.jp,cosmopolitan.com,elle.com,ellegirl.jp,esquire.com,fujingaho.jp,harpersbazaar.com,womenshealthmag.com##.breaker-ad
 25news.jp,cantera.camp,futsal-design.jp,happyell.com,lacrosse-plus.net,mamagirl.jp,mlb.com##.p-ad
 2ch-matomenews.com###float-bnr
 47news.jp##.ad_inner
@@ -213,7 +214,7 @@ kakolog.jp##.ad_header
 kidsna.com##.google-ads
 kurashi-no.jp##.inline_ad
 mamastar.jp##.ad-text
-mantan-web.jp##.ad_text
+mainichikirei.jp,mantan-web.jp##.ad_text
 matomegamer.com##.rectangle_ad
 oppai-paipai.com##.ad-head
 pixiv.net###ad-footer
@@ -235,3 +236,12 @@ nhentai.net##.advt
 
 ! ---------- Scam & Redirect ----------
 
+! ---------- Fix unnecessarily blocking ----------
+! https://github.com/uBlockOrigin/uAssets/pull/10149
+! Entries here must be checked case by case
+||mopub.com^$badfilter
+||mopub.com^$3p
+||outbrain.com^$badfilter
+||outbrain.com^$3p
+||taboola.com^$badfilter
+||api.taboola.com^

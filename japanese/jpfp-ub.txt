@@ -236,7 +236,7 @@ nhentai.net##.advt
 
 ! ---------- Scam & Redirect ----------
 
-! ---------- Fix unnecessarily blocking ----------
+! ---------- Fix unnecessary blocking ----------
 ! https://github.com/uBlockOrigin/uAssets/pull/10149
 ! Entries here must be checked case by case
 ||mopub.com^$badfilter

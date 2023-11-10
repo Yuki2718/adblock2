@@ -41,7 +41,6 @@
 /api/spots/*^fill=$xmlhttprequest
 /assets/jquery/adult0.js?v=$script,~third-party
 /assets/jquery/adult100.js?v=$script,~third-party
-/bens/vinos*.js?$script,third-party
 /cuid/?f=https%$xmlhttprequest,third-party
 /deity.php?*&ts=$xmlhttprequest,third-party
 /gb/zone?zid=$xmlhttprequest,third-party
@@ -72,7 +71,6 @@
 ://www.*-min.css|$script,third-party
 ://www.*.min.css|$script,third-party
 ://www.*/images/*.min.js|$script,third-party
-?_=e3&v=*&s=$script,third-party,to=com
 ! Incompatible with MV3
 /^https?:\/\/[a-z]{7,16}\.(?:com?|org)\/(?=[\/a-zA-Z]*[+0-9])(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{400,}$/$subdocument,third-party,domain=~edu|~gov|~jp
 /^https?:\/\/[a-z]{7,16}\.(?:com?|org)\/(?=[\/a-zA-Z]*[+0-9])(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{140,}$/$image,ping,third-party,domain=~edu|~gov|~jp

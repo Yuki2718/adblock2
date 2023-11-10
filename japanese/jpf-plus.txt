@@ -2,7 +2,7 @@
 ! Expires: 12 hours
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231103
+! Version: 20231110
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -453,6 +453,9 @@ puriketsu.jp##.sample_h_12:has(+ a[href^="https://www.amazon.co.jp"][target="_bl
 puriketsu.jp##.topad a[href^="https://af.ko-tube.com/c.php"]
 sexv.jp##.knbdn-size-336x280
 sexy.from.tv##.ah
+seppelts.com###side2 > .box:first-child
+seppelts.com###side2 > .box:last-child
+seppelts.com##.ads
 suzukikurumi.net##.pc > .banner
 toshimi.top##.widget_text > div > p > script[src*=".jp/ufo/"]:upward(3)
 tousatu.tv###main-contents > div[align="center"]
@@ -491,7 +494,6 @@ dechamore.net###sub-contents[style^="position: fixed"]:style(position: static !i
 anianierosuki.work##+js(nowoif)
 
 ! ---------- JS: others ----------
-www.youtube.com##+js(aost, Request, /[A-Za-z]lb \S+polymer/)
 
 ! ---------- Exception: blocking - too few visitors ----------
 @@||31012.jp/wp-content/uploads/2019/11/ad2.jpg

@@ -567,6 +567,7 @@ answers.microsoft.com msecnd.net * noop
 app.box.com cdn01.boxcdn.net * noop
 app.box.com public.boxcloud.com * noop
 app.slack.com fst.slack-edge.com * noop
+app.slack.com slackb.com * noop
 apple.com aaplimg.com * noop
 apple.com cdn-apple.com * noop
 appleinsider.com apple.insidercdn.com * noop

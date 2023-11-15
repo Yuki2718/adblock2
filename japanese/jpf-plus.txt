@@ -2,7 +2,7 @@
 ! Expires: 12 hours
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231110
+! Version: 20231115
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -48,7 +48,7 @@ _300_250_
 /tmp/?width=300&$subdocument,~third-party
 /tmp/?zone=$subdocument,~third-party
 ! Incompatible with MV3
-/^https:\/\/www\.(?!instagram)[a-z]{8,16}\.com\/(assets\/)?(static\/)?(scripts\/)?(api\/)?(?:[a-z]{2,10}[-.])?[a-z]{2,10}\.(?:min\.)?js$/$script,third-party,,match-case,domain=~com|~edu|~gov|~jp|~net|~org
+/^https:\/\/www\.(?!instagram)[a-z]{8,16}\.com\/(common\/)?(assets\/)?(static\/)?(scripts\/)?(api\/)?(?:[A-Za-z]{2,20}[-.])?[A-Za-z]{2,20}\.(?:min\.)?js$/$script,third-party,,match-case,domain=~com|~edu|~gov|~jp|~net|~org
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)\/(?!api|available|team)[a-z]{4,}\.json$/$xmlhttprequest,third-party,match-case,domain=~edu|~gov|~jp
 
 ! ---------- Ads 3p ----------

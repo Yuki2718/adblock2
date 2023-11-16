@@ -2,7 +2,7 @@
 ! Expires: 12 hours
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231112
+! Version: 20231116
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -225,6 +225,9 @@ taoruseitai.com,towelstretches.com,xn--28ja8nb9uubn3byzm464cuetahu3avcz915bwoe.c
 ! The rule below requires Full-trust and thus not available to 3p lists
 ! If and only if you're an advanced user, add this to User rules.
 !youtube.com#%#!function(){const e={apply:(e,t,a)=>{const r=(new Error).stack,n=new RegExp("at FE|FE@");if(Array.isArray(a)&&r&&n.test(r)){const e=a[0];(e.playerAds||e.adPlacements||e.adSlots||e.adBreakHeartbeatParams||e.playerResponse)&&(a=[{}])}return Reflect.apply(e,t,a)}};window.Object.getOwnPropertyNames=new Proxy(window.Object.getOwnPropertyNames,e)}();
+
+! ---------- Anti anti-adb - Admiral (sync with AGA) ----------
+reuters.com#%#//scriptlet("set-constant", "admiral", "noopFunc")
 
 ! ---------- Scam & Redirect ----------
 &dci=*&tds_campaign=$document

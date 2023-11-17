@@ -2,7 +2,7 @@
 ! Expires: 12 hours
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231110
+! Version: 20231118
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -70,6 +70,7 @@ blog.livedoor.jp##.t_b ~ div > a[href^="https://al.dmm.co"]
 blog.livedoor.jp##div[class^="google-2ad"]
 blogspot.com##.AdSense
 blogspot.com##.adgoogle-wrapper
+bm.best-hit.tv,gameo.jp,googirl.jp##iframe[id^="IFTG"]
 boom-app.wiki##.ad-300
 boom-app.wiki##.ad-468
 boom-app.wiki##.ad-728
@@ -166,6 +167,7 @@ sabatech.jp##.rectangle
 sabatech.jp##.widget_fit_aditem_class
 siteindices.com##div[id*="ScriptRoot"]
 slashdot.org##.adwrap
+sn-jp.com##.diver_widget_adarea
 socratetsu.jp##.google-ads
 srad.jp###ads-article-left
 t-dilemma.info##.ad-space

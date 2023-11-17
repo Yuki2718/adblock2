@@ -2,7 +2,7 @@
 ! Expires: 12 hours
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231115
+! Version: 20231118
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -233,6 +233,9 @@ kondatepon.com##.cm_box
 kujoyugo.com##.booklink-box
 kujoyugo.com##.widget-below-related-entries
 kuram.tv###side_pr
+kurosuen.live##.kattene
+kurosuen.live##.widget-sidebar-scroll
+kurosuen.live##div[class^="myad"]
 logw.jp##.ad_sidenavi
 lper.info##.wpa
 lv73.net###広告-ad
@@ -293,8 +296,9 @@ ronron-blog.com###sponsor
 saitamarket.com##.entry-content > p span.marker-under-blue:upward(p)
 sanbongi.info##.panel-body > p > .adsbygoogle:upward(1)
 sanbongi.info,webmake.info###text-7
-solarjournal.jp###pchdright
 salary-saver.com##.ani:has(> .widget_tsnc_ads_custom_html)
+smpl-rfrns.net##.for_ads
+solarjournal.jp###pchdright
 schizophonic9.blog103.fc2.com##.side-menu > div > .plugin-freearea > a[href^="http://px.a8.net/svt/ejp?"]:upward(3)
 shogaisha-shuro.com###main_column > .opacity
 shokunin-san.com##.provision_area > .adsbygoogle:upward(1)

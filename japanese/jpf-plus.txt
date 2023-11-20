@@ -2,7 +2,7 @@
 ! Expires: 12 hours
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231118
+! Version: 20231121
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -343,7 +343,7 @@ rancolle.com##.rectangle_box
 373news.com##.ad-area-jack-absolute
 arvo.showcase-tv.com,getpaidstock.com,kazokuchannel.doorblog.jp,nandemo-uketori.com,sukupara.jp,wakariyasui.sakura.ne.jp##.adsbygoogle
 ! if piano is blocked
-bizspa.jp,digiday.jp,esse-online.jp,j-cast.com,japannews.yomiuri.co.jp,joshi-spa.jp,kyobun.co.jp,my-golfdigest.jp,nikkan-spa.jp,tennenseikatsu.jp,toyokeizai.net###tpModal
+businessinsider.jp,bizspa.jp,digiday.jp,esse-online.jp,j-cast.com,japannews.yomiuri.co.jp,joshi-spa.jp,kyobun.co.jp,my-golfdigest.jp,nikkan-spa.jp,tennenseikatsu.jp,toyokeizai.net###tpModal
 ! PH by this list
 oshiete.goo.ne.jp##.pr-unit
 

@@ -2,7 +2,7 @@
 ! Expires: 12 hours
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231118
+! Version: 20231121
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -47,6 +47,8 @@ globaliconews.com##.td-a-rec
 25ans.jp,cosmopolitan.com,elle.com,ellegirl.jp,esquire.com,fujingaho.jp,harpersbazaar.com,womenshealthmag.com##.breaker-ad
 25news.jp,cantera.camp,futsal-design.jp,happyell.com,lacrosse-plus.net,mamagirl.jp,mlb.com##.p-ad
 2ch-matomenews.com###float-bnr
+404media.co##.ad-fixed
+404media.co##.ad-leaderboard
 47news.jp##.ad_inner
 alc.co.jp##.box-ad
 alc.co.jp##.header-ad
@@ -100,6 +102,7 @@ diamond.jp##.gpt-ad
 dot.asahi.com##.a-ad
 downdetector.jp###zdcFloatingBtn
 duhoctrungquoc.vn###ads_inline_z
+entamenow.com##.td-adspot-title
 eromanga-school.com##.ad-top
 favolog.org###ad-box1
 fnn.jp,twicolle-plus.com##.ad-bnr

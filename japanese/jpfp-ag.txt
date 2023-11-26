@@ -1,8 +1,8 @@
 ! Title: AdGuard module - not for independent use
-! Expires: 12 hours
+! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231118
+! Version: 20231126
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -68,8 +68,9 @@
 ://creative.*/widgets/v4/Universal?$subdocument,third-party
 ://loc.*.com/renderer/renderer.js|$script,third-party
 ://media.*/js/code.min.js|$script,third-party
-://www.*-min.css|$script,third-party
-://www.*.min.css|$script,third-party
+://www.*.com/css/$script,third-party
+://www.*.com/js/css/$script,third-party
+://www.*.css|$script,third-party
 ://www.*/images/*.min.js|$script,third-party
 ! Incompatible with MV3
 /^https?:\/\/[a-z]{7,18}\.(?:com?|org)\/(?=[\/a-zA-Z]*[+0-9])(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{400,}$/$subdocument,third-party,domain=~edu|~gov|~jp

@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231126
+! Version: 20231130
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -61,7 +61,6 @@
 /utx?tid=$xmlhttprequest,third-party
 /wcm/?sh=$script,third-party
 /wp-content/plugins/script-manager/assets/js/script-manager.js?
-?oo=1^$xmlhttprequest,third-party
 ://a.*/loader?a=$subdocument,third-party
 ://cdn.*.com/renderer/renderer.js|$script,third-party
 ://creative.*/widgets/Spot/lib.js$third-party
@@ -117,7 +116,7 @@
 ##.ad-link:not(.adsbox)
 ##.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
 ##.ad-slot:not(.adsbox):not(.adsbygoogle)
-##.ad-space:not(:empty):not(.textads)
+##.ad-space:not(.textads):not(.adbox)
 ~lamire.jp##.ad-unit:not(.text-ad):not(.textads)
 ##.ad-zone:not(:empty):not(.textads)
 ##.ad_unit:not(.text-ad)

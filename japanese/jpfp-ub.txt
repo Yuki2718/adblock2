@@ -2,7 +2,7 @@
 ! Expires: 12 hours
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231121
+! Version: 20231130
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -110,6 +110,7 @@ forbesjapan.com##.ad-pc
 forbesjapan.com##.article-detail-ad
 futabanet.jp,jbpress.ismedia.jp##.ad-billboard
 futabanet.jp,jbpress.ismedia.jp,president.jp##.ad-rectangle
+game-chan.net##.adwidget
 gizmodo.com###leftrail_dynamic_ad_wrapper
 gizmodo.com##.ad-left-top
 gizmodo.com##.ad-top-banner

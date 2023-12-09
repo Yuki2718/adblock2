@@ -48,7 +48,7 @@ _300_250_
 /tmp/?width=300&$subdocument,~third-party
 /tmp/?zone=$subdocument,~third-party
 ! Incompatible with MV3
-/^https:\/\/www\.(?!instagram)[a-z]{8,16}\.com\/(?:common\/)?(?:assets\/)?(?:static\/)?(?:scripts\/)?(?:api\/)?(?:js\/)?(?:[A-Za-z]{2,20}[-.])*[A-Za-z]{2,20}\.(?:min\.)?js$/$script,third-party,,match-case,domain=~com|~edu|~gov|~jp|~net|~org
+/^https:\/\/www\.(?!emulatorjs)(?!instagram)(?!linkwithin.com)[a-z]{8,16}\.com\/(?:static\/)?(?:common\/)?(?:assets\/)?(?:scripts\/)?(?:api\/)?(?:js\/)?(?:[0-9A-Za-z]{1,20}[-.])*[0-9A-Za-z]{1,20}\.(?:min\.)?js$/$script,third-party,,match-case,domain=~com|~edu|~gov|~jp|~net|~org
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)\/(?!api|available|team)[a-z]{4,}\.json$/$xmlhttprequest,third-party,match-case,domain=~edu|~gov|~jp
 
 ! ---------- Ads 3p ----------

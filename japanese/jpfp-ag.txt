@@ -72,6 +72,7 @@
 ://www.*.css|$script,third-party
 ://www.*/images/*.min.js|$script,third-party
 ! Incompatible with MV3
+/^https:\/\/www\.(?!emulatorjs)(?!instagram)(?!linkwithin.com)[a-z]{8,16}\.com\/(?:static\/)?(?:common\/)?(?:assets\/)?(?:scripts\/)?(?:api\/)?(?:js\/)?(?:[0-9A-Za-z]{1,20}[-.])*[0-9A-Za-z]{1,20}\.(?:min\.)?js$/$script,third-party,,match-case,domain=blog.fc2.com|blogspot.com
 /^https?:\/\/[a-z]{7,18}\.(?:com?|org)\/(?=[\/a-zA-Z]*[+0-9])(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{400,}$/$subdocument,third-party,domain=~edu|~gov|~jp
 /^https?:\/\/[a-z]{7,18}\.(?:com?|org)\/(?=[\/a-zA-Z]*[+0-9])(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{140,}$/$image,ping,third-party,domain=~edu|~gov|~jp
 /^https?:\/\/[a-z]{8,15}\.(?:top|xyz)\/(?!api|available|team)[a-z]{4,}\.json$/$xmlhttprequest,third-party,match-case

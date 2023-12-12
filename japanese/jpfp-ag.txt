@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231211
+! Version: 20231212
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -57,7 +57,6 @@
 /script/native_render.js$third-party
 /script/native_server.js$third-party
 /ts.php?$xmlhttprequest,third-party
-/utx?cb=$xmlhttprequest,third-party
 /utx?tid=$xmlhttprequest,third-party
 /wcm/?sh=$script,third-party
 /wp-content/plugins/script-manager/assets/js/script-manager.js?
@@ -67,7 +66,7 @@
 ://creative.*/widgets/v4/Universal?$subdocument,third-party
 ://loc.*.com/renderer/renderer.js|$script,third-party
 ://media.*/js/code.min.js|$script,third-party
-://www.*.com/css/$script,third-party
+://www.*.com/css/$script,third-party,domain=~principal.com|~principalcdn.com
 ://www.*.com/js/css/$script,third-party
 ://www.*.css|$script,third-party
 ://www.*/images/*.min.js|$script,third-party

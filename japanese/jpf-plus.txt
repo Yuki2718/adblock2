@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231211
+! Version: 20231213
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -460,6 +460,8 @@ sexy.from.tv##.ah
 seppelts.com###side2 > .box:first-child
 seppelts.com###side2 > .box:last-child
 seppelts.com##.ads
+share-files.ocry.com###text-6
+share-files.ocry.com###text-6 + dd
 suzukikurumi.net##.pc > .banner
 toshimi.top##.widget_text > div > p > script[src*=".jp/ufo/"]:upward(3)
 tousatu.tv###main-contents > div[align="center"]
@@ -471,6 +473,10 @@ ukemi-no-kiwami.work##.widget-below-single-content-title
 ukemi-no-kiwami.work##.widget-single-content-bottom
 ukemi-no-kiwami.work##.widget_block
 worldrankingup.blog.2nt.com###left > .plugin1_outline:last-child
+xbooks.work##.content_mb_none > center
+xbooks.work##div[style="margin: -15px auto 15px; width: 920px;"]
+xbooks.work##div[style^="width: 160px"]
+xbooks.work##div[style^="width:900px; height:250px"]
 xn--pck2b0fk1795b663b.com###adarea1
 zurinetanomori.com##.ently_text > a[href^="https://al.dmm.co.jp"][target="_blank"] > img[width="180"]
 zurinetanomori.com##.trackback_outline + .comment_outline

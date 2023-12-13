@@ -742,6 +742,7 @@ support.immunet.com content.invisioncic.com * noop
 support.logmeininc.com assets.cdngetgo.com * noop
 support.mozilla.org static-media-prod-cdn.sumo.mozilla.net * noop
 support.mozilla.org support.cdn.mozilla.net * noop
+tasks.office.com login.microsoftonline.com * noop
 thenextweb.com cdn0.tnwcdn.com * noop
 theundefeated.com projects.fivethirtyeight.com * noop
 theundefeated.com secure.espn.com * noop

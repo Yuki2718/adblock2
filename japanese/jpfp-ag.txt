@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231212
+! Version: 20231215
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -18,6 +18,7 @@
 /^https:\/\/(?:[a-z]{2}\.)?[a-z]{7,14}\.com\/r(?=[a-z]*[0-9A-Z])[0-9A-Za-z]{10,16}\/[A-Za-z]{5}$/$script,third-party,match-case
 /^https:\/\/www\.[a-z]{8,14}\.com\/[a-z]{1,4}\.js$/$script,third-party,match-case,domain=~edu|~gov|~jp
 /^https:\/\/[-a-z]{8,15}\.(?:com|net)\/500\/\d{7}\?/$xmlhttprequest,third-party
+/^https:\/\/[0-9a-z]{7,25}\.com\/(?:build|bundles|chunks|dist|j|public|scripts|static)\/[0-9a-f]{6,15}\/?[0-9a-f]{21,36}(?:[-.](?:ma?in|prod|index))?(?:\.js)?$/$script,third-party,match-case
 /^https:\/\/[0-9a-z]{7,25}\.com\/v2(?:\/0\/)?(?=[0-9a-z_-]{0,84}[A-Z])(?=[a-zA-Z_-]{0,84}[0-9])[0-9a-zA-Z_-]{54,85}(#\?v=[0-9a-f]{32})?$/$ping,script,xmlhttprequest,third-party,match-case
 /^https:\/\/[a-z]{10,12}\.com\/[\/a-z]{2,}\?id=[12]\d{6}$/$script,third-party,match-case
 /^https:\/\/[a-z]{10,14}\.(?:casa|website)\/tsk\/[\*_0-9a-zA-Z]{600,}$/$image,third-party
@@ -69,7 +70,11 @@
 ://www.*.com/css/$script,third-party,domain=~principal.com|~principalcdn.com
 ://www.*.com/js/css/$script,third-party
 ://www.*.css|$script,third-party
+://www.*/dotdotdot.js|$script,third-party
+://www.*/cwnmijs.js|$script,third-party
 ://www.*/images/*.min.js|$script,third-party
+://www.*leaflet.toolbar.js|$script,third-party
+=e3&*,0|$script,third-party,to=com
 ! Incompatible with MV3
 /^https:\/\/www\.(?!emulatorjs)(?!instagram)(?!linkwithin.com)[a-z]{8,16}\.com\/(?:static\/)?(?:common\/)?(?:assets\/)?(?:scripts\/)?(?:api\/)?(?:js\/)?(?:[0-9A-Za-z]{1,20}[-.])*[0-9A-Za-z]{1,20}\.(?:min\.)?js$/$script,third-party,match-case,domain=blog.fc2.com|blogspot.com
 /^https?:\/\/[a-z]{7,18}\.(?:com?|org)\/(?=[\/a-zA-Z]*[+0-9])(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{400,}$/$subdocument,third-party,domain=~edu|~gov|~jp

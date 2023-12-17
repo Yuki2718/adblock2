@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231215
+! Version: 20231217
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -71,9 +71,9 @@
 ://www.*.com/js/css/$script,third-party
 ://www.*.css|$script,third-party
 ://www.*/dotdotdot.js|$script,third-party
-://www.*/cwnmijs.js|$script,third-party
 ://www.*/images/*.min.js|$script,third-party
 ://www.*leaflet.toolbar.js|$script,third-party
+://www.*mijs.js|$script,third-party
 =e3&*,0|$script,third-party,to=com
 ! Incompatible with MV3
 /^https:\/\/www\.(?!emulatorjs)(?!instagram)(?!linkwithin.com)[a-z]{8,16}\.com\/(?:static\/)?(?:common\/)?(?:assets\/)?(?:scripts\/)?(?:api\/)?(?:js\/)?(?:[0-9A-Za-z]{1,20}[-.])*[0-9A-Za-z]{1,20}\.(?:min\.)?js$/$script,third-party,match-case,domain=blog.fc2.com|blogspot.com

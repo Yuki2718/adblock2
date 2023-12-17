@@ -2,7 +2,7 @@
 ! Expires: 12 hours
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231130
+! Version: 20231217
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -174,7 +174,7 @@ slashdot.org##.adwrap
 sn-jp.com##.diver_widget_adarea
 socratetsu.jp##.google-ads
 srad.jp###ads-article-left
-t-dilemma.info##.ad-space
+jikayosha.jp,t-dilemma.info##.ad-space
 techcrunch.com##.ad-unit:not(.text-ad)
 techtarget.com###leaderboard.ad
 theregister.com##.adun

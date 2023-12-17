@@ -71,6 +71,8 @@
 ://www.*.com/js/css/$script,third-party
 ://www.*.css|$script,third-party
 ://www.*/dotdotdot.js|$script,third-party
+://www.*/editor.js|$script,third-party
+://www.*/firebase.js|$script,third-party
 ://www.*/images/*.min.js|$script,third-party
 ://www.*leaflet.toolbar.js|$script,third-party
 ://www.*mijs.js|$script,third-party

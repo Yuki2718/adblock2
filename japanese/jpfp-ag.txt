@@ -18,6 +18,7 @@
 /\/js\/\d{2,3}eka\d{2,3}\.js$/$script,~third-party,domain=com
 /^https:\/\/(?:[a-z]{2}\.)?[a-z]{7,14}\.com\/r(?=[a-z]*[0-9A-Z])[0-9A-Za-z]{10,16}\/[A-Za-z]{5}$/$script,third-party,match-case
 /^https:\/\/www\.[a-z]{8,14}\.com\/[a-z]{1,4}\.js$/$script,third-party,match-case,domain=~edu|~gov|~jp
+/^https:\/\/www\.[a-z]{8,16}\.com\/(?:static\/)?(?:common\/)?(?:assets\/)?(?:scripts\/)?(?:api\/)?(?:js\/)?(?:[a-z]{3})?(?:dotdotdot|editor|firebase|leaflet\.toolbar|mijs|proj4|sha|viz)\.js$/$script,third-party,match-case
 /^https:\/\/[-a-z]{8,15}\.(?:com|net)\/500\/\d{7}\?/$xmlhttprequest,third-party
 /^https:\/\/[0-9a-z]{7,25}\.com\/(?:build|bundles|chunks|dist|j|public|scripts|static)\/[0-9a-f]{6,15}\/?[0-9a-f]{21,36}(?:[-.](?:ma?in|prod|index))?(?:\.js)?$/$script,third-party,match-case
 /^https:\/\/[0-9a-z]{7,25}\.com\/v2(?:\/0\/)?(?=[0-9a-z_-]{0,84}[A-Z])(?=[a-zA-Z_-]{0,84}[0-9])[0-9a-zA-Z_-]{54,85}(#\?v=[0-9a-f]{32})?$/$ping,script,xmlhttprequest,third-party,match-case
@@ -69,18 +70,9 @@
 ://loc.*.com/renderer/renderer.js|$script,third-party
 ://media.*/js/code.min.js|$script,third-party
 ://www.*.com/*.css|$script,third-party
-://www.*.com/*/dotdotdot.js|$script,third-party
-://www.*.com/*/editor.js|$script,third-party
 ://www.*.com/*/images/*.min.js|$script,third-party
-://www.*.com/*/proj4.js|$script,third-party
-://www.*.com/*/sha.js|$script,third-party
-://www.*.com/*leaflet.toolbar.js|$script,third-party
-://www.*.com/*mijs.js|$script,third-party
-://www.*.com/api/firebase.js|$script,third-party
 ://www.*.com/css/$script,third-party,domain=~principal.com|~principalcdn.com
 ://www.*.com/js/css/$script,third-party
-! Incompatible with MV3
-/^https:\/\/www\.(?!emulatorjs)(?!instagram)(?!linkwithin.com)[a-z]{8,16}\.com\/(?:static\/)?(?:common\/)?(?:assets\/)?(?:scripts\/)?(?:api\/)?(?:js\/)?(?:[0-9A-Za-z]{1,20}[-.])*[0-9A-Za-z]{1,20}\.(?:min\.)?js$/$script,third-party,match-case,domain=blog.fc2.com|blogspot.com
 /^https?:\/\/[a-z]{7,18}\.(?:com?|org)\/(?=[\/a-zA-Z]*[+0-9])(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{400,}$/$subdocument,third-party,domain=~edu|~gov|~jp
 /^https?:\/\/[a-z]{7,18}\.(?:com?|org)\/(?=[\/a-zA-Z]*[+0-9])(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{140,}$/$image,ping,third-party,domain=~edu|~gov|~jp
 /^https?:\/\/[a-z]{8,15}\.(?:top|xyz)\/(?!api|available|team)[a-z]{4,}\.json$/$xmlhttprequest,third-party,match-case

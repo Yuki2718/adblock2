@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231218
+! Version: 20231220
 
 ! ---------- Ads general ----------
 &subAffId={SUBAFFID}^$subdocument,script,third-party
@@ -71,12 +71,12 @@
 ://www.*.com/*.css|$script,third-party
 ://www.*.com/*/dotdotdot.js|$script,third-party
 ://www.*.com/*/editor.js|$script,third-party
-://www.*.com/*/firebase.js|$script,third-party
 ://www.*.com/*/images/*.min.js|$script,third-party
 ://www.*.com/*/proj4.js|$script,third-party
 ://www.*.com/*/sha.js|$script,third-party
 ://www.*.com/*leaflet.toolbar.js|$script,third-party
 ://www.*.com/*mijs.js|$script,third-party
+://www.*.com/api/firebase.js|$script,third-party
 ://www.*.com/css/$script,third-party,domain=~principal.com|~principalcdn.com
 ://www.*.com/js/css/$script,third-party
 ! Incompatible with MV3

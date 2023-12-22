@@ -2,11 +2,9 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231221
+! Version: 20231222
 
 ! ---------- Ads general ----------
-&subAffId={SUBAFFID}^$subdocument,script,third-party
-.com/*=e3&*,0|$script,third-party
 .com/ipp.js?id=$third-party
 .com/promo.php?c=$subdocument,third-party
 .net/1?z=$script,third-party

@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231223
+! Version: 20231224
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -125,7 +125,7 @@
 ##.ads_container:not(.text-ad)
 ##.banner-ads:not(:empty):not(.textads)
 ##.banner_ads:not(:empty):not(.textads)
-##.sidebar-ad:not(.adsbygoogle)
+~ekitan.com,~kissanadu.com##.sidebar-ad:not(.adsbygoogle)
 ##a[dontfo=""][style$="position: absolute; z-index: 2147483647;"]
 ##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
 ##div[style^="z-index: 999999; background-image: url(\"data:image/gif;base64,"][style$="position: absolute;"]

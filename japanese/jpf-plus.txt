@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231224
+! Version: 20231230
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -526,7 +526,7 @@ point.monocla.com#@#.adbox1
 technobell.co.jp#@##footer_ad
 
 ! ---------- Exception: cosmetic - others ----------
-anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,hotdebrid.com,html5.gamedistribution.com,kantangame.com,model-viewer.com,paraphraser.io,play.aidungeon.io,sekai-kabuka.com,tamrieltradecentre.com,teemo.gg,xtremestream.co#@#ins.adsbygoogle:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
+anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,hotdebrid.com,html5.gamedistribution.com,iwb.jp,kantangame.com,model-viewer.com,paraphraser.io,play.aidungeon.io,sekai-kabuka.com,tamrieltradecentre.com,teemo.gg,xtremestream.co#@#ins.adsbygoogle:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
 
 ! ---------- Anti anti-adb - general ----------
 /\/wp-content\/uploads\/[a-z]{6,9}\.js(?:\?ver=[.0-9]+|,qver=[.0-9]+\.pagespeed\..+\.js)$/$script,~third-party
@@ -547,10 +547,11 @@ zunda.site#$##ad_box { height: 50px !important; }
 
 ! ---------- Anti anti-adb - other ----------
 @@||afreecatv.com/asset/service/ad/check_ad.js$~third-party
+||experience-ap.piano.io/xbuilder/experience/load?$script,redirect-rule=noop.js
 digiday.jp##+js(ra, hidden, .piano-paywall-container)
 digiday.jp##+js(set, tpLoaded, true)
 digiday.jp##+js(set, tp.isInitialized, true)
-||experience-ap.piano.io/xbuilder/experience/load?$script,redirect-rule=noop.js
+iwb.jp#$#ins.adsbygoogle { position: absolute !important; left: -4000px !important; }
 
 ! ---------- Exception: for default lists ----------
 #@#ins.adsbygoogle

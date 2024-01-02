@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231230
+! Version: 20240103
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -14,6 +14,7 @@
 /images/ad_phoneconfirm150.gif
 /jss/external_pop.js?$~third-party
 /sweetie/hello.min.js?id=$script,third-party
+/\.com\/[a-z]{5,8}-[a-z]{3,9}-[0-9a-z]{4}\/$/$script,~third-party,match-case,domain=com
 /\/nb\/[a-z]{4}\.js$/$script,~third-party,match-case
 /^https:\/\/(?:[a-z]{2}\.)?[a-z]{10,14}\.(?:casa|com|guru|website)\/[a-z]{2,3}\/\d{5}\?md=[%0-9a-zA-Z]{900,}(?:&cr=\d{5})?$/$xmlhttprequest,third-party,match-case
 /^https?:\/\/[-.0-9a-z]+-ad\.(?:com|jp|net)[\/:]/$script,third-party
@@ -40,7 +41,6 @@
 /xuanfusige.js
 /_ad#str-$subdocument,~third-party
 ://ad.*.php?id=$script,~third-party
-://creative.xxx*.com/widgets/$subdocument,third-party
 ://go.*/i?$subdocument,third-party
 _300_250_
 ! Mobile
@@ -69,6 +69,7 @@ _300_250_
 ||smon-hiroba.net/shihoshoshi/images/hiroba_ss.png
 ||ssl-images-amazon.com/images/I/$domain=graoda.blog.fc2.com
 ||upcom.sakura.ne.jp/seiichirou/img/bnr-un-limit-
+||yaneuraou.yaneu.com/wp-content/uploads/car_satei001
 ||youchien.net/images/common/newad_
 ||zunda.site/ad/
 
@@ -329,6 +330,7 @@ xn--glay-yn4c8b9a8lo661apz3h.com##.entry-content > p + center:has-text(Sponsored
 xn--nbkw38mlu2a.com##.entry-content > p + p:has-text(ーADー)
 xn--t8jg7842a3jax1ftt5fm9j.com##.sidebar_content > div.widget_text
 xn--zckm5bnq2mpa6a1fz490bkx4ayzmvi9g.com###text-21
+yaneuraou.yaneu.com###text-5
 youchien.net##.wrap-bnr
 ! Mobile
 buzzcafe.click,buzzdoor.net,goodjob1.com,koko-doko18.com,kokodoko-18.com,lark-scent.com,tokimekistory.com##.sp_checkbox_under
@@ -375,6 +377,7 @@ chipai-only.com,paipai-only.com##.mainwidget
 chipai-only.com,paipai-only.com##.oriads
 chipai-only.com,paipai-only.com##.sc_frame_wrap > p + h2:has-text(/^実際に/)
 chipai-only.com,paipai-only.com##.sidebar_content > .widget_block:first-child
+dachi-stroim.ru##.wpp-list > li:first-child
 deai-app.jp###modal-content
 deai-app.jp###modal-overlay
 dechamore.net###text-27

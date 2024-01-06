@@ -350,6 +350,9 @@ arvo.showcase-tv.com,getpaidstock.com,kazokuchannel.doorblog.jp,nandemo-uketori.
 businessinsider.jp,bizspa.jp,digiday.jp,esse-online.jp,j-cast.com,japannews.yomiuri.co.jp,joshi-spa.jp,kyobun.co.jp,my-golfdigest.jp,nikkan-spa.jp,tennenseikatsu.jp,toyokeizai.net###tpModal
 ! PH by this list
 oshiete.goo.ne.jp##.pr-unit
+! https://github.com/uBlockOrigin/uAssets/discussions/21795
+yandex.com,yandex.eu,yandex.ru##.AdvRsyaCrossPage
+yandex.com,yandex.eu,yandex.ru##rect
 
 ! ---------- Cosmetic specific (adult): too few visitors ----------
 1201914.com###pc_text-21

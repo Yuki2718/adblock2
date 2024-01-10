@@ -545,6 +545,8 @@ anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,
 @@/ads-prebid.js$script,~third-party
 @@||ads.remix.es/advertisement.js|$script
 @@||g.adspeed.net/ad.php?do=detectadblocker|$script
+@@||static.adsafeprotected.com/skeleton.gif?
+@@||static.adsafeprotected.com/skeleton.js?
 ||doubleclick.net/favicon.ico$image,redirect=32x32.png
 ! Incompatible with MV3
 /player/stats.php?$image,~third-party,redirect-rule=1x1.gif

@@ -1,9 +1,11 @@
 ! Title: AdGuard DNS filter Unbreaker for Japanese
 ! Expires: 5 days
-! Homepage: https://github.com/Yuki2718/adblock
-! Licence: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+! Homepage: https://github.com/Yuki2718/adblock2
+! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
 ! Version: 20230904
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/170371 need evaluation
+!@@||browser-intake-datadoghq.com^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/105095
 @@||res.ads.nicovideo.jp^|
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113030

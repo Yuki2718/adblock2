@@ -5,7 +5,7 @@
 ! Version: 20230904
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170371 need evaluation
-!@@||browser-intake-datadoghq.com^
+!@@||browser-intake-datadoghq.com^|
 ! https://github.com/AdguardTeam/AdguardFilters/issues/105095
 @@||res.ads.nicovideo.jp^|
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113030

@@ -2,7 +2,7 @@
 ! Expires: 12 hours
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20231217
+! Version: 20240116
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -175,7 +175,8 @@ sn-jp.com##.diver_widget_adarea
 socratetsu.jp##.google-ads
 srad.jp###ads-article-left
 jikayosha.jp,t-dilemma.info##.ad-space
-techcrunch.com##.ad-unit:not(.text-ad)
+techcrunch.com##.ad-unit:not(.text-ad):not(.textads)
+techxplore.com##.ads-336x280
 techtarget.com###leaderboard.ad
 theregister.com##.adun
 togetter.com###ad_overlay
@@ -214,7 +215,7 @@ doorblog.jp##.blogroll_ads
 economical.co.jp###footer-ad
 eow.alc.co.jp###ad_header
 gamespark.jp,reanimal.jp,s.animeanime.jp,s.carcareplus.jp,s.cinemacafe.net,s.cyclestyle.net,s.inside-games.jp,s.netsecurity.ne.jp,s.resemom.jp,s.response.jp,s.spyder7.com##.header-ad
-himanatokiniyaruo.com,warotanien.net###float-bnr
+himanatokiniyaruo.com,newsoku.blog,warotanien.net###float-bnr
 javdock.com,javhdporn.net##.header-ad-mobile
 javdock.com,javhdporn.net##.sidebar-ads
 javdock.com,javhdporn.net##.under-player-ad-mobile

@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240110
+! Version: 20240116
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -94,9 +94,7 @@ _300_250_
 ?spot_id=*&psid=https://$popup,third-party
 
 ! ---------- Cosmetic general ----------
-##.ads_banner:not([style^="width: 32px"])
 ##.asg-vast-overlay
-##.stickyads:not([style^="width: 32px"])
 ##.vjs-overlayed.size-300x250
 ##a[class][real-href^="//"][onmouseup="setRealHref(event)"]
 ##body > div[style*="z-index: 2147483647;"][style*="top: 0px; left: 0px;"][style*="position:"]
@@ -545,15 +543,10 @@ anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,
 @@/ads-prebid.js$script,~third-party
 @@||ads.remix.es/advertisement.js|$script
 @@||g.adspeed.net/ad.php?do=detectadblocker|$script
-@@||static.adsafeprotected.com/skeleton.gif?
-@@||static.adsafeprotected.com/skeleton.js?
 ||doubleclick.net/favicon.ico$image,redirect=32x32.png
 ! Incompatible with MV3
 /player/stats.php?$image,~third-party,redirect-rule=1x1.gif
 /popunder_$script,redirect-rule=noopjs
-
-#@#.ads_banner
-#@#.stickyads
 
 ! ---------- Anti anti-adb - too few visitors ----------
 pc-plaza.com##+js(acs, jQuery, DHAntiAdBlocker)
@@ -567,6 +560,7 @@ digiday.jp##+js(ra, hidden, .piano-paywall-container)
 digiday.jp##+js(set, tpLoaded, true)
 digiday.jp##+js(set, tp.isInitialized, true)
 iwb.jp#$#ins.adsbygoogle { position: absolute !important; left: -4000px !important; }
+pks.raenonx.cc##.bg-red-500\/50
 
 ! ---------- Exception: for default lists ----------
 #@#ins.adsbygoogle

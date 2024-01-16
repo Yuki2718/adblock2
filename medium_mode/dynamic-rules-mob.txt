@@ -170,6 +170,7 @@ no-large-media: behind-the-scene false
 * embed.acast.com * noop
 * embed.blivenyc.com * noop
 * embed.music.apple.com * noop
+* embed.reddit.com * noop
 * embed.scribblelive.com * noop
 * embed.share-videos.se * noop
 * embed.simplecast.com * noop

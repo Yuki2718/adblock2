@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240122
+! Version: 20240123
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -563,6 +563,7 @@ digiday.jp##+js(set, tpLoaded, true)
 digiday.jp##+js(set, tp.isInitialized, true)
 iwb.jp#$#ins.adsbygoogle { position: absolute !important; left: -4000px !important; }
 pks.raenonx.cc##.bg-red-500\/50
+www.youtube.com##body > div:not([class]):last-child
 
 ! ---------- Exception: for default lists ----------
 #@#ins.adsbygoogle

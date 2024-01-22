@@ -563,7 +563,7 @@ digiday.jp##+js(set, tpLoaded, true)
 digiday.jp##+js(set, tp.isInitialized, true)
 iwb.jp#$#ins.adsbygoogle { position: absolute !important; left: -4000px !important; }
 pks.raenonx.cc##.bg-red-500\/50
-www.youtube.com##body > div:not([class]):last-child
+www.youtube.com##body > div:not([class]):last-child:empty
 
 ! ---------- Exception: for default lists ----------
 #@#ins.adsbygoogle

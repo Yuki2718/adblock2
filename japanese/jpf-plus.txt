@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240116
+! Version: 20240122
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -321,6 +321,8 @@ twi55.com##.postCta
 twitter.macdrivelove.com###text1 > p > span.lbg[style="font-size:12px"]
 upcom.sakura.ne.jp##div[style$="width:280px;margin:0px;padding:5px;text-align:center;overflow:hidden;"]
 wakarueconomics.com##.widget-index-bottom
+waraidemezame.com##.sgpb-popup-dialog-main-div-wrapper
+waraidemezame.com##.sgpb-popup-overlay
 weblan3.com##.ad_ArticleTop
 white-sesame.jp##.ad-in-single
 white-sesame.jp##.blog-sidebar--ad:upward(1)

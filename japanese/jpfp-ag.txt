@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240121
+! Version: 20240124
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -136,7 +136,6 @@
 ##[data-adblockkey]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(html):not(.adsbygoogle)
 ##[data-advadstrackid]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(.adsbygoogle)
 ##[data-ad-manager-id]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(.adsbygoogle)
-~advertiserandtimes.co.uk,~bihann.com,~buhitter.com,~cambridgeindependent.co.uk,~fenlandcitizen.co.uk,~granthamjournal.co.uk,~ignboards.com,~kentonline.co.uk,~nanpre.adg5.com,~nehannn.com,~northern-scot.co.uk,~opopular.com.br,~pointmall.rakuten.co.jp,~spaldingtoday.co.uk,~stratford-herald.com,~suffolknews.co.uk,~woowebtools.com##[id^="google_ads_iframe"]:not(.rb-adbanner)
 
 ! ---------- Cosmetic specific: too few visitors ----------
 taoruseitai.com,towelstretches.com###main-contents > center > div[style^="width: 30"]
@@ -222,7 +221,6 @@ taoruseitai.com,towelstretches.com##div[style$="border: 3px solid #EDEDED; borde
 #@#[data-adblockkey]
 #@#[data-advadstrackid]
 #@#[data-ad-manager-id]
-#@#[id^="google_ads_iframe"]
 kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -4000px !important; }
 
 ! ---------- Anti anti-adb - too few visitors ----------

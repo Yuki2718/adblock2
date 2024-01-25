@@ -10,7 +10,7 @@ I can't guarantee these filers/rules won't cause problems. If you found problems
 
 ## AdGuard Japanese filter Plus
 
-This complements [AdGuard Japanese filter](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_7_Japanese/filter.txt) and mainly consists of 1) additional generic rules to counter circumvention ads and anti-adblock, and 2) specific rules to address sites not addresed in the Japanese filters. Only AdGuard AdBlocker (browser extension), uBlock Origin, and AdGuard AdBlocker MV3 are officially supported.
+This complements [AdGuard Japanese filter](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_7_Japanese/filter.txt) and mainly consists of 1) additional generic rules to counter blocker-circumventing ads and anti-adblock, and 2) specific rules to address sites not meeting [AdGuard filter policy](https://adguard.com/kb/general/ad-filtering/filter-policy/) in the Japanese filters. Only AdGuard AdBlocker (browser extension), uBlock Origin, and AdGuard AdBlocker MV3 are officially supported.
 
 Please report any incorrect blocking or error via [Issue ticket](https://github.com/Yuki2718/adblock2/issues). OTOH unblocked ads, placeholder, or anti-adblock should first be reported to [AdGuard](https://reports.adguard.com/en/new_issue.html). If the issue is not addressed by AdGuard, it can potentially be reported here; however, I accept reports only from those who have contribution history to any of public adblocking repository in case of unblocked ads or placeholder. It is is to avoid too many reports of them and may change in future.
 

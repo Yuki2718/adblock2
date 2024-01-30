@@ -2,7 +2,7 @@
 ! Expires: 12 hours
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240116
+! Version: 20240131
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -76,6 +76,7 @@ bm.best-hit.tv,gameo.jp,googirl.jp##iframe[id^="IFTG"]
 boom-app.wiki##.ad-300
 boom-app.wiki##.ad-468
 boom-app.wiki##.ad-728
+businessinsider.jp##.f-ad
 buzzfeed.com##.Ad--awareness-bp
 buzzfeed.com##.Ad--loading
 buzzfeed.com##.ad-inline

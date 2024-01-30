@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240123
+! Version: 20240131
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -127,7 +127,10 @@ alpha.information-portal.net##.side > .linebox:not(:has(> .twitter-timeline))
 anan.jpn.org##div[style="background:#fff;border:solid royalblue 1px;border-radius:5px;margin-right:7px;"]
 androidpolice.com##.ad-current
 anizines.com##.toc-adsense
-archlinux.site##.entry-content > div > .adsbygoogle:upward(1)
+archlinux.site###HTML2
+archlinux.site##.entry-content > div[style="text-align:center; margin:0px 0px 20px 0px; color: #999999;"]
+arinkokaasan.com##.entry-content > table[cellpadding="0"][cellspacing="0"]:has(a[rel="nofollow sponsored noopener"])
+arinkokaasan.com##div[style^="background:#fff;width:120px;height:215px"]
 asae.client.jp##.footer-date1 > .footer-menu:last-of-type
 asae.client.jp##.footer-date3 > .footer-menu:last-of-type
 asae.client.jp##.main-pr
@@ -236,6 +239,7 @@ kodate-ru.com##.sidebar > h4.widgettitle:has-text(スポンサードリンク)
 kondatepon.com##.cm_box
 kujoyugo.com##.booklink-box
 kujoyugo.com##.widget-below-related-entries
+kumodome.getback-ontrack.com###block-63
 kuram.tv###side_pr
 kurosuen.live##.kattene
 kurosuen.live##.widget-sidebar-scroll

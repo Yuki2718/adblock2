@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240131
+! Version: 20240204
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -62,6 +62,7 @@ _300_250_
 ||dailynk.jp/wp-content/themes/dailynkjp/images/mook.jpg
 ||dokugakukan.net/file/js/google_ad.js
 ||gameland.ifdef.jp/pr-menu.html
+||gokushiteki.com/AD/$image
 ||ibird.jp/img/banner_
 ||m.media-amazon.com/images/I/$domain=graoda.blog.fc2.com
 ||rtec.co.jp/koukoku*$script,~third-party
@@ -270,6 +271,7 @@ news.minory.org###block-3
 news.minory.org###block-5
 newslabo.info##div[id^="newsl-"]
 newslabo.info##.article-body > center:has(> .adsbygoogle)
+nioh.jp##.PR
 nmm.blog.jp##aff-view
 nsdev.jp##.l-mainContent__inner > .post_content > p:last-of-type:has(> iframe[height="250"])
 number-pedia.com##.widget:has(> div > .adsbygoogle)
@@ -340,6 +342,7 @@ xn--t8jg7842a3jax1ftt5fm9j.com##.sidebar_content > div.widget_text
 xn--zckm5bnq2mpa6a1fz490bkx4ayzmvi9g.com###text-21
 yaneuraou.yaneu.com###text-5
 youchien.net##.wrap-bnr
+yume1.jp##.module-categories + .module-archives
 ! Mobile
 buzzcafe.click,buzzdoor.net,goodjob1.com,koko-doko18.com,kokodoko-18.com,lark-scent.com,tokimekistory.com##.sp_checkbox_under
 graoda.blog.fc2.com###gailing02

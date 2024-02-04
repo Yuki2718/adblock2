@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240124
+! Version: 20240204
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -224,6 +224,7 @@ taoruseitai.com,towelstretches.com##div[style$="border: 3px solid #EDEDED; borde
 kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -4000px !important; }
 
 ! ---------- Anti anti-adb - too few visitors ----------
+@@||hyogo.ie-t.net^$generichide
 taoruseitai.com,towelstretches.com#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', '/google_ad_client/')
 
 ! ---------- Anti anti-adb - others ----------

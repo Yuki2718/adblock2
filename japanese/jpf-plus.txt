@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240204
+! Version: 20240205
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -394,9 +394,10 @@ chipai-only.com,paipai-only.com##.sidebar_content > .widget_block:first-child
 dachi-stroim.ru##.wpp-list > li:first-child
 deai-app.jp###modal-content
 deai-app.jp###modal-overlay
-dechamore.net###text-27
+dechamore.net###custom_html-11
+dechamore.net###text-2
+dechamore.net###text-3
 dechamore.net###text-31
-dechamore.net###text-5
 dechamore.net##.add_contents
 dechamore.net,sharevideos.org###text-6
 dennou2.jp##table[height="1867"] > tbody > tr > td:has(> a[href^="https://track.bannerbridge.net/click.php"][rel="nofollow"])

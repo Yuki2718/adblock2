@@ -225,7 +225,9 @@ kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -
 
 ! ---------- Anti anti-adb - too few visitors ----------
 @@||hyogo.ie-t.net^$generichide
+||tandess.com/music/files/detectAdblock.js
 taoruseitai.com,towelstretches.com#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', '/google_ad_client/')
+tandess.com#%#//scriptlet('prevent-setTimeout', 'detectAdblock')
 
 ! ---------- Anti anti-adb - others ----------
 ! The rule below requires Full-trust and thus not available to 3p lists

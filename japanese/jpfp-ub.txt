@@ -2,7 +2,7 @@
 ! Expires: 12 hours
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240131
+! Version: 20240212
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -138,10 +138,12 @@ jav.direct,javfan.one,javmix.*,javtheater.com,openloadpro.com##.__isboostOverCon
 jiji.com##.ArticleAdSide
 jpnumber.com##.adsleft
 jpnumber.com##.adsright
+jugomobile.com##.top-site-ad
+jugomobile.com##.widget-ad-script
+jugomobile.com,kobe-np.co.jp##.ad-wrap
 kakenhi.net,seesaa.net###article-ad
 kamigame.jp###ad_top
 kamikouryaku.net,wikiru.jp##.sticky-ads
-kobe-np.co.jp##.ad-wrap
 kotaku.com##.ad-left-top
 kotaku.com##.ad-top-banner
 kyobun.co.jp##.td-a-ad

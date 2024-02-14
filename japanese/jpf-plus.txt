@@ -520,11 +520,11 @@ anshin-lifenet.com##.header_fixed
 blog###marketingbar
 blogto.com##.fire_video_style
 fudge.jp##.ratio-wrapper
+gizmodo.jp,roomie.jp##fw-storyblock
 lp.p.pia.jp##.fireworkWrapper
 lp.p.pia.jp##.rightColumn__firework
 madamefigaro.jp##.firework_story_block_col
 olive-hitomawashi.com##.ly_main_inner[style^="margin-top: 50px; "]
-roomie.jp,gizmodo.jp##fw-storyblock
 slideshare.net###scribd-ad-exit-modal
 
 ! ---------- CSS: too few visitors ----------

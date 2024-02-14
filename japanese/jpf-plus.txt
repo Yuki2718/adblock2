@@ -512,7 +512,6 @@ zurinetanomori.com##div[class$="_outline"]:has(> div > .plugin-freearea > a[href
 sweetchocolate.blogterest.net##.blockAreaHeader a[href^="https://al.dmm.co.jp/"]
 
 ! ---------- Cosmetic specific: popular in Japan ----------
-anitube.biz##ins[style*="width:300px"]
 
 ! ---------- Cosmetic specific: obtrusive or unneeded annoyances ----------
 anshin-lifenet.com###footer-ad-box

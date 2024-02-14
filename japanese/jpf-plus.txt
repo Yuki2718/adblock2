@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240205
+! Version: 20240215
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -86,7 +86,11 @@ _300_250_
 ||kuma.tvcapture.net/capture/kuma/kakocap05231045/img/nozox00.jpg
 ||tenka1.com/g/?
 
-! ---------- Self-ads specific: obtrusive or unneeded ----------
+! ---------- Annoyances general: obtrusive or unneeded annoyances ----------
+||fireworkapi1.com^$third-party
+||player.gliacloud.com^$third-party
+
+! ---------- Annoyances specific: obtrusive or unneeded ----------
 ||genecal.jp/img/bunner_l.gif
 ||p-rate.com/images/common/bnr_adwanted.jpg
 ||yanmaga.jp/viewer/banner.html
@@ -352,6 +356,9 @@ lark-scent.com,tokimekistory.com###modal-overlay
 pawakichi.xyz##.plugin-ad
 rancolle.com##.rectangle_box
 
+! ---------- Cosmetic general: obtrusive or unneeded annoyances ----------
+##.gliaplayer-container
+
 ! ---------- Cosmetic specific: others ----------
 ! too intrusive and redundant
 373news.com##.ad-area-jack-absolute
@@ -511,6 +518,13 @@ anitube.biz##ins[style*="width:300px"]
 anshin-lifenet.com###footer-ad-box
 anshin-lifenet.com##.header_fixed
 blog###marketingbar
+blogto.com##.fire_video_style
+fudge.jp##.ratio-wrapper
+lp.p.pia.jp##.fireworkWrapper
+lp.p.pia.jp##.rightColumn__firework
+madamefigaro.jp##.firework_story_block_col
+olive-hitomawashi.com##.ly_main_inner[style^="margin-top: 50px; "]
+roomie.jp,gizmodo.jp##fw-storyblock
 slideshare.net###scribd-ad-exit-modal
 
 ! ---------- CSS: too few visitors ----------

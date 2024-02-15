@@ -74,6 +74,9 @@ _300_250_
 ||youchien.net/images/common/newad_
 ||zunda.site/ad/
 
+! ---------- Ads specific: Others ----------
+||googlevideo.com/videoplayback*%2Cctier%2C$xmlhttprequest,third-party,domain=www.youtube.com
+
 ! ---------- Ads specific (adult): too few visitors ----------
 ||ads.zippal.com^
 ||angel-bbs.com/ssi/koukoku_

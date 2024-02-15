@@ -373,6 +373,8 @@ oshiete.goo.ne.jp##.pr-unit
 ! https://github.com/uBlockOrigin/uAssets/discussions/21795
 yandex.com,yandex.eu,yandex.ru##.AdvRsyaCrossPage
 yandex.com,yandex.eu,yandex.ru##rect
+! YT fallback
+youtube.com##body > ytd-app > #content.ytd-app.style-scope > tp-yt-app-drawer#guide.ytd-app.style-scope[align="start"][role="navigation"][style^="transition-duration:"][position] + ytd-mini-guide-renderer.ytd-app.style-scope + ytd-page-manager#page-manager.ytd-app.style-scope > ytd-watch-flexy.ytd-page-manager.style-scope[video-id][js-panel-height_][flexy][rounded-info-panel][role="main"][style^="--ytd-watch-flexy-"] > #single-column-container.ytd-watch-flexy.style-scope + #columns.ytd-watch-flexy.style-scope > #primary.ytd-watch-flexy.style-scope > #primary-inner.ytd-watch-flexy.style-scope > #player.ytd-watch-flexy.style-scope > #player-container-outer.ytd-watch-flexy.style-scope > #player-container-inner.ytd-watch-flexy.style-scope > #player-container.ytd-watch-flexy.style-scope[role="complementary"][style] > ytd-player#ytd-player.ytd-watch-flexy.style-scope[style] > #container.ytd-player.style-scope > #movie_player.playing-mode.html5-video-player[data-version^="/s/player/"][aria-label] > .ytp-ad-module.video-ads[data-layer]:not(:empty)
 
 ! ---------- Cosmetic specific (adult): too few visitors ----------
 1201914.com###pc_text-21

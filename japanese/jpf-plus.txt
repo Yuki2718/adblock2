@@ -550,6 +550,9 @@ anianierosuki.work##+js(nowoif)
 
 ! ---------- Exception: blocking - othres ----------
 @@||g.doubleclick.net/pagead/ads?$subdocument,domain=sitappa.com
+@@||googlevideo.com/videoplayback?*&pfa=*$xmlhttprequest,third-party,domain=m.youtube.com|music.youtube.com|www.youtube.com
+@@||googlevideo.com/videoplayback?*=yt_live_broadcast&$xmlhttprequest,third-party,domain=m.youtube.com|music.youtube.com|www.youtube.com
+@@||googlevideo.com/videoplayback?*=yt_premiere_broadcast&$xmlhttprequest,third-party,domain=m.youtube.com|music.youtube.com|www.youtube.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=sitappa.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/$script,domain=sitappa.com
 @@||point-g.rakuten.co.jp/pg_assets/item/contets/*_300_250_$image,~third-party

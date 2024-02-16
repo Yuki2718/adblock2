@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240215
+! Version: 20240216
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -75,7 +75,7 @@ _300_250_
 ||zunda.site/ad/
 
 ! ---------- Ads specific: Others ----------
-||googlevideo.com/videoplayback*%2Cctier%2C$xmlhttprequest,third-party,domain=www.youtube.com
+||googlevideo.com/videoplayback*&ctier=L&*%2Cctier%2C$xmlhttprequest,third-party,domain=m.youtube.com|music.youtube.com|www.youtube.com
 
 ! ---------- Ads specific (adult): too few visitors ----------
 ||ads.zippal.com^

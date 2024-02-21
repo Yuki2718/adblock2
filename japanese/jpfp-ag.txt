@@ -179,7 +179,7 @@ time.artjoey.com#$#.adsense { padding: 0 !important; }
 ||googletagmanager.com/gtag/js$script,xmlhttprequest,redirect-rule=googletagmanager-gtm,domain=~myshows.me|~okwave.jp|~xeroshoes.com
 
 #@##adContext
-###AdLayer1
+#@##AdLayer1
 #@##ad_300
 #@##ad_728
 #@##ad_area

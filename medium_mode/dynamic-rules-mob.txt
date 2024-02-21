@@ -435,6 +435,7 @@ no-large-media: behind-the-scene false
 * vjs.zencdn.net * noop
 * vo.msecnd.net * noop
 * volume.vox-cdn.com * noop
+* w.cdngslb.com * noop
 * w.soundcloud.com * noop
 * w3.cdn.anvato.net * noop
 * wap.wovn.io * noop

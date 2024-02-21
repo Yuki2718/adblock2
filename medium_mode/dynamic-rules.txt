@@ -457,6 +457,7 @@ no-large-media: behind-the-scene false
 * vmss.boldchat.com * noop
 * vo.msecnd.net * noop
 * volume.vox-cdn.com * noop
+* w.cdngslb.com * noop
 * w.soundcloud.com * noop
 * w3.cdn.anvato.net * noop
 * web-cdn.blivenyc.com * noop

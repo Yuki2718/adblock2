@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240216
+! Version: 20240222
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -86,6 +86,7 @@
 
 ! ---------- Cosmetic general ----------
 ###adContext:not(:empty)
+###AdLayer1:not([style^="position: absolute; left: -5000px"])
 ###ad_300:not([style^="position: absolute; left: -5000px"])
 ###ad_728:not([style^="position: absolute; left: -5000px"])
 ###ad_area:not([style^="position: absolute; left: -5000px"])
@@ -146,6 +147,7 @@ taoruseitai.com,towelstretches.com##a[href^="https://cl.link-ag.net/click/"]
 taoruseitai.com,towelstretches.com##a[href^="https://hb.afl.rakuten.co.jp"]
 taoruseitai.com,towelstretches.com##a[href^="https://link-a.net/gate.php"]
 taoruseitai.com,towelstretches.com##div[style$="border: 3px solid #EDEDED; border-radius: 10px;"]
+time.artjoey.com#$#.adsense { padding: 0 !important; }
 
 ! Exception: blocking
 
@@ -177,6 +179,7 @@ taoruseitai.com,towelstretches.com##div[style$="border: 3px solid #EDEDED; borde
 ||googletagmanager.com/gtag/js$script,xmlhttprequest,redirect-rule=googletagmanager-gtm,domain=~myshows.me|~okwave.jp|~xeroshoes.com
 
 #@##adContext
+###AdLayer1
 #@##ad_300
 #@##ad_728
 #@##ad_area

@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240222
+! Version: 20240225
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -42,6 +42,7 @@
 /api/spots/*$script,subdocument
 /api/spots/*^fill=$xmlhttprequest
 /assets/jquery/adult0.js?v=$script,~third-party
+/assets/jquery/api100.js?type=$
 /cuid/?f=https%$xmlhttprequest,third-party
 /deity.php?*&ts=$xmlhttprequest,third-party
 /gb/zone?zid=$xmlhttprequest,third-party
@@ -83,6 +84,9 @@
 ||hikaku-master.com/banner/$subdocument
 ||lh3.googleusercontent.com/9Frr0PsBq8LqcaaRKcS53pSf0E5kGYMqKwG3RPYMJ1kmTTiKnQuzA1XAR3bBMtKVoA$image,domain=taoruseitai.com|towelstretches.com
 ||tmh.io/wp-content/KU.png
+
+! ---------- Ads specific: Others ----------
+||googlevideo.com/videoplayback*&ctier=L&*%2Cctier%2C$xmlhttprequest,third-party,domain=m.youtube.com|music.youtube.com|www.youtube.com
 
 ! ---------- Cosmetic general ----------
 ###adContext:not(:empty)
@@ -148,6 +152,8 @@ taoruseitai.com,towelstretches.com##a[href^="https://hb.afl.rakuten.co.jp"]
 taoruseitai.com,towelstretches.com##a[href^="https://link-a.net/gate.php"]
 taoruseitai.com,towelstretches.com##div[style$="border: 3px solid #EDEDED; border-radius: 10px;"]
 time.artjoey.com#$#.adsense { padding: 0 !important; }
+! YT fallback
+youtube.com##body > ytd-app > #content.ytd-app.style-scope > tp-yt-app-drawer#guide.ytd-app.style-scope[align="start"][role="navigation"][style^="transition-duration:"][position] + ytd-mini-guide-renderer.ytd-app.style-scope + ytd-page-manager#page-manager.ytd-app.style-scope > ytd-watch-flexy.ytd-page-manager.style-scope[video-id][js-panel-height_][flexy][rounded-info-panel][role="main"][style^="--ytd-watch-flexy-"] > #single-column-container.ytd-watch-flexy.style-scope + #columns.ytd-watch-flexy.style-scope > #primary.ytd-watch-flexy.style-scope > #primary-inner.ytd-watch-flexy.style-scope > #player.ytd-watch-flexy.style-scope > #player-container-outer.ytd-watch-flexy.style-scope > #player-container-inner.ytd-watch-flexy.style-scope > #player-container.ytd-watch-flexy.style-scope[role="complementary"][style] > ytd-player#ytd-player.ytd-watch-flexy.style-scope[style] > #container.ytd-player.style-scope > #movie_player.playing-mode.html5-video-player[data-version^="/s/player/"][aria-label] > .ytp-ad-module.video-ads[data-layer]:not(:empty)
 
 ! Exception: blocking
 

@@ -42,7 +42,6 @@
 /api/spots/*$script,subdocument
 /api/spots/*^fill=$xmlhttprequest
 /assets/jquery/adult0.js?v=$script,~third-party
-/assets/jquery/api100.js?type=$
 /cuid/?f=https%$xmlhttprequest,third-party
 /deity.php?*&ts=$xmlhttprequest,third-party
 /gb/zone?zid=$xmlhttprequest,third-party

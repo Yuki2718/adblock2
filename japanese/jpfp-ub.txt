@@ -2,7 +2,7 @@
 ! Expires: 12 hours
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240222
+! Version: 20240228
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -246,6 +246,12 @@ young-machine.com##.ad-space
 doujinhibiki.net##.adBox
 javfan.one,javmix.*,javtheater.com,openloadpro.com##.__isboostOverContent
 nhentai.net##.advt
+
+! ---------- Cosmetic specific: obtrusive or unneeded annoyances ----------
+scribd.com##div[data-testid="desktop-leaderboard"]
+
+! ---------- CSS: obtrusive or unneeded annoyances ----------
+scribd.com##.body > div[class^="GridContainer-module_wrapper_"]:style(padding-top: 0 !important;)
 
 ! ---------- Scam & Redirect ----------
 

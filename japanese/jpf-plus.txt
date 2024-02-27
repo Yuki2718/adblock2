@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240225
+! Version: 20240228
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -185,6 +185,7 @@ dotpict.net##div[id^="ads"]:upward(1)
 e0166nt.com##.side-menu:first-child > .side-heading
 e0166nt.com##.sidebar-style > .module:first-child
 ec.enoki.xyz##.content_table_mother[id$="_ads"]
+english-buddy.com###HTML1
 english.mag2.com###text-4 a:not([href="http://www.mag2.com/"])
 ethan1173.cocolog-nifty.com##.module-typelist:first-child
 fanzonetokyo.jp##div[id^="fanzo-"]
@@ -528,6 +529,9 @@ lp.p.pia.jp##.fireworkWrapper
 lp.p.pia.jp##.rightColumn__firework
 madamefigaro.jp##.firework_story_block_col
 olive-hitomawashi.com##.ly_main_inner[style^="margin-top: 50px; "]
+scribd.com##.between_page_portal_root
+scribd.com##div[data-testid="bottom-right-mrec"]
+scribd.com##div[data-testid="sticky-wrapper"]
 slideshare.net###scribd-ad-exit-modal
 
 ! ---------- CSS: too few visitors ----------

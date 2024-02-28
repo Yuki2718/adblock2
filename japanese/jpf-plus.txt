@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240228
+! Version: 20240229
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -138,6 +138,8 @@ archlinux.site###HTML2
 archlinux.site##.entry-content > div[style="text-align:center; margin:0px 0px 20px 0px; color: #999999;"]
 arinkokaasan.com##.entry-content > table[cellpadding="0"][cellspacing="0"]:has(a[rel="nofollow sponsored noopener"])
 arinkokaasan.com##div[style^="background:#fff;width:120px;height:215px"]
+aristata-game.com##.entry-body > table[style$="width:300px;"]
+aristata-game.com##.sub-section > .widget_block
 asae.client.jp##.footer-date1 > .footer-menu:last-of-type
 asae.client.jp##.footer-date3 > .footer-menu:last-of-type
 asae.client.jp##.main-pr

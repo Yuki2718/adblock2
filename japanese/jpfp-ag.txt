@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240309
+! Version: 20240316
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -70,7 +70,7 @@
 ://media.*/js/code.min.js|$script,third-party
 ://www.*.com/*.css|$script,third-party
 ://www.*.com/*/images/*.min.js|$script,third-party
-://www.*.com/css/$script,third-party,domain=~principal.com|~principalcdn.com
+://www.*.com/css/$script,third-party,to=~principalcdn.com
 ://www.*.com/js/css/$script,third-party
 /^https?:\/\/[a-z]{7,18}\.(?:com?|org)\/(?=[\/a-zA-Z]*[+0-9])(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{400,}$/$subdocument,third-party,domain=~edu|~gov|~jp
 /^https?:\/\/[a-z]{7,18}\.(?:com?|org)\/(?=[\/a-zA-Z]*[+0-9])(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{140,}$/$image,ping,third-party,domain=~edu|~gov|~jp

@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240229
+! Version: 20240321
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -375,6 +375,8 @@ oshiete.goo.ne.jp##.pr-unit
 ! https://github.com/uBlockOrigin/uAssets/discussions/21795
 yandex.com,yandex.eu,yandex.ru##.AdvRsyaCrossPage
 yandex.com,yandex.eu,yandex.ru##rect
+! https://github.com/AdguardTeam/AdguardFilters/issues/175394
+picrew.me##iframe[src="about:blank"]:remove()
 
 ! ---------- Cosmetic specific (adult): too few visitors ----------
 1201914.com###pc_text-21
@@ -588,7 +590,7 @@ anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,
 ! ---------- Anti anti-adb - too few visitors ----------
 pc-plaza.com##+js(acs, jQuery, DHAntiAdBlocker)
 pc-plaza.com##.jconfirm
-zunda.site#$##ad_box { height: 50px !important; }
+zunda.site###ad_box:style(height: 50px !important;)
 
 ! ---------- Anti anti-adb - other ----------
 @@||afreecatv.com/asset/service/ad/check_ad.js$~third-party

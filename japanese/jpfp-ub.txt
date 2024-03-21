@@ -2,7 +2,7 @@
 ! Expires: 12 hours
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240228
+! Version: 20240321
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -186,6 +186,7 @@ theregister.com##.adun
 togetter.com###ad_overlay
 togetter.com##.ad_rectangle
 tokai-tv.com##.adArea
+tokyo-sports.co.jp##.ad__item
 tokyomotion.com###player-advertising
 twpro.jp###ads-top
 twtimez.net##.adDown

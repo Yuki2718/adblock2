@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240321
+! Version: 20240322
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -212,6 +212,10 @@ gamelandos.com##td > font[color="#0000FF"]:has(+ br + hr + script)
 gamelandos.com##td > hr:has(+ script)
 gamelandos.com##td > script + br
 gamelandos.com##td > script + br + br
+ge-doubu.com##.abox1
+ge-doubu.com##.abox3
+ge-doubu.com##.center_bana
+ge-doubu.com##div[class^="menu_title"]:has-text(/スポンサーリンク|オススメ/)
 graoda.blog.fc2.com###sidebar_r > table[style="table-layout: fixed;"]
 graoda.blog.fc2.com##.ad > table[style="table-layout: fixed;"]
 graoda.blog.fc2.com##div[id^="AmazonLINK"]
@@ -309,8 +313,9 @@ rancolle.com###top_image_box > aside > .amazon_link
 rancolle.com##.ad_artbox
 rancolle.com##.follow_region > .pc_only[style="margin-bottom:10px;"]
 rancolle.com##article > aside > .ri_box.undisplay_s600
+ranking10.top###mybox > ul:last-child  .textwidget
 rich-master.jp#?#table[cellspacing="0"][cellpadding="3"][border="1"][style="border-collapse: collapse"]:has(strong:has-text(■Ａｄｓ))
-ronron-blog.com###custom_html-2
+ronron-blog.com,vr-game.pw###custom_html-2
 ronron-blog.com###sponsor
 saitamarket.com##.entry-content > p span.marker-under-blue:upward(p)
 sanbongi.info##.panel-body > p > .adsbygoogle:upward(1)
@@ -318,11 +323,11 @@ sanbongi.info,webmake.info###text-7
 salary-saver.com##.ani:has(> .widget_tsnc_ads_custom_html)
 smpl-rfrns.net##.for_ads
 solarjournal.jp###pchdright
-schizophonic9.blog103.fc2.com##.side-menu > div > .plugin-freearea > a[href^="http://px.a8.net/svt/ejp?"]:upward(3)
+sora-ten.com###text-16 > .textwidget > p:has(> .adsbygoogle)
+schizophonic9-2.com###tertiary > .side-menu:has(> .side-menu-title > .plugin-freearea)
 shogaisha-shuro.com###main_column > .opacity
 shokunin-san.com##.provision_area > .adsbygoogle:upward(1)
 sitebk.com##.productWrap
-sl65amg.blog.fc2.com##.plugin-freearea:has(> a[href^="https://www.amazon.co.jp"])
 sokupochi.com##.sidebar > section[id^="text-"]
 solohiker2020.com##div[id^="soloh-"]
 step.piano.or.jp###maincontent > .font-size-0-8.border-bottom-1-grey.margin-bottom-0-5
@@ -331,10 +336,12 @@ studio-de.com###block-12
 timeskk.jword.jp##.right_aff
 timeskk.jword.jp##.ss-area
 tottemoyasashiibitcoin.net##.code-block-1
+tottemoyasashiibitcoin.net##a[href^="https://ad.mtrf.net"] > img
 twi55.com##.l-sidebar > .widget_custom_html
 twi55.com##.postCta
 twitter.macdrivelove.com###text1 > p > span.lbg[style="font-size:12px"]
 upcom.sakura.ne.jp##div[style$="width:280px;margin:0px;padding:5px;text-align:center;overflow:hidden;"]
+vr-game.pw##.abox3
 wakarueconomics.com##.widget-index-bottom
 waraidemezame.com##.sgpb-popup-dialog-main-div-wrapper
 waraidemezame.com##.sgpb-popup-overlay

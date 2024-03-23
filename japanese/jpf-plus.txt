@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240322
+! Version: 20240324
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -65,6 +65,7 @@ _300_250_
 ||gokushiteki.com/AD/$image
 ||ibird.jp/img/banner_
 ||m.media-amazon.com/images/I/$domain=graoda.blog.fc2.com
+||mxxi.hamachiya.com/hlib/side_amazon.js
 ||rtec.co.jp/koukoku*$script,~third-party
 ||sandiegoyuyu.com/images/stories/ad_agency/
 ||smon-hiroba.net/shihoshoshi/images/hiroba_ss.png
@@ -204,6 +205,7 @@ freeup.jp##center > table[width="480"][ border="2"][cellspacing="3"][cellpadding
 freeup.jp##table[border="0"][width="100%"][cellpadding="2"] > tbody > tr > td[ valign="top"][colspan="2"][align="center"][bgcolor="#1A1AFF"][nowrap=""]:has-text(/ＰＲ|広告/)
 freeup.jp##table[bordercolor="#0000FF"][cellspacing="0"][bgcolor="#FFFFFF"][width="98%"][border="1"]
 fugaofftime.com##.entry-content > p > span[style="color: #999999; font-size: 12px;"]
+gadgerba.com###block-43
 gakuryou.net###ADw970
 gakuryou.net###ADw970_
 gakuryou.net###wrapBanner
@@ -239,8 +241,7 @@ jquerystudy.info###sideBannerFrame
 js.studio-kingdom.com###book_recommend
 juku-kyoiku.com###big
 juuuke.com##.product
-kaigainohannoublog.blog55.fc2.com##.plugin1_outline:first-child
-kaigainohannoublog.blog55.fc2.com##.plugin2_outline:last-child
+keimusho.net###side_amazon
 kanji.me##.ggtitle
 ken1.link##.bg-deco-metal1
 ken1.link,ken2.link##.widget_text
@@ -285,6 +286,8 @@ news.minory.org###block-5
 newslabo.info##div[id^="newsl-"]
 newslabo.info##.article-body > center:has(> .adsbygoogle)
 nioh.jp##.PR
+nmbschedule.blog.fc2.com##.entry-content > div[id^="msmaflink"]:has(+ .fc2_footer)
+nmbschedule.blog.fc2.com##.sidebar:has(> div > .plugin-freearea > script)
 nmm.blog.jp##aff-view
 nsdev.jp##.l-mainContent__inner > .post_content > p:last-of-type:has(> iframe[height="250"])
 number-pedia.com##.widget:has(> div > .adsbygoogle)
@@ -357,6 +360,8 @@ xn--nbkw38mlu2a.com##.entry-content > p + p:has-text(ーADー)
 xn--t8jg7842a3jax1ftt5fm9j.com##.sidebar_content > div.widget_text
 xn--zckm5bnq2mpa6a1fz490bkx4ayzmvi9g.com###text-21
 yaneuraou.yaneu.com###text-5
+yosakoimatsuri.com###secondary > .widget_sp_image + p[style="margin-top:15px;margin-bottom:-5px;text-align:left;"]
+yosakoimatsuri.com###secondary > .widget_sp_image + p[style="margin-top:15px;margin-bottom:-5px;text-align:left;"] ~ .widget_sp_image
 youchien.net##.wrap-bnr
 yume1.jp##.module-categories + .module-archives
 ! Mobile

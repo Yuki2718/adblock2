@@ -891,6 +891,7 @@ www.microcenter.com www.googletagmanager.com * noop
 www.microsoft.com c.s-microsoft.com * noop
 www.microsoft365.com office.net * noop
 www.mlb.com mlbinfra.com * noop
+www.mlb.com mlbstatic.com * noop
 www.musiciansfriend.com recs.richrelevance.com * noop
 www.myenglishteacher.eu hb.wpmucdn.com * noop
 www.nationalreview.com pantheonsite.io * noop

@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240327
+! Version: 20240328
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -122,7 +122,7 @@
 ##.ad-link:not(.adsbox)
 ##.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
 ##.ad-slot:not(.adsbox):not(.adsbygoogle)
-##.ad-space:not(.textads):not(.adbox)
+~nieru.net##.ad-space:not(.textads):not(.adbox)
 ~lamire.jp##.ad-unit:not(.text-ad):not(.textads)
 ##.ad-zone:not(:empty):not(.textads)
 ##.ad_unit:not(.text-ad)

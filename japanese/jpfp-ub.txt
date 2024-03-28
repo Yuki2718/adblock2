@@ -76,6 +76,7 @@ bm.best-hit.tv,gameo.jp,googirl.jp##iframe[id^="IFTG"]
 boom-app.wiki##.ad-300
 boom-app.wiki##.ad-468
 boom-app.wiki##.ad-728
+bus-vision.jp###bannerAd
 businessinsider.jp##.f-ad
 buzzfeed.com##.Ad--awareness-bp
 buzzfeed.com##.Ad--loading

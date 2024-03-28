@@ -389,7 +389,7 @@ oshiete.goo.ne.jp##.pr-unit
 yandex.com,yandex.eu,yandex.ru##.AdvRsyaCrossPage
 yandex.com,yandex.eu,yandex.ru##rect
 ! https://github.com/AdguardTeam/AdguardFilters/issues/175394
-picrew.me##iframe[src="about:blank"]:remove()
+gamingdeputy.com,picrew.me##iframe[src="about:blank"]:remove()
 
 ! ---------- Cosmetic specific (adult): too few visitors ----------
 1201914.com###pc_text-21

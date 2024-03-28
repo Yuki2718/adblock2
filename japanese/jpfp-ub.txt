@@ -2,7 +2,7 @@
 ! Expires: 12 hours
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240321
+! Version: 20240328
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -173,6 +173,7 @@ qiita.com##div[id^="dfp-slot-"]
 realsound.jp##.widget-adsense
 sabatech.jp##.rectangle
 sabatech.jp##.widget_fit_aditem_class
+sirogohan.com##.ad-full
 siteindices.com##div[id*="ScriptRoot"]
 slashdot.org##.adwrap
 sn-jp.com##.diver_widget_adarea

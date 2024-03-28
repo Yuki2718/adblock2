@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240324
+! Version: 20240328
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -133,6 +133,7 @@ adventuregame-irie.com##.entry-content > center:has-text(/^スポンサーリン
 adventuregame-irie.com##.hatena-module-html > .hatena-module-body > div > .adsbygoogle:upward(3)
 alpha.information-portal.net##.side > .linebox:not(:has(> .twitter-timeline))
 anan.jpn.org##div[style="background:#fff;border:solid royalblue 1px;border-radius:5px;margin-right:7px;"]
+android-navi.com###right > p.mb15.left-title
 androidpolice.com##.ad-current
 anizines.com##.toc-adsense
 archlinux.site###HTML2
@@ -554,7 +555,7 @@ slideshare.net###scribd-ad-exit-modal
 dechamore.net###sub-contents[style^="position: fixed"]:style(position: static !important;)
 
 ! ---------- CSS: others ----------
-*##ins.adsbygoogle:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
+*##ins.adsbygoogle[data-ad-slot]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
 
 ! ---------- JS: too few visitors ----------
 anianierosuki.work##+js(nowoif)
@@ -585,7 +586,7 @@ point.monocla.com#@#.adbox1
 technobell.co.jp#@##footer_ad
 
 ! ---------- Exception: cosmetic - others ----------
-anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,hotdebrid.com,html5.gamedistribution.com,in-jpn.com,kantangame.com,model-viewer.com,paraphraser.io,play.aidungeon.io,sekai-kabuka.com,tamrieltradecentre.com,teemo.gg,xtremestream.co,ytlarge.com#@#ins.adsbygoogle:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
+anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,hotdebrid.com,html5.gamedistribution.com,in-jpn.com,kantangame.com,model-viewer.com,paraphraser.io,play.aidungeon.io,sekai-kabuka.com,tamrieltradecentre.com,teemo.gg,xtremestream.co,ytlarge.com#@#ins.adsbygoogle[data-ad-slot]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
 
 ! ---------- Anti anti-adb - general ----------
 /\/wp-content\/uploads\/[a-z]{6,9}\.js(?:\?ver=[.0-9]+|,qver=[.0-9]+\.pagespeed\..+\.js)$/$script,~third-party
@@ -614,7 +615,7 @@ pks.raenonx.cc##.bg-red-500\/50
 www.youtube.com##body > div:not([class]):last-child:empty
 
 ! ---------- Exception: for default lists ----------
-#@#ins.adsbygoogle
+#@#ins.adsbygoogle[data-ad-slot]
 
 ! ---------- Scam & Redirect ----------
 /jump/next.php?r=$document

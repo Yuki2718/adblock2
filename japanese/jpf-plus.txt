@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240328
+! Version: 20240401
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -481,12 +481,7 @@ maruidesu.blog12.fc2.com##.plugin2_outline > div > div.plugin-freearea:upward(2)
 migimaki.com##.sidebar > center:not(:last-of-type)
 min-ero.jp###picmo_av_flame
 mitsurugi.org##.main > h4.head ~ div
-mominagara-girls.xyz###custom_html-5
-mominagara-girls.xyz###custom_html-6
-mominagara-girls.xyz###execphp-5
-mominagara-girls.xyz###pc_text-7
-mominagara-girls.xyz##.erKokOrigin:upward(1)
-mominagara-girls.xyz##.entry-content > h2:has-text(/関連作品|おすすめ動画/)
+mommiezonamission.com##.widget > .wp-block-gallery-is-layout-flex
 nozokizennkaimax.xyz###custom_html-4
 nozokizennkaimax.xyz##.mainbottom-widget
 orangenic.jp###slideBanner

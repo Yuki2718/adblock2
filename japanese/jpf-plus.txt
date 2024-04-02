@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240401
+! Version: 20240402
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -311,6 +311,7 @@ premium-tsubu-hero.net###wp--skip-link--target > p.has-text-align-center:has-tex
 psych0h3ad.tech##.hatena-module-html:first-child
 psych0h3ad.tech##.hatena-module-html:has(> div.hatena-module-body > a[href^="https://px.a8.net"])
 psych0h3ad.tech##.hatena-module-html:has(> div.hatena-module-body > a[href^="https://shareasale.com"])
+psychicreader.jp###cta-popup-fade
 quallia-style.com##.veu_contentAddSection
 quallia-style.com##.widget_text > div > center > script[src$="/rakuten_widget.js"]:upward(3)
 rancolle.com###top_image_box > aside > .amazon_link
@@ -349,6 +350,7 @@ vr-game.pw##.abox3
 wakarueconomics.com##.widget-index-bottom
 waraidemezame.com##.sgpb-popup-dialog-main-div-wrapper
 waraidemezame.com##.sgpb-popup-overlay
+webhoric.com##.l-mainContent__inner > div:has-text(/^スポンサード?リンク ?$/)
 weblan3.com##.ad_ArticleTop
 white-sesame.jp##.ad-in-single
 white-sesame.jp##.blog-sidebar--ad:upward(1)
@@ -395,6 +397,9 @@ gamingdeputy.com,picrew.me##iframe[src="about:blank"]:remove()
 1201914.com###pc_text-21
 2chcopipe.blog.2nt.com##.left_p:first-child
 2chcopipe.blog.2nt.com##dd > div > a[href*="amazon.co.jp"]
+adult-vr072.net###custom_html-2
+adult-vr072.net###text-9
+adult-vr072.net##.textwidget > p > a[href^="https://al.dmm.co.jp"]
 adlt18antenna.xyz##.slide_in_bnr
 amuse-labo.com##div[id^="amuse-"]
 animekabegami.blog.jp###sub div.column-inner-2 > center > :not(font)
@@ -442,6 +447,8 @@ eroerosanta.blog.jp##.article-body-inner > div[style="text-align:center;margin:2
 eroflash777.blog.2nt.com##.blog_entry_more > a[href*="dmm.co.jp"]
 eroflash777.blog.2nt.com##.blog_entry_more > br:not(span + br)
 eroflash777.blog.2nt.com##.blog_entry_more > span[style="background-color:#ff6666;color:#ffffff;font-size:xx-large"]
+erotic00.com,shaseist.click###sidebar-scroll
+erotic00.com,shaseist.click###sidebar-widget > aside.widget_pc_text
 fetideai.info##a[href^="//ac.cross-system.com"]
 fetideai.info,sm-anal.com##.charabox
 fuuvideogay.blog.2nt.com###textLink

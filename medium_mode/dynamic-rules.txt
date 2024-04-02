@@ -800,6 +800,7 @@ www.cracked.com ui.crackedcdn.com * noop
 www.cruisedeals.co.uk static.tui.co.uk * noop
 www.dailymotion.com dmcdn.net * noop
 www.darkreading.com cdn.cookielaw.org * noop
+www.dazn.com indazn.com * noop
 www.dell.com afcs.dellcdn.com * noop
 www.denverpost.com assets.digitalfirstmedia.com * noop
 www.denverpost.com cityspark.com * noop

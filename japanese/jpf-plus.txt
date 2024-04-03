@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240402
+! Version: 20240403
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -563,7 +563,6 @@ dechamore.net###sub-contents[style^="position: fixed"]:style(position: static !i
 anianierosuki.work##+js(nowoif)
 
 ! ---------- JS: others ----------
-www.youtube.com##+js(json-prune-fetch-response, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , propsToMatch, url:player?)
 
 ! ---------- Exception: blocking - too few visitors ----------
 @@||31012.jp/wp-content/uploads/2019/11/ad2.jpg

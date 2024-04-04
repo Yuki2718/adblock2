@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240403
+! Version: 20240404
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -390,8 +390,6 @@ oshiete.goo.ne.jp##.pr-unit
 ! https://github.com/uBlockOrigin/uAssets/discussions/21795
 yandex.com,yandex.eu,yandex.ru##.AdvRsyaCrossPage
 yandex.com,yandex.eu,yandex.ru##rect
-! https://github.com/AdguardTeam/AdguardFilters/issues/175394
-gamingdeputy.com,picrew.me##iframe[src="about:blank"]:remove()
 
 ! ---------- Cosmetic specific (adult): too few visitors ----------
 1201914.com###pc_text-21

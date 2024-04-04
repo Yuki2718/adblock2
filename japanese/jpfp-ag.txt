@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240401
+! Version: 20240404
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -247,6 +247,12 @@ tandess.com#%#//scriptlet('prevent-setTimeout', 'detectAdblock')
 ! ---------- Anti anti-adb - Admiral (sync with AGA) ----------
 androidpolice.com,howtogeek.com,xda-developers.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', '/admiral|String\.fromCharCode\(97,( )*?100,( )*?109,( )*?105,( )*?114,( )*?97,( )*?108\)|a%64%6d%69%72%61%6c/')
 reuters.com#%#//scriptlet("set-constant", "admiral", "noopFunc")
+
+! ---------- Ad reinjection - Ad-Shield ----------
+*$csp=script-src-attr 'none',domain=lamire.jp|picrew.me
+||html-load.com/loader.min.js$domain=lamire.jp|picrew.me
+lamire.jp,picrew.me$$script[onload="error-report.com"]
+gamingdeputy.com#%#//scriptlet('prevent-eval-if', '/07c225f3\.online|content-loader\.com|css-load\.com|html-load\.com/')
 
 ! ---------- Scam & Redirect ----------
 &dci=*&tds_campaign=$document

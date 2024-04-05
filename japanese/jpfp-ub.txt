@@ -2,7 +2,7 @@
 ! Expires: 12 hours
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240403
+! Version: 20240406
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -20,6 +20,10 @@
 /^https?:\/\/[a-z]{5,6}\.com\/script\/bootstrap\.js$/$script,3p,match-case,domain=~edu|~gov|~jp
 /^https?:\/\/[a-z]{5,6}\.com\/script\/jquery\.js$/$script,3p,match-case,domain=~edu|~gov|~jp
 /^https?:\/\/[a-z]{5,6}\.com\/script\/pattern\.js$/$script,3p,match-case,domain=~edu|~gov|~jp
+
+! ---------- Annoyances specific: obtrusive or unneeded ----------
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=raenonx.cc
+@@||www3.doubleclick.net^$xhr,domain=raenonx.cc
 
 ! ---------- Cosmetic general ----------
 *##div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])

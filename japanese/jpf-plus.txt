@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240404
+! Version: 20240406
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -152,6 +152,9 @@ asukiaaa.blogspot.com###Image2
 asukiaaa.blogspot.com###Image3
 axia-hakusan.com###menu > .rightmenu > .rmenutitle:has-text(超爆安ねじ一覧):upward(2)
 axia-hakusan.com###menu:last-child:has(img[src$="/bana.jpg"])
+banner-hiroba.com##.banner.cf > div.banner_box:has(> .adsbygoogle)
+banner-hiroba.com##.banner.cf > span.banner_box
+banner-hiroba.com,fortune.auone.jp##.adsense
 bazooo.com###main > section.widget_text
 bazooo.com##.toplinkyuni
 bazutore.com##.kijikome3
@@ -198,7 +201,6 @@ flashfabrica.com##.flash_banner
 flashfabrica.com##.index_center
 flashfabrica.com##.link_mini
 fnf.seesaa.net##.module--free:not(.side--right > section:first-child)
-fortune.auone.jp##.adsense
 freak-da.hatenablog.com###bottom-editarea
 freak-da.hatenablog.com##.entry-footer-html
 freeup.jp##center > table[border="2"][width="98%"][cellpadding="3"][bordercolor="#80FF80"][cellspacing="3"]
@@ -301,6 +303,7 @@ osayama.com###black-studio-tinymce-24
 osayama.com###black-studio-tinymce-5
 paintmanga.web.fc2.com##div[style$="background-color:#ffffff;width:160px;text-align:center;float:left"]
 parudou5.com##.kijibu > .hanyouwaku1
+pasifea.com###st_custom_html_widget-4
 pawakichi.xyz##.article-body-inner > b:last-of-type:has-text(/参考書籍|関連製品/)
 pawakichi.xyz##.booklink-box
 pc119.toyama.jp###block-31
@@ -612,6 +615,10 @@ digiday.jp##+js(set, tpLoaded, true)
 digiday.jp##+js(set, tp.isInitialized, true)
 pks.raenonx.cc##.bg-red-500\/50
 www.youtube.com##body > div:not([class]):last-child:empty
+
+! ---------- Ad reinjection - Ad-Shield ----------
+! https://github.com/AdguardTeam/AdguardFilters/issues/175394
+picrew.me##iframe[src="about:blank"]:remove()
 
 ! ---------- Exception: for default lists ----------
 #@#ins.adsbygoogle[data-ad-slot]

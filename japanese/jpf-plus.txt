@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240406
+! Version: 20240407
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -618,7 +618,7 @@ www.youtube.com##body > div:not([class]):last-child:empty
 
 ! ---------- Ad reinjection - Ad-Shield ----------
 ! https://github.com/AdguardTeam/AdguardFilters/issues/175394
-picrew.me##iframe[src="about:blank"]:remove()
+!picrew.me##iframe[src="about:blank"]:remove()
 
 ! ---------- Exception: for default lists ----------
 #@#ins.adsbygoogle[data-ad-slot]

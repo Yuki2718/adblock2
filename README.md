@@ -48,7 +48,7 @@ Please report any incorrect blocking or error via [Issue ticket](https://github.
 
 </details>
 
-<a href="https://subscribe.adblockplus.org?location=https://raw.githubusercontent.com/Yuki2718/adblock2/main/japanese/jpf-plus.txt&title=AdGuard%20Japanese%20filter%20Plus">Subscribe/購読する</a>
+<a href="https://subscribe.adblockplus.org?location=https://raw.githubusercontent.com/Yuki2718/adblock2/main/japanese/jpf-plus.txt&title=AdGuard%20Japanese%20filter%20Plus">Subscribe/購読する（AdGuardでは「信頼できる」にチェック）</a>
 [View List/中身を見る](https://raw.githubusercontent.com/Yuki2718/adblock2/main/japanese/jpf-plus.txt)
 
 注意：AdGuard、uBlock Origin用のモジュールがありますが、これらは単独使用を想定したものではありません。上記リンクから購読いただくと、ご利用のプログラムに合わせて必要なモジュールが読み込まれるはずです。

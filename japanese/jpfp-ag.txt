@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240408
+! Version: 20240409
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -30,7 +30,9 @@
 /^https:\/\/[a-z]{8,15}\.com\/(?:alpha|beta|gamma|omega)\/\d{3,4}$/$xmlhttprequest,third-party
 /^https:\/\/[a-z]{8,16}\.(?:club|fun|hair|work|xyz)\/[%0-9a-zA-Z]{170,}$/$script,third-party,match-case
 /^https?:\/\/[-0-9a-z]{5,}\.com\/[0-9a-z]{8,10}\?key=[0-9a-f]{32}$/$subdocument,third-party
-/^https?:\/\/[a-z]{5,7}\.com\/script\/[-_0-9a-z]+(\.min)?\.js$/$script,third-party,match-case,domain=~edu|~gov|~jp
+! Replace once v4.4 comes out
+! /^https?:\/\/[a-z]{5,7}\.com\/script\/[-_0-9A-Za-z]+(\.min)?\.js$/$script,3p,match-case,domain=~edu|~gov,header=x-guploader-uploadid
+/^https?:\/\/[a-z]{5,7}\.com\/script\/[-_0-9A-Za-z]+(\.min)?\.js$/$script,third-party,match-case,domain=~edu|~gov|~jp
 /^https?:\/\/[a-z]{7,}\.(?:buzz|info|lol|one|xyz)\/[+\/0-9a-zA-Z]{400,}$/$subdocument,third-party
 /^https?:\/\/[a-z]{7,}\.(?:buzz|info|lol|one|xyz)\/[+\/0-9a-zA-Z]{140,}$/$image,ping,third-party
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)\/tag\.min\.js$/$script,third-party

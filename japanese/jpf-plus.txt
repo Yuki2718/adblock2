@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240407
+! Version: 20240413
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -74,6 +74,9 @@ _300_250_
 ||yaneuraou.yaneu.com/wp-content/uploads/car_satei001
 ||youchien.net/images/common/newad_
 ||zunda.site/ad/
+
+! ---------- Ads specific: popular in Japan ----------
+||520click.com/ad.$domain=~video.520cc.cc
 
 ! ---------- Ads specific: Others ----------
 
@@ -563,6 +566,8 @@ dechamore.net###sub-contents[style^="position: fixed"]:style(position: static !i
 ! ---------- JS: too few visitors ----------
 anianierosuki.work##+js(nowoif)
 
+! ---------- JS: popular in Japan ----------
+
 ! ---------- JS: others ----------
 
 ! ---------- Exception: blocking - too few visitors ----------
@@ -606,6 +611,10 @@ anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,
 pc-plaza.com##+js(acs, jQuery, DHAntiAdBlocker)
 pc-plaza.com##.jconfirm
 zunda.site###ad_box:style(height: 50px !important;)
+
+! ---------- Anti anti-adb - popular in Japan ----------
+@@||video.520cc.cc^$generichide
+jav777.xyz##+js(noeval-if, ADS_BLOCKED)
 
 ! ---------- Anti anti-adb - other ----------
 @@||afreecatv.com/asset/service/ad/check_ad.js$~third-party

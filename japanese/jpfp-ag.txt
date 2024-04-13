@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240411
+! Version: 20240413
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -238,9 +238,10 @@ kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -
 @@||hyogo.ie-t.net^$generichide
 ! TODO: replace with prevent-fetch once CoreLibs 1.14.51 comes to standard
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=gunauc.net
+||in-jpn.com/*/js/sakigake-ad-
 ||in-jpn.com^$inline-script
 ||tandess.com/music/files/detectAdblock.js
-in-jpn.com#%#//scriptlet('abort-on-stack-trace', 'document.createElement', 'ホワイト')
+in-jpn.com#%#//scriptlet('abort-on-property-read', 'Element.prototype.insertAdjacentHTML')
 tandess.com#%#//scriptlet('prevent-setTimeout', 'detectAdblock')
 taoruseitai.com,towelstretches.com#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', '/google_ad_client/')
 

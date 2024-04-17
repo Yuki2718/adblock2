@@ -241,9 +241,11 @@ kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -
 ||in-jpn.com/*/js/sakigake-ad-
 ||in-jpn.com^$inline-script
 ||tandess.com/music/files/detectAdblock.js
+||xth.jp^$inline-script
+||xth.jp^$script,redirect=noopjs
 in-jpn.com##[style]:empty
-in-jpn.com#%#//scriptlet('abort-on-property-read', 'Element.prototype.insertAdjacentHTML')
-in-jpn.com#%#//scriptlet('abort-on-property-read', 'Node.prototype.appendChild')
+in-jpn.com,xth.jp#%#//scriptlet('abort-on-property-read', 'Element.prototype.insertAdjacentHTML')
+in-jpn.com,xth.jp#%#//scriptlet('abort-on-property-read', 'Node.prototype.appendChild')
 tandess.com#%#//scriptlet('prevent-setTimeout', 'detectAdblock')
 taoruseitai.com,towelstretches.com#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', '/google_ad_client/')
 

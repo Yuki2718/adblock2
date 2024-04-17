@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240415
+! Version: 20240417
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -241,9 +241,9 @@ kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -
 ||in-jpn.com/*/js/sakigake-ad-
 ||in-jpn.com^$inline-script
 ||tandess.com/music/files/detectAdblock.js
-in-jpn.com###saki
+in-jpn.com##[style]:empty
 in-jpn.com#%#//scriptlet('abort-on-property-read', 'Element.prototype.insertAdjacentHTML')
-in-jpn.com#%#//scriptlet('abort-on-property-read', 'XMLHttpRequest')
+in-jpn.com#%#//scriptlet('abort-on-property-read', 'Node.prototype.appendChild')
 tandess.com#%#//scriptlet('prevent-setTimeout', 'detectAdblock')
 taoruseitai.com,towelstretches.com#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', '/google_ad_client/')
 

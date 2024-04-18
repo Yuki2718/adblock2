@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240417
+! Version: 20240418
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -104,7 +104,7 @@
 ###ad_img:not(:empty)
 ###ad_slot:not([style^="position: absolute; left: -5000px"])
 ~musmus.main.jp,~streetinsider.com###ad_space:not([style^="position: absolute; left: -5000px"])
-~freepdfcomic.com,~kazukichi0914.hatenablog.com,~puzzle-ch.com###adframe:not(frameset):not([style^="position: absolute; left: -5000px"])
+~freepdfcomic.com,~hatenablog.com,~puzzle-ch.com###adframe:not(frameset):not([style^="position: absolute; left: -5000px"])
 ###adheader:not([style^="position: absolute; left: -5000px"])
 ###ads-1:not([style^="position: absolute; left: -5000px"])
 ###ads-banner:not([style^="position: absolute; left: -5000px"])

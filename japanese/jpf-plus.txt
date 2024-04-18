@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240413
+! Version: 20240419
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -66,6 +66,7 @@ _300_250_
 ||ibird.jp/img/banner_
 ||m.media-amazon.com/images/I/$domain=graoda.blog.fc2.com
 ||mxxi.hamachiya.com/hlib/side_amazon.js
+||pachinko-fight.co.jp/wp-content/uploads/*/ad_s_l_
 ||rtec.co.jp/koukoku*$script,~third-party
 ||sandiegoyuyu.com/images/stories/ad_agency/
 ||smon-hiroba.net/shihoshoshi/images/hiroba_ss.png
@@ -90,6 +91,7 @@ _300_250_
 ||gyutto.com/data/$domain=ddsearch.jp
 ||kuma.tvcapture.net/capture/kuma/kakocap05231045/img/DXLIVE.jpg
 ||kuma.tvcapture.net/capture/kuma/kakocap05231045/img/nozox00.jpg
+||manbooo.com/wp-content/uploads/2022/09/530887da81402e126c8b407bf4afe5d7.jpg
 ||tenka1.com/g/?
 
 ! ---------- Annoyances general: obtrusive or unneeded annoyances ----------
@@ -240,6 +242,7 @@ how-to-sexfriends.com##.entry-content > a.no-icon
 how-to-sexfriends.com##.homeaddbottom p
 how-to-sexfriends.com##.homeaddtop
 hpgpixer.jp###index_adtop
+iphone-week.com##.ft_bnr
 irielife420.com##.entry-content > table[border="0"]
 jewellles.com##.gads
 jquery-master.net##section[style="height:270px"]
@@ -247,8 +250,8 @@ jquerystudy.info###sideBannerFrame
 js.studio-kingdom.com###book_recommend
 juku-kyoiku.com###big
 juuuke.com##.product
-keimusho.net###side_amazon
 kanji.me##.ggtitle
+keimusho.net###side_amazon
 ken1.link##.bg-deco-metal1
 ken1.link,ken2.link##.widget_text
 ken2.link##.bigbanner_top
@@ -258,6 +261,7 @@ kimpalife.com##.hatena-module-body > p[style="text-align: center;"] > span[style
 kissanadu.com##.sponser-space + .cap
 kodate-ru.com##.sidebar > h4.widgettitle:has-text(スポンサードリンク)
 kondatepon.com##.cm_box
+koryupa.jp##.main_block_ad
 kujoyugo.com##.booklink-box
 kujoyugo.com##.widget-below-related-entries
 kumodome.getback-ontrack.com###block-63

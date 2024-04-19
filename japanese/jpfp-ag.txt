@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240418
+! Version: 20240420
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -235,17 +235,13 @@ time.artjoey.com#$#.adsense { padding: 0 !important; }
 kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -4000px !important; }
 
 ! ---------- Anti anti-adb - too few visitors ----------
+/sakigake-ad-autov1.js
 @@||hyogo.ie-t.net^$generichide
 ! TODO: replace with prevent-fetch once CoreLibs 1.14.51 comes to standard
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=gunauc.net
-||in-jpn.com/*/js/sakigake-ad-
-||in-jpn.com^$inline-script
 ||tandess.com/music/files/detectAdblock.js
-||xth.jp^$inline-script
-||xth.jp^$script,redirect=noopjs
 in-jpn.com##[style]:empty
-in-jpn.com,xth.jp#%#//scriptlet('abort-on-property-read', 'Element.prototype.insertAdjacentHTML')
-in-jpn.com,xth.jp#%#//scriptlet('abort-on-property-read', 'Node.prototype.appendChild')
+in-jpn.com,oninet.ne.jp,xth.jp#%#//scriptlet('abort-on-property-read', 'Element.prototype.insertAdjacentHTML')
 tandess.com#%#//scriptlet('prevent-setTimeout', 'detectAdblock')
 taoruseitai.com,towelstretches.com#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', '/google_ad_client/')
 

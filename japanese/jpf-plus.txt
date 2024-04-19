@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240419
+! Version: 20240420
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -155,6 +155,7 @@ asae.client.jp##.right-box:has(> .iframe-pr)
 asae.client.jp##.right-title:has-text(/PR|スポンサーリンク/)
 asukiaaa.blogspot.com###Image2
 asukiaaa.blogspot.com###Image3
+atsum.in##.amazon-link-box
 axia-hakusan.com###menu > .rightmenu > .rmenutitle:has-text(超爆安ねじ一覧):upward(2)
 axia-hakusan.com###menu:last-child:has(img[src$="/bana.jpg"])
 banner-hiroba.com##.banner.cf > div.banner_box:has(> .adsbygoogle)

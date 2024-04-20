@@ -137,6 +137,7 @@ addchannel.net##.right-bottom--ad
 adventuregame-irie.com##.entry-content > center:has-text(/^スポンサーリンク$/)
 adventuregame-irie.com##.hatena-module-html > .hatena-module-body > div > .adsbygoogle:upward(3)
 alpha.information-portal.net##.side > .linebox:not(:has(> .twitter-timeline))
+alternativegirls-simulator.com##.right_sidebar:has(> div[class^="right_sidebar_ad_"])
 anan.jpn.org##div[style="background:#fff;border:solid royalblue 1px;border-radius:5px;margin-right:7px;"]
 android-navi.com###right > p.mb15.left-title
 androidpolice.com##.ad-current
@@ -189,6 +190,7 @@ corocoro-tabi.com###custom_html-15 > .widget_text > .textwidget > a
 cya.sakura.ne.jp##.waku:has(ins.adsbygoogle)
 days366.com##div[class^="days366_"]
 deai-report110.com##.widget_text.side-widgets
+dee-okinawa.com##.footerAD
 dinvia.diary.to##div[class^="article-body"] > iframe[src^="https://al.dmm.co.jp"] + [id]
 dmlab.jp###sponsorsNav
 doorblog.jp,heypo.net###meerkat-contents
@@ -333,6 +335,7 @@ ranking10.top###mybox > ul:last-child  .textwidget
 rich-master.jp#?#table[cellspacing="0"][cellpadding="3"][border="1"][style="border-collapse: collapse"]:has(strong:has-text(■Ａｄｓ))
 ronron-blog.com,vr-game.pw###custom_html-2
 ronron-blog.com###sponsor
+saijo-zukan.com##div[id*="AD"]
 saitamarket.com##.entry-content > p span.marker-under-blue:upward(p)
 sanbongi.info##.panel-body > p > .adsbygoogle:upward(1)
 sanbongi.info,webmake.info###text-7

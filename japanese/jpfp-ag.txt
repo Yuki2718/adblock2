@@ -246,9 +246,6 @@ tandess.com#%#//scriptlet('prevent-setTimeout', 'detectAdblock')
 taoruseitai.com,towelstretches.com#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', '/google_ad_client/')
 
 ! ---------- Anti anti-adb - others ----------
-! The rule below requires Full-trust and thus not available to 3p lists
-! If and only if you're an advanced user, add this to User rules without the initial !.
-!youtube.com#%#!function(){const e={apply:(e,t,a)=>{const r=(new Error).stack,n=new RegExp("at FE|FE@");if(Array.isArray(a)&&r&&n.test(r)){const e=a[0];(e.playerAds||e.adPlacements||e.adSlots||e.adBreakHeartbeatParams||e.playerResponse)&&(a=[{}])}return Reflect.apply(e,t,a)}};window.Object.getOwnPropertyNames=new Proxy(window.Object.getOwnPropertyNames,e)}();
 
 ! ---------- Anti anti-adb - Admiral (sync with AGA) ----------
 androidpolice.com,howtogeek.com,xda-developers.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', '/admiral|String\.fromCharCode\(97,( )*?100,( )*?109,( )*?105,( )*?114,( )*?97,( )*?108\)|a%64%6d%69%72%61%6c/')

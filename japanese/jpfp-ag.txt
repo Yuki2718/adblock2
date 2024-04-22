@@ -240,7 +240,7 @@ kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -
 ! TODO: replace with prevent-fetch once CoreLibs 1.14.51 comes to standard
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=gunauc.net
 ||tandess.com/music/files/detectAdblock.js
-in-jpn.com#%#//scriptlet('abort-on-stack-trace', 'Element.prototype.insertAdjacentHTML', '/onload.*\.js/')
+in-jpn.com#%#//scriptlet('abort-on-stack-trace', 'Node.prototype.appendChild', '/onload.*\.js/')
 in-jpn.com##[style]:empty
 tandess.com#%#//scriptlet('prevent-setTimeout', 'detectAdblock')
 taoruseitai.com,towelstretches.com#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', '/google_ad_client/')

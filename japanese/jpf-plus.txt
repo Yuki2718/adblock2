@@ -617,6 +617,7 @@ anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,
 
 ! ---------- Anti anti-adb - too few visitors ----------
 in-jpn.com##.sk-popup-window
+in-jpn.com##body[style="color: rgb(255, 255, 255);"]:style(color: #000 !important;)
 pc-plaza.com##+js(acs, jQuery, DHAntiAdBlocker)
 pc-plaza.com##.jconfirm
 zunda.site###ad_box:style(height: 50px !important;)

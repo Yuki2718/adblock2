@@ -1,8 +1,8 @@
 ! Title: AdGuard module - not for independent use
-! Expires: 4 days
+! Expires: 1 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240423
+! Version: 20240424
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -235,14 +235,13 @@ time.artjoey.com#$#.adsense { padding: 0 !important; }
 kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -4000px !important; }
 
 ! ---------- Anti anti-adb - too few visitors ----------
-/sakigake-ad-autov1.js
+/sakigake-ad-$script,domain=in-jpn.com|oninet.ne.jp|xth.jp
 @@||hyogo.ie-t.net^$generichide
 ! TODO: replace with prevent-fetch once CoreLibs 1.14.51 comes to standard
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=gunauc.net
 ||tandess.com/music/files/detectAdblock.js
-in-jpn.com#%#//scriptlet('remove-attr', 'id', '#saki2')
-in-jpn.com#$#body { color: #000 !important; }
-in-jpn.com##[style]:empty
+in-jpn.com#%#//scriptlet('remove-attr', 'id', 'body > p[id]')
+in-jpn.com,oninet.ne.jp,xth.jp#$#body { color: #000 !important; }
 tandess.com#%#//scriptlet('prevent-setTimeout', 'detectAdblock')
 taoruseitai.com,towelstretches.com#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', '/google_ad_client/')
 

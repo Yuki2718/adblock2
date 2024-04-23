@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240422
+! Version: 20240423
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -617,7 +617,6 @@ anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,
 
 ! ---------- Anti anti-adb - too few visitors ----------
 in-jpn.com##.sk-popup-window
-in-jpn.com##body[style="color: rgb(255, 255, 255);"]:style(color: #000 !important;)
 pc-plaza.com##+js(acs, jQuery, DHAntiAdBlocker)
 pc-plaza.com##.jconfirm
 zunda.site###ad_box:style(height: 50px !important;)

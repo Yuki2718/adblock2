@@ -242,6 +242,7 @@ kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -
 @@||hyogo.ie-t.net^$generichide
 ! TODO: replace with prevent-fetch once CoreLibs 1.14.51 comes to standard
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=gunauc.net
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=in-jpn.com
 ||tandess.com/music/files/detectAdblock.js
 in-jpn.com#%#//scriptlet('set-constant', 'navigator.brave', '')
 in-jpn.com#%#//scriptlet('prevent-xhr', 'pagead2.googlesyndication.com')

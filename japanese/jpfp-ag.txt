@@ -2,7 +2,7 @@
 ! Expires: 1 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240425
+! Version: 20240426
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -250,8 +250,8 @@ in-jpn.com,oninet.ne.jp,xth.jp#$#body { color: #000 !important; }
 tandess.com#%#//scriptlet('prevent-setTimeout', 'detectAdblock')
 taoruseitai.com,towelstretches.com#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', '/google_ad_client/')
 xth.jp#$#body { background: none !important; }
-xth.jp#%#//scriptlet('abort-current-inline-script', 'document.head.insertAdjacentHTML')
-xth.jp$$script[tag-content="document.head.insertAdjacentHTML"]
+xth.jp#$##ggH1 { height: 50px !important; position: absolute !important; left:-4000px !important; }
+xth.jp$$script[tag-content="ブロックをオフにして下さい"]
 
 ! ---------- Anti anti-adb - others ----------
 

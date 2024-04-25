@@ -251,6 +251,7 @@ tandess.com#%#//scriptlet('prevent-setTimeout', 'detectAdblock')
 taoruseitai.com,towelstretches.com#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', '/google_ad_client/')
 xth.jp#$#body { background: none !important; }
 xth.jp#%#//scriptlet('abort-current-inline-script', 'document.head.insertAdjacentHTML')
+xth.jp$$script[tag-content="document.head.insertAdjacentHTML"]
 
 ! ---------- Anti anti-adb - others ----------
 

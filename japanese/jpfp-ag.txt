@@ -245,6 +245,7 @@ kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=gunauc.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=in-jpn.com
 ||tandess.com/music/files/detectAdblock.js
+in-jpn.com,oninet.ne.jp#$#img { visibility: visible !important; }
 in-jpn.com,oninet.ne.jp,xth.jp#$#body { color: #000 !important; }
 tandess.com#%#//scriptlet('prevent-setTimeout', 'detectAdblock')
 taoruseitai.com,towelstretches.com#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', '/google_ad_client/')

@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240424
+! Version: 20240428
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -628,6 +628,7 @@ jav777.xyz##+js(noeval-if, ADS_BLOCKED)
 ! ---------- Anti anti-adb - other ----------
 @@||afreecatv.com/asset/service/ad/check_ad.js$~third-party
 ||experience-ap.piano.io/xbuilder/experience/load?$script,redirect-rule=noop.js
+||jsdelivr.net/npm/ad-compass@latest/dist/ad-compass.umd.js
 digiday.jp##+js(ra, hidden, .piano-paywall-container)
 digiday.jp##+js(set, tpLoaded, true)
 digiday.jp##+js(set, tp.isInitialized, true)

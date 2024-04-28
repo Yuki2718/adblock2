@@ -263,7 +263,6 @@ scribd.com##div[data-testid="desktop-leaderboard"]
 scribd.com##.body > div[class^="GridContainer-module_wrapper_"]:style(padding-top: 0 !important;)
 
 ! ---------- JS: others ----------
-www.youtube.com##+js(json-prune-fetch-response, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , propsToMatch, url:player?)
 
 ! ---------- Scam & Redirect ----------
 

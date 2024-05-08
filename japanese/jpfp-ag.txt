@@ -2,7 +2,7 @@
 ! Expires: 1 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240506
+! Version: 20240508
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -239,6 +239,7 @@ kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -
 
 ! ---------- Anti anti-adb - too few visitors ----------
 /ad-check.js$domain=in-jpn.com|oninet.ne.jp|xth.jp
+/blocker.css$domain=in-jpn.com|xth.jp
 /sakigake-ad-$script,domain=in-jpn.com|oninet.ne.jp|xth.jp
 @@||hyogo.ie-t.net^$generichide
 ! TODO: replace with prevent-fetch once CoreLibs 1.14.51 comes to standard
@@ -248,11 +249,11 @@ kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -
 in-jpn.com,oninet.ne.jp#$#body img { visibility: visible !important; }
 in-jpn.com,oninet.ne.jp,xth.jp#$#body { color: #000 !important; }
 oninet.ne.jp,xth.jp#$#[id]:has(> ins.adsbygoogle) { height: 100px !important; position: absolute !important; left: -4000px !important; }
-oninet.ne.jp#$#table { visibility: visible !important; }
+oninet.ne.jp#$#body table { visibility: visible !important; }
 tandess.com#%#//scriptlet('prevent-setTimeout', 'detectAdblock')
 taoruseitai.com,towelstretches.com#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', '/google_ad_client/')
 xth.jp#$#body { background: none !important; }
-xth.jp$$script[tag-content="ブロックをオフにして下さい"]
+xth.jp$$script[tag-content="フィルタリングを無効"]
 
 ! ---------- Anti anti-adb - others ----------
 

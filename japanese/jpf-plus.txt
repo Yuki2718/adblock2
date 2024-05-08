@@ -2,7 +2,7 @@
 ! Expires: 1 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240501
+! Version: 20240508
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -566,13 +566,13 @@ scribd.com##div[data-testid="sticky-wrapper"]
 slideshare.net###scribd-ad-exit-modal
 
 ! ---------- CSS: too few visitors ----------
-dechamore.net###sub-contents[style^="position: fixed"]:style(position: static !important;)
+dechamore.net#$##sub-contents[style^="position: fixed"] { position: static !important; }
 
 ! ---------- CSS: others ----------
-*##ins.adsbygoogle[data-ad-slot]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
+*#$#ins.adsbygoogle[data-ad-slot] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
 
 ! ---------- JS: too few visitors ----------
-anianierosuki.work##+js(nowoif)
+anianierosuki.work#%#//scriptlet('prevent-window-open')
 
 ! ---------- JS: popular in Japan ----------
 
@@ -601,7 +601,7 @@ point.monocla.com#@#.adbox1
 technobell.co.jp#@##footer_ad
 
 ! ---------- Exception: cosmetic - others ----------
-anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,hotdebrid.com,html5.gamedistribution.com,in-jpn.com,kantangame.com,model-viewer.com,paraphraser.io,play.aidungeon.io,sekai-kabuka.com,tamrieltradecentre.com,teemo.gg,xtremestream.co,ytlarge.com#@#ins.adsbygoogle[data-ad-slot]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
+anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,hotdebrid.com,html5.gamedistribution.com,in-jpn.com,kantangame.com,model-viewer.com,paraphraser.io,play.aidungeon.io,sekai-kabuka.com,tamrieltradecentre.com,teemo.gg,xtremestream.co,ytlarge.com#@$#ins.adsbygoogle[data-ad-slot]{ width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
 
 ! ---------- Anti anti-adb - general ----------
 /\/wp-content\/uploads\/[a-z]{6,9}\.js(?:\?ver=[.0-9]+|,qver=[.0-9]+\.pagespeed\..+\.js)$/$script,~third-party
@@ -610,30 +610,31 @@ anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,
 @@/ads-prebid.js$script,~third-party
 @@||ads.remix.es/advertisement.js|$script
 @@||g.adspeed.net/ad.php?do=detectadblocker|$script
-||doubleclick.net/favicon.ico$image,redirect=32x32.png
+||doubleclick.net/favicon.ico$image,redirect=32x32-transparent.png
 ! Incompatible with MV3
-/player/stats.php?$image,~third-party,redirect-rule=1x1.gif
+/player/stats.php?$image,~third-party,redirect-rule=1x1-transparent.gif
 /popunder_$script,redirect-rule=noopjs
 
 ! ---------- Anti anti-adb - too few visitors ----------
 in-jpn.com,oninet.ne.jp,xth.jp##.sk-popup-window
-pc-plaza.com##+js(acs, jQuery, DHAntiAdBlocker)
+pc-plaza.com#%#//scriptlet('abort-current-inline-script', 'jQuery', 'DHAntiAdBlocker')
 pc-plaza.com##.jconfirm
-zunda.site###ad_box:style(height: 50px !important;)
+zunda.site#$##ad_box { height: 50px !important; }
 
 ! ---------- Anti anti-adb - popular in Japan ----------
 @@||video.520cc.cc^$generichide
-jav777.xyz##+js(noeval-if, ADS_BLOCKED)
+jav777.xyz#%#//scriptlet('prevent-eval-if', 'ADS_BLOCKED')
 
 ! ---------- Anti anti-adb - other ----------
 @@||afreecatv.com/asset/service/ad/check_ad.js$~third-party
-||experience-ap.piano.io/xbuilder/experience/load?$script,redirect-rule=noop.js
+||experience-ap.piano.io/xbuilder/experience/load?$script,redirect-rule=noopjs
 ||jsdelivr.net/npm/ad-compass@latest/dist/ad-compass.umd.js
-digiday.jp##+js(ra, hidden, .piano-paywall-container)
-digiday.jp##+js(set, tpLoaded, true)
-digiday.jp##+js(set, tp.isInitialized, true)
+digiday.jp#%#//scriptlet('remove-attr', 'hidden', '.piano-paywall-container')
+digiday.jp#%#//scriptlet('set-constant', 'tpLoaded', 'true')
+digiday.jp#%#//scriptlet('set-constant', 'tp.isInitialized', 'true')
 pks.raenonx.cc##.bg-red-500\/50
 www.youtube.com##body > div:not([class]):last-child:empty
+xhamster.*#%#//scriptlet('set-constant', 'initials.urls.bannerCheckUrl', '')
 
 ! ---------- Ad reinjection - Ad-Shield ----------
 ! https://github.com/AdguardTeam/AdguardFilters/issues/175394

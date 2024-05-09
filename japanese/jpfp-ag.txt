@@ -2,7 +2,7 @@
 ! Expires: 1 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240508
+! Version: 20240509
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -238,8 +238,8 @@ taoruseitai.com,towelstretches.com##div[style$="border: 3px solid #EDEDED; borde
 kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -4000px !important; }
 
 ! ---------- Anti anti-adb - too few visitors ----------
+/_nece.css$domain=in-jpn.com|xth.jp
 /ad-check.js$domain=in-jpn.com|oninet.ne.jp|xth.jp
-/blocker.css$domain=in-jpn.com|xth.jp
 /sakigake-ad-$script,domain=in-jpn.com|oninet.ne.jp|xth.jp
 @@||hyogo.ie-t.net^$generichide
 ! TODO: replace with prevent-fetch once CoreLibs 1.14.51 comes to standard

@@ -2,7 +2,7 @@
 ! Expires: 12 hours
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240413
+! Version: 20240512
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -204,7 +204,6 @@ tver.jp##.ad-section
 warotanien.net##.ad-responsive
 watch.impress.co.jp##.ad-inline
 withnews.jp##.article-ad
-xvideos.com##.exo-ad-ins-container
 yahoo.com##.stream-ad
 yomiuri.co.jp##.ads_inview
 yomiuri.co.jp##.p-ad-thumbnail-txt

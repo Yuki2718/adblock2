@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240509
+! Version: 20240516
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -272,6 +272,9 @@ gamingdeputy.com#%#//scriptlet('prevent-eval-if', '/07c225f3\.online|content-loa
 
 ! ---------- CSS: too few visitors ----------
 time.artjoey.com#$#.adsense { padding: 0 !important; }
+
+! ---------- JS: too few visitors ----------
+kimetsujbn.blogspot.com#%#//scriptlet('prevent-window-open', '!blogspot')
 
 ! ---------- Scam & Redirect ----------
 &dci=*&tds_campaign=$document

@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240508
+! Version: 20240516
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -335,6 +335,11 @@ ranking10.top###mybox > ul:last-child  .textwidget
 rich-master.jp#?#table[cellspacing="0"][cellpadding="3"][border="1"][style="border-collapse: collapse"]:has(strong:has-text(■Ａｄｓ))
 ronron-blog.com,vr-game.pw###custom_html-2
 ronron-blog.com###sponsor
+sabage-union.com###bnrs-ad_link
+sabage-union.com###home-news + div.border-top.py-3.my-3
+sabage-union.com###slideshow > div.col-3:has(> a[target="_blank"] > img + span.pr)
+sabage-union.com##.hentry div.maxw-640.mx-auto
+sabage-union.com##.hentry div.maxw-800.mx-auto
 saijo-zukan.com##div[id*="AD"]
 saitamarket.com##.entry-content > p span.marker-under-blue:upward(p)
 sanbongi.info##.panel-body > p > .adsbygoogle:upward(1)
@@ -567,6 +572,7 @@ slideshare.net###scribd-ad-exit-modal
 
 ! ---------- CSS: too few visitors ----------
 dechamore.net#$##sub-contents[style^="position: fixed"] { position: static !important; }
+sabage-union.com#$##slideshow > div.col-md-9:has(+ .col-3 > a[target="_blank"] > img + span.pr) { max-width: 100% !important; }
 
 ! ---------- CSS: others ----------
 *#$#ins.adsbygoogle[data-ad-slot] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important; }

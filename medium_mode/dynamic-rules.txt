@@ -523,6 +523,7 @@ no-large-media: behind-the-scene false
 * www.wunderground.com * noop
 * www.youtube-nocookie.com * noop
 * www3.moneris.com * noop
+* x.com * noop
 * x.kinja-static.com * noop
 * xhamster.com * noop
 * xhcdn.com * noop
@@ -988,6 +989,8 @@ www.yummly.com s.yumm.ly * noop
 www.zdnet.com cn.cbsimg.net * noop
 www.zillow.com zillowstatic.com * noop
 www.zoho.com jz.zohostatic.com * noop
+x.com accounts.google.com * noop
+x.com twitter.com * noop
 yahoo.com yahoodns.net * noop
 yandex.com yandex-images.clstorage.net * noop
 yandex.com yastatic.net * noop

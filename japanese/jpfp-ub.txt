@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240515
+! Version: 20240520
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -54,6 +54,7 @@ globaliconews.com##.td-a-rec
 404media.co##.ad-fixed
 404media.co##.ad-leaderboard
 47news.jp##.ad_inner
+abbreviations.com##.adunit-middle
 alc.co.jp##.box-ad
 alc.co.jp##.header-ad
 ameblo.jp##.subAdBannerArea

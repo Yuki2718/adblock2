@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240516
+! Version: 20240520
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -553,6 +553,7 @@ dragalia.gorillawiki.jp###sp_overlay
 sweetchocolate.blogterest.net##.blockAreaHeader a[href^="https://al.dmm.co.jp/"]
 
 ! ---------- Cosmetic specific: popular in Japan ----------
+yandex.com,yandex.eu,yandex.ru##.AdvRsyaCrossPage
 
 ! ---------- Cosmetic specific: obtrusive or unneeded annoyances ----------
 anshin-lifenet.com###footer-ad-box

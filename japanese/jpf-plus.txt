@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240520
+! Version: 20240525
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -464,6 +464,7 @@ eroerosanta.blog.jp##.article-body-inner > div[style="text-align:center;margin:2
 eroflash777.blog.2nt.com##.blog_entry_more > a[href*="dmm.co.jp"]
 eroflash777.blog.2nt.com##.blog_entry_more > br:not(span + br)
 eroflash777.blog.2nt.com##.blog_entry_more > span[style="background-color:#ff6666;color:#ffffff;font-size:xx-large"]
+eroniji.com###archives a[href^="/goods/"]
 erotic00.com,shaseist.click###sidebar-scroll
 erotic00.com,shaseist.click###sidebar-widget > aside.widget_pc_text
 fetideai.info##a[href^="//ac.cross-system.com"]

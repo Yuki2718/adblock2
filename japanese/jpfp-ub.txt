@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240520
+! Version: 20240525
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -56,7 +56,7 @@ globaliconews.com##.td-a-rec
 47news.jp##.ad_inner
 abbreviations.com##.adunit-middle
 alc.co.jp##.box-ad
-alc.co.jp##.header-ad
+alc.co.jp,hentaipaw.com##.header-ad
 ameblo.jp##.subAdBannerArea
 ameblo.jp##.subAdBannerHeader
 anond.hatelabo.jp,f.hatena.ne.jp##.double-rectangle
@@ -135,12 +135,12 @@ hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadia
 hatenablog.com##.insentence-adsense
 hatenablog.com##.insentence-adsense2
 headline.mtfj.net###header_adv
-hentaipaw.com##.header-ad
 hochi.news##.header__ad
 huffingtonpost.jp##.ad-leaderboard-flex
 huffingtonpost.jp##.advertisement-holder
 imgur.com##.ad-slot
 ismedia.jp##.m-ad
+japantimes.co.jp##.DisplayAd
 jav.direct,javfan.one,javmix.*,javtheater.com,openloadpro.com##.__isboostOverContent
 jiji.com##.ArticleAdSide
 jpnumber.com##.adsleft
@@ -190,6 +190,9 @@ jikayosha.jp,t-dilemma.info##.ad-space
 techcrunch.com##.ad-unit:not(.text-ad):not(.textads)
 techxplore.com##.ads-336x280
 techtarget.com###leaderboard.ad
+theguardian.com###top-right-ad-slot
+theguardian.com##.ad-slot-container
+theguardian.com##.top-banner-ad-container
 theregister.com##.adun
 togetter.com###ad_overlay
 togetter.com##.ad_rectangle
@@ -212,6 +215,7 @@ zdnet.com##.ad_container
 !#if env_mobile
 4gamer.net,smhn.info##.top_ad
 47news.jp##.ad_inner
+aikatu.jp##.main_ad
 allabout.co.jp##.ad-bnr
 appbank.net##.banner-ad
 appbank.net##.entry-bottom-ad

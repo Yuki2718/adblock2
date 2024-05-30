@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240525
+! Version: 20240530
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -287,6 +287,7 @@ mikasaphp.net##table[cellpadding="5"] > tbody > tr > td[align="center"]
 mikasaphp.net##td[bgcolor="White"] > center > table[cellpadding="3"][width="96%"][bgcolor="#007fc0"]
 monjiro.net###headBarArea
 monjiro.net##.adtitle2
+moqlog.jp##.squareb
 musiatui.blog.fc2.com###entry-footer
 musiatui.blog.fc2.com##.side_by_side
 natsukimemo.com##.ad-2cl
@@ -647,6 +648,7 @@ xhamster.*#%#//scriptlet('set-constant', 'initials.urls.bannerCheckUrl', '')
 ! ---------- Ad reinjection - Ad-Shield ----------
 ! https://github.com/AdguardTeam/AdguardFilters/issues/175394
 !picrew.me##iframe[src="about:blank"]:remove()
+raenonx.cc##iframe[src="about:blank"]:remove()
 
 ! ---------- Exception: for default lists ----------
 #@#ins.adsbygoogle[data-ad-slot]

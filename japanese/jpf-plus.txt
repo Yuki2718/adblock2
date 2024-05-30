@@ -641,14 +641,13 @@ jav777.xyz#%#//scriptlet('prevent-eval-if', 'ADS_BLOCKED')
 digiday.jp#%#//scriptlet('remove-attr', 'hidden', '.piano-paywall-container')
 digiday.jp#%#//scriptlet('set-constant', 'tpLoaded', 'true')
 digiday.jp#%#//scriptlet('set-constant', 'tp.isInitialized', 'true')
-pks.raenonx.cc##.bg-red-500\/50
 www.youtube.com##body > div:not([class]):last-child:empty
 xhamster.*#%#//scriptlet('set-constant', 'initials.urls.bannerCheckUrl', '')
 
 ! ---------- Ad reinjection - Ad-Shield ----------
 ! https://github.com/AdguardTeam/AdguardFilters/issues/175394
 !picrew.me##iframe[src="about:blank"]:remove()
-raenonx.cc##iframe[src="about:blank"]:remove()
+!raenonx.cc##iframe[src="about:blank"]:remove()
 
 ! ---------- Exception: for default lists ----------
 #@#ins.adsbygoogle[data-ad-slot]

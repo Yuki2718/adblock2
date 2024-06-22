@@ -191,7 +191,7 @@ taoruseitai.com,towelstretches.com##div[style$="border: 3px solid #EDEDED; borde
 ||google-analytics.com/analytics.js$redirect-rule=google-analytics
 ||googletagmanager.com/gtag/js$script,xmlhttprequest,redirect-rule=googletagmanager-gtm,domain=~myshows.me|~okwave.jp|~xeroshoes.com
 
-###container > #footer ~ #go-to-top + div[id][class*=" "]
+###go-to-top + div[id][class*=" "]
 ###page.site + div[id][class*=" "]
 ###st-ami + div[id][class*=" "]
 #@##adContext

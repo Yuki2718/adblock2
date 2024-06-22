@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240525
+! Version: 20240622
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -191,6 +191,9 @@ taoruseitai.com,towelstretches.com##div[style$="border: 3px solid #EDEDED; borde
 ||google-analytics.com/analytics.js$redirect-rule=google-analytics
 ||googletagmanager.com/gtag/js$script,xmlhttprequest,redirect-rule=googletagmanager-gtm,domain=~myshows.me|~okwave.jp|~xeroshoes.com
 
+###container > #footer ~ #go-to-top + div[id][class*=" "]
+###page.site + div[id][class*=" "]
+###st-ami + div[id][class*=" "]
 #@##adContext
 #@##AdLayer1
 #@##ad_300
@@ -236,7 +239,6 @@ taoruseitai.com,towelstretches.com##div[style$="border: 3px solid #EDEDED; borde
 #@#[data-adblockkey]
 #@#[data-advadstrackid]
 #@#[data-ad-manager-id]
-kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -4000px !important; }
 
 ! ---------- Anti anti-adb - too few visitors ----------
 /ad-check.js$domain=in-jpn.com|oninet.ne.jp|xth.jp
@@ -250,6 +252,7 @@ in-jpn.com,oninet.ne.jp#$#body img { visibility: visible !important; }
 in-jpn.com,oninet.ne.jp,xth.jp#$#body { color: #000 !important; }
 in-jpn.com,oninet.ne.jp,xth.jp#%#//scriptlet('set-constant', 'myFunc', 'noopFunc')
 oninet.ne.jp,xth.jp#$#[id]:has(> ins.adsbygoogle) { height: 100px !important; position: absolute !important; left: -4000px !important; }
+kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -4000px !important; }
 oninet.ne.jp#$#body table { visibility: visible !important; }
 tandess.com#%#//scriptlet('prevent-setTimeout', 'detectAdblock')
 taoruseitai.com,towelstretches.com#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', '/google_ad_client/')

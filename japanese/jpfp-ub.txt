@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240525
+! Version: 20240625
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -120,8 +120,8 @@ futabanet.jp,jbpress.ismedia.jp##.ad-billboard
 futabanet.jp,jbpress.ismedia.jp,president.jp##.ad-rectangle
 game-chan.net##.adwidget
 gizmodo.com###leftrail_dynamic_ad_wrapper
-gizmodo.com##.ad-left-top
-gizmodo.com##.ad-top-banner
+gizmodo.com,kotaku.com##.ad-left-top
+gizmodo.com,kotaku.com##.ad-top-banner
 gizmodo.jp##.p-post-ad
 gq.com,gqjapan.jp,vogue.com,wired.jp##.ad--mid-content
 gq.com,gqjapan.jp,vogue.com,wired.jp##.ad-stickyhero
@@ -152,8 +152,6 @@ jugomobile.com,kobe-np.co.jp##.ad-wrap
 kakenhi.net,seesaa.net###article-ad
 kamigame.jp###ad_top
 kamikouryaku.net,wikiru.jp##.sticky-ads
-kotaku.com##.ad-left-top
-kotaku.com##.ad-top-banner
 kyobun.co.jp##.td-a-ad
 makeuseof.com,xda-developers.com##.adsninja-ad-zone
 minitool.com##.page-bottom-fixed-ads
@@ -241,6 +239,7 @@ kidsna.com##.google-ads
 kurashi-no.jp##.inline_ad
 mamastar.jp##.ad-text
 mainichikirei.jp,mantan-web.jp##.ad_text
+mantan-web.jp##.ad-top
 matomegamer.com##.rectangle_ad
 oppai-paipai.com##.ad-head
 pixiv.net###ad-footer

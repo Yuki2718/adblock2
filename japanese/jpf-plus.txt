@@ -95,7 +95,7 @@ _300_250_
 ||tenka1.com/g/?
 
 ! ---------- Annoyances general: obtrusive or unneeded annoyances ----------
-||fireworkapi1.com^$third-party
+!||fireworkapi1.com^$third-party,domain=~matsukiyococokara-online.com
 ||player.gliacloud.com^$third-party
 
 ! ---------- Annoyances specific: obtrusive or unneeded ----------
@@ -561,14 +561,13 @@ yandex.com,yandex.eu,yandex.ru##.AdvRsyaCrossPage
 anshin-lifenet.com###footer-ad-box
 anshin-lifenet.com##.header_fixed
 blog###marketingbar
-blogto.com##.fire_video_style
+!blogto.com##.fire_video_style
 fudge.jp##.ratio-wrapper
-gizmodo.jp,roomie.jp##fw-storyblock
-lp.p.pia.jp##.fireworkWrapper
-lp.p.pia.jp##.rightColumn__firework
-madamefigaro.jp##.firework_story_block_col
-maquia.hpplus.jp##.section-fireworkTag
-matsukiyococokara-online.com##.storyblock-wrapper
+!gizmodo.jp,roomie.jp##fw-storyblock
+!lp.p.pia.jp##.fireworkWrapper
+!lp.p.pia.jp##.rightColumn__firework
+!madamefigaro.jp##.firework_story_block_col
+!maquia.hpplus.jp##.section-fireworkTag
 olive-hitomawashi.com##.ly_main_inner[style^="margin-top: 50px; "]
 scribd.com##.between_page_portal_root
 scribd.com##div[data-testid="bottom-right-mrec"]

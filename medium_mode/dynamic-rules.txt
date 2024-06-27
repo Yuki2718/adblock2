@@ -97,7 +97,6 @@ no-large-media: behind-the-scene false
 * cdn.mathjax.org * noop
 * cdn.mcafeesecure.com * noop
 * cdn.orfium.com * noop
-* cdn.polyfill.io * noop
 * cdn.ravenjs.com * noop
 * cdn.registerdisney.go.com * noop
 * cdn.safecharge.com * noop

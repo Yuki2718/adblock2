@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240704
+! Version: 20240705
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -281,6 +281,7 @@ mamana.jp##article > div.widget_custom_html:first-child
 mankitu-blog.com##div[id^="manki-"]
 massigra.net##.adlabel
 massigra.net##.kkvxmargin > div.adlabel + div
+medalgame.jp##.v-main > .v-container > .v-row > .v-col.v-col-12:has(> ins.adsbygoogle)
 mgkca.com##.col-md-6:has(> .card > div > .adsbygoogle)
 mikasaphp.net##table[cellpadding="5"] > tbody > tr > td[align="center"]
 mikasaphp.net##td[bgcolor="White"] > center > table[cellpadding="3"][width="96%"][bgcolor="#007fc0"]
@@ -414,10 +415,12 @@ yandex.com,yandex.eu,yandex.ru##rect
 1201914.com###pc_text-21
 2chcopipe.blog.2nt.com##.left_p:first-child
 2chcopipe.blog.2nt.com##dd > div > a[href*="amazon.co.jp"]
+adlt18antenna.xyz##.slide_in_bnr
 adult-vr072.net###custom_html-2
 adult-vr072.net###text-9
 adult-vr072.net##.textwidget > p > a[href^="https://al.dmm.co.jp"]
-adlt18antenna.xyz##.slide_in_bnr
+adultsite.mixh.jp,deai-app.jp###modal-content
+adultsite.mixh.jp,deai-app.jp###modal-overlay
 amuse-labo.com##div[id^="amuse-"]
 animekabegami.blog.jp###sub div.column-inner-2 > center > :not(font)
 anianierosuki.work##div[id^="sidebar"]
@@ -430,6 +433,7 @@ bird-pedia.com,dechamore.net###text-2
 c-actress.com###block-9
 c-actress.com##.single-related-area
 c-actress.com##.singletop-widget
+cafe-kirari.com##a[href^="https://pcmax.jp/lp/?ad_id="] > img
 caplogger.com##.side:has(> .plugin-freearea > .side_ad_list)
 carrozzeria-cdl.jp##.article-body > blockquote:has([href*="?PR="])
 carrozzeria-cdl.jp##p > [href*="?PR="] > img
@@ -441,8 +445,6 @@ chipai-only.com,paipai-only.com##.oriads
 chipai-only.com,paipai-only.com##.sc_frame_wrap > p + h2:has-text(/^実際に/)
 chipai-only.com,paipai-only.com##.sidebar_content > .widget_block:first-child
 dachi-stroim.ru##.wpp-list > li:first-child
-deai-app.jp###modal-content
-deai-app.jp###modal-overlay
 dechamore.net###custom_html-11
 dechamore.net###text-2
 dechamore.net###text-3
@@ -494,6 +496,7 @@ jkdaisuki.ad55.net##body:not([style]) > p[align="center"]:has(> a[href^="http://
 jkdaisuki.ad55.net##body:not([style]) > p[align="center"]:has(> a[href^="http://pcolle.jp/?af_id"][target="_blank"]) + hr
 josona.com##.l-main > .dividerBottom > .dividerTop
 kawaiijavcat.com,kawaiijavolds.com##.adddiv
+kawaiikanojo.net###sidebar-widget > .widget_media_image
 kintekigeri.blog.2nt.com##.right > .plugin-freearea
 kyonyu.jp###custom_html-12
 kyonyu.jp###custom_html-59
@@ -502,7 +505,9 @@ kyonyu.jp###custom_html-61
 kyonyu.jp###single-page_ad
 lovinyou.site##.textwidget [href^="https://click.duga.jp/ppv/"]
 lovinyou.site##.textwidget [href^="https://pcolle.jp/product/detail/"]
-maruidesu.blog12.fc2.com##.plugin2_outline > div > div.plugin-freearea:upward(2)
+madi-son.net###menu > nav + .title
+madi-son.net###space4
+maruidesu.blog12.fc2.com##.plugin2_outline:has(> div > div.plugin-freearea > a[target="_blank"] > img)
 migimaki.com##.sidebar > center:not(:last-of-type)
 min-ero.jp###picmo_av_flame
 mitsurugi.org##.main > h4.head ~ div

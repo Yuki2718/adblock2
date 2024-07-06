@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240705
+! Version: 20240706
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -583,6 +583,7 @@ dechamore.net#$##sub-contents[style^="position: fixed"] { position: static !impo
 sabage-union.com#$##slideshow > div.col-md-9:has(+ .col-3 > a[target="_blank"] > img + span.pr) { max-width: 100% !important; }
 
 ! ---------- CSS: others ----------
+*#$#ins.adsbygoogle[data-ad-client] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important; }
 *#$#ins.adsbygoogle[data-ad-slot] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important; }
 
 ! ---------- JS: too few visitors ----------
@@ -615,6 +616,7 @@ point.monocla.com#@#.adbox1
 technobell.co.jp#@##footer_ad
 
 ! ---------- Exception: cosmetic - others ----------
+anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,hotdebrid.com,html5.gamedistribution.com,in-jpn.com,kantangame.com,model-viewer.com,paraphraser.io,play.aidungeon.io,sekai-kabuka.com,tamrieltradecentre.com,teemo.gg,xtremestream.co,ytlarge.com#@$#ins.adsbygoogle[data-ad-client] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important; }
 anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,hotdebrid.com,html5.gamedistribution.com,in-jpn.com,kantangame.com,model-viewer.com,paraphraser.io,play.aidungeon.io,sekai-kabuka.com,tamrieltradecentre.com,teemo.gg,xtremestream.co,ytlarge.com#@$#ins.adsbygoogle[data-ad-slot] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important; }
 
 ! ---------- Anti anti-adb - general ----------
@@ -656,6 +658,7 @@ xhamster.*#%#//scriptlet('set-constant', 'initials.urls.bannerCheckUrl', '')
 !raenonx.cc##iframe[src="about:blank"]:remove()
 
 ! ---------- Exception: for default lists ----------
+#@#ins.adsbygoogle[data-ad-client]
 #@#ins.adsbygoogle[data-ad-slot]
 
 ! ---------- Scam & Redirect ----------

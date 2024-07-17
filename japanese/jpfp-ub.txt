@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240625
+! Version: 20240718
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -48,7 +48,8 @@ globaliconews.com##.td-a-rec
 ! ---------- Cosmetic specific - Ignore generic ----------
 00h.co.jp##.ad_r
 0115765.com###sticky-ads
-25ans.jp,cosmopolitan.com,elle.com,ellegirl.jp,esquire.com,fujingaho.jp,harpersbazaar.com,womenshealthmag.com##.breaker-ad
+25ans.jp,cosmopolitan.com,elle.com,ellegirl.jp,esquire.com,fujingaho.jp,harpersbazaar.com,modernliving.jp,richessemag.jp,womenshealthmag.com###gpt-leaderboard-ad
+25ans.jp,cosmopolitan.com,elle.com,ellegirl.jp,esquire.com,fujingaho.jp,harpersbazaar.com,modernliving.jp,richessemag.jp,womenshealthmag.com##.breaker-ad
 25news.jp,cantera.camp,futsal-design.jp,happyell.com,lacrosse-plus.net,mamagirl.jp,mlb.com##.p-ad
 2ch-matomenews.com###float-bnr
 404media.co##.ad-fixed
@@ -221,6 +222,7 @@ appbank.net##.sp-ad
 appbank.net##.title-ad
 article.auone.jp##.video-ad
 asahi.com##.list-ad
+blog.fc2.com##.ad_300
 buzzcafe.click,buzzdoor.net,goodjob1.com,koko-doko18.com,kokodoko-18.com,lark-scent.com,tokimekistory.com##.sp_ad_box_top
 chikakb.ldblog.jp##.sp_ad
 chofucity.com,matomeantena.com###overlay_ad
@@ -234,6 +236,7 @@ himanatokiniyaruo.com,newsoku.blog,warotanien.net###float-bnr
 javdock.com,javhdporn.net##.header-ad-mobile
 javdock.com,javhdporn.net##.sidebar-ads
 javdock.com,javhdporn.net##.under-player-ad-mobile
+kakakumag.com##.article-ad
 kakolog.jp##.ad_header
 kidsna.com##.google-ads
 kurashi-no.jp##.inline_ad

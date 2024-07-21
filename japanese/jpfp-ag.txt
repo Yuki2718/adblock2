@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240704
+! Version: 20240722
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -92,6 +92,9 @@
 
 ! ---------- Ads specific: Others ----------
 ||googlevideo.com/videoplayback*&ctier=L&*%2Cctier%2C$xmlhttprequest,third-party,domain=m.youtube.com|music.youtube.com|www.youtube.com
+
+! ---------- Annoyances specific: obtrusive or unneeded ----------
+||xvideos.com/lvcsm/abck-banners/
 
 ! ---------- Cosmetic general ----------
 ###adContext:not(:empty)

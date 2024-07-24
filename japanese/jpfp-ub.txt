@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240718
+! Version: 20240724
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -117,6 +117,7 @@ favolog.org###ad-box1
 fnn.jp,twicolle-plus.com##.ad-bnr
 forbesjapan.com##.ad-pc
 forbesjapan.com##.article-detail-ad
+fumufumunews.jp##.ad-block
 futabanet.jp,jbpress.ismedia.jp##.ad-billboard
 futabanet.jp,jbpress.ismedia.jp,president.jp##.ad-rectangle
 game-chan.net##.adwidget

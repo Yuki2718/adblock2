@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240724
+! Version: 20240803
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -137,6 +137,7 @@ hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadia
 hatenablog.com##.insentence-adsense
 hatenablog.com##.insentence-adsense2
 headline.mtfj.net###header_adv
+hinative.com##.mod_ad_container
 hochi.news##.header__ad
 huffingtonpost.jp##.ad-leaderboard-flex
 huffingtonpost.jp##.advertisement-holder
@@ -270,7 +271,6 @@ scribd.com##div[data-testid="desktop-leaderboard"]
 scribd.com##.body > div[class^="GridContainer-module_wrapper_"]:style(padding-top: 0 !important;)
 
 ! ---------- JS: others ----------
-www.youtube.com##+js(json-prune-fetch-response, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , propsToMatch, url:player?)
 
 ! ---------- Scam & Redirect ----------
 

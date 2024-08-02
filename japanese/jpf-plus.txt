@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240718
+! Version: 20240803
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -65,6 +65,7 @@ _300_250_
 ||ibird.jp/img/banner_
 ||m.media-amazon.com/images/I/$domain=graoda.blog.fc2.com
 ||mxxi.hamachiya.com/hlib/side_amazon.js
+||myshop.co.jp/japancal/fname/images/kani1.gif
 ||pachinko-fight.co.jp/wp-content/uploads/*/ad_s_l_
 ||rtec.co.jp/koukoku*$script,~third-party
 ||sandiegoyuyu.com/images/stories/ad_agency/
@@ -228,6 +229,7 @@ ge-doubu.com##.abox1
 ge-doubu.com##.abox3
 ge-doubu.com##.center_bana
 ge-doubu.com##div[class^="menu_title"]:has-text(/スポンサーリンク|オススメ/)
+gogoferret.com##div[id^="gogof-"]
 graoda.blog.fc2.com###sidebar_r > table[style="table-layout: fixed;"]
 graoda.blog.fc2.com##.ad > table[style="table-layout: fixed;"]
 graoda.blog.fc2.com##div[id^="AmazonLINK"]
@@ -300,6 +302,7 @@ news.minory.org###block-3
 news.minory.org###block-5
 newslabo.info##div[id^="newsl-"]
 newslabo.info##.article-body > center:has(> .adsbygoogle)
+nju33.com##.lg\:ad\/w-rect
 nioh.jp##.PR
 nmbschedule.blog.fc2.com##.entry-content > div[id^="msmaflink"]:has(+ .fc2_footer)
 nmbschedule.blog.fc2.com##.sidebar:has(> div > .plugin-freearea > script)
@@ -380,6 +383,8 @@ white-sesame.jp##.single-blog__card-lists--ad
 xn--glay-yn4c8b9a8lo661apz3h.com##.entry-content > center > .adsbygoogle:upward(1)
 xn--glay-yn4c8b9a8lo661apz3h.com##.entry-content > center > [href*="px.a8"]:upward(1)
 xn--glay-yn4c8b9a8lo661apz3h.com##.entry-content > p + center:has-text(Sponsored)
+xn--n8j835h6la983h.jp###right > h3:first-child
+xn--n8j835h6la983h.jp##.doubutsu-link
 xn--nbkw38mlu2a.com##.entry-content > p + p:has-text(ーADー)
 xn--t8jg7842a3jax1ftt5fm9j.com##.sidebar_content > div.widget_text
 xn--zckm5bnq2mpa6a1fz490bkx4ayzmvi9g.com###text-21
@@ -567,6 +572,7 @@ anshin-lifenet.com###footer-ad-box
 anshin-lifenet.com##.header_fixed
 blog###marketingbar
 !blogto.com##.fire_video_style
+bunshun.jp,kyobun.co.jp,mainichi.jp,news.mynavi.jp,nikkei.com###pianoj_ribbon
 fudge.jp##.ratio-wrapper
 !gizmodo.jp,roomie.jp##fw-storyblock
 !lp.p.pia.jp##.fireworkWrapper

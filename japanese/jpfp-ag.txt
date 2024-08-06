@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240805
+! Version: 20240807
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -25,7 +25,6 @@
 /^https:\/\/[a-z]{10,12}\.com\/[\/a-z]{2,}\?id=[12]\d{6}$/$script,third-party,match-case
 /^https:\/\/[a-z]{10,14}\.(?:casa|website)\/tsk\/[\*_0-9a-zA-Z]{600,}$/$image,third-party
 /^https:\/\/[a-z]{10,14}\.(?:ca[ms]a?|fun)\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xmlhttprequest,third-party
-/^https:\/\/[a-z]{3,5}\.[a-z]{10,14}\.top\/[a-z]{10,16}\/[a-z]{5,6}(?:\?d=\d)?$/$script,xmlhttprequest,third-party,match-case
 /^https:\/\/[a-z]{8,15}\.com\/(?:alpha|beta|gamma|omega)\/\d{3,4}$/$xmlhttprequest,third-party
 /^https:\/\/[a-z]{8,16}\.(?:club|fun|hair|work|xyz)\/[%0-9a-zA-Z]{170,}$/$script,third-party,match-case
 /^https?:\/\/[-0-9a-z]{5,}\.com\/[0-9a-z]{8,10}\?key=[0-9a-f]{32}$/$subdocument,third-party
@@ -48,6 +47,7 @@
 /api/spots/*$script,subdocument
 /api/spots/*^fill=$xmlhttprequest
 /assets/jquery/adult0.js?v=$script,~third-party
+/assets/jquery/app0.js?type=$script,~third-party
 /cuid/?f=https%$xmlhttprequest,third-party
 /deity.php?*&ts=$xmlhttprequest,third-party
 /gb/zone?zid=$xmlhttprequest,third-party

@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240803
+! Version: 20240807
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -143,6 +143,7 @@ huffingtonpost.jp##.ad-leaderboard-flex
 huffingtonpost.jp##.advertisement-holder
 imgur.com##.ad-slot
 ismedia.jp##.m-ad
+itest.5ch.net##.ad_300x250
 japantimes.co.jp##.DisplayAd
 jav.direct,javfan.one,javmix.*,javtheater.com,openloadpro.com##.__isboostOverContent
 jiji.com##.ArticleAdSide

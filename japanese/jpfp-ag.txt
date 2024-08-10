@@ -68,9 +68,8 @@
 /wcm/?sh=$script,third-party
 /wp-content/plugins/script-manager/assets/js/script-manager.js?
 ://a.*/loader?a=$subdocument,third-party
+://a.*/warp^$script,third-party
 ://cdn.*.com/renderer/renderer.js|$script,third-party
-://creative.*/widgets/Spot/lib.js$third-party
-://creative.*/widgets/v4/Universal?$subdocument,third-party
 ://loc.*.com/renderer/renderer.js|$script,third-party
 ://media.*/js/code.min.js|$script,third-party
 ://www.*.com/*.css|$script,third-party

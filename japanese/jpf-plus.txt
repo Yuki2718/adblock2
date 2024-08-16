@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240803
+! Version: 20240816
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -263,6 +263,7 @@ ken2.link##.bigbanner_top
 ken2.link##.su-box
 kimpalife.com###bottom-editarea > span[style="font-size: 70%;"]
 kimpalife.com##.hatena-module-body > p[style="text-align: center;"] > span[style="font-size: 80%;"]
+kingdom-meister.com##div[id^="kingd-"]:has(> .adsbygoogle)
 kissanadu.com##.sponser-space + .cap
 kodate-ru.com##.sidebar > h4.widgettitle:has-text(スポンサードリンク)
 kondatepon.com##.cm_box

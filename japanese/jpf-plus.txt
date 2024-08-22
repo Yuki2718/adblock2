@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240822
+! Version: 20240823
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -363,6 +363,7 @@ solohiker2020.com##div[id^="soloh-"]
 step.piano.or.jp###maincontent > .font-size-0-8.border-bottom-1-grey.margin-bottom-0-5
 studio-de.com###block-11
 studio-de.com###block-12
+takushoku.info###st_custom_html_widget-6
 timeskk.jword.jp##.right_aff
 timeskk.jword.jp##.ss-area
 tottemoyasashiibitcoin.net##.code-block-1

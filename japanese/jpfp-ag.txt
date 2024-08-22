@@ -16,7 +16,7 @@
 /\/js\/\d{2,3}eka\d{2,3}\.js$/$script,~third-party,domain=com
 /^https:\/\/(?:[a-z]{2}\.)?[a-z]{7,14}\.com\/r(?=[a-z]*[0-9A-Z])[0-9A-Za-z]{10,16}\/[A-Za-z]{5}(?:\?param=\w+)?$/$script,third-party,match-case
 /^https:\/\/www\.[a-z]{8,14}\.com\/[a-z]{1,4}\.js$/$script,third-party,match-case,domain=~edu|~gov|~jp,to=~exploretock.com|~photopea.com
-! Replace once v4.4 comes out
+! Replace once v4.4 comes out <= not compatible yet with v4.4.18
 ! /^https:\/\/www\.[a-z]{8,14}\.com\/[a-z]{1,4}\.js$/$script,third-party,match-case,domain=~edu|~gov|~jp,to=~exploretock.com|~photopea.com,header=x-powered-by:Express
 /^https:\/\/(?:cdn77\.)?aj\d{4}\.bid\/[-0-9A-Z_a-z]{80,}\?/$xmlhttprequest,third-party
 /^https:\/\/[-a-z]{8,15}\.(?:com|net)\/500\/\d{7}\?/$xmlhttprequest,third-party
@@ -28,7 +28,7 @@
 /^https:\/\/[a-z]{8,15}\.com\/(?:alpha|beta|gamma|omega)\/\d{3,4}$/$xmlhttprequest,third-party
 /^https:\/\/[a-z]{8,16}\.(?:club|fun|hair|work|xyz)\/[%0-9a-zA-Z]{170,}$/$script,third-party,match-case
 /^https?:\/\/[-0-9a-z]{5,}\.com\/[0-9a-z]{8,10}\?key=[0-9a-f]{32}$/$subdocument,third-party
-! Replace once v4.4 comes out
+! Replace once v4.4 comes out <= not compatible yet with v4.4.18
 ! /^https?:\/\/[a-z]{5,12}\.com\/[0-9a-h]{1,15}\?[0-9a-zA-Z]{1,15}=[0-9a-zA-Z]{300,1300}/$xmlhttprequest,third-party,match-case,to=com,method=get,header=via:1.1 google
 ! /^https?:\/\/[a-z]{5,7}\.com\/script\/[-_0-9A-Za-z]+(\.min)?\.js$/$script,3p,match-case,domain=~edu|~gov,header=x-guploader-uploadid
 /^https?:\/\/[a-z]{5,7}\.com\/script\/[-_0-9A-Za-z]+(\.min)?\.js$/$script,third-party,match-case,domain=~edu|~gov|~jp

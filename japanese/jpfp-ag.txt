@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240823
+! Version: 20240826
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -134,8 +134,6 @@
 ##.adde_modal-overlay
 ##.ads_banner:not([style^="width: 32px"])
 ##.ads_container:not(.text-ad)
-##.banner-ads:not(:empty):not(.textads)
-##.banner_ads:not(:empty):not(.textads)
 ~ekitan.com,~kissanadu.com##.sidebar-ad:not(.adsbygoogle)
 ##.stickyads:not([style^="width: 32px"])
 ##a[dontfo=""][style$="position: absolute; z-index: 2147483647;"]
@@ -192,7 +190,6 @@ taoruseitai.com,towelstretches.com##div[style$="border: 3px solid #EDEDED; borde
 ||googletagmanager.com/gtag/js$script,xmlhttprequest,redirect-rule=googletagmanager-gtm,domain=~myshows.me|~okwave.jp|~xeroshoes.com
 
 ###go-to-top + div[id][class*=" "]
-###page.site + div[id][class*=" "]
 ###st-ami + div[id][class*=" "]
 #@##adContext
 #@##AdLayer1
@@ -230,8 +227,6 @@ taoruseitai.com,towelstretches.com##div[style$="border: 3px solid #EDEDED; borde
 #@#.ad_unit
 #@#.ads_banner
 #@#.ads_container
-#@#.banner-ads
-#@#.banner_ads
 #@#.sidebar-ad
 #@#.stickyads
 #@#[data-ad-module]

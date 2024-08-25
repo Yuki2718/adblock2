@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240823
+! Version: 20240826
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -79,6 +79,7 @@ blog.livedoor.jp##div[class^="google-2ad"]
 blogspot.com##.AdSense
 blogspot.com##.adgoogle-wrapper
 bm.best-hit.tv,gameo.jp,googirl.jp##iframe[id^="IFTG"]
+book.asahi.com##.module-ad
 boom-app.wiki##.ad-300
 boom-app.wiki##.ad-468
 boom-app.wiki##.ad-728
@@ -147,6 +148,7 @@ itest.5ch.net##.ad_300x250
 japantimes.co.jp##.DisplayAd
 jav.direct,javfan.one,javmix.*,javtheater.com,openloadpro.com##.__isboostOverContent
 jiji.com##.ArticleAdSide
+joshi-spa.jp,nikkan-spa.jp,taskle.jp##.ad-widget
 jpnumber.com##.adsleft
 jpnumber.com##.adsright
 jprime.jp,media.rakuten-sec.net##.ad-overlay
@@ -171,7 +173,6 @@ nicovideo.jp###footer-ad
 nicovideo.jp###middle-ad
 nikaraw.com##.blockads_big
 nikaraw.com##.blockads_vg
-nikkan-spa.jp,taskle.jp##.ad-widget
 nishinippon.co.jp,t-mall.kantangame.com##.c-ad
 oppai-paipai.com##.ad-box
 oricon.co.jp##.block-ads-yahoo

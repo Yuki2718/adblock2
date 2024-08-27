@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240823
+! Version: 20240828
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -516,6 +516,7 @@ lovinyou.site##.textwidget [href^="https://click.duga.jp/ppv/"]
 lovinyou.site##.textwidget [href^="https://pcolle.jp/product/detail/"]
 madi-son.net###menu > nav + .title
 madi-son.net###space4
+maruhigoodslabo.jp##main > div:first-of-type > a[href^="https://fam-ad.com/ad/"][rel="nofollow noopener"] > img[height="504"]
 maruidesu.blog12.fc2.com##.plugin2_outline:has(> div > div.plugin-freearea > a[target="_blank"] > img)
 migimaki.com##.sidebar > center:not(:last-of-type)
 min-ero.jp###picmo_av_flame

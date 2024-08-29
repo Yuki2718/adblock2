@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240826
+! Version: 20240829
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -242,6 +242,7 @@ taoruseitai.com,towelstretches.com##div[style$="border: 3px solid #EDEDED; borde
 ! TODO: replace with prevent-fetch once CoreLibs 1.14.51 comes to standard
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=gunauc.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=in-jpn.com
+||ptube.pipio.site/adblock.js
 ||rxlife.net/src/adb.js
 ||tandess.com/music/files/detectAdblock.js
 in-jpn.com,oninet.ne.jp#$#body img { visibility: visible !important; }
@@ -266,6 +267,8 @@ reuters.com#%#//scriptlet("set-constant", "admiral", "noopFunc")
 gamingdeputy.com#%#//scriptlet('prevent-eval-if', '/07c225f3\.online|content-loader\.com|css-load\.com|html-load\.com/')
 
 ! ---------- CSS: too few visitors ----------
+ptube.pipio.site#$##videoDiv { display: none !important; }
+ptube.pipio.site#$##video-container { display: block !important; }
 time.artjoey.com#$#.adsense { padding: 0 !important; }
 
 ! ---------- JS: too few visitors ----------

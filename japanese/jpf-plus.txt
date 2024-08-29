@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240828
+! Version: 20240829
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -356,8 +356,10 @@ solarjournal.jp###pchdright
 sora-ten.com###text-16 > .textwidget > p:has(> .adsbygoogle)
 schizophonic9-2.com###tertiary > .side-menu:has(> .side-menu-title > .plugin-freearea)
 shogaisha-shuro.com###main_column > .opacity
-shokunin-san.com##.provision_area > .adsbygoogle:upward(1)
+shokunin-san.com##.provision_area:has(> .adsbygoogle)
 sitebk.com##.productWrap
+sodatekata.net##.aff_box
+sodatekata.net##.spon
 sokupochi.com##.sidebar > section[id^="text-"]
 solohiker2020.com##div[id^="soloh-"]
 step.piano.or.jp###maincontent > .font-size-0-8.border-bottom-1-grey.margin-bottom-0-5

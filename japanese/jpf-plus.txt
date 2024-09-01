@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240829
+! Version: 20240901
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -99,6 +99,7 @@ _300_250_
 ||player.gliacloud.com^$third-party
 
 ! ---------- Annoyances specific: obtrusive or unneeded ----------
+||ae-deliver.ximera.com^$domain=at-s.com
 ||genecal.jp/img/bunner_l.gif
 ||p-rate.com/images/common/bnr_adwanted.jpg
 ||yanmaga.jp/viewer/banner.html

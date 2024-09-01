@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240828
+! Version: 20240901
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -26,8 +26,6 @@
 @@||www3.doubleclick.net^$xhr,domain=raenonx.cc
 
 ! ---------- Cosmetic general ----------
-*##div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
-*##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
 !#if env_mobile
 *###WIX_ADS
 ~job.inshokuten.com,~netmile.co.jp,*##.ad-area:not(.text-ad)
@@ -55,6 +53,7 @@ globaliconews.com##.td-a-rec
 404media.co##.ad-fixed
 404media.co##.ad-leaderboard
 47news.jp##.ad_inner
+a.hatena.ne.jp###side-ad
 abbreviations.com##.adunit-middle
 alc.co.jp##.box-ad
 alc.co.jp,hentaipaw.com,kotobank.jp##.header-ad

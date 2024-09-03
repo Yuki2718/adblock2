@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240901
+! Version: 20240904
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -580,6 +580,7 @@ anshin-lifenet.com##.header_fixed
 blog###marketingbar
 !blogto.com##.fire_video_style
 bunshun.jp,kyobun.co.jp,mainichi.jp,news.mynavi.jp,nikkei.com###pianoj_ribbon
+ejje.weblio.jp##.mainBlock[style="min-height: 270px;"]
 fudge.jp##.ratio-wrapper
 !gizmodo.jp,roomie.jp##fw-storyblock
 !lp.p.pia.jp##.fireworkWrapper

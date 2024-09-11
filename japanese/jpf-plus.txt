@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240904
+! Version: 20240912
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -59,6 +59,7 @@ _300_250_
 ||blog-sokuhou.com/suma-img/kjk/lpimg/pcv1/bn01.jpg
 ||burutira.up.seesaa.net/image/click1.gif
 ||dailynk.jp/wp-content/themes/dailynkjp/images/mook.jpg
+||day-onsen.com/ad_$subdocument
 ||dokugakukan.net/file/js/google_ad.js
 ||gameland.ifdef.jp/pr-menu.html
 ||gokushiteki.com/AD/$image
@@ -92,6 +93,7 @@ _300_250_
 ||kuma.tvcapture.net/capture/kuma/kakocap05231045/img/DXLIVE.jpg
 ||kuma.tvcapture.net/capture/kuma/kakocap05231045/img/nozox00.jpg
 ||manbooo.com/wp-content/uploads/2022/09/530887da81402e126c8b407bf4afe5d7.jpg
+||original-wedding.net/js/ads_
 ||tenka1.com/g/?
 
 ! ---------- Annoyances general: obtrusive or unneeded annoyances ----------
@@ -189,6 +191,7 @@ copa.sakura.ne.jp##.post table:has(script[src^="http://spdeliver.i-mobile.co.jp"
 corocoro-tabi.com###secondary > .widget_custom_html
 corocoro-tabi.com###custom_html-15 > .widget_text > .textwidget > a
 cya.sakura.ne.jp##.waku:has(ins.adsbygoogle)
+day-onsen.com##.basicborder[style="width: 468px; height: 60px; margin-left: 10px;"]
 days366.com##div[class^="days366_"]
 deai-report110.com##.widget_text.side-widgets
 dee-okinawa.com##.footerAD
@@ -314,6 +317,7 @@ number-pedia.com##.widget:has(> div > .adsbygoogle)
 ocsoku.com###right-box > .plugin-memo:first-child
 ocsoku.com###right-box > .plugin-memo:last-of-type
 ogurigo.jp##.entry-content > p > span[style="color: #999999; font-size: 12px;"]
+original-wedding.net###AdBottom
 oryo.jp###text-4 > .textwidget > p
 oryo.jp##.wpap-tpl
 osayama.com###black-studio-tinymce-24
@@ -385,6 +389,7 @@ white-sesame.jp##.ad-in-single
 white-sesame.jp##.blog-sidebar--ad:upward(1)
 white-sesame.jp##.single-blog__ad-title
 white-sesame.jp##.single-blog__card-lists--ad
+wiz.ooo##article > .\!max-w-\[640px\]:has(> .ad)
 xn--glay-yn4c8b9a8lo661apz3h.com##.entry-content > center > .adsbygoogle:upward(1)
 xn--glay-yn4c8b9a8lo661apz3h.com##.entry-content > center > [href*="px.a8"]:upward(1)
 xn--glay-yn4c8b9a8lo661apz3h.com##.entry-content > p + center:has-text(Sponsored)
@@ -587,7 +592,6 @@ fudge.jp##.ratio-wrapper
 !lp.p.pia.jp##.rightColumn__firework
 !madamefigaro.jp##.firework_story_block_col
 !maquia.hpplus.jp##.section-fireworkTag
-olive-hitomawashi.com##.ly_main_inner[style^="margin-top: 50px; "]
 scribd.com##.between_page_portal_root
 scribd.com##div[data-testid="bottom-right-mrec"]
 scribd.com##div[data-testid="sticky-wrapper"]

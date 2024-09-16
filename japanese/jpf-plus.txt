@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240912
+! Version: 20240917
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -114,7 +114,8 @@ _300_250_
 ##.vjs-overlayed.size-300x250
 ##a[class][real-href^="//"][onmouseup="setRealHref(event)"]
 ##body > div[style*="z-index: 2147483647;"][style*="top: 0px; left: 0px;"][style*="position:"]
-##div[class][style="cursor: pointer;"] > img[src^="//"]
+##div[class][style="display: inline-flex; vertical-align: top;"] > div[class][style="cursor: pointer; position: relative;"] > img[src^="//"]
+##div[class][style="display: inline-flex; vertical-align: top;"] > div[class][style="cursor: pointer; position: relative;"] > video[loop="true"][playsinline="true"][preload="auto"]
 ##div[style="position:fixed;inset:0px;z-index:100000;height:100%;width:100%"]
 ##div[style*="cursor: no-drop"][style*="user-select: none"][style*="position: fixed"][style*="top:"][style*="left:"][style*="z-index"]:empty + *:not([class]):not([id])
 ##iframe[class][scrolling="no"][sandbox="allow-same-origin allow-scripts allow-popups"][style*="z-index: 2147483647; position: fixed"]
@@ -145,6 +146,7 @@ anan.jpn.org##div[style="background:#fff;border:solid royalblue 1px;border-radiu
 android-navi.com###right > p.mb15.left-title
 androidpolice.com##.ad-current
 anizines.com##.toc-adsense
+applipo.ne.jp##.article > div:not([class]) > p:has(> .greenTxt + br + a[href^="//ck.jp.ap.valuecommerce.com"])
 archlinux.site###HTML2
 archlinux.site##.entry-content > div[style="text-align:center; margin:0px 0px 20px 0px; color: #999999;"]
 arinkokaasan.com##.entry-content > table[cellpadding="0"][cellspacing="0"]:has(a[rel="nofollow sponsored noopener"])
@@ -317,6 +319,10 @@ number-pedia.com##.widget:has(> div > .adsbygoogle)
 ocsoku.com###right-box > .plugin-memo:first-child
 ocsoku.com###right-box > .plugin-memo:last-of-type
 ogurigo.jp##.entry-content > p > span[style="color: #999999; font-size: 12px;"]
+orentame.com##.entry-content > .wp-block-group:has(> .wp-block-group-is-layout-constrained > .has-light-grayish-red-background-color > .st-noflex > a[href^="https://www.dlsite.com"][target="_blank"])
+orentame.com##.entry-content > .wp-block-group:last-child
+orentame.com##.st-header-under-widgets .freebox
+orentame.com##.st-header-under-widgets > div > .is-st-justify-center
 original-wedding.net###AdBottom
 oryo.jp###text-4 > .textwidget > p
 oryo.jp##.wpap-tpl
@@ -381,6 +387,8 @@ twitter.macdrivelove.com###text1 > p > span.lbg[style="font-size:12px"]
 upcom.sakura.ne.jp##div[style$="width:280px;margin:0px;padding:5px;text-align:center;overflow:hidden;"]
 vr-game.pw##.abox3
 wakarueconomics.com##.widget-index-bottom
+warashibe76.com##.c_c_t_w
+warashibe76.com##.common_contents > a[href^="https://hb.afl.rakuten.co.jp/hgc/"][style="word-wrap: break-word;"][rel="nofollow noopener noreferrer"]
 waraidemezame.com##.sgpb-popup-dialog-main-div-wrapper
 waraidemezame.com##.sgpb-popup-overlay
 webhoric.com##.l-mainContent__inner > div:has-text(/^スポンサード?リンク ?$/)

@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240919
+! Version: 20240925
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -63,6 +63,7 @@ _300_250_
 ||dokugakukan.net/file/js/google_ad.js
 ||gameland.ifdef.jp/pr-menu.html
 ||gokushiteki.com/AD/$image
+||homemate-research-heliport.com/js/ad/
 ||ibird.jp/img/banner_
 ||m.media-amazon.com/images/I/$domain=graoda.blog.fc2.com
 ||mxxi.hamachiya.com/hlib/side_amazon.js

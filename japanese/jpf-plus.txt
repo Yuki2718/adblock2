@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240930
+! Version: 20241001
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -214,6 +214,14 @@ flashfabrica.com##.link_mini
 fnf.seesaa.net##.module--free:not(.side--right > section:first-child)
 freak-da.hatenablog.com###bottom-editarea
 freak-da.hatenablog.com##.entry-footer-html
+free-materials.com###block-6
+free-materials.com###block-7
+free-materials.com###block-8
+free-materials.com###postContent a[target="_blank"][rel$="noopener"]:not(.a--profile-introduction > a)
+free-materials.com###text-29
+free-materials.com##.o--ads-area
+free-materials.com##.o--related-area
+free-materials.com##.o--unit-area
 freeup.jp##center > table[border="2"][width="98%"][cellpadding="3"][bordercolor="#80FF80"][cellspacing="3"]
 freeup.jp##center > table[width="480"][ border="2"][cellspacing="3"][cellpadding="3"][bordercolor="#00FF80"]
 freeup.jp##table[bordercolor="#0000FF"][cellspacing="0"][bgcolor="#FFFFFF"][width="98%"][border="1"]

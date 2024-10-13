@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20241001
+! Version: 20241013
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -114,7 +114,7 @@ _300_250_
 ##.asg-vast-overlay
 ##.vjs-overlayed.size-300x250
 ##a[class][real-href^="//"][onmouseup="setRealHref(event)"]
-##body > div[style*="z-index: 2147483647;"][style*="top: 0px; left: 0px;"][style*="position:"]
+!##body > div[style*="z-index: 2147483647;"][style*="top: 0px; left: 0px;"][style*="position:"]
 ##div[class][style="display: inline-flex; vertical-align: top;"] > div[class][style="cursor: pointer; position: relative;"] > img[src^="//"]
 ##div[class][style="display: inline-flex; vertical-align: top;"] > div[class][style="cursor: pointer; position: relative;"] > video[loop="true"][playsinline="true"][preload="auto"]
 ##div[style="position:fixed;inset:0px;z-index:100000;height:100%;width:100%"]

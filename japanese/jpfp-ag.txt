@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240925
+! Version: 20241031
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -96,7 +96,6 @@
 
 ! ---------- Cosmetic general ----------
 ###adContext:not(:empty)
-###AdLayer1:not([style^="position: absolute; left: -5000px"])
 ###ad_300:not([style^="position: absolute; left: -5000px"])
 ###ad_728:not([style^="position: absolute; left: -5000px"])
 ###ad_area:not([style^="position: absolute; left: -5000px"])
@@ -191,7 +190,6 @@ taoruseitai.com,towelstretches.com##div[style$="border: 3px solid #EDEDED; borde
 ###go-to-top + div[id][class*=" "]
 ###st-ami + div[id][class*=" "]
 #@##adContext
-#@##AdLayer1
 #@##ad_300
 #@##ad_728
 #@##ad_area

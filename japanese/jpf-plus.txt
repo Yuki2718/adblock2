@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20241013
+! Version: 20241031
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -680,6 +680,7 @@ digiday.jp#%#//scriptlet('remove-attr', 'hidden', '.piano-paywall-container')
 digiday.jp#%#//scriptlet('set-constant', 'tpLoaded', 'true')
 digiday.jp#%#//scriptlet('set-constant', 'tp.isInitialized', 'true')
 kotobank.jp#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'relList')
+lv73.net#@#ins.adsbygoogle[data-ad-client]
 www.youtube.com##body > div:not([class]):last-child:empty
 xhamster.*#%#//scriptlet('set-constant', 'initials.urls.bannerCheckUrl', '')
 

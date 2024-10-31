@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240901
+! Version: 20241031
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -172,13 +172,14 @@ nicovideo.jp###footer-ad
 nicovideo.jp###middle-ad
 nikaraw.com##.blockads_big
 nikaraw.com##.blockads_vg
-nishinippon.co.jp,t-mall.kantangame.com##.c-ad
+nishinippon.co.jp,syosetu.com,t-mall.kantangame.com##.c-ad
 oppai-paipai.com##.ad-box
 oricon.co.jp##.block-ads-yahoo
 pastebin.com##.adsbyvli
 pormo.me##.ads-text
 precious.jp##.entry_ad
 qiita.com##div[id^="dfp-slot-"]
+ragnet.co.jp##.article_ad
 realsound.jp##.widget-adsense
 sabatech.jp##.rectangle
 sabatech.jp##.widget_fit_aditem_class

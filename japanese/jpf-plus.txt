@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20241031
+! Version: 20241116
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -337,6 +337,10 @@ pawakichi.xyz#?#.article-body-inner > b:last-of-type:contains(/参考書籍|関�
 pc119.toyama.jp###block-31
 pfch.blog.jp##.right-container > .plugin-popular_articles_with_image ~ .plugin-memo
 phpjavascriptroom.com##.gads
+pilgrim-shikoku.net###ec_banner
+pilgrim-shikoku.net##.rakuten
+pilgrim-shikoku.net##.sennenadve
+pilgrim-shikoku.net##.sidesponser
 pokemon-wiki.com###topgd
 premium-tsubu-hero.net#?##wp--skip-link--target > p.has-text-align-center:contains(/^PR$/)
 psych0h3ad.tech##.hatena-module-html:first-child
@@ -363,6 +367,9 @@ saitamarket.com##.entry-content > p span.marker-under-blue:upward(p)
 sanbongi.info##.panel-body > p > .adsbygoogle:upward(1)
 sanbongi.info,webmake.info###text-7
 salary-saver.com##.ani:has(> .widget_tsnc_ads_custom_html)
+senilog.com###block-13
+senilog.com###block-2
+senilog.com##.simple-box8
 smpl-rfrns.net##.for_ads
 solarjournal.jp###pchdright
 sora-ten.com###text-16 > .textwidget > p:has(> .adsbygoogle)
@@ -429,6 +436,7 @@ rancolle.com##.rectangle_box
 ! ---------- Cosmetic specific: others ----------
 ! too intrusive and redundant
 373news.com##.ad-area-jack-absolute
+appget.com###side_right > div[style="margin: 0 0 20px 25px;"]
 arvo.showcase-tv.com,getpaidstock.com,kazokuchannel.doorblog.jp,nandemo-uketori.com,sukupara.jp,wakariyasui.sakura.ne.jp##.adsbygoogle
 weblio.jp##.firstDictVideoAd
 ! if piano is blocked

@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20241031
+! Version: 20241116
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -235,6 +235,7 @@ chofucity.com,matomeantena.com###overlay_ad
 cinema.ne.jp,forbesjapan.com,jma.go.jp,novelup.plus,oreno3d.com##.ad-sp
 digle.tokyo###taboola-below-article-thumbnails
 doorblog.jp##.blogroll_ads
+dova-s.jp##.mobileAd
 economical.co.jp###footer-ad
 eow.alc.co.jp###ad_header
 gamespark.jp,reanimal.jp,s.animeanime.jp,s.carcareplus.jp,s.cinemacafe.net,s.cyclestyle.net,s.inside-games.jp,s.netsecurity.ne.jp,s.resemom.jp,s.response.jp,s.spyder7.com##.header-ad

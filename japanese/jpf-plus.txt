@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20241116
+! Version: 20241201
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -324,6 +324,7 @@ orentame.com##.entry-content > .wp-block-group:has(> .wp-block-group-is-layout-c
 orentame.com##.entry-content > .wp-block-group:last-child
 orentame.com##.st-header-under-widgets .freebox
 orentame.com##.st-header-under-widgets > div > .is-st-justify-center
+orentame.com##.st-header-under-widgets > div[data-nosnippet] > div[class="wp-block-group has-no-st-margin-bottom"]
 original-wedding.net###AdBottom
 oryo.jp###text-4 > .textwidget > p
 oryo.jp##.wpap-tpl
@@ -600,6 +601,7 @@ yandex.com,yandex.eu,yandex.ru##.AdvRsyaCrossPage
 
 ! ---------- Cosmetic specific: obtrusive or unneeded annoyances ----------
 anshin-lifenet.com###footer-ad-box
+sejuku.net###footer-banner
 anshin-lifenet.com##.header_fixed
 blog###marketingbar
 !blogto.com##.fire_video_style

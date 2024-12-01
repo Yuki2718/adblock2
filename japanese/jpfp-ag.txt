@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20241031
+! Version: 20241201
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -118,7 +118,7 @@
 ###topBannerAd:not(:empty)
 ###topbannerad:not(:empty)
 ###weatherad:not(:empty)
-~job.inshokuten.com,~netmile.co.jp##.ad-area:not(.text-ad)
+~job.inshokuten.com,~kurukura.jp,~netmile.co.jp##.ad-area:not(.text-ad)
 ##.Ad-Container:not(.adsbygoogle)
 ~backcar.fr,~flat-ads.com,~job.inshokuten.com,~kontol.in##.ad-content:not(:empty)
 ##.ad-link:not(.adsbox)

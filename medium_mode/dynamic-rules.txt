@@ -564,6 +564,7 @@ admin.microsoft.com res.office365.com * noop
 admin.microsoft.com shellprod.msocdn.com * noop
 admin.microsoft.com webshell.suite.office.com * noop
 aliexpress.com assets.alicdn.com * noop
+aliexpress.com assets.aliexpress-media.com * noop
 animeflv.vc animeid.live * noop
 answers.microsoft.com msecnd.net * noop
 app.box.com cdn01.boxcdn.net * noop

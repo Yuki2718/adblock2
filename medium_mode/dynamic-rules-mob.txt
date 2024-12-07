@@ -520,6 +520,7 @@ account.trendmicro.com libs.coremetrics.com * noop
 accounts.firefox.com mozilla.net * noop
 admin.microsoft.com prod.msocdn.com * noop
 aliexpress.com assets.alicdn.com * noop
+aliexpress.com assets.aliexpress-media.com * noop
 animeflv.vc animeid.live * noop
 answers.microsoft.com msecnd.net * noop
 app.box.com public.boxcloud.com * noop

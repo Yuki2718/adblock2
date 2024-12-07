@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20241201
+! Version: 20241207
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -262,7 +262,6 @@ js.studio-kingdom.com###book_recommend
 juku-kyoiku.com###big
 juuuke.com##.product
 kaiten-heiten-24.com##.side_ad_google
-kanji.me##.ggtitle
 keimusho.net###side_amazon
 ken1.link##.bg-deco-metal1
 ken1.link,ken2.link##.widget_text

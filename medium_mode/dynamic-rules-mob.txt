@@ -858,6 +858,7 @@ www.nytimes.com static01.nyt.com * noop
 www.nz.kayak.com r9cdn.net * noop
 www.office.com cdn.office.net * noop
 www.onlinevideoconverter.com stackpathdns.com * noop
+www.opera.com cdn-production-opera-website.operacdn.com * noop
 www.orbitz.com suggest.expedia.com * noop
 www.orbitz.com travel-assets.com * noop
 www.orbitz.com www.expedia.com * noop

@@ -914,6 +914,7 @@ www.office.com mem.gfx.ms * noop
 www.office.com msauth.net * noop
 www.office.com msftauth.net * noop
 www.onlinevideoconverter.com stackpathdns.com * noop
+www.opera.com cdn-production-opera-website.operacdn.com * noop
 www.orbitz.com suggest.expedia.com * noop
 www.orbitz.com travel-assets.com * noop
 www.orbitz.com www.expedia.com * noop

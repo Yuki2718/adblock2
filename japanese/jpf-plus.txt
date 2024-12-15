@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20241211
+! Version: 20241215
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -428,6 +428,7 @@ graoda.blog.fc2.com##.thum_pic
 lark-scent.com,tokimekistory.com###modal-content
 lark-scent.com,tokimekistory.com###modal-overlay
 pawakichi.xyz##.plugin-ad
+piyo-gourmet.com##div[id^="gourm-"][style]
 rancolle.com##.rectangle_box
 
 ! ---------- Cosmetic general: obtrusive or unneeded annoyances ----------
@@ -475,6 +476,7 @@ cafe-kirari.com##a[href^="https://pcmax.jp/lp/?ad_id="] > img
 caplogger.com##.side:has(> .plugin-freearea > .side_ad_list)
 carrozzeria-cdl.jp##.article-body > blockquote:has([href*="?PR="])
 carrozzeria-cdl.jp##p > [href*="?PR="] > img
+chirari2ch.com##.plugin2_outline:has(> div > div.plugin-freearea > div > a[href^="http://click.duga.jp"])
 dachi-stroim.ru##.wpp-list > li:first-child
 dechamore.net###custom_html-11
 dechamore.net###text-2

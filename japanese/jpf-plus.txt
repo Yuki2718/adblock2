@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20241215
+! Version: 20250113
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -65,6 +65,7 @@ _300_250_
 ||gokushiteki.com/AD/$image
 ||homemate-research-heliport.com/js/ad/
 ||ibird.jp/img/banner_
+||j-statistics.com/images/ad/
 ||m.media-amazon.com/images/I/$domain=graoda.blog.fc2.com
 ||mxxi.hamachiya.com/hlib/side_amazon.js
 ||myshop.co.jp/japancal/fname/images/kani1.gif
@@ -255,7 +256,9 @@ how-to-sexfriends.com##.homeaddtop
 hpgpixer.jp###index_adtop
 iphone-week.com##.ft_bnr
 irielife420.com##.entry-content > table[border="0"]
+j-statistics.com##div[id^="ad-plan"]
 jewellles.com##.gads
+jpprepper.com##.entry-content > div > a[rel^="nofollow"]
 jquery-master.net##section[style="height:270px"]
 jquerystudy.info###sideBannerFrame
 js.studio-kingdom.com###book_recommend

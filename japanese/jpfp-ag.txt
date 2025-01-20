@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20241209
+! Version: 20250120
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -249,6 +249,8 @@ it.in-jpn.com##body > a[rel*="sponsored"]
 oninet.ne.jp,xth.jp#$#[id]:has(> ins.adsbygoogle) { height: 100px !important; position: absolute !important; left: -4000px !important; }
 kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -4000px !important; }
 oninet.ne.jp#$#body table { visibility: visible !important; }
+rkd3.dev#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
+rkd3.dev#%#//scriptlet('set-constant', 'navigator.brave', 'undefined')
 tandess.com#%#//scriptlet('prevent-setTimeout', 'detectAdblock')
 taoruseitai.com,towelstretches.com#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', '/google_ad_client/')
 xth.jp#$#body { background: none !important; }

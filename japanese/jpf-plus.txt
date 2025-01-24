@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250113
+! Version: 20250124
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -472,6 +472,7 @@ bikyakudaimaou.com###second > .plugin2_outline:first-child
 bird-pedia.com##.ad_area_bottom
 bird-pedia.com##.body > center
 bird-pedia.com,dechamore.net###text-2
+bishatti.com##div[style="text-align: center;margin:0 0 0 -12px;"]
 c-actress.com###block-9
 c-actress.com##.single-related-area
 c-actress.com##.singletop-widget
@@ -682,6 +683,7 @@ anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,
 in-jpn.com,oninet.ne.jp,xth.jp##.sk-popup-window
 pc-plaza.com#%#//scriptlet('abort-current-inline-script', 'jQuery', 'DHAntiAdBlocker')
 pc-plaza.com##.jconfirm
+tools.jabrek.net#%#//scriptlet('prevent-fetch', 'www3.doubleclick.net')
 zunda.site#$##ad_box { height: 50px !important; }
 
 ! ---------- Anti anti-adb - popular in Japan ----------

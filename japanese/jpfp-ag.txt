@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250120
+! Version: 20250201
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -16,8 +16,6 @@
 /\/js\/\d{2,3}eka\d{2,3}\.js$/$script,~third-party,domain=com
 /^https:\/\/(?:[a-z]{2}\.)?[a-z]{7,14}\.com\/r(?=[a-z]*[0-9A-Z])[0-9A-Za-z]{10,16}\/[A-Za-z]{5}(?:\?param=\w+)?$/$script,third-party,match-case
 /^https:\/\/www\.[a-z]{8,14}\.com\/[a-z]{1,4}\.js$/$script,third-party,match-case,domain=~edu|~gov|~jp,to=~exploretock.com|~photopea.com
-! Replace once v4.4 comes out <= not compatible yet with v4.4.18
-! /^https:\/\/www\.[a-z]{8,14}\.com\/[a-z]{1,4}\.js$/$script,third-party,match-case,domain=~edu|~gov|~jp,to=~exploretock.com|~photopea.com,header=x-powered-by:Express
 /^https:\/\/(?:cdn77\.)?aj\d{4}\.bid\/[-0-9A-Z_a-z]{80,}\?/$xmlhttprequest,third-party
 /^https:\/\/[-a-z]{8,15}\.(?:com|net)\/500\/\d{7}\?/$xmlhttprequest,third-party
 /^https:\/\/[0-9a-z]{7,25}\.com\/(?:build|bundles|chunks|dist|files|j|public|scripts|static)?\/?[0-9a-f]{6,15}\/?[0-9a-f]{21,36}(?:[-.](?:ma?in|prod|index))?(?:\.js)?$/$script,third-party,match-case,redirect=noopjs
@@ -28,9 +26,6 @@
 /^https:\/\/[a-z]{8,15}\.com\/(?:alpha|beta|gamma|omega)\/\d{3,4}$/$xmlhttprequest,third-party
 /^https:\/\/[a-z]{8,16}\.(?:club|fun|hair|work|xyz)\/[%0-9a-zA-Z]{170,}$/$script,third-party,match-case
 /^https?:\/\/[-0-9a-z]{5,}\.com\/[0-9a-z]{8,10}\?key=[0-9a-f]{32}$/$subdocument,third-party
-! Replace once v4.4 comes out <= not compatible yet with v4.4.18
-! /^https?:\/\/[a-z]{5,12}\.com\/[0-9a-h]{1,15}\?[0-9a-zA-Z]{1,15}=[0-9a-zA-Z]{300,1300}/$xmlhttprequest,third-party,match-case,to=com,method=get,header=via:1.1 google
-! /^https?:\/\/[a-z]{5,7}\.com\/script\/[-_0-9A-Za-z]+(\.min)?\.js$/$script,3p,match-case,domain=~edu|~gov,header=x-guploader-uploadid
 /^https?:\/\/[a-z]{5,7}\.com\/script\/[-_0-9A-Za-z]+(\.min)?\.js$/$script,third-party,match-case,domain=~edu|~gov|~jp
 /^https?:\/\/[a-z]{7,}\.(?:buzz|info|lol|one|xyz)\/[+\/0-9a-zA-Z]{400,1000}$/$subdocument,third-party
 /^https?:\/\/[a-z]{7,}\.(?:buzz|info|lol|one|xyz)\/[+\/0-9a-zA-Z]{140,400}$/$image,ping,third-party
@@ -41,7 +36,6 @@
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)(\/(?:\d{1,5}|0NaN|articles?|browse|index|movie|news|pages?|static|view|web|wiki)){1,4}(?:\.html|\/)?$/$subdocument,third-party,match-case,domain=~edu|~gov|~jp,badfilter
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)\/[-a-z]{4,}\.css\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$stylesheet,third-party,match-case,badfilter
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)\/[a-z]{4,}\.png\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$image,third-party,match-case,badfilter
-!/^https?:\/\/[a-z]{8,15}\.(?:com|xyz)\/$/$xmlhttprequest,third-party,method=head,header=x-trace-id
 /a/na/js/*$third-party
 /ajax/banner/list?page=$xmlhttprequest,~third-party
 /api/spots/*$script,subdocument
@@ -58,10 +52,6 @@
 /js/ppndr.
 /lvesnk.html?zoneid=$third-party
 /pw/waWQiOjEw*=eyJ.js^$script
-/script/atg.js$third-party
-/script/ippg.js$third-party
-/script/native_render.js$third-party
-/script/native_server.js$third-party
 /ts.php?$xmlhttprequest,third-party
 /utx?tid=$xmlhttprequest,third-party
 /wcm/?sh=$script,third-party
@@ -78,6 +68,13 @@
 /^https?:\/\/[a-z]{7,18}\.(?:com?|org)\/(?=[\/a-zA-Z]*[+0-9])(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{400,}$/$subdocument,third-party,domain=~edu|~gov|~jp
 /^https?:\/\/[a-z]{7,18}\.(?:com?|org)\/(?=[\/a-zA-Z]*[+0-9])(?=[+\/0-9a-z]*[A-Z])[+\/0-9a-zA-Z]{140,}$/$image,ping,third-party,domain=~edu|~gov|~jp
 /^https?:\/\/[a-z]{8,15}\.(?:top|xyz)\/(?!api|available|team)[a-z]{4,}\.json$/$xmlhttprequest,third-party,match-case
+! https://adguard.com/kb/ja/general/ad-filtering/create-own-filters/#header-modifier-limitations
+!#if (adguard_app_windows || adguard_app_mac || adguard_app_android)
+/^https:\/\/www\.[a-z]{8,14}\.com\/[a-z]{1,4}\.js$/$script,third-party,match-case,domain=~edu|~gov|~jp,to=~exploretock.com|~photopea.com,header=x-powered-by:Express
+/^https:\/\/[0-9a-z]{7,25}\.com\/[a-z]{0,7}\/?(?:js\/)?[_0-9a-f]{6,16}\/?[_0-9a-f]{20,120}(?:[-.][a-z0-9]{2,6})?(?:\.js)?$/$script,3p,match-case,to=com,header=x-datacenter
+/^https?:\/\/[a-z]{5,7}\.com\/script\/[-_0-9A-Za-z]+(\.min)?\.js$/$script,third-party,match-case,domain=~edu|~gov,header=x-guploader-uploadid
+/^https?:\/\/[a-z]{8,15}\.(?:com|xyz)\/$/$xmlhttprequest,third-party,method=head,header=access-control-expose-headers:/X-DirectionPartner-Id/
+!#endif
 
 ! ---------- Popup general ----------
 &key=*&adb=y$popup,third-party
@@ -118,8 +115,6 @@
 ###topBannerAd:not(:empty)
 ###topbannerad:not(:empty)
 ###weatherad:not(:empty)
-~job.inshokuten.com,~kurukura.jp,~netmile.co.jp##.ad-area:not(.text-ad)
-##.Ad-Container:not(.adsbygoogle)
 ~backcar.fr,~flat-ads.com,~job.inshokuten.com,~kontol.in##.ad-content:not(:empty)
 ##.ad-link:not(.adsbox)
 ##.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
@@ -131,8 +126,6 @@
 ##.adde_modal_detector
 ##.adde_modal-overlay
 ##.ads_banner:not([style^="width: 32px"])
-##.ads_container:not(.text-ad)
-~ekitan.com,~kissanadu.com##.sidebar-ad:not(.adsbygoogle)
 ##.stickyads:not([style^="width: 32px"])
 ##a[dontfo=""][style$="position: absolute; z-index: 2147483647;"]
 ##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
@@ -212,8 +205,6 @@ taoruseitai.com,towelstretches.com##div[style$="border: 3px solid #EDEDED; borde
 #@##topBannerAd
 #@##topbannerad
 #@##weatherad
-#@#.Ad-Container
-#@#.ad-area
 #@#.ad-content
 #@#.ad-link
 #@#.ad-placeholder
@@ -223,8 +214,6 @@ taoruseitai.com,towelstretches.com##div[style$="border: 3px solid #EDEDED; borde
 #@#.ad-zone
 #@#.ad_unit
 #@#.ads_banner
-#@#.ads_container
-#@#.sidebar-ad
 #@#.stickyads
 #@#[data-ad-module]
 #@#[data-ad-width]

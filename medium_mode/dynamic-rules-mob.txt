@@ -483,6 +483,7 @@ no-large-media: behind-the-scene false
 * www.orfium.com * noop
 * www.paypalobjects.com * noop
 * www.pscp.tv * noop
+* www.redditstatic.com * noop
 * www.res-x.com * noop
 * www.reverbnation.com * noop
 * www.scribd.com * noop
@@ -595,6 +596,7 @@ hotels.com a.cdn-hotels.com * noop
 hubs.mozilla.com assets-prod.reticulum.io * noop
 huffingtonpost.co.uk bbc.co.uk * noop
 huffingtonpost.co.uk bbci.co.uk * noop
+id.atlassian.com atl-paas.net * noop
 ign.com oystatic.ignimgs.com * noop
 iherb.com s3.images-iherb.com * noop
 imdb.com images-na.ssl-images-amazon.com * noop
@@ -633,6 +635,7 @@ m.spankbang.com assets.sb-cd.com * noop
 m.spiegel.de arc.nexx.cloud * noop
 m.wikipedia.org dyna.wikimedia.org * noop
 m.yelp.com yelpcdn.com * noop
+m365.cloud.microsoft res.cdn.office.net * noop
 mashable.com a.amz.mshcdn.com * noop
 microsoft.com aspnetcdn.com * noop
 microsoft.com cdn.office.net * noop
@@ -663,7 +666,6 @@ plarium.com x-plarium.com * noop
 play.google.com content.googleapis.com * noop
 portal.azure.com azure.net * noop
 portal.office.com outlook.office365.com * noop
-preview.redd.it www.redditstatic.com * noop
 previous-recipients.levchinprize.com cdn.readymag.com * noop
 products.office.com query.prod.cms.rt.microsoft.com * noop
 protection.office.com office365.com * noop
@@ -838,6 +840,7 @@ www.mercari.com mercdn.net * noop
 www.metacafe.com cdn.mcstatic.com * noop
 www.microcenter.com content.webcollage.net * noop
 www.microcenter.com www.googletagmanager.com * noop
+www.microsoft.com azurefd.net * noop
 www.microsoft.com c.s-microsoft.com * noop
 www.microsoft365.com office.net * noop
 www.mlb.com mlbinfra.com * noop

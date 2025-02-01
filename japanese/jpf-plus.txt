@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250124
+! Version: 20250201
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -38,7 +38,6 @@
 /tmp/?n=$subdocument,~third-party
 /tmp/?s=1|$script,~third-party
 /vast/?zid=$xmlhttprequest,third-party
-/xuanfusige.js
 /_ad#str-$subdocument,~third-party
 ://ad.*.php?id=$script,~third-party
 ://go.*/i?$subdocument,third-party
@@ -116,6 +115,7 @@ _300_250_
 ##.vjs-overlayed.size-300x250
 ##a[class][real-href^="//"][onmouseup="setRealHref(event)"]
 !##body > div[style*="z-index: 2147483647;"][style*="top: 0px; left: 0px;"][style*="position:"]:not(#bit-notification-bar)
+##div[class][style="cursor: pointer; position: relative;"] > video[loop="true"][playsinline="true"][preload="auto"]
 ##div[class][style="display: inline-flex; vertical-align: top;"] > div[class][style="cursor: pointer; position: relative;"] > img[src^="//"]
 ##div[class][style="display: inline-flex; vertical-align: top;"] > div[class][style="cursor: pointer; position: relative;"] > video[loop="true"][playsinline="true"][preload="auto"]
 ##div[style="position:fixed;inset:0px;z-index:100000;height:100%;width:100%"]

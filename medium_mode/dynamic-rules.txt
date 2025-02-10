@@ -554,6 +554,7 @@ account.microsoft.com onestore.ms * noop
 account.trendmicro.com libs.coremetrics.com * noop
 accounts.firefox.com mozilla.net * noop
 addons.mozilla.org addons-amo.cdn.mozilla.net * noop
+adguard.com st.agrd.eu * noop
 admin.microsoft.com assets.onestore.ms * noop
 admin.microsoft.com busbuy.live.com * noop
 admin.microsoft.com login.microsoftonline.com * noop

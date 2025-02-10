@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250201
+! Version: 20250210
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -291,6 +291,7 @@ lv73.net##.amazon-ko-ko-ku
 malanka.tech###modal-overlay
 mamana.jp##.entry-content > .add
 mamana.jp##article > div.widget_custom_html:first-child
+manga-pocket.jp##.entry-content > span[style$="font-size: 60%;"]
 mankitu-blog.com##div[id^="manki-"]
 massigra.net##.adlabel
 massigra.net##.kkvxmargin > div.adlabel + div
@@ -444,7 +445,7 @@ appget.com###side_right > div[style="margin: 0 0 20px 25px;"]
 arvo.showcase-tv.com,getpaidstock.com,kazokuchannel.doorblog.jp,nandemo-uketori.com,sukupara.jp,wakariyasui.sakura.ne.jp##.adsbygoogle
 weblio.jp##.firstDictVideoAd
 ! if piano is blocked
-businessinsider.jp,bizspa.jp,digiday.jp,esse-online.jp,j-cast.com,japannews.yomiuri.co.jp,joshi-spa.jp,kyobun.co.jp,my-golfdigest.jp,nikkan-spa.jp,tennenseikatsu.jp,toyokeizai.net###tpModal
+businessinsider.jp,bizspa.jp,digiday.jp,esse-online.jp,j-cast.com,japannews.yomiuri.co.jp,joshi-spa.jp,kyobun.co.jp,my-golfdigest.jp,nikkan-spa.jp,tennenseikatsu.jp###tpModal
 ! PH by this list
 oshiete.goo.ne.jp##.pr-unit
 ! https://github.com/uBlockOrigin/uAssets/discussions/21795

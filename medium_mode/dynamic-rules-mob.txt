@@ -519,6 +519,7 @@ account.microsoft.com live.com * noop
 account.microsoft.com onestore.ms * noop
 account.trendmicro.com libs.coremetrics.com * noop
 accounts.firefox.com mozilla.net * noop
+adguard.com st.agrd.eu * noop
 admin.microsoft.com prod.msocdn.com * noop
 aliexpress.com assets.alicdn.com * noop
 aliexpress.com assets.aliexpress-media.com * noop

@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250210
+! Version: 20250212
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -534,6 +534,9 @@ jkdaisuki.ad55.net##body:not([style]) > div[align="center"]:has(> table a[href^=
 jkdaisuki.ad55.net##body:not([style]) > p[align="center"]:has(> a[href^="http://pcolle.jp/?af_id"][target="_blank"])
 jkdaisuki.ad55.net##body:not([style]) > p[align="center"]:has(> a[href^="http://pcolle.jp/?af_id"][target="_blank"]) + hr
 josona.com##.l-main > .dividerBottom > .dividerTop
+kannou.world.coocan.jp##a[href^="http://track.bannerbridge.net/click.php"]
+kannou.world.coocan.jp##div[id^="affimage-"]
+kannou.world.coocan.jp##div[id^="dugaflvplayer-"]
 kansai-joshiana.com#?#.side-menu:has(> div.side-heading:contains(広告))
 kawaiijavcat.com,kawaiijavolds.com##.adddiv
 kawaiikanojo.net###sidebar-widget > .widget_media_image
@@ -602,6 +605,7 @@ zurinetanomori.com##div[class$="_outline"]:has(> div > .plugin-freearea > a[href
 ! Mobile
 dragalia.gorillawiki.jp###sp_overlay
 isekai-video.com##.wp-block-spacer[style="height:15px"] + p.has-text-align-center
+kannou.world.coocan.jp##.ad
 sweetchocolate.blogterest.net##.blockAreaHeader a[href^="https://al.dmm.co.jp/"]
 
 ! ---------- Cosmetic specific: popular in Japan ----------

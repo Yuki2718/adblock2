@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250212
+! Version: 20250216
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -122,6 +122,8 @@ _300_250_
 ##div[style*="cursor: no-drop"][style*="user-select: none"][style*="position: fixed"][style*="top:"][style*="left:"][style*="z-index"]:empty + *:not([class]):not([id])
 !##iframe[class][scrolling="no"][sandbox="allow-same-origin allow-scripts allow-popups"][style*="z-index: 2147483647; position: fixed"]
 ##iframe[style*="opacity: 1 !important; max-width:"][style*="position: fixed !important; display: block !important; z-index: 2147483647 !important; inset:"]
+##style + div[class][style="cursor: pointer; position: relative;"] > img
+##video[max-width="728px"][max-height="90px"]
 
 ! ---------- Cosmetic specific: too few visitors ----------
 1173go.com##.widget-over-article

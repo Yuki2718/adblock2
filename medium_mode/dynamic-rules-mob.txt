@@ -62,6 +62,7 @@ no-large-media: behind-the-scene false
 * c.disquscdn.com * noop
 * c0.wp.com * noop
 * calendar.google.com * noop
+* captcha-delivery.com * noop
 * cbsistatic.com * noop
 * cdn-ap-ec.yottaa.net * noop
 * cdn-client.medium.com * noop

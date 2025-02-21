@@ -2,8 +2,11 @@
 ! Expires: 5 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20240919
+! Version: 20250221
 
+! https://x.com/vb_zc8/status/1892559309705502803
+! Temp fix
+@@||ap01.records.in.treasuredata.com^|
 ! https://github.com/AdguardTeam/AdguardFilters/issues/188915
 @@||srv.clickfuse.com^|
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170371

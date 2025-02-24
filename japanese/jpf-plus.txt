@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250216
+! Version: 20250224
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -615,6 +615,7 @@ yandex.com,yandex.eu,yandex.ru##.AdvRsyaCrossPage
 
 ! ---------- Cosmetic specific: obtrusive or unneeded annoyances ----------
 anshin-lifenet.com###footer-ad-box
+gendai.media##div[data-testid="firework-storyblock-ad"]
 sejuku.net###footer-banner
 anshin-lifenet.com##.header_fixed
 blog###marketingbar
@@ -707,7 +708,7 @@ digiday.jp#%#//scriptlet('set-constant', 'tp.isInitialized', 'true')
 kotobank.jp#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'relList')
 lv73.net#@#ins.adsbygoogle[data-ad-client]
 www.youtube.com##body > div:not([class]):last-child:empty
-xhamster.*#%#//scriptlet('set-constant', 'initials.urls.bannerCheckUrl', '')
+xhamster.*#%#//scriptlet('set-constant', 'initials.layout.layoutPromoProps.promoMessagesWrapperProps.shouldDisplayAdblockMessage', 'false')
 
 ! ---------- Ad reinjection - Ad-Shield ----------
 ! https://github.com/AdguardTeam/AdguardFilters/issues/175394

@@ -561,6 +561,10 @@ mitsurugi.org##.main > h4.head ~ div
 mommiezonamission.com##.widget > .wp-block-gallery-is-layout-flex
 nozokizennkaimax.xyz###custom_html-4
 nozokizennkaimax.xyz##.mainbottom-widget
+onahot.com##.entry-btn > a[href^="https://www.e-nls.com/access.php"]
+onahot.com##.entry-tgimg > a[href^="https://www.e-nls.com/access.php"]
+onahot.com##.kiji_text > a[href^="https://www.e-nls.com/access.php"] > img
+onahot.com##.t_b > font[style="font-size:120%; font-weight: bold; color:;"]
 orangenic.jp###slideBanner
 orangenic.jp##.adContents
 oshikatu.com##a[href^="https://cocoa-job.jp/"][rel="sponsored noopener"]

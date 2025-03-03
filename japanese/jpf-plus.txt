@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250224
+! Version: 20250303
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -376,6 +376,7 @@ salary-saver.com##.ani:has(> .widget_tsnc_ads_custom_html)
 senilog.com###block-13
 senilog.com###block-2
 senilog.com##.simple-box8
+serisawa2021.com##.entry-content > span[style="color: #999999; font-size: 10px;"]
 smpl-rfrns.net##.for_ads
 solarjournal.jp###pchdright
 sora-ten.com###text-16 > .textwidget > p:has(> .adsbygoogle)

@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250303
+! Version: 20250305
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -142,6 +142,7 @@ act-amuse-japan.co.jp##div[class^="bgd-ads"]
 addchannel.net##.Module > div > script[src^="https://js.ad-spire.net"]:upward(2)
 addchannel.net##.Side > .-bgnone:last-child
 addchannel.net##.right-bottom--ad
+aipophia.jp##.responsive-video
 alpha.information-portal.net##.side > .linebox:not(:has(> .twitter-timeline))
 alternativegirls-simulator.com##.right_sidebar:has(> div[class^="right_sidebar_ad_"])
 anan.jpn.org##div[style="background:#fff;border:solid royalblue 1px;border-radius:5px;margin-right:7px;"]
@@ -301,6 +302,7 @@ medalgame.jp##.v-main > .v-container > .v-row > .v-col.v-col-12:has(> ins.adsbyg
 mgkca.com##.col-md-6:has(> .card > div > .adsbygoogle)
 mikasaphp.net##table[cellpadding="5"] > tbody > tr > td[align="center"]
 mikasaphp.net##td[bgcolor="White"] > center > table[cellpadding="3"][width="96%"][bgcolor="#007fc0"]
+milk-island.net##.foot_banner
 monjiro.net###headBarArea
 monjiro.net##.adtitle2
 moqlog.jp##.squareb

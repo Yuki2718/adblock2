@@ -609,6 +609,8 @@ cnn.com cnn.io * noop
 colada365.app cdn.colada365.com * noop
 community.ingress.com onvanilla.net * noop
 daftsex.com daxab.com * noop
+dataexplorer.azure.com ade.applicationinsights.io * noop
+dataexplorer.azure.com ade.loganalytics.io * noop
 delta.com onelink-translations.com * noop
 developers.google.com google-developers.appspot.com * noop
 discourse.mozilla.org cdn.discourse-prod.itsre-apps.mozit.cloud * noop

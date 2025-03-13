@@ -2,8 +2,11 @@
 ! Expires: 5 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250313
+! Version: 20250314
 
+! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/1852
+||api2.branch.io^$dnsrewrite=0.0.0.0,badfilter
+@@||api2.branch.io^|
 ! https://x.com/iti_harapeko/status/1900164627310543248
 @@||asset.f-tra.com^|
 @@||conf.f-tra.com^|

@@ -2,8 +2,10 @@
 ! Expires: 5 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250306
+! Version: 20250313
 
+! https://x.com/iti_harapeko/status/1900164627310543248
+@@||f-tra.com^|
 ! https://x.com/monmimami/status/1896441545177661923
 @@||a-adq.mediation.unity3d.com^|
 @@||i-sdk.mediation.unity3d.com^|

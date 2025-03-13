@@ -32,6 +32,7 @@ no-large-media: behind-the-scene false
 * app.ecwid.com * noop
 * app.emaze.com * noop
 * app.multilanguage.xyz * noop
+* arkoselabs.com * noop
 * art19.com * noop
 * asset.fembed.com * noop
 * assets.adobedtm.com * noop
@@ -816,7 +817,6 @@ www.deviantart.com st.deviantart.net * noop
 www.digitaltrends.com cookiebot.com * noop
 www.discovery.com ddmcdn.com * noop
 www.disneyplus.com prod-static.disney-plus.net * noop
-www.dropbox.com arkoselabs.com * noop
 www.dropbox.com cdn.office.net * noop
 www.dropbox.com dropbox-dns.com * noop
 www.dropbox.com dropboxcaptcha.com * noop

@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250305
+! Version: 20250313
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -337,6 +337,7 @@ oryo.jp###text-4 > .textwidget > p
 oryo.jp##.wpap-tpl
 osayama.com###black-studio-tinymce-24
 osayama.com###black-studio-tinymce-5
+pa-tu.work##.card-body.mt-5:has(> div > .product-link)
 paintmanga.web.fc2.com##div[style$="background-color:#ffffff;width:160px;text-align:center;float:left"]
 parudou5.com##.kijibu > .hanyouwaku1
 pasifea.com###st_custom_html_widget-4

@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250307
+! Version: 20250313
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -72,6 +72,7 @@
 !#if (adguard_app_windows || adguard_app_mac || adguard_app_android)
 /^https:\/\/www\.[a-z]{8,14}\.com\/[a-z]{1,4}\.js$/$script,third-party,match-case,domain=~edu|~gov|~jp,to=~exploretock.com|~photopea.com,header=x-powered-by:Express
 /^https:\/\/[0-9a-z]{7,25}\.com\/[a-z]{0,7}\/?(?:js\/)?[_0-9a-f]{6,16}\/?[_0-9a-f]{20,120}(?:[-.][a-z0-9]{2,6})?(?:\.js)?$/$script,3p,match-case,to=com,header=x-datacenter
+/^https:\/\/[a-z]{8,12}\.com(?:\/[a-z]{2,10}){3}$/$script,third-party,match-case,header=etag
 /^https?:\/\/[a-z]{5,7}\.com\/script\/[-_0-9A-Za-z]+(\.min)?\.js$/$script,third-party,match-case,domain=~edu|~gov,header=x-guploader-uploadid
 /^https?:\/\/[a-z]{8,15}\.(?:com|xyz)\/$/$xmlhttprequest,third-party,method=head,header=access-control-expose-headers:/X-DirectionPartner-Id/
 !#endif

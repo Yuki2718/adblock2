@@ -31,6 +31,7 @@ no-large-media: behind-the-scene false
 * app.ecwid.com * noop
 * app.emaze.com * noop
 * app.multilanguage.xyz * noop
+* arkoselabs.com * noop
 * art19.com * noop
 * assets.adobedtm.com * noop
 * assets.jimstatic.com * noop

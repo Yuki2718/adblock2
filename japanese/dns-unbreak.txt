@@ -5,7 +5,9 @@
 ! Version: 20250313
 
 ! https://x.com/iti_harapeko/status/1900164627310543248
-@@||f-tra.com^|
+@@||asset.f-tra.com^|
+@@||conf.f-tra.com^|
+@@||console.f-tra.com^|
 ! https://x.com/monmimami/status/1896441545177661923
 @@||a-adq.mediation.unity3d.com^|
 @@||i-sdk.mediation.unity3d.com^|

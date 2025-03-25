@@ -99,7 +99,6 @@ _300_250_
 
 ! ---------- Annoyances general: obtrusive or unneeded annoyances ----------
 !||fireworkapi1.com^$third-party,domain=~matsukiyococokara-online.com
-||player.gliacloud.com^$third-party
 
 ! ---------- Annoyances specific: obtrusive or unneeded ----------
 ||ae-deliver.ximera.com^$domain=at-s.com
@@ -443,7 +442,6 @@ piyo-gourmet.com##div[id^="gourm-"][style]
 rancolle.com##.rectangle_box
 
 ! ---------- Cosmetic general: obtrusive or unneeded annoyances ----------
-##.gliaplayer-container
 
 ! ---------- Cosmetic specific: others ----------
 ! too intrusive and redundant

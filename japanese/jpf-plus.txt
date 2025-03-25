@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250313
+! Version: 20250326
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -268,6 +268,7 @@ js.studio-kingdom.com###book_recommend
 juku-kyoiku.com###big
 juuuke.com##.product
 kaiten-heiten-24.com##.side_ad_google
+kankyo-mirai.jp###st_custom_html_widget-12
 keimusho.net###side_amazon
 ken1.link##.bg-deco-metal1
 ken1.link,ken2.link##.widget_text
@@ -447,9 +448,7 @@ rancolle.com##.rectangle_box
 ! ---------- Cosmetic specific: others ----------
 ! too intrusive and redundant
 373news.com##.ad-area-jack-absolute
-appget.com###side_right > div[style="margin: 0 0 20px 25px;"]
 arvo.showcase-tv.com,getpaidstock.com,kazokuchannel.doorblog.jp,nandemo-uketori.com,sukupara.jp,wakariyasui.sakura.ne.jp##.adsbygoogle
-weblio.jp##.firstDictVideoAd
 ! if piano is blocked
 businessinsider.jp,bizspa.jp,digiday.jp,esse-online.jp,j-cast.com,japannews.yomiuri.co.jp,joshi-spa.jp,kyobun.co.jp,my-golfdigest.jp,nikkan-spa.jp,tennenseikatsu.jp###tpModal
 ! PH by this list
@@ -619,6 +618,7 @@ kannou.world.coocan.jp##.ad
 sweetchocolate.blogterest.net##.blockAreaHeader a[href^="https://al.dmm.co.jp/"]
 
 ! ---------- Cosmetic specific: popular in Japan ----------
+surirt.com###inplayer
 yandex.com,yandex.eu,yandex.ru##.AdvRsyaCrossPage
 
 ! ---------- Cosmetic specific: obtrusive or unneeded annoyances ----------
@@ -629,7 +629,6 @@ anshin-lifenet.com##.header_fixed
 blog###marketingbar
 !blogto.com##.fire_video_style
 bunshun.jp,kyobun.co.jp,mainichi.jp,news.mynavi.jp,nikkei.com###pianoj_ribbon
-ejje.weblio.jp##.mainBlock[style="min-height: 270px;"]
 fudge.jp##.ratio-wrapper
 !gizmodo.jp,roomie.jp##fw-storyblock
 !lp.p.pia.jp##.fireworkWrapper
@@ -703,6 +702,7 @@ tools.jabrek.net#%#//scriptlet('prevent-fetch', 'www3.doubleclick.net')
 zunda.site#$##ad_box { height: 50px !important; }
 
 ! ---------- Anti anti-adb - popular in Japan ----------
+@@.php?id=$script,domain=surirt.com
 @@||video.520cc.cc^$generichide
 jav777.xyz#%#//scriptlet('prevent-eval-if', 'ADS_BLOCKED')
 

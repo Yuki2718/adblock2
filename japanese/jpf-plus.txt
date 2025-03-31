@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250326
+! Version: 20250331
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -529,6 +529,7 @@ h7-game.com##.entry-content > div.wp-block-st-blocks-my-box
 hitodumanews.com##.kkku
 houmotsu.com##center > table[with="468"]
 imurunokioku.blog.jp###j_j_j
+iqtisad.net##.affi-banner
 iyasiya.com##.image-antenna-list + aside
 iyasiya.com##article > .sub_main + aside
 jkdaisuki.ad55.net##body:not([style]) > center:has(> center > a[href^="https://track.bannerbridge.net/click.php?"][rel="nofollow"][target="_blank"])

@@ -3,6 +3,7 @@ no-large-media: behind-the-scene false
 * * 3p-frame block
 * * 3p-script block
 * a.espncdn.com * noop
+* a.lulucdn.com * noop
 * a.visual.ly * noop
 * abs.twimg.com * noop
 * ac-web.api.everforth.com * noop
@@ -58,6 +59,8 @@ no-large-media: behind-the-scene false
 * bandcamp.com * noop
 * bigcommerce.com * noop
 * bigcommerce.hubshop.ly * noop
+* bigwarp.art * noop
+* bigwarp.io * noop
 * blob.core.windows.net * noop
 * blogger.l.google.com * noop
 * braintreegateway.com * noop
@@ -256,6 +259,7 @@ no-large-media: behind-the-scene false
 * lightwidget.com * noop
 * link.theplatform.com * noop
 * livestream.com * noop
+* luluvdo.com * noop
 * lxdns.com * noop
 * m.stripe.network * noop
 * magic.piktochart.com * noop

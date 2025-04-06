@@ -145,6 +145,7 @@ no-large-media: behind-the-scene false
 * cross-border-tag.borderfree.com * noop
 * crossmark-cdn.crossref.org * noop
 * cse.google.com * noop
+* ct.captcha-delivery.com * noop
 * currys-ssl.cdn.dixons.com * noop
 * cvp.twitch.tv * noop
 * d3js.org * noop

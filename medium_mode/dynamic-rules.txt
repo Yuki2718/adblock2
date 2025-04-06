@@ -149,6 +149,7 @@ no-large-media: behind-the-scene false
 * crossmark-cdn.crossref.org * noop
 * crossmark.crossref.org * noop
 * cse.google.com * noop
+* ct.captcha-delivery.com * noop
 * currys-ssl.cdn.dixons.com * noop
 * cvp.twitch.tv * noop
 * d3js.org * noop

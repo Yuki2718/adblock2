@@ -664,6 +664,7 @@ outlook.live.com office365.com * noop
 outlook.office.com b-msedge.net * noop
 outlook.office.com cdn.office.net * noop
 outlook.office.com officeapps.live.com * noop
+outlook.office.com res.public.onecdn.static.microsoft * noop
 outlook.office365.com live.com * noop
 outlook.office365.com office.net * noop
 outlook.office365.com webshell.suite.office.com * noop

@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250313
+! Version: 20250415
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -61,7 +61,7 @@ globaliconews.com##.td-a-rec
 a.hatena.ne.jp###side-ad
 abbreviations.com##.adunit-middle
 alc.co.jp##.box-ad
-alc.co.jp,hentaipaw.com,kotobank.jp##.header-ad
+alc.co.jp,excite.co.jp,hentaipaw.com,kotobank.jp##.header-ad
 ameblo.jp##.subAdBannerArea
 ameblo.jp##.subAdBannerHeader
 anond.hatelabo.jp,f.hatena.ne.jp##.double-rectangle

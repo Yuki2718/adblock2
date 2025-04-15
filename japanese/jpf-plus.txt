@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250412
+! Version: 20250415
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -690,9 +690,9 @@ anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,
 @@||g.adspeed.net/ad.php?do=detectadblocker|$script
 ||doubleclick.net/favicon.ico$image,redirect=32x32-transparent.png
 ! AS
-://html-load.com/loader.min.js
-@@||fb.html-load.com/loader.min.js$third-party
-@@||fb.html-load.com/script/$third-party
+!://html-load.com/loader.min.js
+!@@||fb.html-load.com/loader.min.js$third-party
+!@@||fb.html-load.com/script/$third-party
 ! Incompatible with MV3
 /player/stats.php?$image,~third-party,redirect-rule=1x1-transparent.gif
 /popunder_$script,redirect-rule=noopjs

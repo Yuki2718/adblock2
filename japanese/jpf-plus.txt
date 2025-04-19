@@ -689,10 +689,6 @@ anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,
 @@||ads.remix.es/advertisement.js|$script
 @@||g.adspeed.net/ad.php?do=detectadblocker|$script
 ||doubleclick.net/favicon.ico$image,redirect=32x32-transparent.png
-! AS
-!://html-load.com/loader.min.js$script,redirect=noopjs
-!@@||fb.html-load.com/loader.min.js$third-party
-!@@||fb.html-load.com/script/$third-party
 ! Incompatible with MV3
 /player/stats.php?$image,~third-party,redirect-rule=1x1-transparent.gif
 /popunder_$script,redirect-rule=noopjs

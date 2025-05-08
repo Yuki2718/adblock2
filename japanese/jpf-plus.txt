@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250421
+! Version: 20250508
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -433,6 +433,7 @@ youchien.net##.wrap-bnr
 yume1.jp##.module-categories + .module-archives
 ! Mobile
 buzzcafe.click,buzzdoor.net,goodjob1.com,koko-doko18.com,kokodoko-18.com,lark-scent.com,tokimekistory.com##.sp_checkbox_under
+feat-elfi03.com##body > center:first-child:has(> script)
 graoda.blog.fc2.com###gailing02
 graoda.blog.fc2.com##.thum_pic
 lark-scent.com,tokimekistory.com###modal-content

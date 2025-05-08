@@ -608,6 +608,7 @@ cbslocal.com cdn.cookielaw.org * noop
 cbslocal.com geolocation.onetrust.com * noop
 cbslocal.com kappacdn.net * noop
 chat.stackexchange.com cdn-chat.sstatic.net * noop
+chatgpt.com cdn.oaistatic.com * noop
 chicagotribune.com tribdss.com * noop
 chrome.en.softonic.com sftcdn.net * noop
 cmt3.research.microsoft.com client.hip.live.com * noop

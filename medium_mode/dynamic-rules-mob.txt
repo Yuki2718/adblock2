@@ -562,6 +562,7 @@ bookaa.amadeus.com geetest.com * noop
 bookaa.amadeus.com www.aa.com * noop
 box.com cdn01.boxcdn.net * noop
 chat.stackexchange.com cdn-chat.sstatic.net * noop
+chatgpt.com cdn.oaistatic.com * noop
 chicagotribune.com tribdss.com * noop
 cnn.com cnn.io * noop
 colada365.app cdn.colada365.com * noop

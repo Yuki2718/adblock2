@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250508
+! Version: 20250512
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -719,9 +719,7 @@ www.youtube.com##body > div:not([class]):last-child:empty
 xhamster.*#%#//scriptlet('set-constant', 'initials.layout.layoutPromoProps.promoMessagesWrapperProps.shouldDisplayAdblockMessage', 'false')
 
 ! ---------- Ad reinjection - Ad-Shield ----------
-! https://github.com/AdguardTeam/AdguardFilters/issues/175394
-!picrew.me##iframe[src="about:blank"]:remove()
-!raenonx.cc##iframe[src="about:blank"]:remove()
+://html-load.com/content/
 
 ! ---------- Exception: for default lists ----------
 #@#ins.adsbygoogle[data-ad-client]

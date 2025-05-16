@@ -972,6 +972,7 @@ www.theblaze.com static.rbl.ms * noop
 www.theguardian.com guim.co.uk * noop
 www.thetimesnews.com cdn.gatehousemedia.com * noop
 www.theweathernetwork.com s1.twnmm.com * noop
+www.threads.com static.cdninstagram.com * noop
 www.tiktok.com ttwstatic.com * noop
 www.tokopedia.com assets.tokopedia.net * noop
 www.travelocity.com suggest.expedia.com * noop

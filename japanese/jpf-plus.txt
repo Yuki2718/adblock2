@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250512
+! Version: 20250517
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -322,6 +322,7 @@ nioh.jp##.PR
 nmbschedule.blog.fc2.com##.entry-content > div[id^="msmaflink"]:has(+ .fc2_footer)
 nmbschedule.blog.fc2.com##.sidebar:has(> div > .plugin-freearea > script)
 nmm.blog.jp##aff-view
+nowokay.hatenablog.com##.entry-content > div.hatena-asin-detail
 nsdev.jp##.l-mainContent__inner > .post_content > p:last-of-type:has(> iframe[height="250"])
 number-pedia.com##.widget:has(> div > .adsbygoogle)
 ocsoku.com###right-box > .plugin-memo:first-child

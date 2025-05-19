@@ -48,8 +48,8 @@ Please report any incorrect blocking or error via [Issue ticket](https://github.
 
 </details>
 
-<a href="https://subscribe.adblockplus.org?location=https://raw.githubusercontent.com/Yuki2718/adblock2/main/japanese/jpf-plus.txt&title=AdGuard%20Japanese%20filter%20Plus">Subscribe/購読する（AdGuardでは「信頼できる」にチェック）</a>
-[View List/中身を見る](https://raw.githubusercontent.com/Yuki2718/adblock2/main/japanese/jpf-plus.txt)
+<a href="https://subscribe.adblockplus.org?location=https://yuki2718.github.io/adblock2/japanese/jpf-plus.txt&title=AdGuard%20Japanese%20filter%20Plus">Subscribe/購読する（AdGuardでは「信頼できる」にチェック）</a>
+[View List/中身を見る](https://yuki2718.github.io/adblock2/japanese/jpf-plus.txt)
 
 注意：AdGuard、uBlock Origin用のモジュールがありますが、これらは単独使用を想定したものではありません。上記リンクから購読いただくと、ご利用のプログラムに合わせて必要なモジュールが読み込まれるはずです。
 
@@ -65,7 +65,7 @@ AdGuard DNSフィルタの既知の不具合を独自に修正します。DNSフ
 - あらゆる不具合に対処する予定はありません。公式より緩い基準とはいえ、ブロック除外により漏れる広告が多い場合は対応しません
 - 今後とも、モバイルアプリの問題を積極的にサポートする予定はありません。メンテンナンスコストが高くなった場合、公開停止もあり得ます
 
-[View List/中身を見る](https://raw.githubusercontent.com/Yuki2718/adblock2/main/japanese/dns-unbreak.txt)
+[View List/中身を見る](https://yuki2718.github.io/adblock2/japanese/dns-unbreak.txt)
 
 ## Yuki's uBlock Dynamic Rules
 
@@ -73,7 +73,7 @@ Nooplists for medium mode of uBlock Origin dedicated for English user. The objec
 
 ミディアムモード用のnoopリストで、英語圏向けです。
 
-[View Rules/中身を見る](https://raw.githubusercontent.com/Yuki2718/adblock2/main/medium_mode/dynamic-rules.txt)
+[View Rules/中身を見る](https://yuki2718.github.io/adblock2/medium_mode/dynamic-rules.txt)
 
 ## Yuki's uBlock Dynamic Rules for Mobile
 
@@ -81,7 +81,7 @@ Mobile version of Yuki's uBlock Dynamic Rules
 
 Yuki's uBlock Dynamic Rulesのモバイル版です。
 
-[View Rules/中身を見る](https://raw.githubusercontent.com/Yuki2718/adblock2/main/medium_mode/dynamic-rules-mob.txt)
+[View Rules/中身を見る](https://yuki2718.github.io/adblock2/medium_mode/dynamic-rules-mob.txt)
 
 ## おまけ
 

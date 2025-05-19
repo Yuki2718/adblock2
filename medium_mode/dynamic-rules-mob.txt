@@ -718,6 +718,7 @@ themeforest.net assets.shopfront.envato-static.com * noop
 thenextweb.com cdn0.tnwcdn.com * noop
 theundefeated.com projects.fivethirtyeight.com * noop
 theundefeated.com secure.espn.com * noop
+translate.kagi.com kagiproxy.com * noop
 trello.com a.trellocdn.com * noop
 trip.com ak-s.tripcdn.com * noop
 trip.com ctrip.com * noop

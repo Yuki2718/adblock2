@@ -52,6 +52,7 @@ no-large-media: behind-the-scene false
 * assetsadobe.com * noop
 * audiomack.com * noop
 * auth.voxmedia.com * noop
+* awswaf.com * noop
 * azureedge.net * noop
 * b-cdn.net * noop
 * back-to-top.appspot.com * noop

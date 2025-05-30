@@ -640,6 +640,7 @@ funnyjunk.com fjcdn.com * noop
 gab.ai amp.azure.net * noop
 gamejolt.com s.gjcdn.net * noop
 gatherhere.com cdnjs.gathercdn.com * noop
+genspark.space genspark.site * noop
 getpocket.com cdn-apple.com * noop
 gitee.com vo.aicdn.com * noop
 gitlab.com assets.gitlab-static.net * noop

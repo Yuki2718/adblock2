@@ -588,6 +588,7 @@ foxnews.com global.fncstatic.com * noop
 games.connectedgamestore.com cdx.cedexis.net * noop
 games.gamesplaza.com cdx.cedexis.net * noop
 gatherhere.com cdnjs.gathercdn.com * noop
+genspark.space genspark.site * noop
 getpocket.com cdn-apple.com * noop
 gitee.com vo.aicdn.com * noop
 github.com github.githubassets.com * noop

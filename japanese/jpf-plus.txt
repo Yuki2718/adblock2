@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250521
+! Version: 20250610
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -377,21 +377,22 @@ saitamarket.com##.entry-content > p span.marker-under-blue:upward(p)
 sanbongi.info##.panel-body > p > .adsbygoogle:upward(1)
 sanbongi.info,webmake.info###text-7
 salary-saver.com##.ani:has(> .widget_tsnc_ads_custom_html)
+schizophonic9-2.com###tertiary > .side-menu:has(> .side-menu-title > .plugin-freearea)
 senilog.com###block-13
 senilog.com###block-2
 senilog.com##.simple-box8
 serisawa2021.com##.entry-content > span[style="color: #999999; font-size: 10px;"]
-smpl-rfrns.net##.for_ads
-solarjournal.jp###pchdright
-sora-ten.com###text-16 > .textwidget > p:has(> .adsbygoogle)
-schizophonic9-2.com###tertiary > .side-menu:has(> .side-menu-title > .plugin-freearea)
 shogaisha-shuro.com###main_column > .opacity
 shokunin-san.com##.provision_area:has(> .adsbygoogle)
 sitebk.com##.productWrap
+smpl-rfrns.net##.for_ads
 sodatekata.net##.aff_box
 sodatekata.net##.spon
 sokupochi.com##.sidebar > section[id^="text-"]
+solarjournal.jp###pchdright
 solohiker2020.com##div[id^="soloh-"]
+sora-ten.com###text-16 > .textwidget > p:has(> .adsbygoogle)
+spotry.me##.amazon-affiliate-link
 step.piano.or.jp###maincontent > .font-size-0-8.border-bottom-1-grey.margin-bottom-0-5
 studio-de.com###block-11
 studio-de.com###block-12

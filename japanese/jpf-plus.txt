@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250610
+! Version: 20250618
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -111,6 +111,7 @@ _300_250_
 
 ! ---------- Cosmetic general ----------
 ##.asg-vast-overlay
+##.notranslate[dir][style^="width: max-content;"][style$="opacity: 1;"]
 ##.vjs-overlayed.size-300x250
 ##a[class][real-href^="//"][onmouseup="setRealHref(event)"]
 !##body > div[style*="z-index: 2147483647;"][style*="top: 0px; left: 0px;"][style*="position:"]:not(#bit-notification-bar)
@@ -443,6 +444,38 @@ lark-scent.com,tokimekistory.com###modal-overlay
 pawakichi.xyz##.plugin-ad
 piyo-gourmet.com##div[id^="gourm-"][style]
 rancolle.com##.rectangle_box
+! Removed by DDL
+! https://github.com/AdguardTeam/AdguardFilters/pull/207701
+! https://github.com/AdguardTeam/AdguardFilters/pull/207703
+! https://github.com/AdguardTeam/AdguardFilters/pull/207704
+! https://github.com/AdguardTeam/AdguardFilters/pull/207705
+! AGJPN may readd them, but they're likely to be removed again by the next DDL scan.
+55sedori.com,rakuten-seo.info##.ad
+chihosoku.com,yappaero.com##.main-container-ads
+eatout-hack.com##p[style] > span[style="font-size: 80%;"]
+l-media.tokyo###text-2
+l-media.tokyo###text-3
+l-media.tokyo###text-4
+l-media.tokyo###text-5
+l-media.tokyo###text-6
+l-media.tokyo,livemimi.com###text-7
+l-media.tokyo###text-8
+l-media.tokyo##.post > .section-in > div[align="center"]
+l-media.tokyo##.post > .section-in > table
+livemimi.com##.yyi-rinker-contents
+news2019.biz###custom_html-11
+news2019.biz###custom_html-20
+news2019.biz###custom_html-28
+news2019.biz###custom_html-30
+news2019.biz###custom_html-31
+news2019.biz###custom_html-37
+news2019.biz###custom_html-39
+news2019.biz##.w-afterRelated > .c-widget.widget_custom_html
+news2019.biz##.w-singleBottom
+news2019.biz##.w-singleTop
+news2019.biz##.wp-block-group > .wp-block-group__inner-container:has(> .red_ a[href*="amzn.to"])
+useful-notes.com##.add
+yaamjw.click##.entryList > li:has(#ninja-blog-inactive)
 
 ! ---------- Cosmetic general: obtrusive or unneeded annoyances ----------
 
@@ -548,6 +581,7 @@ kansai-joshiana.com#?#.side-menu:has(> div.side-heading:contains(広告))
 kawaiijavcat.com,kawaiijavolds.com##.adddiv
 kawaiikanojo.net###sidebar-widget > .widget_media_image
 kintekigeri.blog.2nt.com##.right > .plugin-freearea
+kledgeb.blogspot.com##.cls_divMatchedContentAdsenceTitle
 kyonyu.jp###custom_html-12
 kyonyu.jp###custom_html-59
 kyonyu.jp###custom_html-60
@@ -617,6 +651,8 @@ zurinetanomori.com##div[class$="_outline"]:has(> div > .plugin-freearea > a[href
 dragalia.gorillawiki.jp###sp_overlay
 isekai-video.com##.wp-block-spacer[style="height:15px"] + p.has-text-align-center
 kannou.world.coocan.jp##.ad
+karaage.hatenadiary.jp##.entry-footer-html
+karaage.hatenadiary.jp##.entry-header-html
 sweetchocolate.blogterest.net##.blockAreaHeader a[href^="https://al.dmm.co.jp/"]
 
 ! ---------- Cosmetic specific: popular in Japan ----------

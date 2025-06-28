@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250618
+! Version: 20250628
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -48,6 +48,8 @@ _300_250_
 /tmp/?zone=$subdocument,~third-party
 ! Incompatible with MV3
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)\/(?!api|available|team)[a-z]{4,}\.json$/$xmlhttprequest,third-party,match-case,domain=~edu|~gov|~jp
+! Backup for the generic rule in AGJPF
+.php|$script,~third-party,domain=4545comics.com|chinshiko-outfit.com|comic-r18.com|dhufufu-manga.com|dochashiko-manga.com|doujin-gt.com|doujin-town.com|doujingeeks.com|ecchimanga-jpn.com|echichichichi.com|ecstasy-web.com|erokawaiibooks.com|eronsfw.com|excite-doujin.com|free-doujin.com|h-library.com|hentai-road.com|hentaipunch.com|mas-dr.com|nuki-dou.com|onaninpic.com|paio-hazard.com|shikoshikoread.com|skeb-collection.com|z-hentai.net
 
 ! ---------- Ads 3p ----------
 ||cloudflare.com/ajax/libs/postscribe/$script,third-party
@@ -80,6 +82,7 @@ _300_250_
 
 ! ---------- Ads specific: popular in Japan ----------
 ||520click.com/ad.$domain=~video.520cc.cc
+||achost.top/uploads/ads/
 
 ! ---------- Ads specific: Others ----------
 
@@ -179,7 +182,6 @@ blog.information-portal.net##.mg-sidebar > .widget_custom_html
 blog.manabusakai.com##.unit
 blog.toyget.com##.hatena-module-html > div > a[href^="https://px.a8.net"]:upward(2)
 blog.toyget.com##.hatena-module-html > div > div > script[src^="//rws.a8.net"]:upward(3)
-blogmimi.com,legend-anime.com##div[style^="float:none;margin:"]
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="//ck.jp."])
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="https://www.amazon.co.jp/gp/"])
 bonjinnikki.com##div[id^="bonji-"]
@@ -450,32 +452,13 @@ rancolle.com##.rectangle_box
 ! https://github.com/AdguardTeam/AdguardFilters/pull/207704
 ! https://github.com/AdguardTeam/AdguardFilters/pull/207705
 ! AGJPN may readd them, but they're likely to be removed again by the next DDL scan.
-55sedori.com,rakuten-seo.info##.ad
-chihosoku.com,yappaero.com##.main-container-ads
 eatout-hack.com##p[style] > span[style="font-size: 80%;"]
-l-media.tokyo###text-2
-l-media.tokyo###text-3
-l-media.tokyo###text-4
-l-media.tokyo###text-5
-l-media.tokyo###text-6
-l-media.tokyo,livemimi.com###text-7
-l-media.tokyo###text-8
 l-media.tokyo##.post > .section-in > div[align="center"]
 l-media.tokyo##.post > .section-in > table
-livemimi.com##.yyi-rinker-contents
-news2019.biz###custom_html-11
-news2019.biz###custom_html-20
-news2019.biz###custom_html-28
-news2019.biz###custom_html-30
-news2019.biz###custom_html-31
 news2019.biz###custom_html-37
 news2019.biz###custom_html-39
 news2019.biz##.w-afterRelated > .c-widget.widget_custom_html
-news2019.biz##.w-singleBottom
-news2019.biz##.w-singleTop
 news2019.biz##.wp-block-group > .wp-block-group__inner-container:has(> .red_ a[href*="amzn.to"])
-useful-notes.com##.add
-yaamjw.click##.entryList > li:has(#ninja-blog-inactive)
 
 ! ---------- Cosmetic general: obtrusive or unneeded annoyances ----------
 

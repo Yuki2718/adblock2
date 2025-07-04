@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250517
+! Version: 20250704
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -163,6 +163,7 @@ jugomobile.com,kobe-np.co.jp##.ad-wrap
 kakenhi.net,seesaa.net###article-ad
 kamigame.jp###ad_top
 kamikouryaku.net,wikiru.jp##.sticky-ads
+karapaia.com##.ad-in-content
 kyobun.co.jp##.td-a-ad
 makeuseof.com,xda-developers.com##.adsninja-ad-zone
 minitool.com##.page-bottom-fixed-ads

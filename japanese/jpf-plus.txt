@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250704
+! Version: 20250718
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -46,7 +46,7 @@ _300_250_
 ! Incompatible with MV3
 /^https?:\/\/[a-z]{8,15}\.(?:com|net)\/(?!api|available|team)[a-z]{4,}\.json$/$xmlhttprequest,third-party,match-case,domain=~edu|~gov|~jp
 ! Backup for the generic rule in AGJPF
-.php|$script,~third-party,domain=4545comics.com|chinshiko-outfit.com|comic-r18.com|dhufufu-manga.com|dochashiko-manga.com|doujin-gt.com|doujin-town.com|doujingeeks.com|ecchimanga-jpn.com|echichichichi.com|ecstasy-web.com|erokawaiibooks.com|eronsfw.com|excite-doujin.com|free-doujin.com|h-library.com|hentai-road.com|hentaipunch.com|mas-dr.com|nuki-dou.com|onaninpic.com|paio-hazard.com|shikoshikoread.com|skeb-collection.com|z-hentai.net
+.php|$script,~third-party,domain=4545comics.com|801books.com|boys-books.com|chinshiko-outfit.com|comic-r18.com|cp-comi.com|cp-library.com|dhufufu-manga.com|dochashiko-manga.com|doujin-gt.com|doujin-town.com|doujingeeks.com|ecchimanga-jpn.com|echichichichi.com|ecstasy-web.com|erokawaiibooks.com|eronsfw.com|excite-doujin.com|free-doujin.com|fujokomi.com|h-library.com|hentai-road.com|hentaipunch.com|mas-dr.com|nuki-dou.com|onaninpic.com|paio-hazard.com|shikoshikoread.com|skeb-collection.com|z-hentai.net
 
 ! ---------- Ads 3p ----------
 ||cloudflare.com/ajax/libs/postscribe/$script,third-party
@@ -193,6 +193,8 @@ copa.sakura.ne.jp##.post table:has(script[src^="http://spdeliver.i-mobile.co.jp"
 corocoro-tabi.com###secondary > .widget_custom_html
 corocoro-tabi.com###custom_html-15 > .widget_text > .textwidget > a
 cya.sakura.ne.jp##.waku:has(ins.adsbygoogle)
+daily-cargo.com##.home_pr
+daily-cargo.com##.side_bnr a:not([href*="daily-cargo.com"])
 day-onsen.com##.basicborder[style="width: 468px; height: 60px; margin-left: 10px;"]
 days366.com##div[class^="days366_"]
 deai-report110.com##.widget_text.side-widgets

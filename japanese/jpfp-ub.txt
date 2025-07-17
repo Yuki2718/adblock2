@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250704
+! Version: 20250718
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -119,6 +119,7 @@ downdetector.jp###zdcFloatingBtn
 duhoctrungquoc.vn###ads_inline_z
 entamenow.com##.td-adspot-title
 eromanga-school.com##.ad-top
+fandom.com##.bottom-ads-container
 favolog.org###ad-box1
 fnn.jp,twicolle-plus.com##.ad-bnr
 forbesjapan.com##.ad-pc
@@ -142,6 +143,7 @@ hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadia
 hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org##.sleeping-ads
 hatenablog.com##.insentence-adsense
 hatenablog.com##.insentence-adsense2
+hb-nippon.com###headerAds
 headline.mtfj.net###header_adv
 hinative.com##.mod_ad_container
 hochi.news##.header__ad

@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250718
+! Version: 20250808
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -158,7 +158,7 @@ jiji.com##.ArticleAdSide
 joshi-spa.jp,nikkan-spa.jp,taskle.jp##.ad-widget
 jpnumber.com##.adsleft
 jpnumber.com##.adsright
-jprime.jp,media.rakuten-sec.net##.ad-overlay
+jprime.jp,media.rakuten-sec.net,peing.net##.ad-overlay
 jugomobile.com##.top-site-ad
 jugomobile.com##.widget-ad-script
 jugomobile.com,kobe-np.co.jp##.ad-wrap

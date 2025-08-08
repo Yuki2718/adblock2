@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250723
+! Version: 20250808
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -262,6 +262,7 @@ hpgpixer.jp###index_adtop
 iphone-week.com##.ft_bnr
 irielife420.com##.entry-content > table[border="0"]
 j-statistics.com##div[id^="ad-plan"]
+javascriptref.web.fc2.com##.sponser-title
 jewellles.com##.gads
 jpprepper.com##.entry-content > div > a[rel^="nofollow"]
 jquery-master.net##section[style="height:270px"]
@@ -489,6 +490,7 @@ adultsite.mixh.jp,deai-app.jp###modal-overlay
 amuse-labo.com##div[id^="amuse-"]
 animekabegami.blog.jp###sub div.column-inner-2 > center > :not(font)
 anianierosuki.work##div[id^="sidebar"]
+avsagasu.com##.over_banner
 baraero.com##.sc_frame
 bikyakudaimaou.com###first > .plugin1_outline:nth-child(-n+2)
 bikyakudaimaou.com###second > .plugin2_outline:first-child
@@ -504,6 +506,7 @@ caplogger.com##.side:has(> .plugin-freearea > .side_ad_list)
 carrozzeria-cdl.jp##.article-body > blockquote:has([href*="?PR="])
 carrozzeria-cdl.jp##p > [href*="?PR="] > img
 chirari2ch.com##.plugin2_outline:has(> div > div.plugin-freearea > div > a[href^="http://click.duga.jp"])
+cole2.net##.sidebar-contents > a[href="/ranking/fanza"] ~ *
 dachi-stroim.ru##.wpp-list > li:first-child
 dechamore.net###custom_html-11
 dechamore.net###text-2
@@ -551,11 +554,6 @@ imurunokioku.blog.jp###j_j_j
 iqtisad.net##.affi-banner
 iyasiya.com##.image-antenna-list + aside
 iyasiya.com##article > .sub_main + aside
-jkdaisuki.ad55.net##body:not([style]) > center:has(> center > a[href^="https://track.bannerbridge.net/click.php?"][rel="nofollow"][target="_blank"])
-jkdaisuki.ad55.net##body:not([style]) > div[align="center"]:has(> table a[href^="http://gcolle.net/product_info."][href*="/affiliate_banner_id"][target="_blank"])
-jkdaisuki.ad55.net##body:not([style]) > div[align="center"]:has(> table a[href^="http://gcolle.net/product_info."][href*="/affiliate_banner_id"][target="_blank"]) + hr
-jkdaisuki.ad55.net##body:not([style]) > p[align="center"]:has(> a[href^="http://pcolle.jp/?af_id"][target="_blank"])
-jkdaisuki.ad55.net##body:not([style]) > p[align="center"]:has(> a[href^="http://pcolle.jp/?af_id"][target="_blank"]) + hr
 josona.com##.l-main > .dividerBottom > .dividerTop
 kannou.world.coocan.jp##a[href^="http://track.bannerbridge.net/click.php"]
 kannou.world.coocan.jp##div[id^="affimage-"]
@@ -564,7 +562,6 @@ kansai-joshiana.com#?#.side-menu:has(> div.side-heading:contains(広告))
 kawaiijavcat.com,kawaiijavolds.com##.adddiv
 kawaiikanojo.net###sidebar-widget > .widget_media_image
 kintekigeri.blog.2nt.com##.right > .plugin-freearea
-kledgeb.blogspot.com##.cls_divMatchedContentAdsenceTitle
 kyonyu.jp###custom_html-12
 kyonyu.jp###custom_html-59
 kyonyu.jp###custom_html-60
@@ -665,6 +662,8 @@ slideshare.net###scribd-ad-exit-modal
 dechamore.net#$##sub-contents[style^="position: fixed"] { position: static !important; }
 sabage-union.com#$##slideshow > div.col-md-9:has(+ .col-3 > a[target="_blank"] > img + span.pr) { max-width: 100% !important; }
 reffect.co.jp#$##header[style="min-height:440px;"] { min-height: 0 !important; }
+! ---------- CSS (adult): too few visitors ----------
+avsagasu.com#$#.single_side > a { visibility: hidden !important; }
 
 ! ---------- CSS: others ----------
 *#$#ins.adsbygoogle[data-ad-client] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important; }

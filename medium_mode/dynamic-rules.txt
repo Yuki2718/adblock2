@@ -111,6 +111,7 @@ no-large-media: behind-the-scene false
 * cdn.sstatic.net * noop
 * cdn.syndication.twimg.com * noop
 * cdn.transifex.com * noop
+* cdn.viafoura.net * noop
 * cdn.video.timeinc.com * noop
 * cdn.vidible.tv * noop
 * cdn.vox-cdn.com * noop
@@ -761,6 +762,7 @@ support.immunet.com content.invisioncic.com * noop
 support.logmeininc.com assets.cdngetgo.com * noop
 support.mozilla.org static-media-prod-cdn.sumo.mozilla.net * noop
 support.mozilla.org support.cdn.mozilla.net * noop
+t.me telegram.org * noop
 tasks.office.com login.microsoftonline.com * noop
 thenextweb.com cdn0.tnwcdn.com * noop
 theundefeated.com projects.fivethirtyeight.com * noop

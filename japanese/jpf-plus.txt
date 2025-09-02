@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250808
+! Version: 20250903
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -200,6 +200,7 @@ day-onsen.com##.basicborder[style="width: 468px; height: 60px; margin-left: 10px
 days366.com##div[class^="days366_"]
 deai-report110.com##.widget_text.side-widgets
 dee-okinawa.com##.footerAD
+digipc.blog.jp##div[class^="article-body"] > div[class^="article-body"] > a[href^="http://www.amazon.co.jp/exec/"]
 dinvia.diary.to##div[class^="article-body"] > iframe[src^="https://al.dmm.co.jp"] + [id]
 dmlab.jp###sponsorsNav
 doorblog.jp,heypo.net###meerkat-contents

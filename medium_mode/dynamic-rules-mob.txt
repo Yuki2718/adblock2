@@ -528,6 +528,7 @@ account.microsoft.com live.com * noop
 account.microsoft.com onestore.ms * noop
 account.trendmicro.com libs.coremetrics.com * noop
 accounts.firefox.com mozilla.net * noop
+adguard-dns.io st.agrd.eu * noop
 adguard.com st.agrd.eu * noop
 admin.microsoft.com prod.msocdn.com * noop
 aliexpress.com assets.alicdn.com * noop
@@ -563,6 +564,7 @@ book.china-airlines.com geetest.com * noop
 bookaa.amadeus.com geetest.com * noop
 bookaa.amadeus.com www.aa.com * noop
 box.com cdn01.boxcdn.net * noop
+bugcrowd.com assets.bugcrowdusercontent.com * noop
 chat.stackexchange.com cdn-chat.sstatic.net * noop
 chatgpt.com cdn.oaistatic.com * noop
 chicagotribune.com tribdss.com * noop
@@ -572,6 +574,7 @@ community.ingress.com onvanilla.net * noop
 compete.kotaku.com kinja.com * noop
 delta.com onelink-translations.com * noop
 dev.gnupg.org files.gnupg.net * noop
+developer.mozilla.org mdnplay.dev * noop
 developers.google.com google-developers.appspot.com * noop
 discourse.mozilla.org cdn.discourse-prod.itsre-apps.mozit.cloud * noop
 drive.google.com content.googleapis.com * noop
@@ -637,7 +640,10 @@ login.microsoftonline.com msftauth.net * noop
 login.microsoftonline.com office.com * noop
 login.microsoftonline.com wpc.omegacdn.net * noop
 login.norton.com static.nortoncdn.com * noop
+m.alibaba.com s.alicdn.com * noop
+m.alibaba.com s.alicdn.com.w.cdngslb.com * noop
 m.drtuber.com drtst.com * noop
+m.hoyolab.com webstatic.hoyoverse.com * noop
 m.imdb.com m.media-amazon.com * noop
 m.livejasmin.com dditscdn.com * noop
 m.nuvid.com nvdst.com * noop
@@ -648,6 +654,7 @@ m.spiegel.de arc.nexx.cloud * noop
 m.wikipedia.org dyna.wikimedia.org * noop
 m.yelp.com yelpcdn.com * noop
 m365.cloud.microsoft res.cdn.office.net * noop
+m365.cloud.microsoft res.public.onecdn.static.microsoft * noop
 mashable.com a.amz.mshcdn.com * noop
 microsoft.com aspnetcdn.com * noop
 microsoft.com cdn.office.net * noop
@@ -696,6 +703,7 @@ seekingalpha.com januscapital.qumucloud.com * noop
 shadowban.yuzurisa.com ailizijiang.wenaiwu.net * noop
 shein.com sheinsz.ltwebstatic.com * noop
 shop-list.com global.cdn.idcfcloud.net * noop
+shop.whois.com cdnassets.com * noop
 siliconangle.com video.cube365.net * noop
 skype.com skypeassets.com * noop
 slack.com a.slack-edge.com * noop
@@ -718,6 +726,7 @@ support.logmeininc.com assets.cdngetgo.com * noop
 support.mozilla.org support.cdn.mozilla.net * noop
 t.me telegram.org * noop
 tasks.office.com login.microsoftonline.com * noop
+techcrunch.com yahoodns.net * noop
 themeforest.net assets.shopfront.envato-static.com * noop
 thenextweb.com cdn0.tnwcdn.com * noop
 theundefeated.com projects.fivethirtyeight.com * noop
@@ -892,6 +901,7 @@ www.sciencedirect.com sciencedirectassets.com * noop
 www.sciencedirect.com www.deepdyve.com * noop
 www.scmp.com assets.i-scmp.com * noop
 www.sfgate.com webwidgets.wsi.com * noop
+www.similarweb.com similarcdn.com * noop
 www.sitepoint.com cdn-enterprise.discourse.org * noop
 www.skyscanner.net js.skyscnr.com * noop
 www.slate.com sadmin.brightcove.com * noop

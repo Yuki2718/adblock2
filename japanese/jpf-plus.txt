@@ -295,8 +295,6 @@ kurosuen.live##.widget-sidebar-scroll
 kurosuen.live##div[class^="myad"]
 logw.jp##.ad_sidenavi
 lper.info##.wpa
-lv73.net###広告-ad
-lv73.net##.amazon-ko-ko-ku
 malanka.tech###modal-overlay
 mamana.jp##.entry-content > .add
 mamana.jp##article > div.widget_custom_html:first-child

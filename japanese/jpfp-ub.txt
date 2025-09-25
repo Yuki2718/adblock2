@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250808
+! Version: 20250926
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -177,6 +177,7 @@ nazology.net##.ads-wide
 nbcnews.com##.ad-container
 news.biglobe.ne.jp###gadsOverlayUnit
 news.livedoor.com##.ad-wrapper
+news.tv-asahi.co.jp##.ad-item
 nicovideo.jp###footer-ad
 nicovideo.jp###middle-ad
 nikaraw.com##.blockads_big

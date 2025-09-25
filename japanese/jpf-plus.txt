@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250907
+! Version: 20250926
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -56,6 +56,7 @@ _300_250_
 ||banya-mktforecast.way-nifty.com/photos/uncategorized/50000.png
 ||blog-sokuhou.com/suma-img/kjk/lpimg/pcv1/bn01.jpg
 ||burutira.up.seesaa.net/image/click1.gif
+||catsj.jp/wp/wp-content/themes/catsj_2404/js/ad.min.js
 ||dailynk.jp/wp-content/themes/dailynkjp/images/mook.jpg
 ||day-onsen.com/ad_$subdocument
 ||dokugakukan.net/file/js/google_ad.js
@@ -64,14 +65,14 @@ _300_250_
 ||homemate-research-heliport.com/js/ad/
 ||ibird.jp/img/banner_
 ||j-statistics.com/images/ad/
-||m.media-amazon.com/images/I/$domain=graoda.blog.fc2.com
 ||mxxi.hamachiya.com/hlib/side_amazon.js
 ||myshop.co.jp/japancal/fname/images/kani1.gif
 ||pachinko-fight.co.jp/wp-content/uploads/*/ad_s_l_
 ||rtec.co.jp/koukoku*$script,~third-party
 ||sandiegoyuyu.com/images/stories/ad_agency/
 ||smon-hiroba.net/shihoshoshi/images/hiroba_ss.png
-||ssl-images-amazon.com/images/I/$domain=graoda.blog.fc2.com
+||st.ryukoku.ac.jp/~kjm/security/memo/2006/SSH_banner-yoko4.gif
+||tochigi-kankou.or.jp/assets/js/ad.min.js
 ||upcom.sakura.ne.jp/seiichirou/img/bnr-un-limit-
 ||yaneuraou.yaneu.com/wp-content/uploads/car_satei001
 ||youchien.net/images/common/newad_
@@ -181,6 +182,8 @@ blog.toyget.com##.hatena-module-html > div > a[href^="https://px.a8.net"]:upward
 blog.toyget.com##.hatena-module-html > div > div > script[src^="//rws.a8.net"]:upward(3)
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="//ck.jp."])
 bluebluesunset.blog.fc2.com##.menuBlockBase:has([href^="https://www.amazon.co.jp/gp/"])
+bmw-and-more.info##a[href*="px.a8.net/svt/ejp"]
+bmw-and-more.info##a[href^="https://www.amazon.co.jp/b"]
 bonjinnikki.com##div[id^="bonji-"]
 brandthinking.net##.recommended
 c-camera.com###online_store
@@ -244,13 +247,11 @@ gamelandos.com##td > hr:has(+ script)
 gamelandos.com##td > script + br
 gamelandos.com##td > script + br + br
 gogoferret.com##div[id^="gogof-"]
-graoda.blog.fc2.com###sidebar_r > table[style="table-layout: fixed;"]
-graoda.blog.fc2.com##.ad > table[style="table-layout: fixed;"]
-graoda.blog.fc2.com##div[id^="AmazonLINK"]
-graoda.blog.fc2.com##table[width="700"][height="300"]
 gxy-life.com##.aside6
 hakuhin.jp##.menu_ads
 hakuhin.jp##div[style="display:table; margin:10px auto -10px;"]
+haru-taka.com##.article__content > strong
+haru-taka.com##.side--right > .module--free
 haseakio.hatenablog.com##.hatena-module-html > .hatena-module-body > script[src^="//ws-fe.amazon-adsystem.com/"]:upward(2)
 hcz.jp###koukoku
 hcz.jp##.header-bottom:has(> .adsbygoogle)
@@ -441,8 +442,6 @@ yume1.jp##.module-categories + .module-archives
 ! Mobile
 buzzcafe.click,buzzdoor.net,goodjob1.com,koko-doko18.com,kokodoko-18.com,lark-scent.com,tokimekistory.com##.sp_checkbox_under
 feat-elfi03.com##body > center:first-child:has(> script)
-graoda.blog.fc2.com###gailing02
-graoda.blog.fc2.com##.thum_pic
 lark-scent.com,tokimekistory.com###modal-content
 lark-scent.com,tokimekistory.com###modal-overlay
 pawakichi.xyz##.plugin-ad
@@ -608,6 +607,7 @@ seppelts.com###side2 > .box:last-child
 seppelts.com##.ads
 share-files.ocry.com###text-6
 share-files.ocry.com###text-6 + dd
+shindaan.com##.bg-gray-100.py-10
 suzukikurumi.net##.pc > .banner
 toshimi.top##.widget_text > div > p > script[src*=".jp/ufo/"]:upward(3)
 tousatu.tv###main-contents > div[align="center"]
@@ -697,8 +697,8 @@ point.monocla.com#@#.adbox1
 technobell.co.jp#@##footer_ad
 
 ! ---------- Exception: cosmetic - others ----------
-anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,hotdebrid.com,html5.gamedistribution.com,in-jpn.com,kantangame.com,kujimap.com,model-viewer.com,paraphraser.io,play.aidungeon.io,puzzle-ch.com,sekai-kabuka.com,tamrieltradecentre.com,teemo.gg,xtremestream.co,ytlarge.com#@$#ins.adsbygoogle[data-ad-client] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important; }
-anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,hotdebrid.com,html5.gamedistribution.com,in-jpn.com,kantangame.com,kujimap.com,model-viewer.com,paraphraser.io,play.aidungeon.io,puzzle-ch.com,sekai-kabuka.com,tamrieltradecentre.com,teemo.gg,xtremestream.co,ytlarge.com#@$#ins.adsbygoogle[data-ad-slot] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important; }
+anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,hotdebrid.com,html5.gamedistribution.com,in-jpn.com,kantangame.com,kujimap.com,model-viewer.com,paraphraser.io,play.aidungeon.io,puzzle-ch.com,pvpoke-re.com,sekai-kabuka.com,tamrieltradecentre.com,teemo.gg,xtremestream.co,ytlarge.com#@$#ins.adsbygoogle[data-ad-client] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important; }
+anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,game.goo.ne.jp,hotdebrid.com,html5.gamedistribution.com,in-jpn.com,kantangame.com,kujimap.com,model-viewer.com,paraphraser.io,play.aidungeon.io,puzzle-ch.com,pvpoke-re.com,sekai-kabuka.com,tamrieltradecentre.com,teemo.gg,xtremestream.co,ytlarge.com#@$#ins.adsbygoogle[data-ad-slot] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important; }
 
 ! ---------- Anti anti-adb - general ----------
 /\/wp-content\/uploads\/[a-z]{6,9}\.js(?:\?ver=[.0-9]+|,qver=[.0-9]+\.pagespeed\..+\.js)$/$script,~third-party

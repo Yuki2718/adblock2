@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250903
+! Version: 20250926
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -118,7 +118,11 @@
 ~nieru.net##.ad-space:not(.textads):not(.adbox)
 ~lamire.jp##.ad-unit:not(.text-ad):not(.textads):not([style^="width: 1px; height: 1px; position: absolute;"])
 ##.ad-zone:not(:empty):not(.textads)
+##.ad_slot:not(.text-ad)
 ##.ad_unit:not(.text-ad)
+~apkmirror.com,~tuxpi.com##.adslot:not(.text-ad)
+##.adslot_1:not(.text-ad)
+##.adunit:not(.text-ad)
 ##.adde_modal_detector
 ##.adde_modal-overlay
 ##.ads_banner:not([style^="width: 32px"])
@@ -208,8 +212,12 @@ taoruseitai.com,towelstretches.com##div[style$="border: 3px solid #EDEDED; borde
 #@#.ad-space
 #@#.ad-unit:not(.textads)
 #@#.ad-zone
+#@#.ad_slot
 #@#.ad_unit
+#@#.adslot
+#@#.adslot_1
 #@#.ads_banner
+#@#.adunit
 #@#.stickyads
 #@#[data-ad-module]
 #@#[data-ad-width]

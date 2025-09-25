@@ -490,7 +490,7 @@ bikyakudaimaou.com###first > .plugin1_outline:nth-child(-n+2)
 bikyakudaimaou.com###second > .plugin2_outline:first-child
 bird-pedia.com##.ad_area_bottom
 bird-pedia.com##.body > center
-bird-pedia.com,dechamore.net###text-2
+bird-pedia.com###text-2
 bishatti.com##div[style="text-align: center;margin:0 0 0 -12px;"]
 c-actress.com###block-9
 c-actress.com##.single-related-area
@@ -502,17 +502,9 @@ carrozzeria-cdl.jp##p > [href*="?PR="] > img
 chirari2ch.com##.plugin2_outline:has(> div > div.plugin-freearea > div > a[href^="http://click.duga.jp"])
 cole2.net##.sidebar-contents > a[href="/ranking/fanza"] ~ *
 dachi-stroim.ru##.wpp-list > li:first-child
-dechamore.net###custom_html-11
-dechamore.net###text-2
-dechamore.net###text-3
-dechamore.net###text-31
-dechamore.net##.add_contents
-dechamore.net,sharevideos.org###text-6
 dennou2.jp##table[height="1867"] > tbody > tr > td:has(> a[href^="https://track.bannerbridge.net/click.php"][rel="nofollow"])
 dennou2.jp##td[height="3293"] > table[width="948"] + hr + table[width="908"]
 dennou2.jp##td[height="3293"] > table[width="948"] + hr + table[width="908"] + div[align="center"] > hr:first-child
-dim2database.blog.fc2.com###fc2relate_entry_thumbnail_area + div.content
-dim2database.blog.fc2.com##.flickr_navi + div.content
 doa-xvv.blog.jp###sidebar-inner > a[href^="https://al.dmm.com/"]
 doa-xvv.blog.jp##.article-body-inner > br + div[align]:has(> a[target="_blank"])
 doa-xvv.blog.jp##.article-body-inner > table[border="0"]
@@ -601,6 +593,7 @@ seppelts.com###side2 > .box:last-child
 seppelts.com##.ads
 share-files.ocry.com###text-6
 share-files.ocry.com###text-6 + dd
+sharevideos.org###text-6
 shindaan.com##.bg-gray-100.py-10
 suzukikurumi.net##.pc > .banner
 toshimi.top##.widget_text > div > p > script[src*=".jp/ufo/"]:upward(3)
@@ -618,10 +611,6 @@ xbooks.work##div[style="margin: -15px auto 15px; width: 920px;"]
 xbooks.work##div[style^="width: 160px"]
 xbooks.work##div[style^="width:900px; height:250px"]
 xn--pck2b0fk1795b663b.com###adarea1
-zurinetanomori.com##.ently_text > a[href^="https://al.dmm.co.jp"][target="_blank"] > img[width="180"]
-zurinetanomori.com##.trackback_outline + .comment_outline
-zurinetanomori.com##div[class$="_outline"]:has(> div > .ta_center > script[src*="//adm.shinobi.jp/"])
-zurinetanomori.com##div[class$="_outline"]:has(> div > .plugin-freearea > a[href^="https://click.duga.jp"])
 ! Mobile
 dragalia.gorillawiki.jp###sp_overlay
 isekai-video.com##.wp-block-spacer[style="height:15px"] + p.has-text-align-center
@@ -654,7 +643,6 @@ scribd.com##div[data-testid="sticky-wrapper"]
 slideshare.net###scribd-ad-exit-modal
 
 ! ---------- CSS: too few visitors ----------
-dechamore.net#$##sub-contents[style^="position: fixed"] { position: static !important; }
 sabage-union.com#$##slideshow > div.col-md-9:has(+ .col-3 > a[target="_blank"] > img + span.pr) { max-width: 100% !important; }
 reffect.co.jp#$##header[style="min-height:440px;"] { min-height: 0 !important; }
 ! ---------- CSS (adult): too few visitors ----------

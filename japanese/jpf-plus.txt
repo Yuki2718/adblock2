@@ -454,10 +454,6 @@ rancolle.com##.rectangle_box
 eatout-hack.com##p[style] > span[style="font-size: 80%;"]
 l-media.tokyo##.post > .section-in > div[align="center"]
 l-media.tokyo##.post > .section-in > table
-news2019.biz###custom_html-37
-news2019.biz###custom_html-39
-news2019.biz##.w-afterRelated > .c-widget.widget_custom_html
-news2019.biz##.wp-block-group > .wp-block-group__inner-container:has(> .red_ a[href*="amzn.to"])
 
 ! ---------- Cosmetic general: obtrusive or unneeded annoyances ----------
 

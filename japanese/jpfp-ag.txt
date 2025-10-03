@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250926
+! Version: 20251004
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -240,11 +240,12 @@ taoruseitai.com,towelstretches.com#%#//scriptlet('abort-current-inline-script', 
 @@||fb.html-load.com/script/$third-party
 !#endif
 
-! ---------- Anti anti-adb - Admiral (sync with AGA) ----------
+! ---------- Anti anti-adb - Admiral (sync with uBf/EP) ----------
 androidpolice.com,howtogeek.com,xda-developers.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'admiral')
 cbsnews.com,imgur.com#%#//scriptlet('remove-node-text', 'script', '/"v4ac1eiZr0"|""\)\.split\(","\)\[4\]|(\.localStorage\)|JSON\.parse\(\w)\.getItem\("|["\']_aQS0\w+["\']/')
 iwb.jp#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'googletag')
 reuters.com#%#//scriptlet('set-constant', 'admiral', 'noopFunc')
+||permutive.com^$third-party
 
 ! ---------- Ad reinjection - Ad-Shield ----------
 

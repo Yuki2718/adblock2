@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250926
+! Version: 20251004
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -586,6 +586,7 @@ puriketsu.jp##.imgsize109[href^="https://www.amazon.co.jp"][target="_blank"]
 puriketsu.jp##.menu1BlockBase:has(a[href^="https://www.amazon.co.jp"][target="_blank"] > img)
 puriketsu.jp##.sample_h_12:has(+ a[href^="https://www.amazon.co.jp"][target="_blank"])
 puriketsu.jp##.topad a[href^="https://af.ko-tube.com/c.php"]
+realambit.com###fixed-bottom-banner
 sexv.jp##.knbdn-size-336x280
 sexy.from.tv##.ah
 seppelts.com###side2 > .box:first-child

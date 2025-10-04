@@ -661,7 +661,6 @@ anianierosuki.work#%#//scriptlet('prevent-window-open')
 
 ! ---------- Exception: blocking - too few visitors ----------
 @@||31012.jp/wp-content/uploads/2019/11/ad2.jpg
-@@||a8.net/svt/bgt$image,domain=point.monocla.com
 @@||dmlab.jp/images/adtech/*$image,~third-party
 @@||houritsusoudan.biz/ad/image/$image,~third-party
 
@@ -672,7 +671,6 @@ anianierosuki.work#%#//scriptlet('prevent-window-open')
 @@||point-g.rakuten.co.jp/pg_assets/item/contets/*_300_250_$image,~third-party
 
 ! ---------- Exception: cosmetic - too few visitors ----------
-point.monocla.com#@#.adbox1
 
 ! ---------- Exception: cosmetic - others ----------
 anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,hotdebrid.com,html5.gamedistribution.com,in-jpn.com,kantangame.com,kujimap.com,model-viewer.com,paraphraser.io,play.aidungeon.io,puzzle-ch.com,pvpoke-re.com,sekai-kabuka.com,tamrieltradecentre.com,teemo.gg,xtremestream.co,ytlarge.com#@$#ins.adsbygoogle[data-ad-client] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important; }

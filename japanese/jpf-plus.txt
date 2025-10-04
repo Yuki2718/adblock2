@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20251004
+! Version: 20251005
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -408,6 +408,7 @@ tottemoyasashiibitcoin.net##a[href^="https://ad.mtrf.net"] > img
 twi55.com##.l-sidebar > .widget_custom_html
 twi55.com##.postCta
 twitter.macdrivelove.com###text1 > p > span.lbg[style="font-size:12px"]
+union-company.jp##body > div[class^="flowting"]
 upcom.sakura.ne.jp##div[style$="width:280px;margin:0px;padding:5px;text-align:center;overflow:hidden;"]
 vr-game.pw##.abox3
 wakarueconomics.com##.widget-index-bottom
@@ -473,8 +474,6 @@ yandex.com,yandex.eu,yandex.ru##rect
 1201914.com###pc_text-21
 2chcopipe.blog.2nt.com##.left_p:first-child
 2chcopipe.blog.2nt.com##dd > div > a[href*="amazon.co.jp"]
-2chmeshi.net###block-35
-2chmeshi.net##.widget_diver_widget_pcsp:has(> div > ins.adsbygoogle)
 adlt18antenna.xyz##.slide_in_bnr
 adult-vr072.net###custom_html-2
 adult-vr072.net###text-9

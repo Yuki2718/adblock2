@@ -82,7 +82,7 @@
 ||tmh.io/wp-content/KU.png
 
 ! ---------- Ads specific: Others ----------
-||googlevideo.com/videoplayback*&ctier=L&*%2Cctier%2C$xmlhttprequest,third-party,domain=m.youtube.com|music.youtube.com|www.youtube.com
+||googlevideo.com/videoplayback*&ctier=L&*%2Cctier%2C$xmlhttprequest,third-party,domain=m.youtube.com|music.youtube.com
 
 ! ---------- Annoyances specific: obtrusive or unneeded ----------
 ||xvideos.com/lvcsm/abck-banners/

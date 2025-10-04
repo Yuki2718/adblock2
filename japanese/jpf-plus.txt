@@ -672,11 +672,7 @@ anianierosuki.work#%#//scriptlet('prevent-window-open')
 @@||point-g.rakuten.co.jp/pg_assets/item/contets/*_300_250_$image,~third-party
 
 ! ---------- Exception: cosmetic - too few visitors ----------
-iwakuni-fudosan.jp#@#.ad__item
-iwakuni-fudosan.jp#@#.ads01
-iwakuni-fudosan.jp#@#.top-ad
 point.monocla.com#@#.adbox1
-technobell.co.jp#@##footer_ad
 
 ! ---------- Exception: cosmetic - others ----------
 anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,hotdebrid.com,html5.gamedistribution.com,in-jpn.com,kantangame.com,kujimap.com,model-viewer.com,paraphraser.io,play.aidungeon.io,puzzle-ch.com,pvpoke-re.com,sekai-kabuka.com,tamrieltradecentre.com,teemo.gg,xtremestream.co,ytlarge.com#@$#ins.adsbygoogle[data-ad-client] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important; }

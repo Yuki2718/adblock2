@@ -382,6 +382,7 @@ no-large-media: behind-the-scene false
 * spoxy-shard5.spot.im * noop
 * spreadsheets.google.com * noop
 * ssif1.globalsign.com * noop
+* st.adguardcdn.com * noop
 * stackpath.bootstrapcdn.com * noop
 * stackpathcdn.com * noop
 * static-assets.strikinglycdn.com * noop

@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20251005
+! Version: 20251014
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -420,6 +420,7 @@ webcreator-journal.com##.afbox > .opnum4:last-child > div[class^="mt15box_"]
 webcreator-journal.com#?#.afbox > .opnum4:not(:last-child)
 webhoric.com##.l-mainContent__inner > div:contains(/^スポンサード?リンク ?$/)
 weblan3.com##.ad_ArticleTop
+webllica.com##.sponsored_link_top
 white-sesame.jp##.ad-in-single
 white-sesame.jp##.blog-sidebar--ad:upward(1)
 white-sesame.jp##.single-blog__ad-title

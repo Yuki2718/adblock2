@@ -367,6 +367,7 @@ no-large-media: behind-the-scene false
 * spreadsheets.google.com * noop
 * ssif1.globalsign.com * noop
 * ssl4.eir-parts.net * noop
+* st.adguardcdn.com * noop
 * stackpath.bootstrapcdn.com * noop
 * stackpathcdn.com * noop
 * static-assets.strikinglycdn.com * noop

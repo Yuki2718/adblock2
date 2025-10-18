@@ -690,7 +690,6 @@ anydebrid.com,colonist.io,downloads.descendant.me,ff14angler.com,hotdebrid.com,h
 /popunder_$script,redirect-rule=noopjs
 
 ! ---------- Anti anti-adb - too few visitors ----------
-daido-h-ict.com#@#.ad-element
 in-jpn.com,oninet.ne.jp,xth.jp##.sk-popup-window
 pc-plaza.com#%#//scriptlet('abort-current-inline-script', 'jQuery', 'DHAntiAdBlocker')
 pc-plaza.com##.jconfirm

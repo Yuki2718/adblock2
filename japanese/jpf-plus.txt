@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20251019
+! Version: 20251020
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -705,7 +705,7 @@ jav777.xyz#%#//scriptlet('prevent-eval-if', 'ADS_BLOCKED')
 @@||afreecatv.com/asset/service/ad/check_ad.js$~third-party
 ||experience-ap.piano.io/xbuilder/experience/load?$script,redirect-rule=noopjs
 ||jsdelivr.net/npm/ad-compass@latest/dist/ad-compass.umd.js
-digiday.jp#%#//scriptlet('remove-attr', 'hidden', '.piano-paywall-container')
+digiday.jp#%#//scriptlet('remove-attr', 'hidden', '[class^="piano-paywall"]', 'stay')
 digiday.jp#%#//scriptlet('set-constant', 'tpLoaded', 'true')
 digiday.jp#%#//scriptlet('set-constant', 'tp.isInitialized', 'true')
 kotobank.jp#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'relList')

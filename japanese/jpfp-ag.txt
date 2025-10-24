@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20251023
+! Version: 20251024
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -242,9 +242,10 @@ taoruseitai.com,towelstretches.com#%#//scriptlet('abort-current-inline-script', 
 
 ! ---------- Anti anti-adb - Admiral (sync with uBf/EP) ----------
 androidpolice.com,howtogeek.com,xda-developers.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'admiral')
-cbsnews.com,imgur.com#%#//scriptlet('remove-node-text', 'script', '/"v4ac1eiZr0"|""\)\.split\(","\)\[4\]|(\.localStorage\)|JSON\.parse\(\w)\.getItem\("|["\']_aQS0\w+["\']/')
+cbsnews.com,imgur.com,motorsport.com#%#//scriptlet('remove-node-text', 'script', '/"v4ac1eiZr0"|""\)\.split\(","\)\[4\]|(\.localStorage\)|JSON\.parse\(\w)\.getItem\("|["\']_aQS0\w+["\']/')
 iwb.jp#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'googletag')
 reuters.com#%#//scriptlet('set-constant', 'admiral', 'noopFunc')
+||nowaymail.com^
 ||permutive.com^$third-party
 
 ! ---------- Ad reinjection - Ad-Shield ----------

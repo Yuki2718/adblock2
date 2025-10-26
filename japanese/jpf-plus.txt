@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20251020
+! Version: 20251027
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -97,6 +97,7 @@ _300_250_
 ||manbooo.com/wp-content/uploads/2022/09/530887da81402e126c8b407bf4afe5d7.jpg
 ||original-wedding.net/js/ads_
 ||tenka1.com/g/?
+||xbooks.work/wp-includes/?form=
 
 ! ---------- Annoyances general: obtrusive or unneeded annoyances ----------
 !||fireworkapi1.com^$third-party,domain=~matsukiyococokara-online.com
@@ -166,6 +167,7 @@ asae.client.jp#?#.right-title:contains(/PR|スポンサーリンク/)
 asukiaaa.blogspot.com###Image2
 asukiaaa.blogspot.com###Image3
 atsum.in##.amazon-link-box
+babl.tech##.wp-block-my-blocks-insert-google-ads
 banner-hiroba.com##.banner.cf > div.banner_box:has(> .adsbygoogle)
 banner-hiroba.com##.banner.cf > span.banner_box
 banner-hiroba.com,fortune.auone.jp##.adsense
@@ -250,6 +252,7 @@ gogoferret.com##div[id^="gogof-"]
 gxy-life.com##.aside6
 hakuhin.jp##.menu_ads
 hakuhin.jp##div[style="display:table; margin:10px auto -10px;"]
+halu-journey.com##.entry-content > .layout-box:has(> div > figure > img[src^="https://m.media-amazon.com"])
 haru-taka.com##.article__content > strong
 haru-taka.com##.side--right > .module--free
 haseakio.hatenablog.com##.hatena-module-html > .hatena-module-body > script[src^="//ws-fe.amazon-adsystem.com/"]:upward(2)
@@ -332,6 +335,7 @@ number-pedia.com##.widget:has(> div > .adsbygoogle)
 ocsoku.com###right-box > .plugin-memo:first-child
 ocsoku.com###right-box > .plugin-memo:last-of-type
 ogurigo.jp##.entry-content > p > span[style="color: #999999; font-size: 12px;"]
+oni-oroshi.com##.notice-area-link[href^="https://amzn.to"]
 orentame.com##.entry-content > .wp-block-group:has(> .wp-block-group-is-layout-constrained > .has-light-grayish-red-background-color > .st-noflex > a[href^="https://www.dlsite.com"][target="_blank"])
 orentame.com##.entry-content > .wp-block-group:last-child
 orentame.com##.st-header-under-widgets .freebox
@@ -405,6 +409,8 @@ timeskk.jword.jp##.right_aff
 timeskk.jword.jp##.ss-area
 tottemoyasashiibitcoin.net##.code-block-1
 tottemoyasashiibitcoin.net##a[href^="https://ad.mtrf.net"] > img
+tsukinata.com##.entry-content > center:has(> .adsbygoogle)
+tsukinata.com##div[id^="tsuki-"][style]
 twi55.com##.l-sidebar > .widget_custom_html
 twi55.com##.postCta
 twitter.macdrivelove.com###text1 > p > span.lbg[style="font-size:12px"]
@@ -607,7 +613,7 @@ ukemi-no-kiwami.work##.widget-below-single-content-title
 ukemi-no-kiwami.work##.widget-single-content-bottom
 ukemi-no-kiwami.work##.widget_block
 worldrankingup.blog.2nt.com###left > .plugin1_outline:last-child
-xbooks.work##.content_mb_none > center
+xbooks.work##div[class^="content"] > center:has(> div[style="margin-right: 90px;"])
 xbooks.work##div[style="margin: -15px auto 15px; width: 920px;"]
 xbooks.work##div[style^="width: 160px"]
 xbooks.work##div[style^="width:900px; height:250px"]
@@ -644,6 +650,7 @@ scribd.com##div[data-testid="sticky-wrapper"]
 slideshare.net###scribd-ad-exit-modal
 
 ! ---------- CSS: too few visitors ----------
+babl.tech#$#div[style="height: 600px;"] { height: 30px !important; }
 sabage-union.com#$##slideshow > div.col-md-9:has(+ .col-3 > a[target="_blank"] > img + span.pr) { max-width: 100% !important; }
 reffect.co.jp#$##header[style="min-height:440px;"] { min-height: 0 !important; }
 ! ---------- CSS (adult): too few visitors ----------

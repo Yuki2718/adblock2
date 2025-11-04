@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20251102
+! Version: 20251104
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -245,7 +245,8 @@ taoruseitai.com,towelstretches.com#%#//scriptlet('abort-current-inline-script', 
 androidpolice.com,howtogeek.com,xda-developers.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'admiral')
 cbsnews.com,imgur.com,motorsport.com#%#//scriptlet('remove-node-text', 'script', '/"v4ac1eiZr0"|""\)\.split\(","\)\[4\]|(\.localStorage\)|JSON\.parse\(\w)\.getItem\("|["\']_aQS0\w+["\']/')
 iwb.jp#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'googletag')
-reuters.com#%#//scriptlet('set-constant', 'admiral', 'noopFunc')
+reuters.com#%#//scriptlet('abort-on-stack-trace', 'admiral', '.js?')
+||functionalfeather.com^
 ||nowaymail.com^
 ||permutive.com^$third-party
 

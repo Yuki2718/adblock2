@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20251101
+! Version: 20251118
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -166,6 +166,7 @@ asae.client.jp##.right-box:has(> .iframe-pr)
 asae.client.jp#?#.right-title:contains(/PR|スポンサーリンク/)
 asukiaaa.blogspot.com###Image2
 asukiaaa.blogspot.com###Image3
+atdiary.jp,edit-anything.com##.header_adsense
 atsum.in##.amazon-link-box
 babl.tech##.wp-block-my-blocks-insert-google-ads
 banner-hiroba.com##.banner.cf > div.banner_box:has(> .adsbygoogle)
@@ -215,6 +216,7 @@ dotpict.net##div[id^="ads"]:upward(1)
 e0166nt.com##.side-menu:first-child > .side-heading
 e0166nt.com##.sidebar-style > .module:first-child
 ec.enoki.xyz##.content_table_mother[id$="_ads"]
+edit-anything.com##.adsenseArea
 english-buddy.com###HTML1
 english.mag2.com###text-4 a:not([href="http://www.mag2.com/"])
 ethan1173.cocolog-nifty.com##.module-typelist:first-child
@@ -277,6 +279,7 @@ juku-kyoiku.com###big
 juuuke.com##.product
 kaiten-heiten-24.com##.side_ad_google
 kankyo-mirai.jp###st_custom_html_widget-12
+kawanyo.hateblo.jp##.hatena-module-search-box > div.hatena-module-body > p[align="center"]
 keimusho.net###side_amazon
 ken1.link##.bg-deco-metal1
 ken1.link,ken2.link##.widget_text
@@ -329,6 +332,8 @@ nioh.jp##.PR
 nmbschedule.blog.fc2.com##.entry-content > div[id^="msmaflink"]:has(+ .fc2_footer)
 nmbschedule.blog.fc2.com##.sidebar:has(> div > .plugin-freearea > script)
 nmm.blog.jp##aff-view
+nomoreretake.net##.footer_widget.widget_media_image
+nomoreretake.net##.ml_ad_widget
 nowokay.hatenablog.com##.entry-content > div.hatena-asin-detail
 nsdev.jp##.l-mainContent__inner > .post_content > p:last-of-type:has(> iframe[height="250"])
 number-pedia.com##.widget:has(> div > .adsbygoogle)
@@ -407,6 +412,7 @@ studio-de.com###block-12
 takushoku.info###st_custom_html_widget-6
 timeskk.jword.jp##.right_aff
 timeskk.jword.jp##.ss-area
+tokusatsu-birthday.hatenablog.com##.entry-footer-html > div[style="font-size: 80%;"]
 tottemoyasashiibitcoin.net##.code-block-1
 tottemoyasashiibitcoin.net##a[href^="https://ad.mtrf.net"] > img
 tsukinata.com##.entry-content > center:has(> .adsbygoogle)
@@ -450,6 +456,7 @@ buzzcafe.click,buzzdoor.net,goodjob1.com,koko-doko18.com,kokodoko-18.com,lark-sc
 feat-elfi03.com##body > center:first-child:has(> script)
 lark-scent.com,tokimekistory.com###modal-content
 lark-scent.com,tokimekistory.com###modal-overlay
+madeinpc.blog.fc2.com###blog_intro > p[align="center"]
 pawakichi.xyz##.plugin-ad
 piyo-gourmet.com##div[id^="gourm-"][style]
 rancolle.com##.rectangle_box

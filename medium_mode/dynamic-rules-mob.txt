@@ -81,6 +81,7 @@ no-large-media: behind-the-scene false
 * cdn.auth0.com * noop
 * cdn.bootcss.com * noop
 * cdn.channel.io * noop
+* cdn.channelsight.com * noop
 * cdn.cloudflare.net * noop
 * cdn.cxense.com * noop
 * cdn.datatables.net * noop
@@ -193,6 +194,7 @@ no-large-media: behind-the-scene false
 * fast.wistia.com * noop
 * fast.wistia.net * noop
 * fastly.net * noop
+* fb-t-msedge.net * noop
 * fbcdn.net * noop
 * feed.theplatform.com * noop
 * fiddle.jshell.net * noop

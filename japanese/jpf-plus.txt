@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20251118
+! Version: 20251208
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -60,6 +60,7 @@ _300_250_
 ||dailynk.jp/wp-content/themes/dailynkjp/images/mook.jpg
 ||day-onsen.com/ad_$subdocument
 ||dokugakukan.net/file/js/google_ad.js
+||fnf.jp/ad/ad/
 ||gameland.ifdef.jp/pr-menu.html
 ||gokushiteki.com/AD/$image
 ||homemate-research-heliport.com/js/ad/
@@ -225,6 +226,8 @@ flashfabrica.com##.BIG_banner
 flashfabrica.com##.flash_banner
 flashfabrica.com##.index_center
 flashfabrica.com##.link_mini
+fnf.jp##.news[bgcolor="#eeeeee"] > .link3
+fnf.jp##.right_right > table > tbody > tr > td[height="160"][bgcolor="#ffffff"]
 fnf.seesaa.net##.module--free:not(.side--right > section:first-child)
 freak-da.hatenablog.com###bottom-editarea
 freak-da.hatenablog.com##.entry-footer-html
@@ -353,6 +356,8 @@ osayama.com###black-studio-tinymce-24
 osayama.com###black-studio-tinymce-5
 pa-tu.work##.card-body.mt-5:has(> div > .product-link)
 paintmanga.web.fc2.com##div[style$="background-color:#ffffff;width:160px;text-align:center;float:left"]
+pandanote.info###text-15
+pandanote.info##.entry-content > div:not([class]):has(+ script + ins.adsbygoogle)
 parudou5.com##.kijibu > .hanyouwaku1
 pasifea.com###st_custom_html_widget-4
 pawakichi.xyz##.booklink-box
@@ -454,12 +459,14 @@ yume1.jp##.module-categories + .module-archives
 ! Mobile
 buzzcafe.click,buzzdoor.net,goodjob1.com,koko-doko18.com,kokodoko-18.com,lark-scent.com,tokimekistory.com##.sp_checkbox_under
 feat-elfi03.com##body > center:first-child:has(> script)
+fnf.jp##.parent > center:has(> br + div[id$="-1"])
 lark-scent.com,tokimekistory.com###modal-content
 lark-scent.com,tokimekistory.com###modal-overlay
 madeinpc.blog.fc2.com###blog_intro > p[align="center"]
 pawakichi.xyz##.plugin-ad
 piyo-gourmet.com##div[id^="gourm-"][style]
 rancolle.com##.rectangle_box
+reanimal.jp##.aside-box-ifad
 ! Removed by DDL
 ! https://github.com/AdguardTeam/AdguardFilters/pull/207701
 ! https://github.com/AdguardTeam/AdguardFilters/pull/207703

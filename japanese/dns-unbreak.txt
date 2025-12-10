@@ -2,8 +2,12 @@
 ! Expires: 5 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20250419
+! Version: 20251211
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/219449
+@@||analytics.tiktok.com^|
+@@||analytics-ipv6.tiktokw.us^|
+@@||googleads.g.doubleclick.net|
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/1852
 @@||api2.branch.io^|
 ! https://x.com/iti_harapeko/status/1900164627310543248

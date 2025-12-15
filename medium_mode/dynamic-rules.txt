@@ -133,6 +133,7 @@ no-large-media: behind-the-scene false
 * checkout.borderfree.com * noop
 * checkout.fiftyone.com * noop
 * checkout.stripe.com * noop
+* cloudapp.azure.com * noop
 * cloudfront.net * noop
 * clyp.it * noop
 * cname.vercel-dns.com * noop

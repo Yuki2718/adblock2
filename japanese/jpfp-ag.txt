@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20251129
+! Version: 20251218
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -49,7 +49,6 @@
 /ts.php?$xmlhttprequest,third-party
 /utx?tid=$xmlhttprequest,third-party
 /wcm/?sh=$script,third-party
-/wp-content/plugins/script-manager/assets/js/script-manager.js?
 ://a.*/loader?a=$subdocument,third-party
 ://a.*/warp^$script,third-party
 ://cdn.*.com/renderer/renderer.js|$script,third-party

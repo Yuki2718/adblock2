@@ -2,8 +2,10 @@
 ! Expires: 5 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20251211
+! Version: 20251225
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/220272
+@@||trj.valuecommerce.com^|
 ! https://github.com/AdguardTeam/AdguardFilters/issues/219449
 @@||analytics.tiktok.com^|
 @@||analytics-ipv6.tiktokw.us^|

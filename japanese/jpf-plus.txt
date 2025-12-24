@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20251215
+! Version: 20251225
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -199,6 +199,7 @@ clean-souji.com##div[id^="clean-"]
 copa.sakura.ne.jp##.post table:has(script[src^="http://spdeliver.i-mobile.co.jp"])
 corocoro-tabi.com###secondary > .widget_custom_html
 corocoro-tabi.com###custom_html-15 > .widget_text > .textwidget > a
+customcar-shop.com,o-kuruma.net###image_adv
 cya.sakura.ne.jp##.waku:has(ins.adsbygoogle)
 cybernote.click###ad-lock-overlay
 daily-cargo.com##.home_pr

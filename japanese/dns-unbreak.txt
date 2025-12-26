@@ -2,7 +2,7 @@
 ! Expires: 5 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20251225
+! Version: 20251226
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/220272
 @@||trj.valuecommerce.com^|
@@ -28,11 +28,6 @@
 @@||browser-intake-datadoghq.com^|
 @@||ec-concier.com^|
 @@||www.datadoghq-browser-agent.com^|
-! https://github.com/AdguardTeam/AdguardFilters/issues/113030
-@@||as.uncn.jp^|
-@@||b90.yahoo.co.jp^|
-@@||b92.yahoo.co.jp^|
-@@||js.adsrvr.org^|
 ! https://github.com/AdguardTeam/AdguardFilters/pull/90357
 @@||www.google-analytics.com^|
 

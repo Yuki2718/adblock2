@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20251014
+! Version: 20260101
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -286,9 +286,9 @@ nhentai.net##.advt
 scribd.com##div[data-testid="desktop-leaderboard"]
 
 ! ---------- Anti anti-adb: others ----------
-://html-load.com/loader.min.js
-@@||fb.html-load.com/loader.min.js$3p
-@@||fb.html-load.com/script/$3p
+!#if env_chromium
+pvpoke-re.com##+js(aost, addEventListener, /stackDepth:2.+https:\/\/pvpoke-re\.com\/[A-Za-z]{3}\d[0-9A-Za-z]{4\,}\.js\?v=1\./)
+!#endif
 
 ! ---------- CSS: obtrusive or unneeded annoyances ----------
 scribd.com##.body > div[class^="GridContainer-module_wrapper_"]:style(padding-top: 0 !important;)

@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20251225
+! Version: 20260101
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -680,6 +680,7 @@ avsagasu.com#$#.single_side > a { visibility: hidden !important; }
 anianierosuki.work#%#//scriptlet('prevent-window-open')
 
 ! ---------- JS: popular in Japan ----------
+hentaicomic.*,wnacg1.cc,wnacg.*#%#//scriptlet("abort-current-inline-script", "document.write", "/\.(gif|php)/")
 
 ! ---------- JS: others ----------
 

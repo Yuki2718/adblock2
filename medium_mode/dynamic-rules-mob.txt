@@ -196,6 +196,7 @@ no-large-media: behind-the-scene false
 * fast.wistia.net * noop
 * fastly.net * noop
 * fb-t-msedge.net * noop
+* fb.html-load.com * noop
 * fbcdn.net * noop
 * feed.theplatform.com * noop
 * fiddle.jshell.net * noop

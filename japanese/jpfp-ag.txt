@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20251218
+! Version: 20260103
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -264,8 +264,6 @@ kimetsujbn.blogspot.com#%#//scriptlet('prevent-window-open', '!blogspot')
 /^https?:\/\/[-0-9a-z]{5,}\.com\/[0-9a-z]{8,10}\?key=[0-9a-f]{32}$/$subdocument,third-party
 /_dating\d\/index\.html\?aref=/$document
 /?cid=*&dom=$document
-/?clck=*&sid=$document
-/?pl=*&sm=$document
 /?r=dir&zoneid=$all
 /?s1=*&click_id=$document
 /?type=*&button=2&clickid=$document

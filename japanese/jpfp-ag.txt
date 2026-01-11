@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260103
+! Version: 20260111
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -232,12 +232,6 @@ tandess.com#%#//scriptlet('prevent-setTimeout', 'detectAdblock')
 taoruseitai.com,towelstretches.com#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', '/google_ad_client/')
 
 ! ---------- Anti anti-adb - others ----------
-! AS
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android)
-://html-load.com/loader.min.js
-@@||fb.html-load.com/loader.min.js$third-party
-@@||fb.html-load.com/script/$third-party
-!#endif
 
 ! ---------- Anti anti-adb - Admiral (sync with uBf/EP) ----------
 androidpolice.com,howtogeek.com,xda-developers.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'admiral')

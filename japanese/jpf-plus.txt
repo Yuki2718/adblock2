@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260101
+! Version: 20260111
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -87,6 +87,7 @@ _300_250_
 
 ! ---------- Ads specific (adult): too few visitors ----------
 ||ads.zippal.com^
+||aneros.co.jp/img.php$domain=mesuikiacademy.com|prost8.info
 ||angel-bbs.com/ssi/koukoku_
 ||ero-mangacafe.com^$subdocument,~third-party
 ||erotube.phalko.com/images/affiliate/

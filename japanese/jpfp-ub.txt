@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260115
+! Version: 20260116
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -287,7 +287,7 @@ scribd.com##div[data-testid="desktop-leaderboard"]
 
 ! ---------- Anti anti-adb: others ----------
 !#if !cap_html_filtering
-pvpoke-re.com##+js(aeld, error, /function\([a-z]\)/)
+pvpoke-re.com##+js(aeld, error, /function\([a-z]+\)/)
 pvpoke-re.com##+js(aost, wrapWithErrorHandler, /https:\/\/pvpoke-re\.com\/[A-Za-z]{3}\d[0-9A-Za-z]{4\,}\.js\?v=1\./)
 !#endif
 

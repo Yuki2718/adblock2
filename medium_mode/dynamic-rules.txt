@@ -787,9 +787,8 @@ trip.com ctrip.com * noop
 trip.com webresource.english.c-ctrip.com * noop
 tube8.net rncdn7.com * noop
 tube8.net t8cdn.com * noop
-twitter.com accounts.google.com * noop
-twitter.com twimg.com * noop
 variety.com wp.com * noop
+versus.com assets.versus.io * noop
 view.yahoo.com viewport.videovore.com * noop
 weather.com s.w-x.co * noop
 website.informer.com assets.webinfcdn.net * noop

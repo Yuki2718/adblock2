@@ -582,6 +582,8 @@ admin.microsoft.com shellprod.msocdn.com * noop
 admin.microsoft.com webshell.suite.office.com * noop
 aliexpress.com assets.alicdn.com * noop
 aliexpress.com assets.aliexpress-media.com * noop
+amazon.com media-amazon.com * noop
+amazon.com player.live-video.net * noop
 animeflv.vc animeid.live * noop
 answers.microsoft.com msecnd.net * noop
 app.box.com cdn01.boxcdn.net * noop
@@ -806,7 +808,6 @@ www.afr.com resources.fairfax.com.au * noop
 www.afr.com www.fairfaxstatic.com.au * noop
 www.agoda.com cdn6.agoda.net * noop
 www.amazon.com images-na.ssl-images-amazon.com * noop
-www.amazon.com media-amazon.com * noop
 www.asics.com edge1.certona.net * noop
 www.asus.com adn.psicdn.net * noop
 www.authenticwatches.com sep.yimg.com * noop

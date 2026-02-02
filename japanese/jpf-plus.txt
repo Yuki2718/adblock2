@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260111
+! Version: 20260202
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -153,6 +153,7 @@ anan.jpn.org##div[style="background:#fff;border:solid royalblue 1px;border-radiu
 android-navi.com###right > p.mb15.left-title
 androidpolice.com##.ad-current
 anizines.com##.toc-adsense
+apple-hacks.com##.ad-fv-guard
 applipo.ne.jp##.article > div:not([class]) > p:has(> .greenTxt + br + a[href^="//ck.jp.ap.valuecommerce.com"])
 archlinux.site###HTML2
 archlinux.site##.entry-content > div[style="text-align:center; margin:0px 0px 20px 0px; color: #999999;"]

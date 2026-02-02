@@ -538,6 +538,8 @@ adguard.com st.agrd.eu * noop
 admin.microsoft.com prod.msocdn.com * noop
 aliexpress.com assets.alicdn.com * noop
 aliexpress.com assets.aliexpress-media.com * noop
+amazon.com media-amazon.com * noop
+amazon.com player.live-video.net * noop
 animeflv.vc animeid.live * noop
 answers.microsoft.com msecnd.net * noop
 app.box.com public.boxcloud.com * noop
@@ -760,7 +762,6 @@ www.afr.com resources.fairfax.com.au * noop
 www.afr.com www.fairfaxstatic.com.au * noop
 www.agoda.com cdn6.agoda.net * noop
 www.amazon.com ssl-images-amazon.com * noop
-www.amazon.com media-amazon.com * noop
 www.asics.com edge1.certona.net * noop
 www.ask.com partnerads.ysm.yahoo.com * noop
 www.asus.com adn.psicdn.net * noop

@@ -807,6 +807,7 @@ www.academia.edu academia-assets.com * noop
 www.afr.com resources.fairfax.com.au * noop
 www.afr.com www.fairfaxstatic.com.au * noop
 www.agoda.com cdn6.agoda.net * noop
+www.aliexpress.com assets.aliexpress-media.com * noop
 www.amazon.com images-na.ssl-images-amazon.com * noop
 www.asics.com edge1.certona.net * noop
 www.asus.com adn.psicdn.net * noop

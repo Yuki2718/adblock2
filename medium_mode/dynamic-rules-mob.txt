@@ -761,6 +761,7 @@ www.affranchir.com ec.affranchir-shop.com * noop
 www.afr.com resources.fairfax.com.au * noop
 www.afr.com www.fairfaxstatic.com.au * noop
 www.agoda.com cdn6.agoda.net * noop
+www.aliexpress.com assets.aliexpress-media.com * noop
 www.amazon.com ssl-images-amazon.com * noop
 www.asics.com edge1.certona.net * noop
 www.ask.com partnerads.ysm.yahoo.com * noop

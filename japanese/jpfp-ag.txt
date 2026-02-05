@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260202
+! Version: 20260205
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -115,7 +115,6 @@
 ##.ad-slot:not(.adsbox):not(.adsbygoogle)
 ~instapundit.com,~nieru.net##.ad-space:not(.adbox, .adsbox, .textads)
 ~lamire.jp,~tinhte.vn##.ad-unit:not(.adsbox, .text-ad, .textads):not([style^="width: 1px; height: 1px; position: absolute;"])
-##.ad-zone:not(.adsbox, .textads)
 ##.ad_slot:not(.text-ad)
 ##.ad_unit:not(.text-ad)
 ~apkmirror.com,~tuxpi.com##.adslot:not(.text-ad)
@@ -131,8 +130,6 @@
 ##div[id][style^="position: fixed; inset: 0px; z-index: 2147483647; background: black"][style*="opacity: 0.01"]
 ##[data-ad-module]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(.adsbygoogle)
 ##[data-ad-width]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(.adsbygoogle)
-##[data-adblockkey]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(html):not(.adsbygoogle)
-##[data-advadstrackid]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(.adsbygoogle)
 ##[data-ad-manager-id]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(.adsbygoogle)
 
 ! ---------- Cosmetic specific: too few visitors ----------
@@ -209,7 +206,6 @@ taoruseitai.com,towelstretches.com##div[style$="border: 3px solid #EDEDED; borde
 #@#.ad-slot
 #@#.ad-space
 #@#.ad-unit:not(.textads)
-#@#.ad-zone
 #@#.ad_slot
 #@#.ad_unit
 #@#.adslot
@@ -219,8 +215,6 @@ taoruseitai.com,towelstretches.com##div[style$="border: 3px solid #EDEDED; borde
 #@#.stickyads
 #@#[data-ad-module]
 #@#[data-ad-width]
-#@#[data-adblockkey]
-#@#[data-advadstrackid]
 #@#[data-ad-manager-id]
 
 ! ---------- Anti anti-adb - too few visitors ----------

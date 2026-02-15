@@ -160,6 +160,7 @@ no-large-media: behind-the-scene false
 * discourse-cdn.com * noop
 * disqus.com * noop
 * docs.google.com * noop
+* doodcdn.io * noop
 * dpm.demdex.net * noop
 * drawdotio.appspot.com * noop
 * drive.google.com * noop

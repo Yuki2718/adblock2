@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260202
+! Version: 20260215
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -739,7 +739,7 @@ lv73.net#@#ins.adsbygoogle[data-ad-client]
 www.youtube.com##body > div:not([class]):last-child:empty
 www.youtube.com#%#//scriptlet('set-constant', 'ytcfg.data_.EXPERIMENT_FLAGS.ab_fix_creator_view_cnt', 'undefined')
 www.youtube.com#%#//scriptlet('set-constant', 'ytcfg.data_.EXPERIMENT_FLAGS.ad_net_pb_pbp', 'undefined')
-www.youtube.com##+js(set, ytcfg.data_.EXPERIMENT_FLAGS.wug_networking_gzip_request, false)
+www.youtube.com#%#//scriptlet('set-constant', 'ytcfg.data_.EXPERIMENT_FLAGS.wug_networking_gzip_request', 'false')
 xhamster.*#%#//scriptlet('set-constant', 'initials.layout.layoutPromoProps.promoMessagesWrapperProps.shouldDisplayAdblockMessage', 'false')
 
 ! ---------- Ad reinjection - Ad-Shield ----------

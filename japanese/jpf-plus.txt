@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260215
+! Version: 20260218
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -75,6 +75,7 @@ _300_250_
 ||st.ryukoku.ac.jp/~kjm/security/memo/2006/SSH_banner-yoko4.gif
 ||tochigi-kankou.or.jp/assets/js/ad.min.js
 ||upcom.sakura.ne.jp/seiichirou/img/bnr-un-limit-
+||warau-pc.presslink.jp/*/ad_overlay.css
 ||yaneuraou.yaneu.com/wp-content/uploads/car_satei001
 ||youchien.net/images/common/newad_
 ||zunda.site/ad/
@@ -436,6 +437,8 @@ warashibe76.com##.c_c_t_w
 warashibe76.com##.common_contents > a[href^="https://hb.afl.rakuten.co.jp/hgc/"][style="word-wrap: break-word;"][rel="nofollow noopener noreferrer"]
 waraidemezame.com##.sgpb-popup-dialog-main-div-wrapper
 waraidemezame.com##.sgpb-popup-overlay
+warau-pc.presslink.jp##.article-FooterOverlay
+warau-pc.presslink.jp##[class*="BannerWrapper"]
 webcreator-journal.com##.afbox > .opnum4:last-child > div[class^="mt15box_"]
 webcreator-journal.com#?#.afbox > .opnum4:not(:last-child)
 webhoric.com##.l-mainContent__inner > div:contains(/^スポンサード?リンク ?$/)

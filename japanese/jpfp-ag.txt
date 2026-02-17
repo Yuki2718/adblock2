@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260215
+! Version: 20260217
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -246,8 +246,6 @@ time.artjoey.com#$#.adsense { padding: 0 !important; }
 kimetsujbn.blogspot.com#%#//scriptlet('prevent-window-open', '!blogspot')
 
 ! ---------- JS: others ----------
-! So far I don't see an actual issue without this, but might help some user.
-www.youtube.com#%#//scriptlet('set-constant', 'ytcfg.data_.EXPERIMENT_FLAGS.web_streaming_watch', 'false')
 
 ! ---------- Scam & Redirect ----------
 &dci=*&tds_campaign=$document

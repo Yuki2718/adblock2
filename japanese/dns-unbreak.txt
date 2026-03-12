@@ -2,8 +2,11 @@
 ! Expires: 5 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260126
+! Version: 20260312
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/226072
+@@||query.petametrics.com^|
+@@||cdn.petametrics.com^|
 ! https://github.com/AdguardTeam/AdguardFilters/issues/223253
 @@||analytics.google.com^|
 @@||stats.g.doubleclick.net^|

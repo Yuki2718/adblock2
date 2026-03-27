@@ -2,6 +2,7 @@ no-csp-reports: * true
 no-large-media: behind-the-scene false
 * * 3p-frame block
 * * 3p-script block
+* 1drv.ms * noop
 * a.espncdn.com * noop
 * a.lulucdn.com * noop
 * a.visual.ly * noop
@@ -289,6 +290,7 @@ no-large-media: behind-the-scene false
 * ninjastream.to * noop
 * note.mu * noop
 * npmcdn.com * noop
+* officeapps.live.com * noop
 * omo.akamai.opta.net * noop
 * onedrive.live.com * noop
 * open.scdn.co * noop
@@ -328,6 +330,7 @@ no-large-media: behind-the-scene false
 * public.tableau.com * noop
 * purch.auth0.com * noop
 * rawgit.com * noop
+* res-1.cdn.office.net * noop
 * resources.emaze.com * noop
 * runstant.com * noop
 * s.blogsmithmedia.com * noop
@@ -368,6 +371,7 @@ no-large-media: behind-the-scene false
 * slimfaq.com * noop
 * snapppt.com * noop
 * snapwidget.com * noop
+* spov-msedge.net * noop
 * spoxy-shard5.spot.im * noop
 * spreadsheets.google.com * noop
 * ssif1.globalsign.com * noop
@@ -452,6 +456,7 @@ no-large-media: behind-the-scene false
 * w.cdngslb.com * noop
 * w.soundcloud.com * noop
 * w3.cdn.anvato.net * noop
+* wac-msedge.net * noop
 * wap.wovn.io * noop
 * web-cdn.blivenyc.com * noop
 * webstore.websapp.digital.vistaprint.io * noop
@@ -466,6 +471,7 @@ no-large-media: behind-the-scene false
 * widgets.media.weather.com * noop
 * widgets.pinterest.com * noop
 * widgets.trustedshops.com * noop
+* wise-m.public.cdn.office.net * noop
 * wix-visual-data.appspot.com * noop
 * wix.com * noop
 * wix.ecwid.com * noop
@@ -662,7 +668,6 @@ m.spiegel.de arc.nexx.cloud * noop
 m.wikipedia.org dyna.wikimedia.org * noop
 m.yelp.com yelpcdn.com * noop
 m365.cloud.microsoft res.cdn.office.net * noop
-m365.cloud.microsoft res.public.onecdn.static.microsoft * noop
 mashable.com a.amz.mshcdn.com * noop
 microsoft.com aspnetcdn.com * noop
 microsoft.com cdn.office.net * noop
@@ -677,14 +682,11 @@ office.com r1.res.office365.com * noop
 office.com videoplayercdn.osi.office.net * noop
 office.com www.microsoft.com * noop
 officeapps.live.com cdn.office.net * noop
-onedrive.live.com res.public.onecdn.static.microsoft * noop
 open.spotify.com open.spotifycdn.com * noop
 outlook.live.com amcdn.msftauth.net * noop
 outlook.live.com office365.com * noop
 outlook.office.com b-msedge.net * noop
 outlook.office.com cdn.office.net * noop
-outlook.office.com officeapps.live.com * noop
-outlook.office.com res.public.onecdn.static.microsoft * noop
 outlook.office365.com live.com * noop
 outlook.office365.com office.net * noop
 outlook.office365.com webshell.suite.office.com * noop
@@ -898,6 +900,7 @@ www.orbitz.com suggest.expedia.com * noop
 www.orbitz.com travel-assets.com * noop
 www.orbitz.com www.expedia.com * noop
 www.pacsun.com inscname.net * noop
+www.pcmag.com cdn.ziffstatic.com * noop
 www.polygon.com art19.com * noop
 www.rd.com c.amazon-adsystem.com * noop
 www.reallifediy.com static-cdn.kueez.net * noop

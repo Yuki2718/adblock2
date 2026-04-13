@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260318
+! Version: 20260413
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -417,6 +417,7 @@ spotry.me##.amazon-affiliate-link
 step.piano.or.jp###maincontent > .font-size-0-8.border-bottom-1-grey.margin-bottom-0-5
 studio-de.com###block-11
 studio-de.com###block-12
+subcash.info##.amazonjs_item
 takushoku.info###st_custom_html_widget-6
 timeskk.jword.jp##.right_aff
 timeskk.jword.jp##.ss-area
@@ -460,6 +461,7 @@ yosakoimatsuri.com###secondary > .widget_sp_image + p[style="margin-top:15px;mar
 yosakoimatsuri.com###secondary > .widget_sp_image + p[style="margin-top:15px;margin-bottom:-5px;text-align:left;"] ~ .widget_sp_image
 youchien.net##.wrap-bnr
 yume1.jp##.module-categories + .module-archives
+yuzu1.com##.content_ad
 ! Mobile
 buzzcafe.click,buzzdoor.net,goodjob1.com,koko-doko18.com,kokodoko-18.com,lark-scent.com,tokimekistory.com##.sp_checkbox_under
 feat-elfi03.com##body > center:first-child:has(> script)

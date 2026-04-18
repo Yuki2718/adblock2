@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260312
+! Version: 20260418
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -216,7 +216,7 @@ taoruseitai.com,towelstretches.com##div[style$="border: 3px solid #EDEDED; borde
 ! ---------- Anti anti-adb - too few visitors ----------
 @@||hyogo.ie-t.net^$generichide
 ||tandess.com/music/files/detectAdblock.js
-bus-location.1507t.xyz#%#//scriptlet('prevent-setTimeout', '()=>', '3000')
+bus-location.1507t.xyz#%#//scriptlet('prevent-setTimeout', '()=>', '3001')
 daido-h-ict.com#%#//scriptlet('prevent-element-src-loading', 'script', 'adsbygoogle')
 kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -4000px !important; }
 openchat-review.me#%#//scriptlet('prevent-setInterval', 'adsbygoogle')

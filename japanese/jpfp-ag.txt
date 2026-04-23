@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260418
+! Version: 20260424
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -246,6 +246,7 @@ time.artjoey.com#$#.adsense { padding: 0 !important; }
 
 ! ---------- JS: too few visitors ----------
 kimetsujbn.blogspot.com#%#//scriptlet('prevent-window-open', '!blogspot')
+javsub.my#%#//scriptlet('abort-on-property-read', 'uicy_tags')
 
 ! ---------- JS: others ----------
 

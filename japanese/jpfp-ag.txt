@@ -246,7 +246,7 @@ time.artjoey.com#$#.adsense { padding: 0 !important; }
 
 ! ---------- JS: too few visitors ----------
 kimetsujbn.blogspot.com#%#//scriptlet('prevent-window-open', '!blogspot')
-javsub.my#%#//scriptlet('abort-on-property-read', 'uicy_tags')
+javsub.my#%#//scriptlet('abort-on-property-read', 'juicy_tags')
 
 ! ---------- JS: others ----------
 

@@ -640,6 +640,7 @@ delta.com onelink-translations.com * noop
 developer.mozilla.org mdnplay.dev * noop
 developers.google.com google-developers.appspot.com * noop
 discourse.mozilla.org cdn.discourse-prod.itsre-apps.mozit.cloud * noop
+docs.redhat.com www.redhatstatic.com * noop
 drive.google.com content.googleapis.com * noop
 dynamed.com smallcontent.ebsco-content.com * noop
 ebay.com ebaystatic.com * noop

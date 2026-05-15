@@ -591,6 +591,7 @@ dev.gnupg.org files.gnupg.net * noop
 developer.mozilla.org mdnplay.dev * noop
 developers.google.com google-developers.appspot.com * noop
 discourse.mozilla.org cdn.discourse-prod.itsre-apps.mozit.cloud * noop
+docs.redhat.com www.redhatstatic.com * noop
 drive.google.com content.googleapis.com * noop
 ebay.com ebaystatic.com * noop
 en.softonic.com sftcdn.net * noop

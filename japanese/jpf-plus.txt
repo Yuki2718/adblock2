@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260415
+! Version: 20260516
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -324,6 +324,8 @@ monjiro.net##.adtitle2
 moqlog.jp##.squareb
 musiatui.blog.fc2.com###entry-footer
 musiatui.blog.fc2.com##.side_by_side
+namaejiten.com##.ad1_pctb
+namaejiten.com##.ad2
 natsukimemo.com##.ad-2cl
 natsukimemo.com##div[style="margin-top:40px;color:#999;"]
 nengaya.net###HTML1

@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260424
+! Version: 20260527
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party

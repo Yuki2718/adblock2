@@ -219,7 +219,7 @@ taoruseitai.com,towelstretches.com##div[style$="border: 3px solid #EDEDED; borde
 bus-location.1507t.xyz#%#//scriptlet('prevent-setTimeout', '()=>', '3001')
 daido-h-ict.com#%#//scriptlet('prevent-element-src-loading', 'script', 'adsbygoogle')
 kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -4000px !important; }
-openchat-review.me#%#//scriptlet('prevent-setInterval', 'adsbygoogle')
+openchat-review.me#%#//scriptlet('prevent-setInterval', 'detectAdBlock')
 tandess.com#%#//scriptlet('prevent-setTimeout', 'detectAdblock')
 taoruseitai.com,towelstretches.com#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', '/google_ad_client/')
 

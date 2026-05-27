@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260516
+! Version: 20260527
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -193,6 +193,7 @@ bmw-and-more.info##a[href^="https://www.amazon.co.jp/b"]
 bonjinnikki.com##div[id^="bonji-"]
 brandthinking.net##.recommended
 c-camera.com###online_store
+cafebreak.hatenablog.com##.entry-content > p + table[border="0"]
 carmania.info##.entry-content > h2:last-of-type ~ div[style="float: right; margin: 0; border: solid 2.5px #000000;"]
 carmania.info##.entry-content > h2:last-of-type ~ p:has(> a)
 carmania.info##.entry-content > h2:last-of-type ~ p[style="margin: 0;"]
@@ -298,6 +299,7 @@ kissanadu.com##.sponser-space + .cap
 kodate-ru.com#?#.sidebar > h4.widgettitle:contains(スポンサードリンク)
 kondatepon.com##.cm_box
 koryupa.jp##.main_block_ad
+kuchikomi.tv##a[href="https://www.kuchikomi.tv/ed/"] > img
 kujoyugo.com##.booklink-box
 kujoyugo.com##.widget-below-related-entries
 kumodome.getback-ontrack.com###block-63

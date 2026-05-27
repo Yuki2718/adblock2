@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260424
+! Version: 20260527
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -93,6 +93,7 @@ buzzfeed.com##.Ad--awareness-bp
 buzzfeed.com##.Ad--loading
 buzzfeed.com##.ad-inline
 buzzfeed.com##.js-ad
+car.motor-fan.jp##.top_ad
 caramel-sp.com##.textad
 cartoonnetwork.jp,dmlab.jp,i2chmeijin.blog.fc2.com,his-vacation.com,magnet-novels.com,twitis.me##.adBox
 ciatr.jp##.ad-frame

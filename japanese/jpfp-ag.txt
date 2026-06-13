@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260613
+! Version: 20260614
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -101,7 +101,6 @@
 ###ads-1:not([style^="position: absolute; left: -5000px"])
 ###ads-banner:not([style^="position: absolute; left: -5000px"])
 ###ads-footer:not([style^="position: absolute; left: -5000px"])
-~ma-bank.net,~rxlife.net,~video.tv-tokyo.co.jp###adspace:not([style^="position: absolute; left: -5000px"])
 ###adsquare:not([style^="position: absolute; left: -5000px"])
 ###banner468:not([style^="position: absolute; left: -5000px"])
 ###banner728x90:not([style^="position: absolute; left: -5000px"])
@@ -188,7 +187,6 @@ taoruseitai.com,towelstretches.com##div[style$="border: 3px solid #EDEDED; borde
 #@##ads-1
 #@##ads-banner
 #@##ads-footer
-#@##adspace
 #@##adsquare
 #@##banner468
 #@##banner728x90

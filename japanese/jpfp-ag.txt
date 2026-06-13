@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260527
+! Version: 20260613
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -116,7 +116,7 @@
 ~instapundit.com,~nieru.net##.ad-space:not(.adbox, .adsbox, .textads)
 ~lamire.jp,~tinhte.vn##.ad-unit:not(.adsbox, .text-ad, .textads):not([style^="width: 1px; height: 1px; position: absolute;"])
 ##.ad_slot:not(.text-ad)
-##.ad_unit:not(.text-ad)
+##.ad_unit:not(.text-ad, .adsbox)
 ~apkmirror.com,~tuxpi.com##.adslot:not(.text-ad)
 ##.adslot_1:not(.text-ad)
 ##.adunit:not(.text-ad)
@@ -219,7 +219,8 @@ taoruseitai.com,towelstretches.com##div[style$="border: 3px solid #EDEDED; borde
 bus-location.1507t.xyz#%#//scriptlet('prevent-setTimeout', '()=>', '3001')
 daido-h-ict.com#%#//scriptlet('prevent-element-src-loading', 'script', 'adsbygoogle')
 kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -4000px !important; }
-openchat-review.me#%#//scriptlet('prevent-setInterval', 'detectAdBlock')
+openchat-review.me#%#//scriptlet('abort-on-stack-trace', 'document.querySelectorAll', 'security.js')
+openchat-review.me#%#//scriptlet('set-local-storage-item', 'BLOCKED_FLAG_KEY', '$remove$')
 tandess.com#%#//scriptlet('prevent-setTimeout', 'detectAdblock')
 taoruseitai.com,towelstretches.com#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', '/google_ad_client/')
 

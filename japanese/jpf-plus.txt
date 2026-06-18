@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260527
+! Version: 20260619
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -215,13 +215,12 @@ digipc.blog.jp##div[class^="article-body"] > div[class^="article-body"] > a[href
 dinvia.diary.to##div[class^="article-body"] > iframe[src^="https://al.dmm.co.jp"] + [id]
 dmlab.jp###sponsorsNav
 doorblog.jp,heypo.net###meerkat-contents
-doragon-keiba.com###text-3
-doragon-keiba.com##.content > div[style="float:none;margin:10px 0 10px 0;text-align:center;"]
 dotpict.net##div[id^="ads"]:upward(1)
 e0166nt.com##.side-menu:first-child > .side-heading
 e0166nt.com##.sidebar-style > .module:first-child
 ec.enoki.xyz##.content_table_mother[id$="_ads"]
 edit-anything.com##.adsenseArea
+edit-anything.com##.header_adsense
 english-buddy.com###HTML1
 english.mag2.com###text-4 a:not([href="http://www.mag2.com/"])
 ethan1173.cocolog-nifty.com##.module-typelist:first-child

@@ -91,7 +91,6 @@
 ###ad_728:not([style^="position: absolute; left: -5000px"])
 ###ad_area:not([style^="position: absolute; left: -5000px"])
 ###ad_big:not([style^="position: absolute; left: -5000px"])
-~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 ###ad_footer:not([style^="position: absolute; left: -5000px"])
 ###ad_img:not(:empty)
 ###ad_slot:not([style^="position: absolute; left: -5000px"])
@@ -177,7 +176,6 @@ taoruseitai.com,towelstretches.com##div[style$="border: 3px solid #EDEDED; borde
 #@##ad_728
 #@##ad_area
 #@##ad_big
-#@##ad_box
 #@##ad_footer
 #@##ad_img
 #@##ad_slot

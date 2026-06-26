@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260527
+! Version: 20260627
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -40,13 +40,12 @@
 *##AMP-AD
 *##div[class][data-index][style^="float: none;"]
 *##div[id*="ScriptRoot"]
-*##ins.adsbygoogle[data-ad-client]
-*##ins.adsbygoogle[data-ad-slot]
 ~cinelatino.net,*##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
 !#endif
 
 ! ---------- Cosmetic specific ----------
 globaliconews.com##.td-a-rec
+www.youtube.com###toast:has(> #text-container > yt-formatted-string#text.yt-notification-action-renderer)
 
 ! ---------- Cosmetic specific - Ignore generic ----------
 00h.co.jp##.ad_r
@@ -265,7 +264,6 @@ mamastar.jp##.ad-text
 mainichikirei.jp,mantan-web.jp##.ad_text
 mantan-web.jp##.ad-top
 matomegamer.com##.rectangle_ad
-oppai-paipai.com##.ad-head
 pixiv.net###ad-footer
 realsound.jp##.ad02
 reinforz.co.jp##.adsense-wrapper
@@ -281,7 +279,7 @@ young-machine.com##.ad-space
 
 ! ---------- Cosmetic specific (adult) - Ignore generic ----------
 doujinhibiki.net##.adBox
-javfan.one,javmix.*,javtheater.com,openloadpro.com##.__isboostOverContent
+javfan.one,javmix.*,javtheater.com##.__isboostOverContent
 nhentai.net##.advt
 
 ! ---------- Cosmetic specific: obtrusive or unneeded annoyances ----------
@@ -289,8 +287,20 @@ scribd.com##div[data-testid="desktop-leaderboard"]
 
 ! ---------- Anti anti-adb: others ----------
 
+! ---------- Exception: for default lists ----------
+!#if !ext_ubol
+#@#ins.adsbygoogle[data-ad-client]
+#@#ins.adsbygoogle[data-ad-slot]
+!#endif
+
 ! ---------- CSS: obtrusive or unneeded annoyances ----------
 scribd.com##.body > div[class^="GridContainer-module_wrapper_"]:style(padding-top: 0 !important;)
+
+! ---------- CSS: others ----------
+!#if !ext_ubol
+~anydebrid.com,~colonist.io,~ff14angler.com,~hotdebrid.com,~html5.gamedistribution.com,~in-jpn.com,~kantangame.com,~kujimap.com,~model-viewer.com,~paraphraser.io,~play.aidungeon.io,~puzzle-ch.com,~pvpoke-re.com,~sekai-kabuka.com,~tamrieltradecentre.com,~teemo.gg,~xtremestream.co,~ytlarge.com,*##ins.adsbygoogle[data-ad-client]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important;)
+~anydebrid.com,~colonist.io,~ff14angler.com,~hotdebrid.com,~html5.gamedistribution.com,~in-jpn.com,~kantangame.com,~kujimap.com,~model-viewer.com,~paraphraser.io,~play.aidungeon.io,~puzzle-ch.com,~pvpoke-re.com,~sekai-kabuka.com,~tamrieltradecentre.com,~teemo.gg,~xtremestream.co,~ytlarge.com,*##ins.adsbygoogle[data-ad-slot]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important;)
+!#endif
 
 ! ---------- Scam & Redirect ----------
 

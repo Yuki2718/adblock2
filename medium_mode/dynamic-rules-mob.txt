@@ -658,6 +658,7 @@ login.norton.com static.nortoncdn.com * noop
 m.alibaba.com s.alicdn.com * noop
 m.alibaba.com s.alicdn.com.w.cdngslb.com * noop
 m.drtuber.com drtst.com * noop
+m.facebook.com www.fbsbx.com * noop
 m.hoyolab.com webstatic.hoyoverse.com * noop
 m.imdb.com m.media-amazon.com * noop
 m.livejasmin.com dditscdn.com * noop

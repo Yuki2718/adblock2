@@ -864,6 +864,7 @@ www.excaliburcutlery.com assets.mightymerchant.com * noop
 www.expedia.com travel-assets.com * noop
 www.extremetube.com cdn1-static-extremetube.spankcdn.net * noop
 www.eyeota.com sites.hscoscdn00.net * noop
+www.facebook.com www.fbsbx.com * noop
 www.farfetch.com cdn-static.farfetch-contents.com * noop
 www.fifthdomain.com video-api.mco.arcpublishing.com * noop
 www.flickr.com combo.staticflickr.com * noop

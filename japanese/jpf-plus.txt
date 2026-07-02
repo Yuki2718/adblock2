@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260627
+! Version: 20260703
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -52,6 +52,7 @@ _300_250_
 ||cloudflare.com/ajax/libs/postscribe/$script,third-party
 
 ! ---------- Ads specific: too few visitors ----------
+||ailauranai.com/js/insertAds.js
 ||asae.client.jp/pr.html
 ||banya-mktforecast.way-nifty.com/photos/uncategorized/50000.png
 ||blog-sokuhou.com/suma-img/kjk/lpimg/pcv1/bn01.jpg
@@ -662,6 +663,10 @@ sabage-union.com#$##slideshow > div.col-md-9:has(+ .col-3 > a[target="_blank"] >
 reffect.co.jp#$##header[style="min-height:440px;"] { min-height: 0 !important; }
 ! ---------- CSS (adult): too few visitors ----------
 
+! ---------- CSS: others ----------
+~anydebrid.com,~colonist.io,~ff14angler.com,~hotdebrid.com,~html5.gamedistribution.com,~in-jpn.com,~kantangame.com,~kujimap.com,~model-viewer.com,~paraphraser.io,~play.aidungeon.io,~puzzle-ch.com,~pvpoke-re.com,~sekai-kabuka.com,~tamrieltradecentre.com,~teemo.gg,~xtremestream.co,~ytlarge.com#$#ins.adsbygoogle[data-ad-client] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important; }
+~anydebrid.com,~colonist.io,~ff14angler.com,~hotdebrid.com,~html5.gamedistribution.com,~in-jpn.com,~kantangame.com,~kujimap.com,~model-viewer.com,~paraphraser.io,~play.aidungeon.io,~puzzle-ch.com,~pvpoke-re.com,~sekai-kabuka.com,~tamrieltradecentre.com,~teemo.gg,~xtremestream.co,~ytlarge.com#$#ins.adsbygoogle[data-ad-slot] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important; }
+
 ! ---------- JS: too few visitors ----------
 anianierosuki.work#%#//scriptlet('prevent-window-open')
 
@@ -682,6 +687,10 @@ hentaicomic.*,wnacg1.cc,wnacg.*#%#//scriptlet("abort-current-inline-script", "do
 @@||point-g.rakuten.co.jp/pg_assets/item/contets/*_300_250_$image,~third-party
 
 ! ---------- Exception: cosmetic - too few visitors ----------
+
+! ---------- Exception: for default lists ----------
+#@#ins.adsbygoogle[data-ad-client]
+#@#ins.adsbygoogle[data-ad-slot]
 
 ! ---------- Anti anti-adb - general ----------
 /\/wp-content\/uploads\/[a-z]{6,9}\.js(?:\?ver=[.0-9]+|,qver=[.0-9]+\.pagespeed\..+\.js)$/$script,~third-party

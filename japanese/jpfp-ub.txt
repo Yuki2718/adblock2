@@ -287,12 +287,6 @@ scribd.com##div[data-testid="desktop-leaderboard"]
 
 ! ---------- Anti anti-adb: others ----------
 
-! ---------- Exception: for default lists ----------
-!#if !ext_ubol
-#@#ins.adsbygoogle[data-ad-client]
-#@#ins.adsbygoogle[data-ad-slot]
-!#endif
-
 ! ---------- CSS: obtrusive or unneeded annoyances ----------
 scribd.com##.body > div[class^="GridContainer-module_wrapper_"]:style(padding-top: 0 !important;)
 

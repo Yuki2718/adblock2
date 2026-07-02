@@ -290,12 +290,6 @@ scribd.com##div[data-testid="desktop-leaderboard"]
 ! ---------- CSS: obtrusive or unneeded annoyances ----------
 scribd.com##.body > div[class^="GridContainer-module_wrapper_"]:style(padding-top: 0 !important;)
 
-! ---------- CSS: others ----------
-!#if !ext_ubol
-~anydebrid.com,~colonist.io,~ff14angler.com,~hotdebrid.com,~html5.gamedistribution.com,~in-jpn.com,~kantangame.com,~kujimap.com,~model-viewer.com,~paraphraser.io,~play.aidungeon.io,~puzzle-ch.com,~pvpoke-re.com,~sekai-kabuka.com,~tamrieltradecentre.com,~teemo.gg,~xtremestream.co,~ytlarge.com,*##ins.adsbygoogle[data-ad-client]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important;)
-~anydebrid.com,~colonist.io,~ff14angler.com,~hotdebrid.com,~html5.gamedistribution.com,~in-jpn.com,~kantangame.com,~kujimap.com,~model-viewer.com,~paraphraser.io,~play.aidungeon.io,~puzzle-ch.com,~pvpoke-re.com,~sekai-kabuka.com,~tamrieltradecentre.com,~teemo.gg,~xtremestream.co,~ytlarge.com,*##ins.adsbygoogle[data-ad-slot]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important;)
-!#endif
-
 ! ---------- Scam & Redirect ----------
 
 ! ---------- Fix unnecessary blocking ----------

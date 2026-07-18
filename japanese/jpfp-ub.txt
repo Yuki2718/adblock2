@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260627
+! Version: 20260718
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -289,6 +289,18 @@ scribd.com##div[data-testid="desktop-leaderboard"]
 
 ! ---------- CSS: obtrusive or unneeded annoyances ----------
 scribd.com##.body > div[class^="GridContainer-module_wrapper_"]:style(padding-top: 0 !important;)
+
+! ---------- CSS: others ----------
+!#if !ext_ubol
+~anydebrid.com,~colonist.io,~ff14angler.com,~hotdebrid.com,~html5.gamedistribution.com,~in-jpn.com,~kantangame.com,~kujimap.com,~model-viewer.com,~paraphraser.io,~play.aidungeon.io,~puzzle-ch.com,~pvpoke-re.com,~sekai-kabuka.com,~tamrieltradecentre.com,~teemo.gg,~xtremestream.co,~ytlarge.com,*##ins.adsbygoogle[data-ad-client]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important;)
+~anydebrid.com,~colonist.io,~ff14angler.com,~hotdebrid.com,~html5.gamedistribution.com,~in-jpn.com,~kantangame.com,~kujimap.com,~model-viewer.com,~paraphraser.io,~play.aidungeon.io,~puzzle-ch.com,~pvpoke-re.com,~sekai-kabuka.com,~tamrieltradecentre.com,~teemo.gg,~xtremestream.co,~ytlarge.com,*##ins.adsbygoogle[data-ad-slot]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important;)
+!#endif
+
+! ---------- Exception: for default lists ----------
+!#if !ext_ubol
+#@#ins.adsbygoogle[data-ad-client]
+#@#ins.adsbygoogle[data-ad-slot]
+!#endif
 
 ! ---------- Scam & Redirect ----------
 

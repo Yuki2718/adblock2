@@ -582,6 +582,7 @@ bugcrowd.com assets.bugcrowdusercontent.com * noop
 chat.stackexchange.com cdn-chat.sstatic.net * noop
 chatgpt.com cdn.oaistatic.com * noop
 chicagotribune.com tribdss.com * noop
+claude.ai assets-proxy.anthropic.com * noop
 cnn.com cnn.io * noop
 colada365.app cdn.colada365.com * noop
 community.ingress.com onvanilla.net * noop

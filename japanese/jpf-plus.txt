@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260703
+! Version: 20260718
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -334,6 +334,8 @@ natsukimemo.com##div[style="margin-top:40px;color:#999;"]
 nengaya.net###HTML1
 nengaya.net##.HTML > div > .entryadwrapper2:upward(2)
 nengaya.net##div[class^="bigbanner"]
+news-shinkyujusei.net###overlay-ad
+news-shinkyujusei.net##.l-aside-ad
 news.minory.org###block-3
 news.minory.org###block-5
 newslabo.info##div[id^="newsl-"]
@@ -659,13 +661,12 @@ slideshare.net###scribd-ad-exit-modal
 
 ! ---------- CSS: too few visitors ----------
 babl.tech#$#div[style="height: 600px;"] { height: 30px !important; }
+news-shinkyujusei.net#$#body > main.l-page-front-sec { padding-top: var(--header-height) !important; }
 sabage-union.com#$##slideshow > div.col-md-9:has(+ .col-3 > a[target="_blank"] > img + span.pr) { max-width: 100% !important; }
 reffect.co.jp#$##header[style="min-height:440px;"] { min-height: 0 !important; }
 ! ---------- CSS (adult): too few visitors ----------
 
 ! ---------- CSS: others ----------
-~anydebrid.com,~colonist.io,~ff14angler.com,~hotdebrid.com,~html5.gamedistribution.com,~in-jpn.com,~kantangame.com,~kujimap.com,~model-viewer.com,~paraphraser.io,~play.aidungeon.io,~puzzle-ch.com,~pvpoke-re.com,~sekai-kabuka.com,~tamrieltradecentre.com,~teemo.gg,~xtremestream.co,~ytlarge.com,*#$#ins.adsbygoogle[data-ad-client] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important; }
-~anydebrid.com,~colonist.io,~ff14angler.com,~hotdebrid.com,~html5.gamedistribution.com,~in-jpn.com,~kantangame.com,~kujimap.com,~model-viewer.com,~paraphraser.io,~play.aidungeon.io,~puzzle-ch.com,~pvpoke-re.com,~sekai-kabuka.com,~tamrieltradecentre.com,~teemo.gg,~xtremestream.co,~ytlarge.com,*#$#ins.adsbygoogle[data-ad-slot] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important; }
 
 ! ---------- JS: too few visitors ----------
 anianierosuki.work#%#//scriptlet('prevent-window-open')
@@ -687,10 +688,6 @@ hentaicomic.*,wnacg1.cc,wnacg.*#%#//scriptlet("abort-current-inline-script", "do
 @@||point-g.rakuten.co.jp/pg_assets/item/contets/*_300_250_$image,~third-party
 
 ! ---------- Exception: cosmetic - too few visitors ----------
-
-! ---------- Exception: for default lists ----------
-#@#ins.adsbygoogle[data-ad-client]
-#@#ins.adsbygoogle[data-ad-slot]
 
 ! ---------- Anti anti-adb - general ----------
 /\/wp-content\/uploads\/[a-z]{6,9}\.js(?:\?ver=[.0-9]+|,qver=[.0-9]+\.pagespeed\..+\.js)$/$script,~third-party

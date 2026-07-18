@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260703
+! Version: 20260718
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -36,6 +36,7 @@
 /api/spots/*^fill=$xmlhttprequest
 /assets/jquery/adult0.js?v=$script,~third-party
 /assets/jquery/app0.js?type=$script,~third-party
+/assets/js/anti-adblock.js|$script,~third-party
 /deity.php?*&ts=$xmlhttprequest,third-party
 /gb/zone?zid=$xmlhttprequest,third-party
 /get/*?zoneid=$script
@@ -242,9 +243,13 @@ ptube.pipio.site#$##videoDiv { display: none !important; }
 ptube.pipio.site#$##video-container { display: block !important; }
 time.artjoey.com#$#.adsense { padding: 0 !important; }
 
-! ---------- JS: too few visitors ----------
+! ---------- CSS: Others ----------
+~anydebrid.com,~colonist.io,~ff14angler.com,~hotdebrid.com,~html5.gamedistribution.com,~in-jpn.com,~kantangame.com,~kujimap.com,~model-viewer.com,~paraphraser.io,~play.aidungeon.io,~puzzle-ch.com,~pvpoke-re.com,~sekai-kabuka.com,~tamrieltradecentre.com,~teemo.gg,~xtremestream.co,~ytlarge.com#$#ins.adsbygoogle[data-ad-client] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important; }
+~anydebrid.com,~colonist.io,~ff14angler.com,~hotdebrid.com,~html5.gamedistribution.com,~in-jpn.com,~kantangame.com,~kujimap.com,~model-viewer.com,~paraphraser.io,~play.aidungeon.io,~puzzle-ch.com,~pvpoke-re.com,~sekai-kabuka.com,~tamrieltradecentre.com,~teemo.gg,~xtremestream.co,~ytlarge.com#$#ins.adsbygoogle[data-ad-slot] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important; }
 
-! ---------- JS: others ----------
+! ---------- Exception: for default lists ----------
+#@#ins.adsbygoogle[data-ad-client]
+#@#ins.adsbygoogle[data-ad-slot]
 
 ! ---------- Scam & Redirect ----------
 &dci=*&tds_campaign=$document

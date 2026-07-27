@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260718
+! Version: 20260727
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -570,6 +570,7 @@ kansai-joshiana.com#?#.side-menu:has(> div.side-heading:contains(広告))
 kawaiijavcat.com,kawaiijavolds.com##.adddiv
 kawaiikanojo.net###sidebar-widget > .widget_media_image
 kintekigeri.blog.2nt.com##.right > .plugin-freearea
+kotoland.com##a[id^="dynamic-link"]
 lovinyou.site##.textwidget [href^="https://click.duga.jp/ppv/"]
 lovinyou.site##.textwidget [href^="https://pcolle.jp/product/detail/"]
 madi-son.net###menu > nav + .title
@@ -670,6 +671,7 @@ reffect.co.jp#$##header[style="min-height:440px;"] { min-height: 0 !important; }
 
 ! ---------- JS: too few visitors ----------
 anianierosuki.work#%#//scriptlet('prevent-window-open')
+kotoland.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'adsData')
 
 ! ---------- JS: popular in Japan ----------
 hentaicomic.*,wnacg1.cc,wnacg.*#%#//scriptlet("abort-current-inline-script", "document.write", "/\.(gif|php)/")

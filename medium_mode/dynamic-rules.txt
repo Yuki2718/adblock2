@@ -213,6 +213,7 @@ no-large-media: behind-the-scene false
 * form.boomte.ch * noop
 * form.jotform.com * noop
 * form.jotformeu.com * noop
+* forms.cloud.microsoft * noop
 * forms.hibu.com * noop
 * forms.hsforms.com * noop
 * forms.hubspot.com * noop

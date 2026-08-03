@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260718
+! Version: 20260803
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -212,6 +212,7 @@ taoruseitai.com,towelstretches.com##div[style$="border: 3px solid #EDEDED; borde
 
 ! ---------- Anti anti-adb - too few visitors ----------
 @@||hyogo.ie-t.net^$generichide
+||adm.shinobi.jp^$script,redirect=noopjs,domain=bus-location.1507t.xyz
 ||tandess.com/music/files/detectAdblock.js
 bus-location.1507t.xyz#@#.ad-area:not(.text-ad)
 bus-location.1507t.xyz#$#div[id]:empty { height: 1px !important; width 1px !important; position: fixed !important; z-index: 2147483647 !important; }
@@ -230,6 +231,7 @@ androidpolice.com,howtogeek.com,xda-developers.com#%#//scriptlet('abort-current-
 cbsnews.com,imgur.com,motorsport.com#%#//scriptlet('remove-node-text', 'script', '/"v4ac1eiZr0"|""\)\.split\(","\)\[4\]|(\.localStorage\)|JSON\.parse\(\w)\.getItem\("|["\']_aQS0\w+["\']/')
 reuters.com#%#//scriptlet('abort-on-stack-trace', 'admiral', '.js?')
 theverge.com#%#//scriptlet('abort-current-inline-script', 'admiral')
+||fourlevelsgame.com^
 ||functionalfeather.com^
 ||nowaymail.com^
 ||outerwords.com^

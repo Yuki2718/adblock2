@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260727
+! Version: 20260803
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -426,6 +426,10 @@ studio-de.com###block-11
 studio-de.com###block-12
 subcash.info##.amazonjs_item
 takushoku.info###st_custom_html_widget-6
+taxtax.hatenablog.jp###top-editarea > p > a[href^="https://amzn.to"]
+taxtax.hatenablog.jp##.entry-header-html > p > a[href^="https://amzn.to"]
+taxtax.hatenablog.jp##.hatena-module-html > div.hatena-module-body > div[align="center"] > p > a[rel="nofollow"] > img
+taxtax.hatenablog.jp##.hatena-module-html > div.hatena-module-body > p > a[href^="https://amzn.to"]
 timeskk.jword.jp##.right_aff
 timeskk.jword.jp##.ss-area
 tokusatsu-birthday.hatenablog.com##.entry-footer-html > div[style="font-size: 80%;"]

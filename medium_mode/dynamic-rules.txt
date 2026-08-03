@@ -940,6 +940,7 @@ www.nbcdfw.com npmcdn.com * noop
 www.nbcnews.com media1.s-nbcnews.com * noop
 www.ncbi.nlm.nih.gov pubmed.gov * noop
 www.netflix.com codex.nflxext.com * noop
+www.newegg.com neweggimages.com * noop
 www.news.com.au resources.newscdn.com.au * noop
 www.news.com.au resourcesssl.newscdn.com.au * noop
 www.nike.com s3.nikecdn.com * noop

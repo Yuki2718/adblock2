@@ -48,7 +48,7 @@ Please report any incorrect blocking or error via [Issue ticket](https://github.
 
 </details>
 
-MV3拡張機能では購読リンクが機能しないので、「中身を見る」のURLを手動で登録してください。また、拡張機能設定から「ユーザースクリプトを許可する」を有効にしてください。
+Manifest V3拡張機能では購読リンクが機能しないので、「View List/中身を見る」のURLを手動で登録してください。また、拡張機能設定から「ユーザースクリプトを許可する」を有効にしてください。
 
 <a href="https://subscribe.adblockplus.org?location=https://yuki2718.github.io/adblock2/japanese/jpf-plus.txt&title=AdGuard%20Japanese%20filter%20Plus">Subscribe/購読する（AdGuardは「信頼できる」にチェック）</a>
 [View List/中身を見る](https://yuki2718.github.io/adblock2/japanese/jpf-plus.txt)

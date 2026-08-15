@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260718
+! Version: 20260816
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -178,14 +178,13 @@ momoiroadult.com##a[href^="https://click.dtiserv2.com/"]
 nazology.net##.ads-wide
 nbcnews.com##.ad-container
 news.biglobe.ne.jp###gadsOverlayUnit
-news.livedoor.com##.ad-wrapper
+game8.jp,news.livedoor.com##.ad-wrapper
 news.tv-asahi.co.jp##.ad-item
 nicovideo.jp###footer-ad
 nicovideo.jp###middle-ad
 nikaraw.com##.blockads_big
 nikaraw.com##.blockads_vg
 nishinippon.co.jp,syosetu.com,t-mall.kantangame.com##.c-ad
-oppai-paipai.com##.ad-box
 oricon.co.jp##.block-ads-yahoo
 pastebin.com##.adsbyvli
 pormo.me##.ads-text

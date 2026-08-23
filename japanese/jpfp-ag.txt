@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260819
+! Version: 20260824
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -77,6 +77,8 @@
 ?key=*&submetric=$popup,third-party
 
 ! ---------- Ads specific: too few visitors ----------
+||dokiraw.wtf/public/assets/js/a.js
+||gomuraw.info/public/assets/js/a.js
 ||hikaku-master.com/banner/$subdocument
 ||lh3.googleusercontent.com/9Frr0PsBq8LqcaaRKcS53pSf0E5kGYMqKwG3RPYMJ1kmTTiKnQuzA1XAR3bBMtKVoA$image,domain=taoruseitai.com|towelstretches.com
 ||tmh.io/wp-content/KU.png

@@ -86,9 +86,10 @@ bg-mania.jp,j-cast.com,smartlog.jp,space.com##.adunit
 blog.jp##.blogroll-ad-text
 blog.livedoor.jp##.t_b ~ a[href^="https://amzn.to"]
 blog.livedoor.jp##.t_b ~ div > a[href^="https://al.dmm.co"]
+blog.livedoor.jp,doorblog.jp##.ninja-recommend-block
 blogspot.com##.AdSense
 blogspot.com##.adgoogle-wrapper
-bm.best-hit.tv,gameo.jp,googirl.jp##iframe[id^="IFTG"]
+bm.best-hit.tv,doorblog.jp,gameo.jp,googirl.jp,livedoor.biz##iframe[id^="IFTG"]
 book.asahi.com##.module-ad
 boom-app.wiki##.ad-300
 boom-app.wiki##.ad-468

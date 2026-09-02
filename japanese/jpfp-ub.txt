@@ -150,7 +150,7 @@ gq.com,gqjapan.jp,vogue.com,wired.jp##.ad-stickyhero
 gq.com,gqjapan.jp,vogue.com,wired.jp##.full-bleed-ad
 gyazo.com##.lower-ad
 gyazo.com##.upper-ad-box
-h1g.jp,seesaa.net##div[id^="crt-"][style]
+h1g.jp,jiwachan.net,news4wide.net,scienceplus2ch.com,seesaa.net,vsnp.net##div[id^="crt-"][style]
 hamakei.com###_ads
 hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org##.sleeping-ad-in-entry
 hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org##.sleeping-ads
@@ -317,7 +317,7 @@ scribd.com##.body > div[class^="GridContainer-module_wrapper_"]:style(padding-to
 ~anydebrid.com,~colonist.io,~ff14angler.com,~hotdebrid.com,~html5.gamedistribution.com,~in-jpn.com,~kantangame.com,~kujimap.com,~model-viewer.com,~paraphraser.io,~play.aidungeon.io,~puzzle-ch.com,~pvpoke-re.com,~sekai-kabuka.com,~tamrieltradecentre.com,~teemo.gg,~xtremestream.co,~ytlarge.com,*##ins.adsbygoogle[data-ad-client]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important;)
 ~anydebrid.com,~colonist.io,~ff14angler.com,~hotdebrid.com,~html5.gamedistribution.com,~in-jpn.com,~kantangame.com,~kujimap.com,~model-viewer.com,~paraphraser.io,~play.aidungeon.io,~puzzle-ch.com,~pvpoke-re.com,~sekai-kabuka.com,~tamrieltradecentre.com,~teemo.gg,~xtremestream.co,~ytlarge.com,*##ins.adsbygoogle[data-ad-slot]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important;)
 !#else
-46matome.net,4gamer.net,blog.jp,doorblog.jp,ebitsu.net,inutomo11.com,keyakizaka46matomemory.net,komaki2.jp,ldblog.jp,mona-news.com,negisoku.com,sirogohan.com,toushichannel.net,waral.club,xsokuhou.net,xxxblog.jp,yugioh-starlight.com##ins.adsbygoogle[data-ad-slot]
+46matome.net,4gamer.net,amaebi.co,beasoku.com,blog.jp,doorblog.jp,ebitsu.net,inutomo11.com,kabu-ir.com,keyakizaka46matomemory.net,kokunanmonomousu.com,komaki2.jp,ldblog.jp,mindhack2ch.com,mona-news.com,namaxchang.com,negisoku.com,seesaa.net,sirogohan.com,toushichannel.net,waral.club,xsokuhou.net,xxxblog.jp,yugioh-starlight.com##ins.adsbygoogle[data-ad-slot]
 !#endif
 
 ! ---------- Exception: for default lists ----------

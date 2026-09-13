@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260902
+! Version: 20260913
 
 ! ---------- Ads general ----------
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
@@ -84,9 +84,9 @@ bbc.com##.dotcom-ad
 beauty.oricon.co.jp##.Billboard-ad
 bg-mania.jp,j-cast.com,smartlog.jp,space.com##.adunit
 blog.jp##.blogroll-ad-text
+blog.jp,blog.livedoor.jp,doorblog.jp##.ninja-recommend-block
 blog.livedoor.jp##.t_b ~ a[href^="https://amzn.to"]
 blog.livedoor.jp##.t_b ~ div > a[href^="https://al.dmm.co"]
-blog.livedoor.jp,doorblog.jp##.ninja-recommend-block
 blogspot.com##.AdSense
 blogspot.com##.adgoogle-wrapper
 bm.best-hit.tv,doorblog.jp,gameo.jp,googirl.jp,livedoor.biz##iframe[id^="IFTG"]

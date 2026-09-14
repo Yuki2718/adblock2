@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260913
+! Version: 20260914
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -50,6 +50,9 @@ _300_250_
 
 ! ---------- Ads 3p ----------
 ||cloudflare.com/ajax/libs/postscribe/$script,third-party
+
+! ---------- Ads general: popular in Japan ----------
+||54ads.com^
 
 ! ---------- Ads specific: too few visitors ----------
 ||ailauranai.com/js/insertAds.js
@@ -684,6 +687,9 @@ reffect.co.jp#$##header[style="min-height:440px;"] { min-height: 0 !important; }
 ! ---------- JS: too few visitors ----------
 anianierosuki.work#%#//scriptlet('prevent-window-open')
 kotoland.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'adsData')
+xn--lovn0do0e.com#%#//scriptlet('href-sanitizer', 'a[href*="ck.jp.ap.valuecommerce.com/servlet/referral?"][href*="&vc_url="]', '?vc_url')
+xn--lovn0do0e.com#%#//scriptlet('href-sanitizer', 'a[href*="hb.afl.rakuten.co.jp/"][href*="pc="]', '?pc')
+xn--lovn0do0e.com#%#//scriptlet('href-sanitizer', 'a[href^="https://affiliate.suruga-ya.jp/modules/af/af_jump.php?"]', '?goods_url')
 
 ! ---------- JS: popular in Japan ----------
 hentaicomic.*,wnacg1.cc,wnacg.*#%#//scriptlet("abort-current-inline-script", "document.write", "/\.(gif|php)/")
@@ -718,6 +724,7 @@ hentaicomic.*,wnacg1.cc,wnacg.*#%#//scriptlet("abort-current-inline-script", "do
 ! ---------- Anti anti-adb - too few visitors ----------
 pc-plaza.com#%#//scriptlet('abort-current-inline-script', 'jQuery', 'DHAntiAdBlocker')
 pc-plaza.com##.jconfirm
+xn--lovn0do0e.com#%#//scriptlet('prevent-setTimeout', 'blocked', '2000')
 
 ! ---------- Anti anti-adb - popular in Japan ----------
 @@||video.520cc.cc^$generichide

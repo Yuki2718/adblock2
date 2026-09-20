@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260914
+! Version: 20260921
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -58,7 +58,6 @@ _300_250_
 ||ailauranai.com/js/insertAds.js
 ||asae.client.jp/pr.html
 ||banya-mktforecast.way-nifty.com/photos/uncategorized/50000.png
-||blog-sokuhou.com/suma-img/kjk/lpimg/pcv1/bn01.jpg
 ||burutira.up.seesaa.net/image/click1.gif
 ||catsj.jp/wp/wp-content/themes/catsj_2404/js/ad.min.js
 ||dailynk.jp/wp-content/themes/dailynkjp/images/mook.jpg

@@ -226,6 +226,7 @@ taoruseitai.com,towelstretches.com#%#//scriptlet('abort-current-inline-script', 
 ! ---------- Anti anti-adb - others ----------
 
 ! ---------- Anti anti-adb - Admiral (sync with uBf/EP) ----------
+##.DCDOr
 androidpolice.com,howtogeek.com,xda-developers.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'admiral')
 cbsnews.com,imgur.com,motorsport.com#%#//scriptlet('remove-node-text', 'script', '/"v4ac1eiZr0"|""\)\.split\(","\)\[4\]|(\.localStorage\)|JSON\.parse\(\w)\.getItem\("|["\']_aQS0\w+["\']/')
 reuters.com#%#//scriptlet('abort-on-stack-trace', 'admiral', '.js?')

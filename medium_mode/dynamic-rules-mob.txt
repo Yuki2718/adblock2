@@ -239,6 +239,7 @@ no-large-media: behind-the-scene false
 * hwcdn.net * noop
 * i.doodcdn.com * noop
 * i.lithium.com * noop
+* iframely.net * noop
 * imasdk.googleapis.com * noop
 * imgs.signifyd.com * noop
 * imgur.com * noop

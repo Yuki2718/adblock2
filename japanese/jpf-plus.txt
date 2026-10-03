@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20260922
+! Version: 20261003
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -721,6 +721,7 @@ hentaicomic.*,wnacg1.cc,wnacg.*#%#//scriptlet("abort-current-inline-script", "do
 /popunder_$script,redirect-rule=noopjs
 
 ! ---------- Anti anti-adb - too few visitors ----------
+monte-carlo-lab.pages.dev#%#//scriptlet('set-constant', '__ninjaAdMaxAbdLoaded', 'true')
 pc-plaza.com#%#//scriptlet('abort-current-inline-script', 'jQuery', 'DHAntiAdBlocker')
 pc-plaza.com##.jconfirm
 xn--lovn0do0e.com#%#//scriptlet('prevent-setTimeout', 'blocked', '2000')

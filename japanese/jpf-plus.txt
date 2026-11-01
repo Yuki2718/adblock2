@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20261005
+! Version: 20261102
 
 ! ---------- Ads general ----------
 -960x60.gif|$image,third-party,domain=~edu|~gov|~jp
@@ -378,6 +378,7 @@ pasifea.com###st_custom_html_widget-4
 pawakichi.xyz##.booklink-box
 pawakichi.xyz#?#.article-body-inner > b:last-of-type:contains(/参考書籍|関連製品/)
 pc119.toyama.jp###block-31
+pc-compass.com##.pcc-article-mid-ad
 pfch.blog.jp##.right-container > .plugin-popular_articles_with_image ~ .plugin-memo
 phpjavascriptroom.com##.gads
 pilgrim-shikoku.net###ec_banner
@@ -595,6 +596,8 @@ maruidesu.blog12.fc2.com##.plugin2_outline:has(> div > div.plugin-freearea > a[t
 migimaki.com##.sidebar > center:not(:last-of-type)
 min-ero.jp###picmo_av_flame
 mitsurugi.org##.main > h4.head ~ div
+moepedia.net##.header-premiumads
+moepedia.net##.st-Banner
 mommiezonamission.com##.widget > .wp-block-gallery-is-layout-flex
 nozokizennkaimax.xyz###custom_html-4
 nozokizennkaimax.xyz##.mainbottom-widget
@@ -677,6 +680,7 @@ slideshare.net###scribd-ad-exit-modal
 
 ! ---------- CSS: too few visitors ----------
 babl.tech#$#div[style="height: 600px;"] { height: 30px !important; }
+moepedia.net#$#.st-Header_Inner { height: auto !important; }
 news-shinkyujusei.net#$#body > main.l-page-front-sec { padding-top: var(--header-height) !important; }
 sabage-union.com#$##slideshow > div.col-md-9:has(+ .col-3 > a[target="_blank"] > img + span.pr) { max-width: 100% !important; }
 reffect.co.jp#$##header[style="min-height:440px;"] { min-height: 0 !important; }

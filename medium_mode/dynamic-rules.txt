@@ -573,6 +573,7 @@ account.live.com gfx.ms * noop
 account.live.com msauth.net * noop
 account.microsoft.com gfx.ms * noop
 account.microsoft.com live.com * noop
+account.microsoft.com login.microsoftonline.com * noop
 account.microsoft.com logincdn.msauth.net * noop
 account.microsoft.com onestore.ms * noop
 account.trendmicro.com libs.coremetrics.com * noop

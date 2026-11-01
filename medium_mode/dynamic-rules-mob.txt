@@ -540,6 +540,7 @@ account.activedirectory.windowsazure.com r1.res.office365.com * noop
 account.live.com gfx.ms * noop
 account.microsoft.com gfx.ms * noop
 account.microsoft.com live.com * noop
+account.microsoft.com login.microsoftonline.com * noop
 account.microsoft.com onestore.ms * noop
 account.trendmicro.com libs.coremetrics.com * noop
 accounts.firefox.com mozilla.net * noop

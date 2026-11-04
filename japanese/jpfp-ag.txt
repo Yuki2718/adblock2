@@ -2,7 +2,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/Yuki2718/adblock2
 ! Licence: https://github.com/Yuki2718/adblock2/blob/main/LICENSE.md
-! Version: 20261005
+! Version: 20261104
 
 ! ---------- Ads general ----------
 .com/ipp.js?id=$third-party
@@ -217,7 +217,7 @@ bus-location.1507t.xyz#@#.ad-area:not(.text-ad)
 bus-location.1507t.xyz#$#div[id]:empty { height: 1px !important; width 1px !important; position: fixed !important; z-index: 2147483647 !important; }
 bus-location.1507t.xyz#$#div[id]:has(> script[src^="https://adm.shinobi.jp"]) { height: 1px !important; width 1px !important; position: fixed !important; z-index: 2147483647 !important; }
 daido-h-ict.com#%#//scriptlet('prevent-element-src-loading', 'script', 'adsbygoogle')
-erotaredogaonly.xyz,jyankuotakarakanteidan.blogspot.com,lyrics-jpop.net,monte-carlo-lab.pages.dev,tukumo99photo.com#%#//scriptlet('set-constant', '__ninjaAdMaxAbdLoaded', 'true')
+erotaredogaonly.xyz,hirotron.com,jyankuotakarakanteidan.blogspot.com,lyrics-jpop.net,marvelousact.hatenablog.jp,masa-web.jp,monte-carlo-lab.pages.dev,presscarry.com,travel-bookmark.net#%#//scriptlet('set-constant', '__ninjaAdMaxAbdLoaded', 'true')
 kazukichi0914.hatenablog.com#$##adframe { position: absolute !important; left: -4000px !important; }
 openchat-review.me#%#//scriptlet('abort-on-stack-trace', 'document.querySelectorAll', 'security.js')
 openchat-review.me#%#//scriptlet('set-local-storage-item', 'BLOCKED_FLAG_KEY', '$remove$')

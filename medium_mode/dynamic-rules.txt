@@ -631,6 +631,7 @@ cbslocal.com geolocation.onetrust.com * noop
 cbslocal.com kappacdn.net * noop
 chat.stackexchange.com cdn-chat.sstatic.net * noop
 chatgpt.com cdn.oaistatic.com * noop
+chatgpt.com cdn.platform.openai.com * noop
 chicagotribune.com tribdss.com * noop
 chrome.en.softonic.com sftcdn.net * noop
 claude.ai assets-proxy.anthropic.com * noop
